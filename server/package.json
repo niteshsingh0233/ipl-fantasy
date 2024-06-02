@@ -1,0 +1,29 @@
+{
+  "name": "ipl-fantasy",
+  "version": "0.0.1",
+  "description": "ipl-fantasy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niteshsingh0233/ipl-fantasy.git"
+  },
+  "author": "Nitesh Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niteshsingh0233/ipl-fantasy/issues"
+  },
+  "homepage": "https://github.com/niteshsingh0233/ipl-fantasy#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.2"
+  }
+}
