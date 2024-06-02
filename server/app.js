@@ -8,4 +8,7 @@ app.use(express.json());
 app.use(morgan("dev"));
 app.use(cors());
 
+const teamRouter = require("./routes/teamRouter.js");
+app.use("/api/v1", teamRouter);
+
 module.exports = app;
