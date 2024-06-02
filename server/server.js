@@ -6,6 +6,9 @@ dotenv.config({ path: `./${process.env.NODE_ENV || "dev"}.env` });
 
 PORT = process.env.PORT || 6969;
 
+const mongoConnection = require("./db/db.js");
+mongoConnection();
+
 app.get("/", (req, res) => {
   res.send("<h1>IPL Fantasy League -: By Nitesh Singh</h1>");
 });
