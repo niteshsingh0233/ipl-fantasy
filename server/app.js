@@ -14,5 +14,7 @@ const playerRouter = require("./routes/playerRouter.js");
 app.use("/api/v1", playerRouter);
 const uploadRouter = require("./routes/uploadRouter.js");
 app.use("/api/v1", uploadRouter);
+const ownerRouter = require("./routes/ownerRouter.js");
+app.use("/api/v1", ownerRouter);
 
 module.exports = app;

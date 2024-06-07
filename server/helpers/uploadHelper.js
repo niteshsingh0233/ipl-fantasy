@@ -19,7 +19,7 @@ exports.CreateTeams = async (teamSheet, workbook) => {
     return TeamSchema({
       teamName: team.teamName,
       teamSize:
-        team.teamsize === undefined || team.teamsize < 15 ? 15 : team.teamsize,
+        team.teamSize === undefined || team.teamSize < 15 ? 15 : team.teamSize,
     });
   });
 
