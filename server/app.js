@@ -10,5 +10,7 @@ app.use(cors());
 
 const teamRouter = require("./routes/teamRouter.js");
 app.use("/api/v1", teamRouter);
+const playerRouter = require("./routes/playerRouter.js");
+app.use("/api/v1", playerRouter);
 
 module.exports = app;
