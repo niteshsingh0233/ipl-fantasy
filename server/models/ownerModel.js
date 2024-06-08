@@ -32,7 +32,7 @@ const ownerSchema = new mongoose.Schema(
         },
         playerType: {
           type: String,
-          enum: [BATSMAN, BOWLER, ALLROUNDER, WICKETKEEPER],
+          enum: ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"],
           require: true,
         },
         isInPlayingXI: {
@@ -77,7 +77,7 @@ const ownerSchema = new mongoose.Schema(
         },
         playerType: {
           type: String,
-          enum: [BATSMAN, BOWLER, ALLROUNDER, WICKETKEEPER],
+          enum: ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"],
           require: true,
         },
       },
@@ -118,7 +118,7 @@ const ownerSchema = new mongoose.Schema(
       {
         swapType: {
           type: String,
-          enum: [CAPTAINSWAP],
+          enum: ["CAPTAINSWAP"],
           require: true,
         },
         swapNumber: {
@@ -139,7 +139,12 @@ const ownerSchema = new mongoose.Schema(
       {
         swapType: {
           type: String,
-          enum: [BOWLERSWAP, BATSMANSWAP, ALLROUNDERSWAP, WICKETKEEPERSWAP],
+          enum: [
+            "BOWLERSWAP",
+            "BATSMANSWAP",
+            "ALLROUNDERSWAP",
+            "WICKETKEEPERSWAP",
+          ],
           require: true,
         },
         swapNumber: {
