@@ -24,6 +24,9 @@ exports.CreateOwner = async (req, res) => {
       playerSwapCount,
       captainSwaps,
       playerSwaps,
+      captain,
+      viceCaptain,
+      matchScoreList,
     } = req.body;
 
     const owners = await OwnerSchema.find();
@@ -60,6 +63,9 @@ exports.CreateOwner = async (req, res) => {
       playerSwapCount,
       captainSwaps,
       playerSwaps,
+      captain,
+      viceCaptain,
+      matchScoreList,
     });
 
     ownerOutput = await owner.save();
