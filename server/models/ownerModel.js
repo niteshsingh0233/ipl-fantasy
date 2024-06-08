@@ -16,10 +16,27 @@ const ownerSchema = new mongoose.Schema(
       enum: teamList,
       require: true,
     },
-    playersList: {
-      type: String,
-      require: true,
-    },
+    playersList: [
+      {
+        playerId: {
+          type: String,
+          require: true,
+        },
+        playerName: {
+          type: String,
+          require: true,
+        },
+        playerCountry: {
+          type: String,
+          require: true,
+        },
+        playerType: {
+          type: String,
+          enum: [BATSMAN, BOWLER, ALLROUNDER, WICKETKEEPER],
+          require: true,
+        },
+      },
+    ],
     totalPlayerCount: {
       type: Number,
       require: true,
@@ -40,10 +57,31 @@ const ownerSchema = new mongoose.Schema(
       type: Number,
       require: true,
     },
-    playingXIList: {
-      type: String,
-      require: true,
-    },
+    playingXIList: [
+      {
+        playerId: {
+          type: String,
+          require: true,
+        },
+        playerName: {
+          type: String,
+          require: true,
+        },
+        playerCountry: {
+          type: String,
+          require: true,
+        },
+        playerType: {
+          type: String,
+          enum: [BATSMAN, BOWLER, ALLROUNDER, WICKETKEEPER],
+          require: true,
+        },
+        isInPlayingXI: {
+          type: Boolean,
+          require: true,
+        },
+      },
+    ],
     playingXICount: {
       type: Number,
       require: true,
@@ -73,17 +111,86 @@ const ownerSchema = new mongoose.Schema(
     playerSwapCount: {
       type: Number,
       min: [0, "Minimum 0 players swap can be done."],
-      max: [20, "Maximum 2 players swap can be done."],
+      max: [20, "Maximum 20 players swap can be done."],
       require: true,
     },
-    captainSwaps: {
+    captainSwaps: [
+      {
+        swapType: {
+          type: String,
+          require: true,
+        },
+        count: {
+          type: Number,
+          require: true,
+        },
+        in: {
+          type: String,
+          require: true,
+        },
+        out: {
+          type: String,
+          require: true,
+        },
+      },
+    ],
+    playerSwaps: [
+      {
+        swapType: {
+          type: String,
+          require: true,
+        },
+        count: {
+          type: Number,
+          require: true,
+        },
+        in: {
+          type: String,
+          require: true,
+        },
+        out: {
+          type: String,
+          require: true,
+        },
+      },
+    ],
+    captain: {
       type: String,
       require: true,
     },
-    playerSwaps: {
+    viceCaptain: {
       type: String,
       require: true,
     },
+    matchScoreList: [
+      {
+        matchNo: {
+          type: Number,
+          require: true,
+          unique: true,
+        },
+        playedBetween: [
+          {
+            type: String,
+            require: true,
+          },
+        ],
+        team1: {
+          type: String,
+          enum: teamList,
+          require: true,
+        },
+        team2: {
+          type: String,
+          enum: teamList,
+          require: true,
+        },
+        matchScore: {
+          type: Number,
+          require: true,
+        },
+      },
+    ],
   },
   { timestamps: true }
 );
