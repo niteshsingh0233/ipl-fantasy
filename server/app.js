@@ -16,5 +16,7 @@ const uploadRouter = require("./routes/uploadRouter.js");
 app.use("/api/v1", uploadRouter);
 const ownerRouter = require("./routes/ownerRouter.js");
 app.use("/api/v1", ownerRouter);
+const matchScoreRouter = require("./routes/matchScoreRouter.js");
+app.use("/api/v1", matchScoreRouter);
 
 module.exports = app;
