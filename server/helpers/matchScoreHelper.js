@@ -83,8 +83,10 @@ exports.calculatePlayerPoints = (matchScore) => {
         bowlerWicketArray,
       };
     });
+
     const playerPoints = playersScoreData.map((scoresData) => {
-      const batsmanPoints = scoresData.batsmanScoreArray.map((batsman) => {
+      const batsmanPoints = [];
+      scoresData.batsmanScoreArray.map((batsman) => {
         let points = 0;
         points =
           points + batsman.runs < 50
@@ -99,14 +101,15 @@ exports.calculatePlayerPoints = (matchScore) => {
           let outOnZero = 50;
           points = points - outOnZero;
         }
-        return {
+        batsmanPoints.push({
           teamName: batsman.teamName,
           batsmanName: batsman.batsmanName,
           totalPoints: points,
-        };
+        });
       });
 
-      const bolwerPoints = scoresData.bowlerWicketArray.map((bowler) => {
+      const bowlerPoints = [];
+      scoresData.bowlerWicketArray.map((bowler) => {
         let wicketPoint = bowler.wicketsTaken * 25;
         let economyPoint = bowler.economy < 7 && bowler.overs > 3 ? 30 : 0;
         let maidenPoint = bowler.maidens > 0 ? bowler.maidens * 50 : 0;
@@ -115,44 +118,60 @@ exports.calculatePlayerPoints = (matchScore) => {
         let points =
           wicketPoint + economyPoint + maidenPoint - runsPunishedPoint;
 
-        return {
+        bowlerPoints.push({
           teamName: bowler.teamName,
-          bolwerName: bowler.bowlerName,
+          bowlerName: bowler.bowlerName,
           totalPoints: points,
-        };
+        });
       });
-      return { batsmanPoints, bolwerPoints };
+      return { batsmanPoints, bowlerPoints };
     });
 
-    let playersPoints = [];
+    let finalPoints = [];
     const calculatedPointData = playerPoints.map((playersData) => {
       playersData.batsmanPoints.map((batsman) => {
-        playerPoints.push({
+        finalPoints.push({
           teamName: batsman.teamName,
           playerName: batsman.batsmanName,
           totalPoints: batsman.totalPoints,
         });
       });
-
-      playersData.bolwerPoints.map((bowler) => {
-        playerPoints.push({
+      playersData.bowlerPoints.map((bowler) => {
+        finalPoints.push({
           teamName: bowler.teamName,
           playerName: bowler.bowlerName,
           totalPoints: bowler.totalPoints,
         });
       });
-
-      return playerPoints;
     });
 
+    let pointsCalculated = [];
+    finalPoints.forEach((element) => {
+      let index = pointsCalculated.findIndex((data) => {
+        return (
+          data.playerName == element.playerName ||
+          data.playerName.includes(element.playerName.split(" ")[0]) ||
+          element.playerName.includes(data.playerName.split(" ")[0])
+        );
+      });
+
+      if (index && index < 0) {
+        pointsCalculated.push(element);
+      } else {
+        pointsCalculated[index].totalPoints =
+          pointsCalculated[index].totalPoints + element.totalPoints;
+      }
+    });
+
+    console.log(pointsCalculated.length);
     return {
       teams,
       teamPoint,
       manOfMatch,
       playersScoreData,
       playerPoints,
-      calculatedPointData,
-      playersPoints,
+      finalPoints,
+      pointsCalculated,
     };
   } catch (error) {
     console.error(error);
