@@ -18,5 +18,7 @@ const ownerRouter = require("./routes/ownerRouter.js");
 app.use("/api/v1", ownerRouter);
 const matchScoreRouter = require("./routes/matchScoreRouter.js");
 app.use("/api/v1", matchScoreRouter);
+const pointRouter = require("./routes/pointRouter.js");
+app.use("/api/v1", pointRouter);
 
 module.exports = app;
