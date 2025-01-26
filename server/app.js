@@ -20,5 +20,9 @@ const matchScoreRouter = require("./routes/matchScoreRouter.js");
 app.use("/api/v1", matchScoreRouter);
 const pointRouter = require("./routes/pointRouter.js");
 app.use("/api/v1", pointRouter);
+const seriesRouter = require("./routes/seriesRouter.js");
+app.use("/api/v1", seriesRouter);
+const numberGeneratorRouter = require("./routes/numberGeneratorRouter.js");
+app.use("/api/v1", numberGeneratorRouter);
 
 module.exports = app;

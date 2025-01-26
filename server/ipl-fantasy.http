@@ -1,0 +1,135 @@
+@hostName = http://localhost:4000
+@version = /api/v1/
+
+get {{hostName}}
+
+###
+
+post {{hostName}}{{version}}get-match-score
+Content-Type: application/json
+
+{
+    "matchId" : 101058
+}
+
+###
+post {{hostName}}{{version}}calculate-player-points
+Content-Type: application/json
+
+{
+    "matchId" : 101058
+}
+
+###
+post {{hostName}}{{version}}points-table
+Content-Type: application/json
+
+{
+    "seriesId" : 7607
+}
+
+###
+post {{hostName}}{{version}}random-number-generator
+Content-Type: application/json
+
+{
+    "type" : 1
+}
+
+###
+get {{hostName}}{{version}}get-series-list/1
+
+###
+get {{hostName}}{{version}}get-series-archive-list/2?year=2023&lastId=11
+
+###
+get {{hostName}}{{version}}get-series-matches-list/5945
+
+###
+get {{hostName}}{{version}}get-series-squad/5945
+
+###
+get {{hostName}}{{version}}get-series-squad-players/5945/28551
+
+###
+get {{hostName}}{{version}}get-series-venues-list/5945
+
+###
+get {{hostName}}{{version}}get-series-stat-filters/5945
+
+###
+get {{hostName}}{{version}}get-series-stats-details/5945
+
+###
+get {{hostName}}{{version}}matches-list/3
+
+###
+get {{hostName}}{{version}}get-match-score/101058
+
+###
+get {{hostName}}{{version}}/get-team-list/1
+
+###
+get {{hostName}}{{version}}/get-team-schedules/2
+
+###
+get {{hostName}}{{version}}/get-team-results/2
+
+###
+get {{hostName}}{{version}}/get-team-news/2
+
+###
+get {{hostName}}{{version}}/get-team-players/2
+
+###
+get {{hostName}}{{version}}/get-team-stat-filters/2
+
+###
+get {{hostName}}{{version}}/get-team-stat-details/2/mostRuns
+
+###
+get {{hostName}}{{version}}/get-team-players/2
+
+###
+get {{hostName}}{{version}}/get-team-stat-filters/2
+
+###
+get {{hostName}}{{version}}/get-team-stat-details/2/mostRuns
+
+###
+get {{hostName}}{{version}}/get-venue-info/2
+
+###
+get {{hostName}}{{version}}/get-venue-stats/2
+
+###
+get {{hostName}}{{version}}/get-venue-matches/2
+
+###
+post {{hostName}}{{version}}/create-player
+Content-Type: application/json
+
+{
+
+}
+
+###
+get {{hostName}}{{version}}/get-trending-player-list
+
+###
+get {{hostName}}{{version}}/get-player-career-details/1440
+
+###
+get {{hostName}}{{version}}/get-player-news/1440
+
+###
+get {{hostName}}{{version}}/get-player-bowling-details/1440
+
+###
+get {{hostName}}{{version}}/get-player-batting-details/1440
+
+###
+get {{hostName}}{{version}}/get-player-info-details/1440
+
+###
+get {{hostName}}{{version}}/get-player-search?playerName=ViratKohli

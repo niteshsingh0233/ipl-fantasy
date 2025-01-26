@@ -21,6 +21,32 @@ exports.GetMatchScore = async (matchId) => {
   }
 };
 
+exports.GetSeriesPointTable = async(seriesId) => {
+  const options = {
+    method: "GET",
+    url: `https://cricbuzz-cricket.p.rapidapi.com/stats/v1/series/${seriesId}/points-table`,
+    headers: {
+      "x-rapidapi-key": "0f8816f6a3msh904dd1653581039p1a48d8jsnba7150df49a5",
+      "x-rapidapi-host": "cricbuzz-cricket.p.rapidapi.com",
+    },
+  };
+
+  return await ApiReturn(options);
+  
+}
+
+ApiReturn = async (options) => {
+  try {
+    const response = await axios.request(options);
+    if (!response) {
+      return response;
+    }
+    return response.data;
+  } catch (error) {
+    console.error(error);
+  }
+}
+
 exports.calculatePlayerPoints = (matchScore) => {
   try {
     const teams = matchScore.matchHeader.matchTeamInfo.map((matchTeam) => {
@@ -177,3 +203,4 @@ exports.calculatePlayerPoints = (matchScore) => {
     console.error(error);
   }
 };
+
