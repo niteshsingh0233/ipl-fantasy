@@ -1,6 +1,8 @@
 const express = require("express");
 const PlayerSchema = require("../models/playerModel.js");
 const TeamsList = require("../constants/enumConstants.js");
+const {URLConstants} = require('../constants/urlConstants.js')
+const {cricbuzzAPIHelper} = require('../helpers/crircbuzzAPIHelper.js')
 
 exports.CreatePlayer = async (req, res) => {
   try {
@@ -60,6 +62,131 @@ exports.CreatePlayer = async (req, res) => {
       message: "Error while player creation.",
       error,
       success: false,
+    });
+  }
+};
+
+exports.GetTrendingPlayerListController = async (req, res) => {
+  try {
+    let URL = URLConstants["GET_PLAYER_TRENDING_LIST"];
+
+    let response = await cricbuzzAPIHelper(URL);
+    res.status(200).json({
+      message: "",
+      response: response,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "",
+      error: error,
+    });
+  }
+};
+
+exports.GetPlayerCareerController = async (req, res) => {
+  try {
+    const playerId = req.params.playerId;
+    let URL = URLConstants["GET_PLAYER_CAREER_DETAILS"];
+
+    let response = await cricbuzzAPIHelper(URL);
+    res.status(200).json({
+      message: "",
+      response: response,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "",
+      error: error,
+    });
+  }
+};
+
+exports.GetPlayerNewsController = async (req, res) => {
+  try {
+    const playerId = req.params.playerId;
+    let URL = URLConstants["GET_PLAYER_NEWS"];
+
+    let response = await cricbuzzAPIHelper(URL);
+    res.status(200).json({
+      message: "",
+      response: response,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "",
+      error: error,
+    });
+  }
+};
+
+exports.GetPlayerBowlingDetailsController = async (req, res) => {
+  try {
+    const playerId = req.params.playerId;
+    let URL = URLConstants["GET_PLAYER_BOWLING_DETAILS"];
+
+    let response = await cricbuzzAPIHelper(URL);
+    res.status(200).json({
+      message: "",
+      response: response,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "",
+      error: error,
+    });
+  }
+};
+
+exports.GetPlayerBattingDetailsController = async (req, res) => {
+  try {
+    const playerId = req.params.playerId;
+    let URL = URLConstants["GET_PLAYER_BATTING_DETAILS"];
+
+    let response = await cricbuzzAPIHelper(URL);
+    res.status(200).json({
+      message: "",
+      response: response,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "",
+      error: error,
+    });
+  }
+};
+
+exports.GetPlayerInfoDetailsController = async (req, res) => {
+  try {
+    const playerId = req.params.playerId;
+    let URL = URLConstants["GET_PLAYER_INFO_DETAILS"];
+
+    let response = await cricbuzzAPIHelper(URL);
+    res.status(200).json({
+      message: "",
+      response: response,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "",
+      error: error,
+    });
+  }
+};
+
+exports.GetPlayerSearchController = async (req, res) => {
+  try {
+    const playerName = req.query.playerName;
+    let URL = URLConstants["GET_PLAYER_SEARCH"];
+
+    let response = await cricbuzzAPIHelper(URL);
+    res.status(200).json({
+      message: "",
+      response: response,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "",
+      error: error,
     });
   }
 };
