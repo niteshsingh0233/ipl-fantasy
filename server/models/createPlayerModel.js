@@ -1,24 +1,33 @@
 const mongoose = require("mongoose");
-const teamList = require("../constants/enumConstants.js");
 
 const playerSchema = new mongoose.Schema(
   {
+    id: {
+      type: String,
+      require : true,
+      unique : true
+    },
+    playerId : {
+      type: Number,
+      require : true
+    },
     playerName: {
       type: String,
       require: true,
     },
-    countryName: {
+    playerRole: {
       type: String,
-      enum: teamList,
       require: true,
     },
-    isBatsman: {
-      type: Boolean,
-      default: false,
+    playerBattingStyle : {
+      type: String,
     },
-    isBowler: {
-      type: Boolean,
-      default: false,
+    playerBowlingStyle : {
+      type: String,
+    },
+    playerRoleType: {
+      type: String,
+      require : true
     },
     isWicketKeeper: {
       type: Boolean,
@@ -28,17 +37,17 @@ const playerSchema = new mongoose.Schema(
       type: Boolean,
       default: false,
     },
-    isCaptain: {
+    isBatsman: {
       type: Boolean,
       default: false,
     },
-    isViceCaptain: {
+    isBowler: {
       type: Boolean,
       default: false,
-    },
+    }
   },
   { timestamps: true }
 );
 
-const Players = new mongoose.model("PlayersTest", playerSchema);
-module.exports = Players;
+const PlayerModel = new mongoose.model("players_model", playerSchema);
+module.exports = PlayerModel;

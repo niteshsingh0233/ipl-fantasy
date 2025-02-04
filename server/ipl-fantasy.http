@@ -46,10 +46,10 @@ get {{hostName}}{{version}}get-series-archive-list/2?year=2023&lastId=11
 get {{hostName}}{{version}}get-series-matches-list/5945
 
 ###
-get {{hostName}}{{version}}get-series-squad/5945
+get {{hostName}}{{version}}get-series-squad/9237
 
 ###
-get {{hostName}}{{version}}get-series-squad-players/5945/28551
+get {{hostName}}{{version}}get-series-squad-players/5945/56917
 
 ###
 get {{hostName}}{{version}}get-series-venues-list/5945
