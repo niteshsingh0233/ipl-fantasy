@@ -67,7 +67,7 @@ get {{hostName}}{{version}}matches-list/3
 get {{hostName}}{{version}}get-match-score/101058
 
 ###
-get {{hostName}}{{version}}/get-team-list/1
+get {{hostName}}{{version}}/get-team-list/2
 
 ###
 get {{hostName}}{{version}}/get-team-schedules/2
