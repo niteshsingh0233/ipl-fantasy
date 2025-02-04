@@ -25,4 +25,7 @@ app.use("/api/v1", seriesRouter);
 const numberGeneratorRouter = require("./routes/numberGeneratorRouter.js");
 app.use("/api/v1", numberGeneratorRouter);
 
+//createPlayer Router
+const createPlayerRouter = require('./routes/createPlayerRouter.js')
+app.use("/api/v1/create-player", createPlayerRouter)
 module.exports = app;
