@@ -28,4 +28,8 @@ app.use("/api/v1", numberGeneratorRouter);
 //createPlayer Router
 const createPlayerRouter = require('./routes/createPlayerRouter.js')
 app.use("/api/v1/create-player", createPlayerRouter)
+//createTeam Router
+//createPlayer Router
+const createTeamRouter = require('./routes/createTeamRouter.js')
+app.use("/api/v1/create-team", createTeamRouter)
 module.exports = app;

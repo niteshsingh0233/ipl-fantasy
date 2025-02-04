@@ -1,0 +1,6 @@
+@hostName = http://localhost:4000
+@version = /api/v1/create-team/
+
+### // RR
+
+get {{hostName}}{{version}}create-teams-v2/league

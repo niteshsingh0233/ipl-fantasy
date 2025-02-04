@@ -48,3 +48,6 @@ get {{hostName}}{{version}}create
 ###
 
 get {{hostName}}{{version}}create?seriesId=9237&squadId=0
+###
+
+get {{hostName}}/api/v1/get-series-squad/9237

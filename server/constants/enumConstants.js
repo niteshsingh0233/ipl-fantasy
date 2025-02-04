@@ -19,6 +19,16 @@ const teamList = [
   "NETHERLANDS",
   "BANGLADESH",
   "PAKISTAN",
+  "CSK",
+  "DC",
+  "PBKS",
+  "KKR",
+  "MI",
+  "RR",
+  "RCB",
+  "SRH",
+  "LSG",
+  "GT"
 ];
 
 module.exports = teamList;
