@@ -1,0 +1,37 @@
+@hostName = http://localhost:6969
+@version = /api/v1/user
+
+get {{hostName}}
+
+###
+
+post {{hostName}}{{version}}/register-user
+Content-Type: application/json
+
+{
+    "name" : "praveen",
+    "userName" : "ppradhan", 
+    "emailId" : "nitesh123ewe@gmail.com", 
+    "phone" : "986765131223", 
+    "password" : "125667dsd3"
+}
+
+###
+
+post {{hostName}}{{version}}/login-user
+Content-Type: application/json
+
+{
+    "userName" : "ppradhan", 
+    "password" : "125667dsd3"
+}
+
+###
+
+post {{hostName}}{{version}}/deactivate
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2E3NmI4MTkwZTdlODRiYzAyMjdlY2QiLCJ1c2VyTmFtZSI6InBwcmFkaGFuIiwiaWF0IjoxNzM5MDI1MzAwLCJleHAiOjE3MzkwMjg5MDB9.ElQGe6xLzMr9KxrESkC9nOeZyyYRdtHButLyqybuIYk
+
+{
+    "deactivate" : true
+}
