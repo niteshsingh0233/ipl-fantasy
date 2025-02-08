@@ -1,0 +1,8 @@
+@hostName = http://localhost:6969
+@hostNameURL = https://fantasy-app-chi.vercel.app/
+@versionURL = api/v1/venue
+@version = /api/v1/venue
+
+@authorization = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2E3YTQ4M2I5M2E0MjkzNmQxOGI3Y2YiLCJ1c2VyTmFtZSI6InByYWRoYW4iLCJpYXQiOjE3MzkwMzk4ODcsImV4cCI6MTczOTA0MzQ4N30.aAlxzWvSKcbN0SNHB4PHTyCwK-tcJFR-LwTlaQ-VGiQ
+
+get {{hostName}}{{version}}/create-venue/5945

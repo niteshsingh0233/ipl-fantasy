@@ -15,3 +15,16 @@ exports.RequireSignIn = async (req, res, next) =>{
         })
     }
 }
+
+exports.authorizeRoles = (...roles) => {
+    return (req, res, next) => {
+      if (!roles.includes(req.user.role)) {
+        return next(
+          res.status(403).json({
+            message : `Role ${req.user.role} is not allowes to access this resource`
+          })
+        );
+      }
+      next();
+    };
+};

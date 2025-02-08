@@ -37,7 +37,7 @@ Content-Type: application/json
 }
 
 ###
-get {{hostName}}{{version}}get-series-list/1
+get {{hostName}}{{version}}get-series-list/2
 
 ###
 get {{hostName}}{{version}}get-series-archive-list/2?year=2023&lastId=11

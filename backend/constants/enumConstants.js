@@ -1,0 +1,35 @@
+const teamList = [
+    "INDIA",
+    "AUSTRALIA",
+    "ENGLAND",
+    "SOUTHAFRICA",
+    "SRILANKA",
+    "NEWZEALAND",
+    "AFGHANISTAN",
+    "IRELAND",
+    "CANADA",
+    "UNITEDSTATES",
+    "SCOTLAND",
+    "OMAN",
+    "NEPAL",
+    "WESTINDIES",
+    "UGANDA",
+    "PAPUANEWGUINEA",
+    "NAMIBIA",
+    "NETHERLANDS",
+    "BANGLADESH",
+    "PAKISTAN",
+    "CSK",
+    "DC",
+    "PBKS",
+    "KKR",
+    "MI",
+    "RR",
+    "RCB",
+    "SRH",
+    "LSG",
+    "GT"
+  ];
+  
+  module.exports = teamList;
+  

@@ -1,0 +1,20 @@
+@hostName = http://localhost:6969
+@version = /api/v1/point
+
+###
+
+post {{hostName}}{{version}}/update-point-for-match
+Content-Type: application/json
+
+{ 
+    "matchId" : 101058
+}
+
+###
+
+post {{hostName}}{{version}}/calculate-player-points
+Content-Type: application/json
+
+{ 
+    "matchId" : 101058
+}
