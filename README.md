@@ -14,6 +14,7 @@ venuesDb -: independent
 gameDb -: ( it is superset of ownerDb, pointsDb, pointsRuleEngineDb )
 pointsRuleEngineDb ( dependent on gameDb )
 userDb
+auctionDb
 
 Action Plan -:
 create playersDb, teamsDb, venuesDb, seriesDb with all the necessary data in db.
