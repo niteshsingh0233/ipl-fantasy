@@ -32,4 +32,7 @@ app.use("/api/v1/match", matchRouter);
 const seriesRouter = require("./routes/seriesRoute.js");
 app.use("/api/v1/series", seriesRouter);
 
+const gameRouter = require("./routes/gameRoute.js");
+app.use("/api/v1/game", gameRouter);
+
 module.exports = app

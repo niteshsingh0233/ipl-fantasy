@@ -5,8 +5,8 @@ post {{hostName}}{{version}}/create-owner
 Content-Type: application/json
 
 {
-    "ownerName": "Nitesh Singh",
-    "ownerTeamName": "Har Har Mahadev",
+    "ownerName": "Praveen Singh",
+    "ownerTeamName": "X1 Troops",
     "teamName": "AFGHANISTAN",
     "playersList": [
       {
@@ -115,7 +115,7 @@ Content-Type: application/json
     "viceCaptain": "",
     "matchScoreList": [
       {
-        "matchNo": 1,
+        "matchNo": 2,
         "playedBetween": ["INDIA", "AUSTRALIA"],
         "team1": "INDIA",
         "team2": "AUSTRALIA",

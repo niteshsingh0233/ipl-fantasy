@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-exports.MatchListFromSeriesId = async (seriesId) => {
+exports.CreateGameFromSeriesId = async (seriesId) => {
   console.log(seriesId);
   const options = {
     method: "GET",

@@ -174,7 +174,6 @@ const ownerSchema = new mongoose.Schema(
         matchNo: {
           type: Number,
           require: true,
-          unique: true,
         },
         playedBetween: [
           {

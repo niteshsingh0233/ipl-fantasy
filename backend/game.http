@@ -1,0 +1,14 @@
+@hostName = http://localhost:6969
+@version = /api/v1/game
+
+###
+
+get {{hostName}}{{version}}/create-game/5945
+
+###
+
+get {{hostName}}{{version}}/invite-owners/gameId
+
+###
+
+get {{hostName}}{{version}}/join-game/67a7d9f671f9530c81140276
