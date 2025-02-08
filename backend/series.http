@@ -1,0 +1,7 @@
+@hostName = http://localhost:6969
+@version = /api/v1/series
+
+###
+
+get {{hostName}}{{version}}/create-series/2
+Content-Type: application/json

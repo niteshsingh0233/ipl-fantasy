@@ -1,0 +1,53 @@
+@hostName = http://localhost:6969
+@version = /api/v1/player/
+
+### // RR
+
+get {{hostName}}{{version}}create?seriesId=9237&squadId=56917
+
+### // CSK
+
+get {{hostName}}{{version}}create?seriesId=9237&squadId=56913
+
+### // KKR
+
+get {{hostName}}{{version}}create?seriesId=9237&squadId=56921
+
+### // SRH
+
+get {{hostName}}{{version}}create?seriesId=9237&squadId=56925
+
+### // RCB
+
+get {{hostName}}{{version}}create?seriesId=9237&squadId=56929
+
+### // DC
+
+get {{hostName}}{{version}}create?seriesId=9237&squadId=56933
+
+### // PBKS
+
+get {{hostName}}{{version}}create?seriesId=9237&squadId=56941
+
+### // MI
+
+get {{hostName}}{{version}}create?seriesId=9237&squadId=56949
+
+### // GT
+
+get {{hostName}}{{version}}create?seriesId=9237&squadId=56957
+
+### // LSG
+
+get {{hostName}}{{version}}create?seriesId=9237&squadId=56965
+
+###
+
+get {{hostName}}{{version}}create
+
+###
+
+get {{hostName}}{{version}}create?seriesId=9237&squadId=0
+###
+
+get {{hostName}}/api/v1/get-series-squad/9237

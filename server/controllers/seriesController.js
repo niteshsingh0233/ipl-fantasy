@@ -123,6 +123,7 @@ exports.GetSeriesSquadPlayers = async (req,res) => {
 exports.GetSeriesVenueList = async (req,res) => {
     try {
         const seriesId = req.params.seriesId
+        console.log(seriesId)
         let URL = URLConstants['SERIES_VENUES_LIST']
         if(seriesId){
             URL = `${URL}/${seriesId}/venues`

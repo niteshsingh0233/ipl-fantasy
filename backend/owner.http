@@ -1,0 +1,126 @@
+@hostName = http://localhost:6969
+@version = /api/v1/owner
+
+post {{hostName}}{{version}}/create-owner
+Content-Type: application/json
+
+{
+    "ownerName": "Nitesh Singh",
+    "ownerTeamName": "Har Har Mahadev",
+    "teamName": "AFGHANISTAN",
+    "playersList": [
+      {
+        "playerId": "1",
+        "playerName": "Matt Henry",
+        "playerCountry": "NEWZEALAND",
+        "playerType": "BOWLER",
+        "isInPlayingXI": true
+      },
+      {
+        "playerId": "11",
+        "playerName": "Hardik Pandya",
+        "playerCountry": "INDIA",
+        "playerType": "ALLROUNDER",
+        "isInPlayingXI": true
+      },
+      {
+        "playerId": "120",
+        "playerName": "Travis Head",
+        "playerCountry": "AUSTRALIA",
+        "playerType": "BATSMAN",
+        "isInPlayingXI": true
+      },
+      {
+        "playerId": "20",
+        "playerName": "Johnnu Bairstow",
+        "playerCountry": "ENGLAND",
+        "playerType": "WICKETKEEPER",
+        "isInPlayingXI": true
+      },
+      {
+        "playerId": "30",
+        "playerName": "Rashid Khan",
+        "playerCountry": "AFGHANISTAN",
+        "playerType": "ALLROUNDER",
+        "isInPlayingXI": false
+      }
+    ],
+    "totalPlayerCount": 5,
+    "totalBatsmanCount": 1,
+    "totalBowlerCount": 1,
+    "totalAllRounderCount": 2,
+    "totalWicketKeeperCount": 1,
+    "playingXIList": [
+      {
+        "playerId": "1",
+        "playerName": "Matt Henry",
+        "playerCountry": "NEWZEALAND",
+        "playerType": "BOWLER"
+      },
+      {
+        "playerId": "11",
+        "playerName": "Hardik Pandya",
+        "playerCountry": "INDIA",
+        "playerType": "ALLROUNDER"
+      },
+      {
+        "playerId": "120",
+        "playerName": "Travis Head",
+        "playerCountry": "AUSTRALIA",
+        "playerType": "BATSMAN"
+      },
+      {
+        "playerId": "20",
+        "playerName": "Johnnu Bairstow",
+        "playerCountry": "ENGLAND",
+        "playerType": "WICKETKEEPER"
+      }
+    ],
+    "playingXICount": 4,
+    "playingXIBatsmanCount": 1,
+    "playingXIBowlerCount": 1,
+    "playingXIAllRounderCount": 1,
+    "playingXIWicketKeeperCount": 1,
+    "captainSwapCount": 2,
+    "playerSwapCount": 2,
+    "captainSwaps": [
+      {
+        "swapType": "CAPTAINSWAP",
+        "swapNumber": 1,
+        "in": "Hardik Pandya",
+        "out": "Travis Head"
+      },
+      {
+        "swapType": "CAPTAINSWAP",
+        "swapNumber": 2,
+        "in": "Rashid Khan",
+        "out": "Hardik Pandya"
+      }
+    ],
+    "playerSwaps": [
+      {
+        "swapType": "BOWLERSWAP",
+        "swapNumber": 1,
+        "in": "Rashid Khan",
+        "out": "Matt Henry"
+      },
+      {
+        "swapType": "BOWLERSWAP",
+        "swapNumber": 2,
+        "in": "Matt Henry",
+        "out": "Rashid Khan"
+      }
+    ],
+    "captain": "Travis Head",
+    "viceCaptain": "",
+    "matchScoreList": [
+      {
+        "matchNo": 1,
+        "playedBetween": ["INDIA", "AUSTRALIA"],
+        "team1": "INDIA",
+        "team2": "AUSTRALIA",
+        "matchScore": 100
+      }
+    ]
+  }
+

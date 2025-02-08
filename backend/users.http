@@ -1,5 +1,9 @@
 @hostName = http://localhost:6969
+@hostNameURL = https://fantasy-app-chi.vercel.app/
+@versionURL = api/v1/user
 @version = /api/v1/user
+
+@authorization = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2E3YTQ4M2I5M2E0MjkzNmQxOGI3Y2YiLCJ1c2VyTmFtZSI6InByYWRoYW4iLCJpYXQiOjE3MzkwMzk4ODcsImV4cCI6MTczOTA0MzQ4N30.aAlxzWvSKcbN0SNHB4PHTyCwK-tcJFR-LwTlaQ-VGiQ
 
 get {{hostName}}
 
@@ -10,10 +14,10 @@ Content-Type: application/json
 
 {
     "name" : "praveen",
-    "userName" : "ppradhan", 
-    "emailId" : "nitesh123ewe@gmail.com", 
+    "userName" : "pradhan", 
+    "emailId" : "nitesh123@gmail.com", 
     "phone" : "986765131223", 
-    "password" : "125667dsd3"
+    "password" : "12345678"
 }
 
 ###
@@ -22,16 +26,38 @@ post {{hostName}}{{version}}/login-user
 Content-Type: application/json
 
 {
-    "userName" : "ppradhan", 
-    "password" : "125667dsd3"
+    "userName" : "pradhan", 
+    "password" : "12345678"
 }
 
 ###
 
 post {{hostName}}{{version}}/deactivate
 Content-Type: application/json
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2E3NmI4MTkwZTdlODRiYzAyMjdlY2QiLCJ1c2VyTmFtZSI6InBwcmFkaGFuIiwiaWF0IjoxNzM5MDI1MzAwLCJleHAiOjE3MzkwMjg5MDB9.ElQGe6xLzMr9KxrESkC9nOeZyyYRdtHButLyqybuIYk
+Authorization: {{authorization}}
 
 {
     "deactivate" : true
 }
+
+###
+
+post {{hostName}}{{version}}/activate
+Content-Type: application/json
+Authorization: {{authorization}}
+
+{
+    "activate" : true
+}
+
+###
+
+post {{hostName}}{{version}}/delete-user
+Content-Type: application/json
+Authorization: {{authorization}}
+
+###
+
+post {{hostName}}{{version}}/logout-user
+Content-Type: application/json
+Authorization: {{authorization}}
