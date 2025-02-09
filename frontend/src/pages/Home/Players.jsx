@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 
 function Players() {
   const [UI, setUI] = useState(0);
@@ -24,6 +25,7 @@ function Players() {
   return (
     <>
       Players Page
+      <Link to="/">Redirect to home page</Link>
       <button onClick={handleEventAxios}>Get Players</button>
       {playersList == [] ? null : (
         <div>
