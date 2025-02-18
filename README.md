@@ -23,3 +23,20 @@ create playersDb, teamsDb, venuesDb, seriesDb with all the necessary data in db.
 if(isAdmin || isDeactivate)
 calcuate my point ( only once after match results are out.)
 swap players and captain from website only.
+
+
+
+UI -: 
+signin, signout, 
+admin -: getAllUsers, createGame
+sendRequestToBecomeAdmin,
+users -: joinGame, createOwner, ( add retained Players, add screenshot )
+viewGameUsers and their team and playingX1 and everything.
+and leaderboard also, and recent changes or swaps done.
+
+
+regarding auction -: 
+list of all players
+filtered and sorted by batsman, bowler, fielder and allRounder
+random number generator
+addPlayerToOwner

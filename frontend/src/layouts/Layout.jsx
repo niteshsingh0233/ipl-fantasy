@@ -4,7 +4,7 @@ import Header from "./Header"
 function Layout({children}){
 return <>
 <Header/>
-<main>{children}</main>
+<main className="main-body">{children}</main>
 <Footer/>
 </>
 }
