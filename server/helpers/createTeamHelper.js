@@ -5,7 +5,7 @@ exports.CreateTeamHelper = async (seriesId, squadId) => {
   console.log(seriesId, squadId);
   const options = {
     method: "GET",
-    url: `http://localhost:4000/api/v1/get-team-list/2`,
+    url: `https://fantasy-app-cricbuzz-api.vercel.app/api/v1/get-team-list/2`,
   };
   let response = await axios.request(options);
   if (response.data && response.data.getTeamListDetails.list.length > 0) {

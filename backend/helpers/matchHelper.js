@@ -4,7 +4,7 @@ exports.CreateGameFromSeriesId = async (seriesId) => {
   console.log(seriesId);
   const options = {
     method: "GET",
-    url: `http://localhost:4000/api/v1/get-series-matches-list/${seriesId}`,
+    url: `https://fantasy-app-cricbuzz-api.vercel.app/api/v1/get-series-matches-list/${seriesId}`,
   };
   let response = await axios.request(options);
   console.log(response.data)

@@ -47,7 +47,7 @@ exports.RegisterUser = async (req, res) => {
   }
 };
 
-exports.LoginUser = async (req, res) => {
+exports.LoginUser = async (req, res,next) => {
   try {
     const { userName, password } = req.body;
     const user = await UserSchema.findOne({ userName });
@@ -58,6 +58,7 @@ exports.LoginUser = async (req, res) => {
       });
       return;
     }
+    console.log(user)
 
     const passwordCheck = await comparePassword(password, user.password);
 
@@ -91,6 +92,8 @@ exports.LoginUser = async (req, res) => {
       "434343434",
       { expiresIn: "1h" }
     );
+
+    res.cookie('token', token, {httpOnly : true});
 
     res.status(200).json({
       message: "login successful",
