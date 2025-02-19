@@ -33,6 +33,8 @@ sendRequestToBecomeAdmin,
 users -: joinGame, createOwner, ( add retained Players, add screenshot )
 viewGameUsers and their team and playingX1 and everything.
 and leaderboard also, and recent changes or swaps done.
+cdsDb
+localizationdb
 
 
 regarding auction -: 
@@ -40,3 +42,9 @@ list of all players
 filtered and sorted by batsman, bowler, fielder and allRounder
 random number generator
 addPlayerToOwner
+
+
+
+ruleEngineObj -: gameId, 
+properties and its json path from cds canonical structure.
+actions -: miltiply and divide and add and substract

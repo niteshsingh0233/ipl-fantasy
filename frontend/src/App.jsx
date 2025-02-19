@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/singup" element={<Signup />} />
+          <Route path="/signup" element={<Signup />} />
           <Route path="/players" element={<Players />} />
           <Route path="/admin">
             <Route path="getAllUsers" element={<Home />} />

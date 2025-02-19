@@ -4,7 +4,7 @@ exports.PlayerHelper = async (seriesId,squadId) => {
     console.log(seriesId, squadId)
     const options = {
         method: "GET",
-        url: `http://localhost:4000/api/v1/get-series-squad-players/${seriesId}/${squadId}`,
+        url: `https://fantasy-app-cricbuzz-api.vercel.app/api/v1/get-series-squad-players/${seriesId}/${squadId}`,
       };
     let response = await axios.request(options);
     if(response.data && response.data.response.player.length > 0){
@@ -55,7 +55,7 @@ exports.GetSeriesIdTeamAndSquadId = async (seriesId) =>{
     console.log(seriesId)
     const options = {
         method: "GET",
-        url: `http://localhost:4000/api/v1/get-series-squad/${seriesId}`,
+        url: `https://fantasy-app-cricbuzz-api.vercel.app/api/v1/get-series-squad/${seriesId}`,
       };
     let response = await axios.request(options);
 

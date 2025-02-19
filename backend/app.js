@@ -1,12 +1,14 @@
 const express = require('express')
 const morgan = require('morgan')
 const cors = require('cors')
+const cookieParser = require('cookie-parser')
 
 const app = express()
 
 app.use(express.json())
 app.use(morgan('dev'))
 app.use(cors())
+app.use(cookieParser())
 
 const userRouter = require('./routes/userRoute.js')
 app.use('/api/v1/user', userRouter)
