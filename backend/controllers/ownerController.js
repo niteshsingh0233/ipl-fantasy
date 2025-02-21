@@ -1,12 +1,13 @@
 const express = require("express");
 const OwnerSchema = require("../models/ownerModel.js");
+const Games = require("../models/gameModel.js")
 
 exports.CreateOwner = async (req, res) => {
   try {
     const {
       ownerTeamName,
       // teamName,
-      ownerId,
+      // ownerId,
       // playersList,
       // totalPlayerCount,
       // totalBatsmanCount,
@@ -37,19 +38,19 @@ exports.CreateOwner = async (req, res) => {
       });
     }
 
-    const ownerData = await OwnerSchema.findOne({ ownerId }).populate('ownerId');
-    console.log(ownerData)
-    if (ownerData) {
-      res.status(500).json({
-        message: "owner already exists.",
-      });
-      return;
-    }
+    // const ownerData = await OwnerSchema.findOne({ ownerId }).populate('ownerId');
+    // console.log(ownerData)
+    // if (ownerData) {
+    //   res.status(500).json({
+    //     message: "owner already exists.",
+    //   });
+    //   return;
+    // }
 
     const owner = OwnerSchema({
       ownerTeamName,
       // teamName,
-      ownerId
+      ownerId : req.user._id
       // playersList,
       // totalPlayerCount,
       // totalBatsmanCount,

@@ -6,6 +6,7 @@ const router = express.Router();
 router.post("/create-owner", RequireSignIn,CreateOwner)
 .post("/add-retained-player/:ownerId",RequireSignIn, AddRetainedPlayer)
 .post("/pay-entry-fee/:ownerId",RequireSignIn, PayEntryFee)
+// .post("/delete-owner", DeleteOwner)
 // .post("/update-team-owner-country", UpdateTeamOwnerCountry)
 // .post("/add-players", AddPlayerInOwnerDetails)
 // .post("/swaps", OwnerSwaps)
