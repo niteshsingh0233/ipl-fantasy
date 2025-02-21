@@ -1,5 +1,6 @@
 const axios = require("axios");
 const TeamsList = require("../constants/enumConstants.js");
+const { randomUUID } = require("crypto");
 
 exports.TeamHelper = async (seriesId, squadId) => {
   console.log(seriesId, squadId);
@@ -14,7 +15,9 @@ exports.TeamHelper = async (seriesId, squadId) => {
     response.data.getTeamListDetails.list.forEach((element) => {
       if (element.teamId && TeamsList.includes(element.teamSName)) {
         let dataObject = {
-          teamId: element.teamId,
+          documentCode : randomUUID().toString('hex'),
+          id : element.teamId,
+          teamId: element.teamId.toString(),
           teamName: element.teamName,
           teamSName: element.teamSName,
           imageId: element.imageId,

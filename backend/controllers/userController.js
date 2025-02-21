@@ -2,6 +2,8 @@ const express = require("express");
 const UserSchema = require("../models/userModel");
 const { hashPassword, comparePassword } = require("../helpers/userHelper");
 const jwt = require("jsonwebtoken");
+const { randomUUID } = require("crypto");
+const {DMHelper} = require('../helpers/httpHelper')
 
 exports.RegisterUser = async (req, res) => {
   try {
@@ -88,6 +90,8 @@ exports.LoginUser = async (req, res,next) => {
       {
         _id: user._id,
         userName: user.userName,
+        roles : user.userRole,
+        isAdmin : user.isAdmin
       },
       "434343434",
       { expiresIn: "1h" }
@@ -314,6 +318,11 @@ exports.DeleteUser = async (req, res) => {
 
     await user.save();
 
+    res.cookie("token", null, {
+      expires: new Date(Date.now()),
+      httpOnly: true,
+    });
+
     res.status(200).json({
       message: "user deleted successful",
       success: true,
@@ -326,3 +335,165 @@ exports.DeleteUser = async (req, res) => {
     });
   }
 };
+
+exports.GetAllUsers = async (req,res,next) => {
+  try {
+    var check = await DMHelper('users');
+    res.status(200).json({
+      message: "Get All users successful",
+      success: true,
+      check,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "Get All user failed",
+      success: false,
+    });
+  }
+}
+
+
+exports.UpdateUserAsAdmin = async (req,res,next) => {
+  try {
+    const userId = req.params.userId
+    console.log(userId)
+    const user = await UserSchema.findById(req.params.userId)
+console.log(user)
+    if(!user){
+      res.status(200).json({
+        message: "user not found successful",
+        success: true,
+      });
+      return
+    }
+    if(user.isAdmin){
+      res.status(200).json({
+        message: "user is alrady admin",
+        success: false,
+      });
+      return
+    }
+    user.isAdmin = true
+    user.userRole = 'Admin'
+
+    await user.save()
+    console.log(user)
+    res.status(200).json({
+      message: "UpdateUserAsAdmin successful",
+      success: true,
+      user,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "UpdateUserAsAdmin failed",
+      success: false,
+    });
+  }
+}
+
+exports.GetSingleUser = async (req,res,next) => {
+  try {
+    const userId = req.params.userId
+    console.log(userId)
+    const user = await UserSchema.findById(req.params.userId)
+    
+    if(!user){
+      res.status(200).json({
+        message: "user not found successful",
+        success: true,
+      });
+      return
+    }
+
+    console.log(user)
+    res.status(200).json({
+      message: "GetSingleUser successful",
+      success: true,
+      user,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "GetSingleUser failed",
+      success: false,
+    });
+  }
+}
+
+exports.DeleteUserAsAdmin = async (req,res,next) =>{
+  try {
+    const userId = req.params.userId
+    console.log(userId)
+    const user = await UserSchema.findById(req.params.userId)
+    
+    console.log(user)
+
+    if(!user){
+      res.status(200).json({
+        message: "user not found successful",
+        success: true,
+      });
+      return
+    }
+
+    if(user.isDeleted){
+      res.status(200).json({
+        message: "user already deleted successful",
+        success: true,
+      });
+      return
+    }
+
+    user.isDeleted = true;
+
+    await user.save();
+    // await user.deleteOne(req.params.userId)
+    res.status(200).json({
+      message: "DeleteUser successful",
+      success: true,
+      user,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "DeleteUser failed",
+      success: false,
+    });
+  }
+}
+
+
+exports.GetUserDetails = async (req,res,next) =>{
+  try {
+    const user = await UserSchema.findById(req.user?._id)
+    
+    console.log(user)
+
+    if(!user){
+      res.status(200).json({
+        message: "user not found successful",
+        success: true,
+      });
+      return
+    }
+
+    if(user.isDeleted){
+      res.status(200).json({
+        message: "user already deleted successful",
+        success: true,
+      });
+      return
+    }
+
+
+    
+    res.status(200).json({
+      message: "get user successful",
+      success: true,
+      user,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "DeleteUser failed",
+      success: false,
+    });
+  }
+}

@@ -1,10 +1,20 @@
 const mongoose = require("mongoose");
 const teamList = require("../constants/enumConstants.js");
+const { randomUUID } = require("crypto");
 
 const teamSchema = new mongoose.Schema(
   {
-    teamId: {
+     documentCode : {
+          type : String,
+          default :  randomUUID().toString('hex')
+      }, 
+    id: {
       type: Number,
+      require: true,
+      unique : true
+    },
+    teamId: {
+      type: String,
       require: true,
       unique : true
     },
@@ -32,6 +42,6 @@ const teamSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
-const cricketdb = mongoose.connection.useDb('cricketdb');
-const TeamModel = cricketdb.model("team", teamSchema);
+//const cricketdb = mongoose.connection.useDb('cricketdb');
+const TeamModel = mongoose.model("team", teamSchema);
 module.exports = TeamModel;

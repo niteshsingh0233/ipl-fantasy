@@ -1,15 +1,18 @@
 const mongoose = require("mongoose");
-
+const { randomUUID } = require("crypto");
 const MatchSchema = new mongoose.Schema(
   {
-    gameId: {
-      type: Number,
-      require: true,
-      unique: true,
+    documentCode: {
+      type: String,
+      default: randomUUID().toString("hex"),
     },
     seriesId: {
       type: String,
       require: true,
+    },
+    seriesDetails: {
+      type: "ObjectId",
+      ref: "series",
     },
     teamId: [
       {
@@ -19,7 +22,8 @@ const MatchSchema = new mongoose.Schema(
     ],
     ownerId: [
       {
-        type: String,
+        type: "ObjectId",
+        ref: "owners",
         require: true,
       },
     ],
@@ -55,6 +59,6 @@ const MatchSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-const userdb = mongoose.connection.useDb("userdb");
-const PlayerModel = userdb.model("games", MatchSchema);
+//const userdb = mongoose.connection.useDb("userdb");
+const PlayerModel = mongoose.model("games", MatchSchema);
 module.exports = PlayerModel;

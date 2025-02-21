@@ -13,5 +13,5 @@ return hash;
 }
 
 exports.comparePassword = async (password, dbPassword) => {
-    return isPassword = await bcrypt.compare(password, dbPassword);
+    return await bcrypt.compare(password, dbPassword);
 }

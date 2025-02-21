@@ -15,6 +15,7 @@ exports.VenueHelper = async (seriesId) => {
     response.data.response.seriesVenue.forEach((element) => {
         let dataObject = {
             id: element.id,
+            venueId : element.id.toString(),
             ground: element.ground,
             city: element.city,
             country: element.country,

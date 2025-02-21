@@ -19,7 +19,8 @@ exports.RequireSignIn = async (req, res, next) =>{
 
 exports.authorizeRoles = (...roles) => {
     return (req, res, next) => {
-      if (!roles.includes(req.user.role)) {
+      if (!roles.includes(req.user.roles)) {
+        console.log(roles, req.user)
         return next(
           res.status(403).json({
             message : `Role ${req.user.role} is not allowes to access this resource`

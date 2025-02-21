@@ -1,7 +1,11 @@
 const mongoose = require('mongoose')
-
+const { randomUUID } = require("crypto");
 
 const UserSchema = new mongoose.Schema({
+    documentCode : {
+        type : String,
+        default :  randomUUID().toString('hex')
+    },
     name : {
         type : String,
         trim : true,
@@ -11,7 +15,8 @@ const UserSchema = new mongoose.Schema({
         type : String,
         trim : true,
         unique : true,
-        required : true
+        required : true,
+        lowercase : true
     },
     emailId : {
         type : String,
@@ -46,6 +51,7 @@ const UserSchema = new mongoose.Schema({
     userRole: {
         type: String,
         default: "User",
+        enum : ["User", "Admin"]
     },
     password : {
         type : String,
@@ -64,5 +70,5 @@ const UserSchema = new mongoose.Schema({
 
 }, {timestamps : true})
 
-const userdb = mongoose.connection.useDb('userdb');
-module.exports = userdb.model('User', UserSchema)
+//const userdb = mongoose.connection.useDb('userdb');
+module.exports = mongoose.model('user', UserSchema)

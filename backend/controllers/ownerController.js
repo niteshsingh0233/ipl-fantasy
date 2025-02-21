@@ -4,28 +4,28 @@ const OwnerSchema = require("../models/ownerModel.js");
 exports.CreateOwner = async (req, res) => {
   try {
     const {
-      ownerName,
       ownerTeamName,
-      teamName,
-      playersList,
-      totalPlayerCount,
-      totalBatsmanCount,
-      totalBowlerCount,
-      totalAllRounderCount,
-      totalWicketKeeperCount,
-      playingXIList,
-      playingXICount,
-      playingXIBatsmanCount,
-      playingXIBowlerCount,
-      playingXIAllRounderCount,
-      playingXIWicketKeeperCount,
-      captainSwapCount,
-      playerSwapCount,
-      captainSwaps,
-      playerSwaps,
-      captain,
-      viceCaptain,
-      matchScoreList,
+      // teamName,
+      ownerId,
+      // playersList,
+      // totalPlayerCount,
+      // totalBatsmanCount,
+      // totalBowlerCount,
+      // totalAllRounderCount,
+      // totalWicketKeeperCount,
+      // playingXIList,
+      // playingXICount,
+      // playingXIBatsmanCount,
+      // playingXIBowlerCount,
+      // playingXIAllRounderCount,
+      // playingXIWicketKeeperCount,
+      // captainSwapCount,
+      // playerSwapCount,
+      // captainSwaps,
+      // playerSwaps,
+      // captain,
+      // viceCaptain,
+      // matchScoreList,
     } = req.body;
 
     console.log(req.body)
@@ -37,36 +37,38 @@ exports.CreateOwner = async (req, res) => {
       });
     }
 
-    const ownerData = await OwnerSchema.findOne({ ownerName, teamName });
+    const ownerData = await OwnerSchema.findOne({ ownerId }).populate('ownerId');
+    console.log(ownerData)
     if (ownerData) {
       res.status(500).json({
         message: "owner already exists.",
       });
+      return;
     }
 
     const owner = OwnerSchema({
-      ownerName,
       ownerTeamName,
-      teamName,
-      playersList,
-      totalPlayerCount,
-      totalBatsmanCount,
-      totalBowlerCount,
-      totalAllRounderCount,
-      totalWicketKeeperCount,
-      playingXIList,
-      playingXICount,
-      playingXIBatsmanCount,
-      playingXIBowlerCount,
-      playingXIAllRounderCount,
-      playingXIWicketKeeperCount,
-      captainSwapCount,
-      playerSwapCount,
-      captainSwaps,
-      playerSwaps,
-      captain,
-      viceCaptain,
-      matchScoreList,
+      // teamName,
+      ownerId
+      // playersList,
+      // totalPlayerCount,
+      // totalBatsmanCount,
+      // totalBowlerCount,
+      // totalAllRounderCount,
+      // totalWicketKeeperCount,
+      // playingXIList,
+      // playingXICount,
+      // playingXIBatsmanCount,
+      // playingXIBowlerCount,
+      // playingXIAllRounderCount,
+      // playingXIWicketKeeperCount,
+      // captainSwapCount,
+      // playerSwapCount,
+      // captainSwaps,
+      // playerSwaps,
+      // captain,
+      // viceCaptain,
+      // matchScoreList,
     });
 
     ownerOutput = await owner.save();
@@ -84,3 +86,28 @@ exports.CreateOwner = async (req, res) => {
     });
   }
 };
+
+
+exports.AddRetainedPlayer = async (req,res,next) => {
+  try {
+    const {ownerId} = req.params.ownerId
+  } catch (error) {
+    res.status(500).json({
+      message: "Error in AddRetainedPlayer.",
+      error,
+      success: false,
+    });
+  }
+}
+
+exports.PayEntryFee = async (req,res,next) => {
+  try {
+    const {ownerId} = req.params.ownerId
+  } catch (error) {
+    res.status(500).json({
+      message: "Error in PayEntryFee.",
+      error,
+      success: false,
+    });
+  }
+}

@@ -1,15 +1,20 @@
 const mongoose = require("mongoose");
+const { randomUUID } = require("crypto");
 
 const playerSchema = new mongoose.Schema(
   {
+    documentCode : {
+      type : String,
+      default :  randomUUID().toString('hex')
+  }, 
     id: {
       type: String,
       require : true,
       unique : true
     },
     playerId : {
-      type: Number,
-      require : true
+      type: String,
+      require : true,
     },
     playerName: {
       type: String,
@@ -21,9 +26,11 @@ const playerSchema = new mongoose.Schema(
     },
     playerBattingStyle : {
       type: String,
+      default : ''
     },
     playerBowlingStyle : {
       type: String,
+      default : ''
     },
     playerRoleType: {
       type: String,
@@ -49,6 +56,6 @@ const playerSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-const userdb = mongoose.connection.useDb('cricketdb');
-const PlayerModel = userdb.model("players", playerSchema);
+//const userdb = mongoose.connection.useDb('cricketdb');
+const PlayerModel = mongoose.model("players", playerSchema);
 module.exports = PlayerModel;
