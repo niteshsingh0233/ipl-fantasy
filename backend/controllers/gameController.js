@@ -70,7 +70,7 @@ exports.JoinGame = async (req, res) => {
       return;
     }
 
-    var owner = await Owner.findById(req.params.ownerId);
+    var owner = await Owner.findById(req.params.ownerId).populate('ownerId');
     //console.log(owner)
     var owners = await Owner.find({ ownerTeamName: owner.ownerTeamName });
     console.log(owners.length);
@@ -88,6 +88,12 @@ exports.JoinGame = async (req, res) => {
     if (!game.users.includes(req.user._id))
       game.users = [req.user._id, ...game.users];
     // console.log(game);
+    game.ownerPoints = {
+      documentCode : owner.documentCode,
+      ownerName : owner.ownerId.name,
+      ownerTeamName : owner.ownerTeamName,
+      pointsRemaining : game.maximumPoints
+    }
 
     // console.log(owner);
     owner.games = req.params.gameId;

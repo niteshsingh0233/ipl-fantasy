@@ -12,4 +12,5 @@ router.get("/create-game/:seriesId",RequireSignIn, CreateGame)
 .get("/me/getAllMyGames", RequireSignIn, GetAllMyGames)
 .get("/me/getSingleGame/:gameId", RequireSignIn, GetSingleGame)
 
+
 module.exports = router;

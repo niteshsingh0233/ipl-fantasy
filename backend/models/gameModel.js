@@ -47,7 +47,11 @@ const MatchSchema = new mongoose.Schema(
     unsoldPlayersList: [
       {
         playerId: {
-          type: Number,
+          type: String,
+          require: true,
+        },
+        playerName : {
+          type: String,
           require: true,
         },
         playerStyle: {
@@ -60,7 +64,11 @@ const MatchSchema = new mongoose.Schema(
     soldPlayerList: [
       {
         playerId: {
-          type: Number,
+          type: String,
+          require: true,
+        },
+        playerName : {
+          type: String,
           require: true,
         },
         playerStyle: {
@@ -73,6 +81,10 @@ const MatchSchema = new mongoose.Schema(
     playersList: [
       {
         playerId: {
+          type: String,
+          require: true,
+        },
+        playerName : {
           type: String,
           require: true,
         },
