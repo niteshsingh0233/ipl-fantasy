@@ -7,6 +7,7 @@ exports.PlayerHelper = async (seriesId,squadId) => {
         url: `https://fantasy-app-cricbuzz-api.vercel.app/api/v1/get-series-squad-players/${seriesId}/${squadId}`,
       };
     let response = await axios.request(options);
+    console.log(response.data.response.player)
     if(response.data && response.data.response.player.length > 0){
         let output = []
         let count = 0
@@ -24,7 +25,7 @@ exports.PlayerHelper = async (seriesId,squadId) => {
             if(!element.isHeader){
                 let dataObject = {
                     id : element.id,
-                    playerId : 1,
+                    playerId : element.id.toString(),
                     name : element.name,
                     role : element.role,
                     battingStyle : element.battingStyle,
@@ -32,15 +33,19 @@ exports.PlayerHelper = async (seriesId,squadId) => {
                 }
                 if(count == 1){
                     dataObject.roleType = "Batsman"
+                    dataObject.isBatsman = true
                     output.push(dataObject)
                 }else if(count == 2){
                     dataObject.roleType = "AllRounder"
+                    dataObject.isAllRounder = true
                     output.push(dataObject)
                 }else if(count == 3){
                     dataObject.roleType = "WicketKeeper"
+                    dataObject.isWicketKeeper = true
                     output.push(dataObject)
                 }else if(count == 4){
                     dataObject.roleType = "Bowler"
+                    dataObject.isBowler = true
                     output.push(dataObject)
                 }
             }
@@ -52,7 +57,7 @@ exports.PlayerHelper = async (seriesId,squadId) => {
 }
 
 exports.GetSeriesIdTeamAndSquadId = async (seriesId) =>{
-    console.log(seriesId)
+    //console.log(seriesId)
     const options = {
         method: "GET",
         url: `https://fantasy-app-cricbuzz-api.vercel.app/api/v1/get-series-squad/${seriesId}`,
@@ -67,15 +72,17 @@ exports.GetSeriesIdTeamAndSquadId = async (seriesId) =>{
 
 exports.CreatePlayerHelperWithoutSquadId = async (seriesId, data) =>{
     let output = []
-    //console.log(data.response.squads)
-    data.response.squads.forEach( async element => {
-        if(!element.isHeader){
-            setInterval(async () => {
-                var response = await this.CreatePlayerHelper(seriesId, element.squadId)
-                console.log(response)  
-                output.push(response)
-            }, 10000);
+    //console.log(data.response)
+    for(let i = 0; i< data.response.squads.length; i++){
+        if(!data.response.squads[i].isHeader){
+            
+                var response = await this.PlayerHelper(seriesId, data.response.squads[i].squadId)
+                //console.log(response)  
+                response.forEach(element => {
+                    output.push(element)
+                });
         }
-    });
+    }
+    
     return output
 }

@@ -1,3 +1,3 @@
 exports.EXCELFILEPATH = () => {
-  return "./ipl-fantasy.xlsx";
+  return "../assets/ipl-fantasy.xlsx";
 };

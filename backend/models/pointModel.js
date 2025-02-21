@@ -53,6 +53,6 @@ const pointSchema = new mongoose.Schema(
   ],
   { timestamps: true }
 );
-const userdb = mongoose.connection.useDb('userdb');
-const Points = userdb.model("points", pointSchema);
+//const userdb = mongoose.connection.useDb('userdb');
+const Points = mongoose.model("points", pointSchema);
 module.exports = Points;

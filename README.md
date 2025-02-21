@@ -48,3 +48,11 @@ addPlayerToOwner
 ruleEngineObj -: gameId, 
 properties and its json path from cds canonical structure.
 actions -: miltiply and divide and add and substract
+
+
+const sampleSchema = new Schema({ name: { type: String, required: true } });
+console.log(sampleSchema.path('name'));
+
+
+documentCode : will be used for ref.
+id : cricbuzz

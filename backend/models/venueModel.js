@@ -1,11 +1,20 @@
 const mongoose = require("mongoose");
-
+const { randomUUID } = require("crypto");
 const venueSchema = new mongoose.Schema(
   {
+    
+        documentCode : {
+          type : String,
+          default :  randomUUID().toString('hex')
+      }, 
     id: {
       type: Number,
       require : true,
       unique : true
+    },
+    venueId : {
+      type: String,
+      require : true
     },
     ground : {
       type: String,
@@ -23,6 +32,6 @@ const venueSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-const userdb = mongoose.connection.useDb('cricketdb');
-const VenueModel = userdb.model("venues", venueSchema);
+//const userdb = mongoose.connection.useDb('cricketdb');
+const VenueModel = mongoose.model("venues", venueSchema);
 module.exports = VenueModel;

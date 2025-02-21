@@ -5,7 +5,12 @@ const {
   DeactivateUser,
   LogoutUser,
   ActivateUser,
-  DeleteUser
+  DeleteUser,
+  GetAllUsers,
+  UpdateUserAsAdmin,
+  GetSingleUser,
+  DeleteUserAsAdmin,
+  GetUserDetails
 } = require("../controllers/userController");
 const { RequireSignIn, authorizeRoles } = require("../middlewares/userMiddleware");
 
@@ -20,16 +25,16 @@ router
   .post("/delete-user", RequireSignIn, DeleteUser) // logout also in case of deleteUser
   // .post("/password/forgot-password", ForgotPassword)
   // .post("/password/reset/:token", ResetPassword)
-  // .get("/me/profile",RequireSignIn, GetUserDetails)
+  .get("/me/profile",RequireSignIn, GetUserDetails)
   // .post("/password/update-password", RequireSignIn, UpdatePassword)
   // .post("/me/profile/update-profile", RequireSignIn, UpdateProfileDetails)
-  // .post("/admin/users", GetAllUsers);
+ 
 
-  // router
-  // .route("/admin/users/:id")
-  // .get(RequireSignIn, authorizeRoles("admin"), GetSingleUser)
-  // .put(RequireSignIn, authorizeRoles("admin"), UpdateUserRole)
-  // .delete(RequireSignIn, authorizeRoles("admin"), DeleteUser);
+  router
+  .get('/admin/getAllUsers', RequireSignIn, authorizeRoles("Admin"),GetAllUsers)
+  .post('/admin/updateUserAsAdmin/:userId',RequireSignIn, authorizeRoles("Admin"), UpdateUserAsAdmin)
+  .get('/admin/GetSingleUser/:userId',RequireSignIn, authorizeRoles("Admin"), GetSingleUser)
+  .post('/admin/DeleteUser/:userId',RequireSignIn, authorizeRoles("Admin"), DeleteUserAsAdmin);
   
 
 

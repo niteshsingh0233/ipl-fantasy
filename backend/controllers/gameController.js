@@ -56,7 +56,7 @@ exports.JoinGame = async (req, res) => {
             return
         }
         game.ownerId = ['67a7da92396dff3fab4cc4d4', ...game.ownerId]
-      var out = await GameSchema.updateOne(game);
+      var out = await GameSchema.updateOne({ownerId : game.ownerId});
   
       res.status(200).json({
         message: "JoinGame successful.",

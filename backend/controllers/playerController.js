@@ -1,6 +1,7 @@
 const express = require('express')
 const {PlayerHelper, GetSeriesIdTeamAndSquadId, CreatePlayerHelperWithoutSquadId} = require('../helpers/playerHelper.js')
 const PlayerModel = require('../models/playerModel.js')
+const { randomUUID } = require("crypto");
 
 exports.CreatePlayer = async (req,res) => {
     try {
@@ -13,8 +14,9 @@ exports.CreatePlayer = async (req,res) => {
         }
 
         if(squadId == 0){
-            console.log('hi')
+            //console.log('hi')
             var responseData = await GetSeriesIdTeamAndSquadId(seriesId);
+            console.log(responseData)
             var response = await CreatePlayerHelperWithoutSquadId(seriesId, responseData) 
 
 
@@ -22,11 +24,12 @@ exports.CreatePlayer = async (req,res) => {
             console.log('hi2')
             var response = await PlayerHelper(seriesId, squadId);
         }
-
+//console.log('test')
         var count = 0
         var responseArray = response.map((element) => {
             count++;
             let obj = {}
+            obj.documentCode = randomUUID().toString('hex')
             obj.id = element.id,
             obj.playerId = element.playerId,
             obj.playerName = element.name,
@@ -34,10 +37,10 @@ exports.CreatePlayer = async (req,res) => {
             obj.playerBattingStyle = element.battingStyle,
             obj.playerBowlingStyle = element.bowlingStyle,
             obj.playerRoleType = element.roleType,
-            obj.isWicketKeeper = false,
-            obj.isAllRounder = true,
-            obj.isBatsman = true,
-            obj.isBowler = true
+            obj.isWicketKeeper = element.isWicketKeeper,
+            obj.isAllRounder = element.isAllRounder,
+            obj.isBatsman = element.isBatsman,
+            obj.isBowler = element.isBowler
 
             return obj;
         })
