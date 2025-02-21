@@ -18,7 +18,9 @@ exports.CreateGameFromSeriesId = async (seriesId) => {
       unsoldPlayersList.push({
         playerId : ele.playerId,
         playerStyle : ele.playerRoleType.toUpperCase(),
-        playerName : ele.playerName
+        playerName : ele.playerName,
+        player_id : ele._id,
+        playerDocumentCode : ele.documentCode,
       })
       playersList.push({
         playerId : ele.playerId,
@@ -26,7 +28,10 @@ exports.CreateGameFromSeriesId = async (seriesId) => {
         soldTo : '',
         isSold : false,
         playingStyle : ele.playerRoleType.toUpperCase(),
-        playerName : ele.playerName
+        playerName : ele.playerName,
+        player_id : ele._id,
+        playerDocumentCode : ele.documentCode,
+
       })
     });
   });

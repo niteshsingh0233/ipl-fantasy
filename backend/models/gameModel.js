@@ -59,6 +59,14 @@ const MatchSchema = new mongoose.Schema(
           require: true,
           enum: ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"],
         },
+        player_id : {
+          type: String,
+          require: true,
+        },
+        playerDocumentCode : {
+          type: String,
+          require: true,
+        }
       },
     ],
     soldPlayerList: [
@@ -76,6 +84,14 @@ const MatchSchema = new mongoose.Schema(
           require: true,
           enum: ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"],
         },
+        player_id : {
+          type: String,
+          require: true,
+        },
+        playerDocumentCode : {
+          type: String,
+          require: true,
+        }
       },
     ],
     playersList: [
@@ -108,6 +124,14 @@ const MatchSchema = new mongoose.Schema(
           require: true,
           enum: ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"],
         },
+        player_id : {
+          type: String,
+          require: true,
+        },
+        playerDocumentCode : {
+          type: String,
+          require: true,
+        }
       },
     ],
     ownerPoints: [
