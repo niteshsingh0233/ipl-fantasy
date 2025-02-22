@@ -10,11 +10,16 @@ function Login() {
   let navigate = useNavigate();
 
   useEffect(() => {
-if(localStorage.getItem('token')){
+    if(localStorage.getItem('token') == 'undefined'){
+      localStorage.removeItem('token')
+    }
+else if(localStorage.getItem('token')){
   
-  navigate('/players')
+  navigate('/')
 }
   },[])
+
+  
 
   function LoginButtonClick() {
     console.log(userName, password);
@@ -42,7 +47,7 @@ if(localStorage.getItem('token')){
 
   return (
     <>
-      <div>
+      <div className="login-class">
         <label id="username">UserName -: </label> <br />
         <input
           onChange={(e) => {

@@ -15,9 +15,12 @@ function Signup() {
   let navigate = useNavigate();
 
   useEffect(() => {
-if(localStorage.getItem('token') != 'undefined'){
+    if(localStorage.getItem('token') == 'undefined'){
+      localStorage.removeItem('token')
+    }
+else if(localStorage.getItem('token')){
   
-  navigate('/players')
+  navigate('/')
 }
   },[])
 
@@ -47,7 +50,7 @@ if(localStorage.getItem('token') != 'undefined'){
 
   return (
     <>
-      <div>
+      <div className="signup-class">
       <label id="name">Name -: </label> <br />
         <input
           onChange={(e) => {

@@ -7,6 +7,10 @@ import Layout from "./layouts/Layout";
 import PageNotFound from "./layouts/PageNotFound";
 import Login from "./pages/Login/Login";
 import Signup from "./pages/SignUp/Signup";
+import Logout from "./pages/Logout/Logout";
+import Game from "./pages/Game";
+import Series from "./pages/Series";
+import GameData from "./pages/GameData";
 
 function App() {
   return (
@@ -17,6 +21,10 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/players" element={<Players />} />
+          <Route path="/logout" element={<Logout/>} />
+          <Route path="/games/series/:seriesId" element={<Game/>}/>
+          <Route path="/series" element={<Series/>}/>
+          <Route path="/games/:gameId" element={<GameData/>} />
           <Route path="/admin">
             <Route path="getAllUsers" element={<Home />} />
           </Route>
