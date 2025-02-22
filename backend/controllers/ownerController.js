@@ -104,6 +104,7 @@ exports.AddRetainedPlayer = async (req, res, next) => {
     const user = await User.findById(owner.ownerId);
 
     let originalAmount = playerBoughtForAmount;
+    /*
     playerBoughtForAmount = Math.floor(
       (playerBoughtForAmount * 10) / 100 + playerBoughtForAmount
     )
@@ -116,6 +117,7 @@ exports.AddRetainedPlayer = async (req, res, next) => {
     } else {
       originalAmount = Math.floor((originalAmount * 10) / 100 + originalAmount);
     }
+    */
 
     console.log(game.unsoldPlayersList)
 
