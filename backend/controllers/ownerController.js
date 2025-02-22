@@ -36,11 +36,12 @@ exports.CreateOwner = async (req, res) => {
     console.log(req.body);
 
     const owners = await OwnerSchema.find();
-    if (owners.length >= 10) {
-      res.status(500).json({
-        message: "owner limit exceeds.",
-      });
-    }
+    // if (owners.length >= 10) {
+    //   res.status(500).json({
+    //     message: "owner limit exceeds.",
+    //   });
+    //   return;
+    // }
 
     // const ownerData = await OwnerSchema.findOne({ ownerId }).populate('ownerId');
     // console.log(ownerData)
