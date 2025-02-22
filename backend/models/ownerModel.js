@@ -13,6 +13,18 @@ const ownerSchema = new mongoose.Schema(
       ref: "user",
       require: true,
     },
+    games: {
+      type: "ObjectId",
+      ref: "games",
+    },
+
+    series: {
+      type: "ObjectId",
+      ref: "series",
+    },
+    seriesId: {
+      type: String,
+    },
     ownerTeamName: {
       type: String,
       require: true,
@@ -29,8 +41,7 @@ const ownerSchema = new mongoose.Schema(
     playersList: [
       {
         playerId: {
-          type: "ObjectId",
-          ref: "player",
+          type: String,
           require: true,
         },
         playerName: {
@@ -52,8 +63,12 @@ const ownerSchema = new mongoose.Schema(
         },
         isForeigner: {
           type: Boolean,
-          value: false,
+          default: false,
         },
+        boughtFor : {
+          type : Number,
+          default : false
+        }
       },
     ],
     totalPlayerCount: {
@@ -91,12 +106,12 @@ const ownerSchema = new mongoose.Schema(
       require: true,
       default: 0,
     },
-    playingXIPlayerId: [{ type: "ObjectId", ref: "player" }],
+    playingXIPlayerId: [{ type: "ObjectId", ref: "players" }],
     playingXIList: [
       {
         playerId: {
           type: "ObjectId",
-          ref: "player",
+          ref: "players",
           require: true,
         },
         playerName: {
@@ -190,11 +205,11 @@ const ownerSchema = new mongoose.Schema(
         },
         captainIn: {
           type: "ObjectId",
-          ref: "player",
+          ref: "players",
         },
         captainOut: {
           type: "ObjectId",
-          ref: "player",
+          ref: "players",
         },
       },
     ],
@@ -224,11 +239,11 @@ const ownerSchema = new mongoose.Schema(
         },
         playerIn: {
           type: "ObjectId",
-          ref: "player",
+          ref: "players",
         },
         playerOut: {
           type: "ObjectId",
-          ref: "player",
+          ref: "players",
         },
       },
     ],
@@ -240,12 +255,32 @@ const ownerSchema = new mongoose.Schema(
       type: String,
       require: true,
     },
-    retainedPlayer: [{ type: "ObjectId", ref: "player" }],
+    retainedPlayer: [
+      {
+        playerId: {
+          type: String,
+          require: true,
+        },
+        playerName : {
+          type: String,
+          require: true,
+        },
+        playerDocumentCode: {
+          type: String,
+          require: true,
+        },
+        playingStyle : {
+          type: String,
+          require: true,
+          enum: ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"],
+        }
+      },
+    ],
     matchScoreList: [
       {
         matchNo: {
           type: "ObjectId",
-          ref: "match",
+          ref: "matches",
         },
         playedBetween: [
           {
@@ -272,12 +307,21 @@ const ownerSchema = new mongoose.Schema(
     entryFeePaid: {
       type: Boolean,
       value: false,
+      default: false,
     },
     totalEntryAmount: {
       type: Number,
     },
     totalEntryAmountPaid: {
       type: Number,
+      default: 0,
+    },
+    maximumPoints: {
+      type: Number,
+    },
+    pointsLeft: {
+      type: Number,
+      default : 0
     },
   },
   { timestamps: true }

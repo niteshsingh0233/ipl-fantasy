@@ -33,7 +33,7 @@ exports.PostAsync = async (url, body) => {
 exports.DMHelper = async (entityName, searchKey, searchValue) => {
   try {
     if (entityName == "series") {
-      let response = await series.findOne({ id: searchValue });
+      let response = await series.findOne({ id: searchValue }).populate(['teams', 'venues', 'games', 'squadPlayers.players', 'matches'])
       //console.log(response);
       return response;
     } else if (entityName == "games") {

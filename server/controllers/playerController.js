@@ -159,7 +159,7 @@ exports.GetPlayerInfoDetailsController = async (req, res) => {
   try {
     const playerId = req.params.playerId;
     let URL = URLConstants["GET_PLAYER_INFO_DETAILS"];
-
+URL = `${URL}${req.params.playerId}`
     let response = await cricbuzzAPIHelper(URL);
     res.status(200).json({
       message: "",

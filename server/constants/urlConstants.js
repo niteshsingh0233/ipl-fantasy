@@ -61,7 +61,7 @@ const URLConstants = {
   GET_PLAYER_BATTING_DETAILS:
     "https://cricbuzz-cricket.p.rapidapi.com/stats/v1/player/8733/batting",
   GET_PLAYER_INFO_DETAILS:
-    "https://cricbuzz-cricket.p.rapidapi.com/stats/v1/player/6635",
+    "https://cricbuzz-cricket.p.rapidapi.com/stats/v1/player/",
   GET_PLAYER_SEARCH:
     "https://cricbuzz-cricket.p.rapidapi.com/stats/v1/player/search?plrN=Virat",
 };

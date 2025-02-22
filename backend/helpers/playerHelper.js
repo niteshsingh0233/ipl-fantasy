@@ -30,6 +30,7 @@ exports.PlayerHelper = async (seriesId,squadId) => {
                     role : element.role,
                     battingStyle : element.battingStyle,
                     bowlingStyle : element.bowlingStyle,
+                    imageId : element.imageId
                 }
                 if(count == 1){
                     dataObject.roleType = "Batsman"

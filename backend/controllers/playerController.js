@@ -40,7 +40,9 @@ exports.CreatePlayer = async (req,res) => {
             obj.isWicketKeeper = element.isWicketKeeper,
             obj.isAllRounder = element.isAllRounder,
             obj.isBatsman = element.isBatsman,
-            obj.isBowler = element.isBowler
+            obj.isBowler = element.isBowler,
+            obj.imageId = element.imageId
+
 
             return obj;
         })
