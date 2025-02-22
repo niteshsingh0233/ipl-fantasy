@@ -30,7 +30,7 @@ function Series() {
     await axios
     .get(
       `https://fantasy-app-chi.vercel.app/api/v1/game/create-game/${seriesData.seriesId}`,
-      { method: "GET"}
+      { withCredentials: true,  headers: {'authorization' : localStorage.getItem('token')}}
     )
     .then((res) => {
       //console.log(res)
