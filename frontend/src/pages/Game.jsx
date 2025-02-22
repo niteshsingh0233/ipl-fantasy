@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
+import APIBASEURL from "../data/baseURL";
 
 function Game() {
   const [games, setGames] = useState([]);
@@ -9,7 +10,7 @@ function Game() {
     console.log(location.href);
     axios
       .get(
-        `https://fantasy-app-chi.vercel.app/api/v1/series/getSeriesDetails/${
+        `${APIBASEURL()}/api/v1/series/getSeriesDetails/${
           location.pathname.split("/")[location.pathname.split("/").length - 1]
         }`,
         { method: "GET" }
@@ -25,6 +26,23 @@ function Game() {
   }, []);
 
   console.log(games, seriesData);
+
+  async function HandleCreateGame(){
+    await axios
+    .get(
+      `${APIBASEURL()}/api/v1/game/create-game/${seriesData.seriesId}`,
+      { withCredentials: true,  headers: {'authorization' : localStorage.getItem('token')}}
+    )
+    .then((res) => {
+      //console.log(res)
+      if (res.data.isSuccess) {
+        navigate(`/games/series/${seriesData.seriesId}`)
+      }
+    })
+    .catch((error) => {});
+
+
+  }
 
   return (
     <>
@@ -44,7 +62,7 @@ function Game() {
                     />
                     <div className="card-body">
                       <h5 className="card-title">{seriesData.name}</h5>
-                      <p className="card-text">{seriesData.name}</p>
+                      <p className="card-text">{element.gameName}</p>
                     </div>
                     <ul className="list-group list-group-flush">
                       <li className="list-group-item">
@@ -59,13 +77,20 @@ function Game() {
                         href={`/owners/${element._id}`}
                         className="card-link"
                       >
-                        View Owners
+                        Owners
                       </a>
                       <a
-                        href={`/games/${seriesData._id}`}
+                        href={`/games/${element._id}`}
                         className="card-link"
                       >
                         Join Game
+                      </a>
+
+                      <a
+                        href={`/auction/${element._id}`}
+                        className="card-link"
+                      >
+                        Visit Auction 
                       </a>
                     </div>
                   </div>
@@ -74,7 +99,10 @@ function Game() {
             );
           })
         ) : (
-          <></>
+          <><p>
+          There aren't any games tagged with this series.
+          </p>
+          <button onClick={HandleCreateGame}>Create Game for Series</button></>
         )}
       </div>
     </>

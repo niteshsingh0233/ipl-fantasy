@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import {useNavigate } from 'react-router-dom'
+import APIBASEURL from "../../data/baseURL";
 
 function Signup() {
   const [userName, setUserName] = useState("");
@@ -28,7 +29,7 @@ else if(localStorage.getItem('token')){
     console.log(userName, password, name, emailId, phone, confirmPassowrd);
     axios
       .post(
-        "https://fantasy-app-chi.vercel.app/api/v1/user/register-user",
+        `${APIBASEURL()}/api/v1/user/register-user`,
         { userName, password, name, emailId, phone },
         { method: "POST" }
       )
