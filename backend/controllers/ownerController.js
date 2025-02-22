@@ -370,9 +370,134 @@ exports.UpdateTeamOwnerCountry = async (req, res) => {
 
 exports.AddPlayerInOwnerDetails = async (req, res) => {
   try {
+    const owner = await OwnerSchema.findById(req.params.ownerId);
+    const game = await Games.findById(owner.games);
+
+    let { playerId, playerBoughtForAmount } = req.body;
+    const players = await Players.findOne({ playerId });
+
+    const user = await User.findById(owner.ownerId);
+
+    let originalAmount = playerBoughtForAmount;
+
+    console.log(game.unsoldPlayersList)
+
+    let playerAlreadySold = false
+
+    game.soldPlayerList.forEach((ele) => {
+      if (ele.playerDocumentCode == players.documentCode) {
+        playerAlreadySold = true
+      }
+    })
+
+    if(playerAlreadySold){
+      res.status(200).json({
+        message: "Player is already retained and sold.",
+        success: true,
+      });
+      return;
+    }
+
+    game.unsoldPlayersList.forEach((element) => {
+      if (element.playerDocumentCode == players.documentCode) {
+        console.log(true);
+        game.soldPlayerList.push(element);
+      }
+    });
+
+    game.unsoldPlayersList = game.unsoldPlayersList.filter(
+      (ele) => ele.playerDocumentCode != players.documentCode
+    );
+
+    game.ownerPoints.forEach((ele) => {
+      if (ele.documentCode == owner.documentCode) {
+        let pointsRemaining = ele.pointsRemaining
+        ele.pointsRemaining = pointsRemaining - originalAmount;
+      }
+    });
+
+    game.playersList.forEach((ele) => {
+      if (ele.playerId == playerId) {
+        (ele.soldFor = originalAmount),
+          (ele.soldTo = user.name),
+          (ele.isSold = true);
+      }
+    });
+
+    let isPlayerAlreadyRetained = false
+    
+    owner.retainedPlayer.forEach((ele) => {
+if(ele.playerId ==players.playerId ){
+  isPlayerAlreadyRetained = true
+}
+
+    })
+
+    if(isPlayerAlreadyRetained){
+      res.status(200).json({
+        message: "Player is already retained .",
+        success: true,
+      });
+      return;
+    }
+
+    
+
+    owner.pointsLeft = owner.pointsLeft - originalAmount;
+    owner.totalPlayerCount = ++owner.totalPlayerCount;
+    if (players.playerRoleType.toUpperCase() == "BATSMAN") {
+      owner.totalBatsmanCount = ++owner.totalBatsmanCount;
+    } else if (players.playerRoleType.toUpperCase() == "BOWLER") {
+      owner.totalBowlerCount = ++owner.totalBowlerCount;
+    } else if (players.playerRoleType.toUpperCase() == "ALLROUNDER") {
+      owner.totalAllRounderCount = ++owner.totalAllRounderCount;
+    } else if (players.playerRoleType.toUpperCase() == "WICKETKEEPER") {
+      owner.totalWicketKeeperCount = ++owner.totalWicketKeeperCount;
+    }
+
+    let foreignPlayer = false;
+    let isForeignerPlayer = await httpHelper.GetAsync(
+      `https://fantasy-app-cricbuzz-api.vercel.app/api/v1/get-player-info-details/${players.playerId}`
+    );
+    // console.log(isForeignerPlayer);
+    console.log(isForeignerPlayer.data.response.intlTeam.toUpperCase(), game.notForeignTeamList)
+    if (
+      isForeignerPlayer.data &&
+      !game.notForeignTeamList.includes(
+        isForeignerPlayer.data.response.intlTeam.toUpperCase()
+      )
+    ) {
+      foreignPlayer = true;
+      owner.totalForeignPlayerCount = ++owner.totalForeignPlayerCount
+    }
+    if(!foreignPlayer){
+      owner.totalIndianPlayerCount = ++owner.totalIndianPlayerCount
+    }
+    owner.playersList.push({
+      playerId: players.playerId,
+      playerName: players.playerName,
+      playerCountry: '',
+      playerType: players.playerRoleType.toUpperCase(),
+      isInPlayingXI: false,
+      boughtFor: originalAmount,
+      isForeigner : foreignPlayer
+    });
+
+    await owner.save()
+    await game.save()
+
+    res.status(200).json({
+      message: "AddRetainedPlayer created.",
+      owner,
+      game,
+      players,
+      playerBoughtForAmount,
+      originalAmount,
+      success: true,
+    });
   } catch (error) {
     res.status(500).json({
-      message: "Error in AddPlayerInOwnerDetails.",
+      message: "Error in AddRetainedPlayer.",
       error,
       success: false,
     });
