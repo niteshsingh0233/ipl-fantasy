@@ -2,9 +2,10 @@ const jwt = require('jsonwebtoken')
 
 exports.RequireSignIn = async (req, res, next) =>{
     try {
-      console.log(req.cookies.token)
+        console.log(req.cookies.token)
         //console.log(req.headers.authorization)
-        const decode = await jwt.verify(req.cookies.token , "434343434")
+        console.log(req.headers.authorization)
+        const decode = await jwt.verify(req.cookies.token || req.headers.authorization , "434343434")
         req.user = decode
         console.log(req.user)
         next()
