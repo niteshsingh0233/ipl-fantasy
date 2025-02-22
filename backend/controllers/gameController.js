@@ -1,6 +1,6 @@
 const express = require("express");
 const GameSchema = require("../models/gameModel.js");
-const { CreateGameFromSeriesId } = require("../helpers/gameHelper.js");
+const { CreateGameFromSeriesId, CreatePlayerCountryAndLeagueDetails } = require("../helpers/gameHelper.js");
 const Series = require("../models/seriesModel.js");
 const Owner = require("../models/ownerModel.js");
 
@@ -101,6 +101,7 @@ exports.JoinGame = async (req, res) => {
     owner.seriesId = game.seriesId;
     owner.totalEntryAmount = game.maximumMoneyGame;
     owner.maximumPoints = game.maximumPoints;
+    owner.pointsLeft = game.maximumPoints;
     // console.log(owner);
 
     var out = await game.save();
@@ -126,6 +127,9 @@ exports.UpdateMaximumOwnersCount = async (req, res, next) => {
     game.maximumOwners = req.params.ownersCount;
     game.maximumPoints = req.params.maximumPoints;
     game.maximumMoneyGame = req.params.maximumMoneyGame;
+    console.log(req.body.notForeignTeamList)
+    game.notForeignTeamList = req.body.notForeignTeamList
+
 
     var out = await game.save();
     res.status(200).json({
@@ -201,3 +205,24 @@ exports.GetSingleGame = async (req, res) => {
     });
   }
 };
+
+exports.UpdateplayerCountryAndLeagueDetails = async  (req,res) => {
+  try {
+    var game = await GameSchema.findById(req.params.gameId)
+
+    game.playerCountryAndLeagueDetails = await CreatePlayerCountryAndLeagueDetails(game.playersList)
+
+    await game.save()
+
+    res.status(200).json({
+      message: "UpdateplayerCountryAndLeagueDetails successful.",
+      isSuccess: true,
+      game,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "UpdateplayerCountryAndLeagueDetails Failed.",
+      error,
+    });
+  }
+}

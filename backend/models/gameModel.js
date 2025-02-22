@@ -154,6 +154,28 @@ const MatchSchema = new mongoose.Schema(
         },
       },
     ],
+    playerCountryAndLeagueDetails : [
+      {
+        playerId : {
+          type: String,
+          require: true,
+        },
+        playerCountry : {
+          type: String,
+          require: true,
+        },
+        playerName : {
+          type: String,
+          require: true,
+        }
+      }
+    ],
+    notForeignTeamList : [
+      {
+        type: String,
+          require: true,
+      }
+    ]
   },
   { timestamps: true }
 );

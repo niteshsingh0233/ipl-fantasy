@@ -51,6 +51,10 @@ const playerSchema = new mongoose.Schema(
     isBowler: {
       type: Boolean,
       default: false,
+    },
+    imageId : {
+      type : Number,
+      default : false
     }
   },
   { timestamps: true }

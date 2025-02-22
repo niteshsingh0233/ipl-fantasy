@@ -14,25 +14,24 @@ exports.CreateGameFromSeriesId = async (seriesId) => {
 
   seriesDta.squadPlayers.forEach((element) => {
     element.players.forEach((ele) => {
-      console.log(ele)
+      console.log(ele);
       unsoldPlayersList.push({
-        playerId : ele.playerId,
-        playerStyle : ele.playerRoleType.toUpperCase(),
-        playerName : ele.playerName,
-        player_id : ele._id,
-        playerDocumentCode : ele.documentCode,
-      })
+        playerId: ele.playerId,
+        playerStyle: ele.playerRoleType.toUpperCase(),
+        playerName: ele.playerName,
+        player_id: ele._id,
+        playerDocumentCode: ele.documentCode,
+      });
       playersList.push({
-        playerId : ele.playerId,
-        soldFor : 0,
-        soldTo : '',
-        isSold : false,
-        playingStyle : ele.playerRoleType.toUpperCase(),
-        playerName : ele.playerName,
-        player_id : ele._id,
-        playerDocumentCode : ele.documentCode,
-
-      })
+        playerId: ele.playerId,
+        soldFor: 0,
+        soldTo: "",
+        isSold: false,
+        playingStyle: ele.playerRoleType.toUpperCase(),
+        playerName: ele.playerName,
+        player_id: ele._id,
+        playerDocumentCode: ele.documentCode,
+      });
     });
   });
 
@@ -53,4 +52,24 @@ exports.CreateGameFromSeriesId = async (seriesId) => {
   };
   //console.log(test)
   return test;
+};
+
+exports.CreatePlayerCountryAndLeagueDetails = async (playersList) => {
+  let output = [];
+  for (let i = 0; i < playersList.length; i++) {
+    setInterval(async () => {
+      let playerData = await httpHelper.GetAsync(
+        `https://fantasy-app-cricbuzz-api.vercel.app/api/v1/get-player-info-details/${playersList[i].playerId}`
+      );
+      console.log(playerData.data, playersList[i].playerId)
+      if (playerData.data) {
+        output.push({
+          playerId: playerData.data.response.id,
+          playerCountry: playerData.data.response.intlTeam,
+          playerName: playerData.data.response.name,
+        });
+      }
+    }, 10000);
+  }
+  return output;
 };
