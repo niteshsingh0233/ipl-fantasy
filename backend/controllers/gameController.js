@@ -55,6 +55,7 @@ exports.JoinGame = async (req, res) => {
     var game = await GameSchema.findById(req.params.gameId);
 
     if (game.ownerId.includes(req.params.ownerId)) {
+      let deleteOwner = await Owner.findByIdAndDelete(req.params.ownerId);
       res.status(500).json({
         message: "you have already joined the game",
       });
@@ -86,14 +87,14 @@ exports.JoinGame = async (req, res) => {
 
     game.ownerId = [req.params.ownerId, ...game.ownerId];
     if (!game.users.includes(req.user._id))
-      game.users = [req.user._id, ...game.users];
+      {game.users = [req.user._id, ...game.users];}
     // console.log(game);
-    game.ownerPoints = {
+    game.ownerPoints.push({
       documentCode : owner.documentCode,
       ownerName : owner.ownerId.name,
       ownerTeamName : owner.ownerTeamName,
       pointsRemaining : game.maximumPoints
-    }
+    })
 
     // console.log(owner);
     owner.games = req.params.gameId;
