@@ -11,6 +11,7 @@ import Logout from "./pages/Logout/Logout";
 import Game from "./pages/Game";
 import Series from "./pages/Series";
 import GameData from "./pages/GameData";
+import GameOwners from "./pages/GameOwners";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/logout" element={<Logout/>} />
           <Route path="/games/series/:seriesId" element={<Game/>}/>
           <Route path="/series" element={<Series/>}/>
+          <Route path="/owners/:gameId" element={<GameOwners/>} />
           <Route path="/games/:gameId" element={<GameData/>} />
           <Route path="/admin">
             <Route path="getAllUsers" element={<Home />} />

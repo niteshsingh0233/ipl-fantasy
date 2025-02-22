@@ -6,6 +6,9 @@ const MatchSchema = new mongoose.Schema(
       type: String,
       default: randomUUID().toString("hex"),
     },
+    gameName : {
+type : String,
+    },
     seriesId: {
       type: String,
       require: true,

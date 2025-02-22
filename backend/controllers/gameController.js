@@ -129,6 +129,7 @@ exports.UpdateMaximumOwnersCount = async (req, res, next) => {
     game.maximumMoneyGame = req.params.maximumMoneyGame;
     console.log(req.body.notForeignTeamList)
     game.notForeignTeamList = req.body.notForeignTeamList
+    game.gameName = req.body.gameName
 
 
     var out = await game.save();
