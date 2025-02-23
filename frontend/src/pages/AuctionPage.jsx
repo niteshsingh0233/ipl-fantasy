@@ -78,10 +78,19 @@ function AuctionPage() {
 
   function HandlePointTableClick() {
     setPointTableClick(!pointTableClick);
+    setRandomNumberGenerator(false)
+    setShowAllPlayers(false)
+    setShowFilterPlayer(false)
+    setSellPlayerButtonClick(false)
+
   }
 
   function HandleGetAllPlayerClick() {
     setShowAllPlayers(!showAllPlayers);
+    setPointTableClick(false);
+    setRandomNumberGenerator(false)
+    setShowFilterPlayer(false)
+    setSellPlayerButtonClick(false)
   }
 
   async function GetPlayerDetailsAndImageDetails(playerId) {
@@ -152,6 +161,9 @@ function AuctionPage() {
 
   async function HandleRandomNumberGeneratorClick() {
     setRandomNumberGenerator(!randomNumberGenerator);
+    setPointTableClick(false);
+    setShowAllPlayers(false)
+    setShowFilterPlayer(false)
 
     /*
     if(!randomNumberGenerator){
@@ -206,6 +218,10 @@ function AuctionPage() {
 
   function HandleGetFilterPlayerClick() {
     setShowFilterPlayer(!showFilterPlayer);
+    setPointTableClick(false);
+    setRandomNumberGenerator(false)
+    setShowAllPlayers(false)
+    setSellPlayerButtonClick(false)
   }
 
   function handleBatsmanClick() {
