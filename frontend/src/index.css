@@ -98,3 +98,33 @@ min-height: 90vh;
 .filter-list-labels {
     margin-bottom: 1rem;
 }
+
+
+/* .random-photo-div {
+  display: flex;
+    gap: 20px;
+    max-width : 100vw;
+    flex-wrap: wrap;
+} */
+
+.player-sold-button{
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+
+.owner-select-label{
+  margin-top: 0.2rem;
+  margin-left: 0.2rem;
+  margin-right:  1rem;
+}
+
+.owner-select-div{
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.owner-select-input{
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
