@@ -16,7 +16,8 @@ function Login() {
     }
 else if(localStorage.getItem('token')){
   
-  navigate('/')
+  //navigate('/')
+  navigate('/series')
 }
   },[])
 
