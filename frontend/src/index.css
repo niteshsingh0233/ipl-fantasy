@@ -28,3 +28,73 @@ min-height: 90vh;
     max-width : 100vw;
     flex-wrap: wrap;
 }
+
+.owner-class-card {
+    display: flex;
+    gap: 20px;
+    max-width : 100vw;
+    flex-wrap: wrap;
+}
+
+.auction-page-css {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btn-cls-auction {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+#auction-point-table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #auction-point-table td, #auction-point-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #auction-point-table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #auction-point-table tr:hover {background-color: #ddd;}
+  
+  #auction-point-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+  .button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.button5 {background-color: #555555;}
+
+
+.radio-label {
+    margin-left: 0.5rem;
+    margin-right: 2rem;
+}
+
+.filter-list-labels {
+    margin-bottom: 1rem;
+}
