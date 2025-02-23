@@ -653,14 +653,14 @@ function AuctionPage() {
               <option value={ownerDetails[1]._id}>
                 {ownerDetails[1].ownerTeamName}
               </option>
-              {/* <option value={ownerDetails[2]._id}>{ownerDetails[2].ownerTeamName}</option>
+              <option value={ownerDetails[2]._id}>{ownerDetails[2].ownerTeamName}</option>
                       <option value={ownerDetails[3]._id}>{ownerDetails[3].ownerTeamName}</option>
                       <option value={ownerDetails[4]._id}>{ownerDetails[4].ownerTeamName}</option>
                       <option value={ownerDetails[5]._id}>{ownerDetails[5].ownerTeamName}</option>
                       <option value={ownerDetails[6]._id}>{ownerDetails[6].ownerTeamName}</option>
                       <option value={ownerDetails[7]._id}>{ownerDetails[7].ownerTeamName}</option>
                       <option value={ownerDetails[8]._id}>{ownerDetails[8].ownerTeamName}</option>
-                      <option value={ownerDetails[9]._id}>{ownerDetails[9].ownerTeamName}</option> */}
+                      <option value={ownerDetails[9]._id}>{ownerDetails[9].ownerTeamName}</option>
             </select>
           </label>
           <div>
