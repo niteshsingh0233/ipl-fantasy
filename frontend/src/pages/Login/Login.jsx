@@ -38,7 +38,8 @@ else if(localStorage.getItem('token')){
         }
         console.log(res.data.token)
         localStorage.setItem('token', res.data.token)
-        navigate('/')
+        // navigate('/')
+        navigate('/series')
       })
       .catch((error) => {console.log(error, 'hi');
         if (error.response.data.message != "login successful") {
