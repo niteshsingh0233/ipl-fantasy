@@ -87,3 +87,40 @@ exports.CreatePlayerHelperWithoutSquadId = async (seriesId, data) =>{
     
     return output
 }
+
+exports.GetPlayerDetailsHelper = async (playerId) =>{
+    const options = {
+        method: "GET",
+        url: `https://fantasy-app-cricbuzz-api.vercel.app/api/v1/get-player-info-details/${playerId}`,
+      };
+    let response = await axios.request(options);
+    if(response && response.data && response.data.response){
+        let playerData = response.data.response
+        return {
+            id : playerData.id,
+            name : playerData.name,
+            role : playerData.role,
+            imageId : playerData.faceImageId
+        }
+    }
+}
+
+exports.GetPlayerImageDetailsHelper = async (imageId) => {
+    const options = {
+        method: "GET",
+        url: `https://cricbuzz-cricket.p.rapidapi.com/img/v1/i1/c${imageId}/i.jpg?p=de&d=high`,
+        headers: {
+          "x-rapidapi-key": "0f8816f6a3msh904dd1653581039p1a48d8jsnba7150df49a5",
+          "x-rapidapi-host": "cricbuzz-cricket.p.rapidapi.com",
+        },
+      };
+    
+      try {
+        const response = await axios.request(options);
+        if(response && response.data){
+            return response.data
+        }
+      } catch (error) {
+        console.error(error);
+      }
+}

@@ -35,7 +35,7 @@ function GameOwners() {
         {location.pathname.split("/")[location.pathname.split("/").length - 1]}
       </p>
 
-      <div>
+      <div className="owner-class-card">
         {owners && owners.length > 0 ? (
           <>
             {owners.map((element) => {

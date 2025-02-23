@@ -1,5 +1,5 @@
 const express = require('express')
-const {PlayerHelper, GetSeriesIdTeamAndSquadId, CreatePlayerHelperWithoutSquadId} = require('../helpers/playerHelper.js')
+const {PlayerHelper, GetSeriesIdTeamAndSquadId, CreatePlayerHelperWithoutSquadId, GetPlayerDetailsHelper, GetPlayerImageDetailsHelper} = require('../helpers/playerHelper.js')
 const PlayerModel = require('../models/playerModel.js')
 const { randomUUID } = require("crypto");
 
@@ -59,6 +59,44 @@ exports.CreatePlayer = async (req,res) => {
     } catch (error) {
         res.status(500).json({
             message : 'CreatePlayerController failed.',
+            error : error
+        })
+    }
+}
+
+exports.GetPlayerDetails = async (req,res) => {
+    try {
+        const playerId = req.params.playerId
+        console.log(playerId)
+
+        let output = await GetPlayerDetailsHelper(playerId)
+
+        res.status(200).json({
+            message : 'GetPlayerDetails success.',
+            playerDetails : output
+        })
+    } catch (error) {
+        res.status(500).json({
+            message : 'GetPlayerDetails failed.',
+            error : error
+        })
+    }
+}
+
+exports.GetPlayerImageDetails = async (req,res) => {
+    try {
+        const imageId = req.params.imageId
+        console.log(imageId)
+
+        let output = await GetPlayerImageDetailsHelper(imageId)
+
+        res.status(200).json({
+            message : 'GetPlayerImageDetails success.',
+            playerImageDetails : output
+        })
+    } catch (error) {
+        res.status(500).json({
+            message : 'GetPlayerImageDetails failed.',
             error : error
         })
     }

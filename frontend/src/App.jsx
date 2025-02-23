@@ -12,6 +12,7 @@ import Game from "./pages/Game";
 import Series from "./pages/Series";
 import GameData from "./pages/GameData";
 import GameOwners from "./pages/GameOwners";
+import AuctionPage from "./pages/AuctionPage";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/series" element={<Series/>}/>
           <Route path="/owners/:gameId" element={<GameOwners/>} />
           <Route path="/games/:gameId" element={<GameData/>} />
+          <Route path="/auction/:gameId" element={<AuctionPage/>} />
           <Route path="/admin">
             <Route path="getAllUsers" element={<Home />} />
           </Route>
