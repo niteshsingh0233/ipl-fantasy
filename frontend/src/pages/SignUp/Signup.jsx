@@ -21,7 +21,8 @@ function Signup() {
     }
 else if(localStorage.getItem('token')){
   
-  navigate('/')
+  // navigate('/')
+  navigate('/series')
 }
   },[])
 

@@ -46,7 +46,8 @@ function Header() {
     // homeIcon = "IPL Fantasy";
     // homeIncoURL = "/";
     setHomeIcon("IPL Fantasy")
-    setHomeIncoURL('/')
+    //setHomeIncoURL('/')
+    setHomeIncoURL('/series')
 
     setFirstNavIcon("Games")
     setFirstNavIconURL("/games")
