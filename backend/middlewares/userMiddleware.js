@@ -31,3 +31,42 @@ exports.authorizeRoles = (...roles) => {
       next();
     };
 };
+
+const LogsSchema = require("../models/logsModel.js");
+
+exports.Log = async (req,res, next) => {
+  try {
+    console.log(req.cookies.token)
+    //console.log(req.headers.authorization)
+    console.log(req.headers.authorization)
+
+    let logs = await LogsSchema.create({
+          logEnv: "DEV",
+          method : req.method,
+          routeName : req.baseUrl.split('/')[req.baseUrl.split('/').length - 1],
+          urlDetails : {
+            baseUrl : req.baseUrl,
+            url : req.url,
+            originalUrl : req.originalUrl
+          },
+          logString: [],
+          transactionScopeId: req.headers["transaction-scope-id"],
+          name: req.user.userName,
+          logType: "INFO",
+    });
+    
+    req.logs = {
+      transactionScopeId: req.headers["transaction-scope-id"],
+      logString: [],
+    }
+
+    
+    next()
+}
+catch (error) {
+    res.status(401).json({
+        message : "Logs transaction id required.",
+        success : false
+    })
+}
+}

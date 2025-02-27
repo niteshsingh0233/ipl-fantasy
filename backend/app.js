@@ -44,4 +44,10 @@ app.use("/api/v1/series", seriesRouter);
 const gameRouter = require("./routes/gameRoute.js");
 app.use("/api/v1/game", gameRouter);
 
+const cdsRouter = require("./routes/cdsRoute.js");
+app.use("/api/v1/cds", cdsRouter);
+
+const logsRoute = require("./routes/logsRoute.js");
+app.use("/api/v1/logs", logsRoute);
+
 module.exports = app;
