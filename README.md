@@ -97,3 +97,11 @@ write point calculation logic and calculation of scores and above 4 point code l
 We should add a check that if point is already calculated for the match then if we hit the api it should return saying point already calculated.
 
 Also, create a one match game style just like dream11 where they can join the game and play the match and win it.
+
+
+// local up
+export default function APIBASEURL(){
+    return 'http://localhost:6969'//'https://fantasy-app-chi.vercel.app'
+}
+
+origin: "http://localhost:5173",//"https://fantasy-app-ui.vercel.app",
