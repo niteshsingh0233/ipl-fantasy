@@ -92,6 +92,13 @@ function Game() {
                       >
                         Visit Auction 
                       </a>
+
+                      <a
+                        href={`/match-points/${seriesData.seriesId}/${element._id}`}
+                        className="card-link"
+                      >
+                        Calculate Match Point
+                      </a>
                     </div>
                   </div>
                 </div>

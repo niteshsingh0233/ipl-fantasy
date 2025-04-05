@@ -13,6 +13,7 @@ import Series from "./pages/Series";
 import GameData from "./pages/GameData";
 import GameOwners from "./pages/GameOwners";
 import AuctionPage from "./pages/AuctionPage";
+import CalculateMatchPoint from "./pages/calculateMatchPoint";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/owners/:gameId" element={<GameOwners/>} />
           <Route path="/games/:gameId" element={<GameData/>} />
           <Route path="/auction/:gameId" element={<AuctionPage/>} />
+          <Route path="/match-points/:seriesId/:gameId" element={<CalculateMatchPoint/>} />
           <Route path="/admin">
             <Route path="getAllUsers" element={<Home />} />
           </Route>
