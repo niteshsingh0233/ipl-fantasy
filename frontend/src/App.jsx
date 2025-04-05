@@ -13,7 +13,7 @@ import Series from "./pages/Series";
 import GameData from "./pages/GameData";
 import GameOwners from "./pages/GameOwners";
 import AuctionPage from "./pages/AuctionPage";
-import CalculateMatchPoint from "./pages/calculateMatchPoint";
+import CalculateMatchPoint from "./pages/CalculateMatchPoint";
 
 function App() {
   return (
