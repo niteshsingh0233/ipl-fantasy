@@ -172,7 +172,14 @@ const ownerSchema = new mongoose.Schema(
     captainSwapCount: {
       type: Number,
       min: [0, "Minimum 0 captain swap can be done."],
-      max: [2, "Maximum 2 captain swap can be done."],
+      max: [5, "Maximum 5 captain swap can be done."],
+      require: true,
+      default: 0,
+    },
+    viceCaptainSwapCount: {
+      type: Number,
+      min: [0, "Minimum 0 viceCaptain swap can be done."],
+      max: [5, "Maximum 5 viceCaptain swap can be done."],
       require: true,
       default: 0,
     },
@@ -208,6 +215,36 @@ const ownerSchema = new mongoose.Schema(
           ref: "players",
         },
         captainOut: {
+          type: "ObjectId",
+          ref: "players",
+        },
+      },
+    ],
+    viceCaptainSwaps: [
+      {
+        swapType: {
+          type: String,
+          enum: ["VICECAPTAINSWAP"],
+          require: true,
+          default: "VICECAPTAINSWAP",
+        },
+        swapNumber: {
+          type: Number,
+          require: true,
+        },
+        in: {
+          type: String,
+          require: true,
+        },
+        out: {
+          type: String,
+          require: true,
+        },
+        viceCaptainIn: {
+          type: "ObjectId",
+          ref: "players",
+        },
+        viceCaptainOut: {
           type: "ObjectId",
           ref: "players",
         },
@@ -323,6 +360,10 @@ const ownerSchema = new mongoose.Schema(
       type: Number,
       default : 0
     },
+    totalFantasyPoint : {
+      type: Number,
+      default : 0
+    }
   },
   { timestamps: true }
 );

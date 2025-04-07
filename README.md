@@ -96,7 +96,7 @@ write point calculation logic and calculation of scores and above 4 point code l
 
 We should add a check that if point is already calculated for the match then if we hit the api it should return saying point already calculated.
 
-Also, create a one match game style just like dream11 where they can join the game and play the match and win it.
+Also, create a one-match game style just like dream11 where they can join the game and play the match and win it.
 
 
 // local up
@@ -105,3 +105,8 @@ export default function APIBASEURL(){
 }
 
 origin: "http://localhost:5173",//"https://fantasy-app-ui.vercel.app",
+
+// API Routes need to create -:
+1.swapPlayers (playerSwap, captainSwap, viceCaptainSwap) -: OwnerController
+2.Add players in owners playingXI list first -: OwnerController
+2.calculate point for the match and add entry in pointdb and gamedb properties.

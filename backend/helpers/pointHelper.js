@@ -282,6 +282,9 @@ exports.calculatePlayerPointsV2 = (matchScore) => {
           else if(batsman.wicketCode === "STUMPED"){
             wkDoneStumping.push(batsman.fielderId1)
           }
+          else if(batsman.wicketCode === "CAUGHTBOWLED"){
+            playersTakenCatch.push(batsman.bowlerId)
+          }
         }
       });
 

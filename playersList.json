@@ -1,0 +1,5472 @@
+[{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d2f"
+  },
+  "documentCode": "8b925e8b-b82b-42ca-8bff-1060c87f151b",
+  "id": "9012",
+  "playerId": "9012",
+  "playerName": "Rahul Tripathi",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm medium",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d32"
+  },
+  "documentCode": "b4ab8873-945f-452a-b5ef-c77d2211e286",
+  "id": "9427",
+  "playerId": "9427",
+  "playerName": "Deepak Hooda",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d33"
+  },
+  "documentCode": "3dd419fd-cb1c-4da1-9d28-44d9eefac7fb",
+  "id": "8204",
+  "playerId": "8204",
+  "playerName": "Vijay Shankar",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d3b"
+  },
+  "documentCode": "17b166a2-d6ff-4690-8b83-9eadf8a716dd",
+  "id": "1429626",
+  "playerId": "1429626",
+  "playerName": "Vansh Bedi",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d40"
+  },
+  "documentCode": "04d23acf-e567-4dfe-beb2-8132224f5681",
+  "id": "13184",
+  "playerId": "13184",
+  "playerName": "Mukesh Choudhary",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.803Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.803Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d41"
+  },
+  "documentCode": "3ae10704-0be8-4e18-9e54-fc870b9633be",
+  "id": "15480",
+  "playerId": "15480",
+  "playerName": "Nathan Ellis",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.803Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.803Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d44"
+  },
+  "documentCode": "5ce003ac-32b3-4713-8dc3-8fc7ce688b51",
+  "id": "10952",
+  "playerId": "10952",
+  "playerName": "Khaleel Ahmed",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Left-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.803Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.803Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d51"
+  },
+  "documentCode": "7963263a-cc5d-4567-851f-64109ec17db3",
+  "id": "11307",
+  "playerId": "11307",
+  "playerName": "Tushar Deshpande",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d56"
+  },
+  "documentCode": "e07ea494-9c03-4d5b-93af-be9b664f6263",
+  "id": "14282",
+  "playerId": "14282",
+  "playerName": "Fazalhaq Farooqi",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Left-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d5a"
+  },
+  "documentCode": "827da505-dcd4-491c-9422-97763a65dd95",
+  "id": "1447",
+  "playerId": "1447",
+  "playerName": "Ajinkya Rahane",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm medium",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d5b"
+  },
+  "documentCode": "becfe512-bc84-485d-bc8a-229e0fea9a58",
+  "id": "10896",
+  "playerId": "10896",
+  "playerName": "Rinku Singh",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d5c"
+  },
+  "documentCode": "7853f3b3-df19-4f62-90a5-5618a70e49b2",
+  "id": "22566",
+  "playerId": "22566",
+  "playerName": "Angkrish Raghuvanshi",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d6c"
+  },
+  "documentCode": "b07ba6af-36b9-4c60-9518-c46bc77138f5",
+  "id": "19027",
+  "playerId": "19027",
+  "playerName": "Umran Malik",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d6d"
+  },
+  "documentCode": "23541bbf-e59e-47ea-989a-8da290bdf24c",
+  "id": "13143",
+  "playerId": "13143",
+  "playerName": "Spencer Johnson",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d70"
+  },
+  "documentCode": "8e03ac7e-f4f4-405b-9591-60b8f1cc5955",
+  "id": "10499",
+  "playerId": "10499",
+  "playerName": "Abhinav Manohar",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d73"
+  },
+  "documentCode": "9ec410c9-1247-4b9f-93f5-9cc8a02ef73b",
+  "id": "14701",
+  "playerId": "14701",
+  "playerName": "Nitish Kumar Reddy",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d77"
+  },
+  "documentCode": "c8cb6454-bd28-4e61-a81a-ac757814eeb9",
+  "id": "10276",
+  "playerId": "10276",
+  "playerName": "Ishan Kishan",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d7e"
+  },
+  "documentCode": "11f04814-b73d-4d9b-be6d-fab9d82ab7f3",
+  "id": "46926",
+  "playerId": "46926",
+  "playerName": "Eshan Malinga",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d80"
+  },
+  "documentCode": "f2634d46-14c6-4d7a-8638-de81ca9fe90e",
+  "id": "6327",
+  "playerId": "6327",
+  "playerName": "Jaydev Unadkat",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Left-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d82"
+  },
+  "documentCode": "577e08bf-a5a0-423e-9fd0-5a8fcdd4f485",
+  "id": "1413",
+  "playerId": "1413",
+  "playerName": "Virat Kohli",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm medium",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d88"
+  },
+  "documentCode": "b787cf69-2a23-4d61-803b-016e12b5143d",
+  "id": "10045",
+  "playerId": "10045",
+  "playerName": "Liam Livingstone",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d8b"
+  },
+  "documentCode": "76b32d86-49fe-4d76-99d1-4cd3f314597b",
+  "id": "13646",
+  "playerId": "13646",
+  "playerName": "Romario Shepherd",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d8c"
+  },
+  "documentCode": "779f5d22-7126-4d23-b896-612d65504584",
+  "id": "10238",
+  "playerId": "10238",
+  "playerName": "Swapnil Singh",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d8d"
+  },
+  "documentCode": "2860614b-6e23-4e5d-b427-6b408e60593f",
+  "id": "36524",
+  "playerId": "36524",
+  "playerName": "Mohit Rathee",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d8e"
+  },
+  "documentCode": "a96cfb70-e065-4aba-9e96-17fef9ae221c",
+  "id": "10479",
+  "playerId": "10479",
+  "playerName": "Philip Salt",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d8f"
+  },
+  "documentCode": "baac09df-fb5c-45f0-844c-1dcda1bd3e44",
+  "id": "10214",
+  "playerId": "10214",
+  "playerName": "Jitesh Sharma",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d91"
+  },
+  "documentCode": "f29997e8-4bef-4972-891b-f5b647b5cb03",
+  "id": "1726",
+  "playerId": "1726",
+  "playerName": "Bhuvneshwar Kumar",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d92"
+  },
+  "documentCode": "5a6b624a-68c3-41d2-8f83-c45b955d56fc",
+  "id": "9603",
+  "playerId": "9603",
+  "playerName": "Lungi Ngidi",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d94"
+  },
+  "documentCode": "1681108b-72e8-4466-8066-2e6d5d6abb76",
+  "id": "36487",
+  "playerId": "36487",
+  "playerName": "Suyash Sharma",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d9a"
+  },
+  "documentCode": "fded35f1-f3ef-4c56-a075-ab2155cefb08",
+  "id": "12201",
+  "playerId": "12201",
+  "playerName": "Harry Brook",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm medium",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d9c"
+  },
+  "documentCode": "cdf56a88-5e21-449b-958d-7c4bc0226c35",
+  "id": "14700",
+  "playerId": "14700",
+  "playerName": "Sameer Rizvi ",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d9e"
+  },
+  "documentCode": "7e89586d-2002-4e96-9c62-06c2dd3f1ba1",
+  "id": "22386",
+  "playerId": "22386",
+  "playerName": "Tripurana Vijay",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943da1"
+  },
+  "documentCode": "9f30f630-954f-4939-8ef3-696799ac7b55",
+  "id": "12779",
+  "playerId": "12779",
+  "playerName": "Darshan Nalkande",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dab"
+  },
+  "documentCode": "83f83268-7adb-4837-a849-a1d72ec51f0a",
+  "id": "7710",
+  "playerId": "7710",
+  "playerName": "Mitchell Starc",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dae"
+  },
+  "documentCode": "8120eb64-bdff-443a-885d-40bf551f131e",
+  "id": "10754",
+  "playerId": "10754",
+  "playerName": "Mukesh Kumar",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943db7"
+  },
+  "documentCode": "8b3ef7a7-443a-43ff-b4a2-1d16d8ebee7f",
+  "id": "13170",
+  "playerId": "13170",
+  "playerName": "Aaron Hardie",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943db8"
+  },
+  "documentCode": "5ebffcb1-67d9-4aa1-9463-428e4f819173",
+  "id": "14922",
+  "playerId": "14922",
+  "playerName": "Suryansh Shedge",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943db9"
+  },
+  "documentCode": "7d9aff84-34fe-41a0-ad08-11eccf49b002",
+  "id": "10919",
+  "playerId": "10919",
+  "playerName": "Shashank Singh",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dbd"
+  },
+  "documentCode": "7e814958-ae62-4d29-b863-e67a599b2ad0",
+  "id": "14254",
+  "playerId": "14254",
+  "playerName": "Prabhsimran Singh",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dc2"
+  },
+  "documentCode": "eae0fd67-de39-4d99-b5d0-a9ef17dac48d",
+  "id": "13217",
+  "playerId": "13217",
+  "playerName": "Arshdeep Singh",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dc5"
+  },
+  "documentCode": "88265e23-ae0d-4731-bc4f-d97cdd5b49f8",
+  "id": "14336",
+  "playerId": "14336",
+  "playerName": "Kuldeep Sen",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dcd"
+  },
+  "documentCode": "17861d1a-92fb-40ae-925a-d94f0fde179e",
+  "id": "9647",
+  "playerId": "9647",
+  "playerName": "Hardik Pandya",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dd2"
+  },
+  "documentCode": "bc339a8f-6b53-4556-99dc-397a7af63ca8",
+  "id": "10100",
+  "playerId": "10100",
+  "playerName": "Mitchell Santner",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dd3"
+  },
+  "documentCode": "e06675da-b49c-466e-a581-2f235c64246b",
+  "id": "13747",
+  "playerId": "13747",
+  "playerName": "Arjun Tendulkar",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dd4"
+  },
+  "documentCode": "efe8e6eb-8774-4d4f-8f1f-917f2acf30d4",
+  "id": "13070",
+  "playerId": "13070",
+  "playerName": "Ryan Rickelton",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943ddd"
+  },
+  "documentCode": "197ac4eb-4142-4d33-806d-ec0beb8acb84",
+  "id": "7836",
+  "playerId": "7836",
+  "playerName": "Deepak Chahar",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dde"
+  },
+  "documentCode": "8b9db615-0860-4584-a4b3-790dcb756d7c",
+  "id": "12071",
+  "playerId": "12071",
+  "playerName": "Mujeeb Ur Rahman",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943de0"
+  },
+  "documentCode": "085884c2-b3d1-4061-a8c7-340bec6cd58a",
+  "id": "11808",
+  "playerId": "11808",
+  "playerName": "Shubman Gill",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943de1"
+  },
+  "documentCode": "1ecac0a3-22c3-4364-adfe-bfb11aad24af",
+  "id": "10693",
+  "playerId": "10693",
+  "playerName": "Glenn Phillips",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943de5"
+  },
+  "documentCode": "6ae748e0-5167-4df0-a260-76a994483902",
+  "id": "13748",
+  "playerId": "13748",
+  "playerName": "Sherfane Rutherford",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943de6"
+  },
+  "documentCode": "15ebb478-6a37-4363-892f-ec4b62abf377",
+  "id": "10954",
+  "playerId": "10954",
+  "playerName": "Mahipal Lomror",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943de9"
+  },
+  "documentCode": "805fc1d0-a9d8-4c14-aa82-9fc58709563e",
+  "id": "18637",
+  "playerId": "18637",
+  "playerName": "Arshad Khan",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943df2"
+  },
+  "documentCode": "f2113c4f-319f-4a1a-b776-85fc0eb307f2",
+  "id": "22141",
+  "playerId": "22141",
+  "playerName": "Gurnoor Brar",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943df5"
+  },
+  "documentCode": "5527a9bb-25b0-4c5e-a771-5d8093c495c5",
+  "id": "12643",
+  "playerId": "12643",
+  "playerName": "Kulwant Khejroliya",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943df6"
+  },
+  "documentCode": "c41c66b6-4fed-47a4-8bc8-d60924443702",
+  "id": "10551",
+  "playerId": "10551",
+  "playerName": "Prasidh Krishna",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dfb"
+  },
+  "documentCode": "40c99c43-4a14-4048-a68f-fa1e706af005",
+  "id": "13907",
+  "playerId": "13907",
+  "playerName": "Ayush Badoni",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dfc"
+  },
+  "documentCode": "47943d3a-141e-41af-93b0-f20afc2770ea",
+  "id": "6250",
+  "playerId": "6250",
+  "playerName": "Mitchell Marsh",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dfe"
+  },
+  "documentCode": "e6221a64-864a-4893-9b33-7c69d5fe726a",
+  "id": "51378",
+  "playerId": "51378",
+  "playerName": "Arshin Kulkarni",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943e02"
+  },
+  "documentCode": "c7dcd5c8-c571-4a38-9b2b-aa39a6f408b8",
+  "id": "36515",
+  "playerId": "36515",
+  "playerName": "Digvesh Singh",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943e03"
+  },
+  "documentCode": "6de5f5c2-4f70-4fb0-bdb2-dfed225b464c",
+  "id": "13089",
+  "playerId": "13089",
+  "playerName": "Matthew Breetzke",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943e04"
+  },
+  "documentCode": "221797ac-7006-42d6-ab12-4a560e97f972",
+  "id": "9406",
+  "playerId": "9406",
+  "playerName": "Nicholas Pooran",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943e06"
+  },
+  "documentCode": "2cc9ce6a-0046-452f-a7c2-338b843325e9",
+  "id": "10744",
+  "playerId": "10744",
+  "playerName": "Rishabh Pant",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943e07"
+  },
+  "documentCode": "b32e56ab-de55-487e-b91c-1e86d57a184c",
+  "id": "14327",
+  "playerId": "14327",
+  "playerName": "Akash Singh",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943e09"
+  },
+  "documentCode": "3c191f09-30fb-4548-9f7b-efaa3cc6a9fc",
+  "id": "22401",
+  "playerId": "22401",
+  "playerName": "Mayank Yadav",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d2d"
+  },
+  "documentCode": "482d1524-57bd-4bdc-996d-2ba039245d3d",
+  "id": "1427488",
+  "playerId": "1427488",
+  "playerName": "Andre Siddarth C",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d30"
+  },
+  "documentCode": "94fc4449-2a44-410d-9f26-f80c83097e5c",
+  "id": "11195",
+  "playerId": "11195",
+  "playerName": "Shivam Dube",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d37"
+  },
+  "documentCode": "daa212c5-1f94-4aa2-9aa5-b777edfe1754",
+  "id": "10420",
+  "playerId": "10420",
+  "playerName": "Sam Curran",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d39"
+  },
+  "documentCode": "5979277f-96ed-4bac-98c9-e635164cd259",
+  "id": "9838",
+  "playerId": "9838",
+  "playerName": "Devon Conway",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm medium",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d3a"
+  },
+  "documentCode": "54513614-b748-4ff2-bd2f-94a3ab3edfd5",
+  "id": "265",
+  "playerId": "265",
+  "playerName": "MS Dhoni",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm medium",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d3d"
+  },
+  "documentCode": "32a4d3b0-8c95-47c8-a286-0963d26397da",
+  "id": "12092",
+  "playerId": "12092",
+  "playerName": "Kamlesh Nagarkoti",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d43"
+  },
+  "documentCode": "716913c3-2a8d-48ac-8e4c-b952e5513598",
+  "id": "15452",
+  "playerId": "15452",
+  "playerName": "Noor Ahmad",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Left-arm wrist-spin",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.803Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.803Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d45"
+  },
+  "documentCode": "2d2ba2d4-49ed-4d73-97c2-c4b7aeb2c6d4",
+  "id": "51791",
+  "playerId": "51791",
+  "playerName": "Vaibhav Suryavanshi",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.803Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.803Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d46"
+  },
+  "documentCode": "f6da7560-fedc-46be-9651-efa038eb2205",
+  "id": "9789",
+  "playerId": "9789",
+  "playerName": "Shimron Hetmyer",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.803Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.803Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d47"
+  },
+  "documentCode": "bdab96ec-9480-4496-8d31-e66cbb71f6e7",
+  "id": "13940",
+  "playerId": "13940",
+  "playerName": "Yashasvi Jaiswal",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d48"
+  },
+  "documentCode": "ccb6df9d-c7fe-497b-9bbb-c391f83a13d3",
+  "id": "19328",
+  "playerId": "19328",
+  "playerName": "Shubham Dubey",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d4b"
+  },
+  "documentCode": "20a7f1f8-473e-40bf-ac39-96df9b98d0f8",
+  "id": "15749",
+  "playerId": "15749",
+  "playerName": "Yudhvir Singh Charak",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d4c"
+  },
+  "documentCode": "45126003-ed66-4b8e-bc0f-5a793c18df5b",
+  "id": "10926",
+  "playerId": "10926",
+  "playerName": "Wanindu Hasaranga",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d4f"
+  },
+  "documentCode": "21870f78-d64f-4405-b619-2b68b32298f6",
+  "id": "32854",
+  "playerId": "32854",
+  "playerName": "Kunal Singh Rathore",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d50"
+  },
+  "documentCode": "5b859b12-ea0f-468d-a1fc-15ba19f5a902",
+  "id": "8356",
+  "playerId": "8356",
+  "playerName": "Sandeep Sharma",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d52"
+  },
+  "documentCode": "71e9b934-ce72-4474-bd63-f215010af647",
+  "id": "14190",
+  "playerId": "14190",
+  "playerName": "Kumar Kartikeya",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Left-arm wrist-spin",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d57"
+  },
+  "documentCode": "460d94dc-2001-41b3-9dec-8c97826660c9",
+  "id": "24261",
+  "playerId": "24261",
+  "playerName": "Ashok Sharma",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d5d"
+  },
+  "documentCode": "52edc839-af09-4b0e-a452-61429adee0db",
+  "id": "11445",
+  "playerId": "11445",
+  "playerName": "Rovman Powell",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d61"
+  },
+  "documentCode": "5e70128d-23ca-48b2-8c6d-1560f712fde0",
+  "id": "6692",
+  "playerId": "6692",
+  "playerName": "Moeen Ali",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d63"
+  },
+  "documentCode": "e7a93553-e48f-480d-b9c3-ecebdea0d23c",
+  "id": "7736",
+  "playerId": "7736",
+  "playerName": "Andre Russell",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d64"
+  },
+  "documentCode": "a7d5b9b2-7720-4431-b9f4-784130f98a7d",
+  "id": "8520",
+  "playerId": "8520",
+  "playerName": "Quinton de Kock",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d66"
+  },
+  "documentCode": "01eec3a4-c80f-4a02-b3df-56ed1f39ea76",
+  "id": "13972",
+  "playerId": "13972",
+  "playerName": "Luvnith Sisodia",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d68"
+  },
+  "documentCode": "2cd63027-9879-40bf-8d41-a7562312bf2d",
+  "id": "12627",
+  "playerId": "12627",
+  "playerName": "Mayank Markande",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d6a"
+  },
+  "documentCode": "e4752f72-0586-4f88-b765-938c3629dbe4",
+  "id": "24729",
+  "playerId": "24729",
+  "playerName": "Harshit Rana",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d71"
+  },
+  "documentCode": "9673eb8a-1813-4240-bbd2-c6745f41d922",
+  "id": "8709",
+  "playerId": "8709",
+  "playerName": "Sachin Baby",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d75"
+  },
+  "documentCode": "54dbed61-41a1-431f-b716-8f4bce0900aa",
+  "id": "10940",
+  "playerId": "10940",
+  "playerName": "Kamindu Mendis",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d78"
+  },
+  "documentCode": "cf38d118-f41c-430e-b86f-dba3b3f6e87b",
+  "id": "10946",
+  "playerId": "10946",
+  "playerName": "Zeeshan Ansari",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d7b"
+  },
+  "documentCode": "5217e9c2-43e5-48e7-9309-26ef9de6c62d",
+  "id": "8175",
+  "playerId": "8175",
+  "playerName": "Harshal Patel",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d7c"
+  },
+  "documentCode": "80909f91-a0a5-42b9-bfed-8315bea1b565",
+  "id": "12087",
+  "playerId": "12087",
+  "playerName": "Rahul Chahar",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d7d"
+  },
+  "documentCode": "cefdb528-2fc6-427f-ae78-a2be5bc08b3b",
+  "id": "14163",
+  "playerId": "14163",
+  "playerName": "Simarjeet Singh",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d86"
+  },
+  "documentCode": "544ae68a-73cc-424d-9cb5-6bb1ff67d9d5",
+  "id": "13169",
+  "playerId": "13169",
+  "playerName": "Tim David",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d87"
+  },
+  "documentCode": "da90b076-6a8a-4474-8aa9-32fa6c34a732",
+  "id": "11311",
+  "playerId": "11311",
+  "playerName": "Krunal Pandya",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d90"
+  },
+  "documentCode": "f81ba51b-2567-43ac-a220-67b8d2f7c145",
+  "id": "6258",
+  "playerId": "6258",
+  "playerName": "Josh Hazlewood",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d93"
+  },
+  "documentCode": "8813e51b-9357-41d1-a09b-8f1da4400e7a",
+  "id": "14274",
+  "playerId": "14274",
+  "playerName": "Rasikh Dar Salam",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d97"
+  },
+  "documentCode": "49e00550-e6bd-48ad-977e-a44d502a92f4",
+  "id": "1447073",
+  "playerId": "1447073",
+  "playerName": "Abhinandan Singh",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d99"
+  },
+  "documentCode": "06880860-5780-4fc4-a15b-30f645490c6e",
+  "id": "8257",
+  "playerId": "8257",
+  "playerName": "Karun Nair",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d9d"
+  },
+  "documentCode": "c0e7e0fc-f629-4069-a106-3b65e43718bf",
+  "id": "13497",
+  "playerId": "13497",
+  "playerName": "Ashutosh Sharma",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943da0"
+  },
+  "documentCode": "3efca1da-cfa5-47b9-b143-83e5803a17cc",
+  "id": "8808",
+  "playerId": "8808",
+  "playerName": "Axar Patel",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943da4"
+  },
+  "documentCode": "c6c82554-b6a7-4e45-bf18-b3464058a725",
+  "id": "1447321",
+  "playerId": "1447321",
+  "playerName": "Madhav Tiwari",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943da6"
+  },
+  "documentCode": "52524917-f4f9-4ba3-87c6-cb4ef4a8a252",
+  "id": "24326",
+  "playerId": "24326",
+  "playerName": "Abishek Porel",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943da7"
+  },
+  "documentCode": "ad31af4a-90a6-4736-bc06-de7dd8ad95f5",
+  "id": "14798",
+  "playerId": "14798",
+  "playerName": "Donovan Ferreira",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943da8"
+  },
+  "documentCode": "9d8db977-104c-4aed-b9ed-13e14aa86f9e",
+  "id": "8733",
+  "playerId": "8733",
+  "playerName": "KL Rahul",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943daa"
+  },
+  "documentCode": "d0a85c8f-8886-4da5-936b-d49a953eb980",
+  "id": "8393",
+  "playerId": "8393",
+  "playerName": "Dushmantha Chameera",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943db3"
+  },
+  "documentCode": "e194c2d4-b023-4b37-9b0d-afe3b6a23472",
+  "id": "14689",
+  "playerId": "14689",
+  "playerName": "Priyansh Arya",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dbb"
+  },
+  "documentCode": "09b18860-fbd5-4a85-a86a-014164a01d83",
+  "id": "13214",
+  "playerId": "13214",
+  "playerName": "Azmatullah Omarzai",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dbe"
+  },
+  "documentCode": "52f0df80-77ea-4032-b889-1bc31b1e7787",
+  "id": "10637",
+  "playerId": "10637",
+  "playerName": "Josh Inglis",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dbf"
+  },
+  "documentCode": "a822b383-75ae-403b-962a-30c7b551d8a2",
+  "id": "11893",
+  "playerId": "11893",
+  "playerName": "Vishnu Vinod",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dc1"
+  },
+  "documentCode": "8f2eb1c1-e712-4d84-b503-64165b0a310d",
+  "id": "10692",
+  "playerId": "10692",
+  "playerName": "Lockie Ferguson",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dc9"
+  },
+  "documentCode": "9389ddff-236a-4f34-a41a-941546b6c847",
+  "id": "7915",
+  "playerId": "7915",
+  "playerName": "Suryakumar Yadav",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dcb"
+  },
+  "documentCode": "b89c145e-b3ba-4694-bf3d-54302e8a4d8b",
+  "id": "36139",
+  "playerId": "36139",
+  "playerName": "Naman Dhir",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dce"
+  },
+  "documentCode": "6bc56aa1-9379-4b8d-a745-060926235d58",
+  "id": "22601",
+  "playerId": "22601",
+  "playerName": "Raj Bawa",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dd5"
+  },
+  "documentCode": "d0ec7a67-837c-4e54-8bbf-2650ab3b2ccc",
+  "id": "13082",
+  "playerId": "13082",
+  "playerName": "Krishnan Shrijith",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dd6"
+  },
+  "documentCode": "de106dac-03a5-424f-bd15-d46b72f1e4dc",
+  "id": "36454",
+  "playerId": "36454",
+  "playerName": "Robin Minz",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943de4"
+  },
+  "documentCode": "651815dd-8453-4deb-9d2f-b4c573d06d27",
+  "id": "22576",
+  "playerId": "22576",
+  "playerName": "Nishant Sindhu",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943deb"
+  },
+  "documentCode": "3dc26dcf-b633-4220-a4ef-6d0eb5ba502c",
+  "id": "11077",
+  "playerId": "11077",
+  "playerName": "Karim Janat",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943df4"
+  },
+  "documentCode": "2cb4dee5-d9fe-48d5-9742-859d6f842fdd",
+  "id": "9585",
+  "playerId": "9585",
+  "playerName": "Kagiso Rabada",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943df8"
+  },
+  "documentCode": "f209d5af-7adb-44f4-88b1-52706f001a78",
+  "id": "10223",
+  "playerId": "10223",
+  "playerName": "Himmat Singh",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dff"
+  },
+  "documentCode": "bf5274b2-fb85-4d80-af55-c8a6fab01500",
+  "id": "14693",
+  "playerId": "14693",
+  "playerName": "Yuvraj Chaudhary",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943e05"
+  },
+  "documentCode": "b2b88e2c-4b25-421d-8c2e-931036ac3f84",
+  "id": "13388",
+  "playerId": "13388",
+  "playerName": "Aryan Juyal",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943e0a"
+  },
+  "documentCode": "f9595684-d443-4af5-8eb2-4d0654bf4075",
+  "id": "14726",
+  "playerId": "14726",
+  "playerName": "Akash Deep",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943e0e"
+  },
+  "documentCode": "41d52671-622d-4ec6-9d35-706f93c94bec",
+  "id": "54735",
+  "playerId": "54735",
+  "playerName": "Prince Yadav",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943e0f"
+  },
+  "documentCode": "865bd1d7-87c4-4e46-93c6-6e845e9a6bb2",
+  "id": "13534",
+  "playerId": "13534",
+  "playerName": "Mohsin Khan",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943e0c"
+  },
+  "documentCode": "800009af-f59d-44ee-8228-75d7c78f8911",
+  "id": "50458",
+  "playerId": "50458",
+  "playerName": "Shamar Joseph",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943e0d"
+  },
+  "documentCode": "b11689a8-be91-48e6-957e-61d38b889318",
+  "id": "9781",
+  "playerId": "9781",
+  "playerName": "Avesh Khan",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d34"
+  },
+  "documentCode": "3b60beef-f7d0-4f86-a46f-447ef7455d70",
+  "id": "32835",
+  "playerId": "32835",
+  "playerName": "Ramakrishna Ghosh",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d35"
+  },
+  "documentCode": "def2567d-e101-4673-b3d9-059b31c48dd7",
+  "id": "587",
+  "playerId": "587",
+  "playerName": "Ravindra Jadeja",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d36"
+  },
+  "documentCode": "15d3e88a-ee77-453f-9ac1-afdc27c53310",
+  "id": "14598",
+  "playerId": "14598",
+  "playerName": "Anshul Kamboj",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d42"
+  },
+  "documentCode": "9a273eef-ce51-4d84-852a-772348350d9e",
+  "id": "19807",
+  "playerId": "19807",
+  "playerName": "Gurjapneet Singh",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Left-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.803Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.803Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d53"
+  },
+  "documentCode": "09ae5d92-957a-4c80-94c0-bdf6fe157207",
+  "id": "15727",
+  "playerId": "15727",
+  "playerName": "Akash Madhwal",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d55"
+  },
+  "documentCode": "50880831-2690-4c3b-9202-c62658ac477e",
+  "id": "18504",
+  "playerId": "18504",
+  "playerName": "Maheesh Theekshana",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d58"
+  },
+  "documentCode": "74e0cda0-0ff9-499e-82da-59682f633cd9",
+  "id": "11540",
+  "playerId": "11540",
+  "playerName": "Jofra Archer",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d59"
+  },
+  "documentCode": "3286c7d0-0e4a-453d-bab0-08b2542061a9",
+  "id": "1836",
+  "playerId": "1836",
+  "playerName": "Manish Pandey",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm medium",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d5e"
+  },
+  "documentCode": "478185ac-c09d-4438-b469-e9e5be075ee7",
+  "id": "12344",
+  "playerId": "12344",
+  "playerName": "Anukul Roy",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d5f"
+  },
+  "documentCode": "a7d49c52-15db-440b-94eb-868ff5266d31",
+  "id": "12337",
+  "playerId": "12337",
+  "playerName": "Ramandeep Singh ",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d60"
+  },
+  "documentCode": "097bce32-5b15-4cf7-bc44-291bdfe5dbc0",
+  "id": "10917",
+  "playerId": "10917",
+  "playerName": "Venkatesh Iyer",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d62"
+  },
+  "documentCode": "f20920c0-3c41-4a8c-80a7-f093337de1b5",
+  "id": "2276",
+  "playerId": "2276",
+  "playerName": "Sunil Narine",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d65"
+  },
+  "documentCode": "3eb212d1-5ae3-42c3-aab3-5ccc3915d487",
+  "id": "13213",
+  "playerId": "13213",
+  "playerName": "Rahmanullah Gurbaz",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d67"
+  },
+  "documentCode": "a6e40224-e4d5-42c8-94cf-c4b8f2dfe9a6",
+  "id": "12926",
+  "playerId": "12926",
+  "playerName": "Varun Chakravarthy",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d69"
+  },
+  "documentCode": "fc837f0b-e26e-4eb6-99aa-f62e21053ad0",
+  "id": "15861",
+  "playerId": "15861",
+  "playerName": "Vaibhav Arora",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d6b"
+  },
+  "documentCode": "b5739237-0e49-46be-b519-0b4e76b0eec3",
+  "id": "11427",
+  "playerId": "11427",
+  "playerName": "Anrich Nortje",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d6e"
+  },
+  "documentCode": "4fdac8f0-7ac1-424d-8fe2-536dde14a2cd",
+  "id": "13914",
+  "playerId": "13914",
+  "playerName": "Atharva Taide",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d72"
+  },
+  "documentCode": "8ce45b46-6364-4ad1-ad6c-910ddd7145dd",
+  "id": "1447065",
+  "playerId": "1447065",
+  "playerName": "Aniket Verma",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm medium",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d74"
+  },
+  "documentCode": "4a00e79a-f929-4734-82ca-e4ec31e4e196",
+  "id": "12086",
+  "playerId": "12086",
+  "playerName": "Abhishek Sharma",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d76"
+  },
+  "documentCode": "a70b0b52-ac1f-4400-ac3d-10deed88da69",
+  "id": "10209",
+  "playerId": "10209",
+  "playerName": "Heinrich Klaasen",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d79"
+  },
+  "documentCode": "c12f868d-7b82-4751-b479-5a46dc39f757",
+  "id": "8095",
+  "playerId": "8095",
+  "playerName": "Pat Cummins",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d7a"
+  },
+  "documentCode": "2bf1ca8e-d27e-40c6-a4ea-eaa6822b9005",
+  "id": "7909",
+  "playerId": "7909",
+  "playerName": "Mohammed Shami",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d83"
+  },
+  "documentCode": "398c5419-afe6-45a9-b7e7-6f52a031d607",
+  "id": "10636",
+  "playerId": "10636",
+  "playerName": "Rajat Patidar",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d8a"
+  },
+  "documentCode": "dcb6fade-38a3-48f3-8229-1f8369fa2fb6",
+  "id": "19636",
+  "playerId": "19636",
+  "playerName": "Jacob Bethell",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d96"
+  },
+  "documentCode": "2e5aa2cb-ee74-4d3a-be64-0081dfb0176a",
+  "id": "18509",
+  "playerId": "18509",
+  "playerName": "Nuwan Thushara",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d98"
+  },
+  "documentCode": "f9290477-89be-4ba7-b9d9-1465aaf0dd0f",
+  "id": "7825",
+  "playerId": "7825",
+  "playerName": "Faf du Plessis",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d9f"
+  },
+  "documentCode": "9511333e-ae27-4317-a049-144c65bc8bec",
+  "id": "1431811",
+  "playerId": "1431811",
+  "playerName": "Vipraj Nigam",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943da5"
+  },
+  "documentCode": "9e406032-fc3d-4bec-88dc-e1e17c7b06c3",
+  "id": "19243",
+  "playerId": "19243",
+  "playerName": "Tristan Stubbs",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dac"
+  },
+  "documentCode": "2bcada91-15eb-4d86-af1f-c6756bee2a40",
+  "id": "8181",
+  "playerId": "8181",
+  "playerName": "Mohit Sharma",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dad"
+  },
+  "documentCode": "4b11d048-9d33-4ae7-9322-db0c08cc697d",
+  "id": "10225",
+  "playerId": "10225",
+  "playerName": "T Natarajan",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943daf"
+  },
+  "documentCode": "3f64af67-a7ab-4675-9754-7a2bb3898193",
+  "id": "13915",
+  "playerId": "13915",
+  "playerName": "Nehal Wadhera",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943db1"
+  },
+  "documentCode": "41638be4-5bc4-43ba-9a79-b8ab7bb39090",
+  "id": "9428",
+  "playerId": "9428",
+  "playerName": "Shreyas Iyer",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943db4"
+  },
+  "documentCode": "fc131cbe-cfe6-46a7-8321-310fc8fbbcfd",
+  "id": "27424",
+  "playerId": "27424",
+  "playerName": "Musheer Khan",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943db6"
+  },
+  "documentCode": "218cfb05-034e-4808-ae11-8550a55cadf0",
+  "id": "7662",
+  "playerId": "7662",
+  "playerName": "Glenn Maxwell",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dba"
+  },
+  "documentCode": "23521536-b7e7-4152-aeeb-a5c2d0776d73",
+  "id": "10484",
+  "playerId": "10484",
+  "playerName": "Praveen Dubey",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dbc"
+  },
+  "documentCode": "8796d29e-2700-4b22-9b24-bea5da436711",
+  "id": "14565",
+  "playerId": "14565",
+  "playerName": "Marco Jansen",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Left-arm fast",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dc0"
+  },
+  "documentCode": "ca4eee7e-8db0-4a03-886a-d9b5179331a2",
+  "id": "14452",
+  "playerId": "14452",
+  "playerName": "Harpreet Brar",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dc6"
+  },
+  "documentCode": "39836091-bb7f-491a-aca4-d858c80d4d43",
+  "id": "12096",
+  "playerId": "12096",
+  "playerName": "Yash Thakur",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dc8"
+  },
+  "documentCode": "5a4e6989-6aa8-4f96-bb54-5d4c9b4a59d3",
+  "id": "576",
+  "playerId": "576",
+  "playerName": "Rohit Sharma",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dca"
+  },
+  "documentCode": "ef534e1e-039b-460a-8316-10cfaf7fbdb4",
+  "id": "14504",
+  "playerId": "14504",
+  "playerName": "Tilak Varma",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dcf"
+  },
+  "documentCode": "c0ff7127-9750-46ab-aac2-c9603a4f8b39",
+  "id": "12258",
+  "playerId": "12258",
+  "playerName": "Will Jacks",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dd7"
+  },
+  "documentCode": "ae9a360c-b6ef-4994-a45b-22ea5088b15a",
+  "id": "9311",
+  "playerId": "9311",
+  "playerName": "Jasprit Bumrah",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dd9"
+  },
+  "documentCode": "c038dd2b-0481-4cd9-ba85-caa39c27f016",
+  "id": "8349",
+  "playerId": "8349",
+  "playerName": "Reece Topley",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Left-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dda"
+  },
+  "documentCode": "6b4780cb-34f4-4abd-b6be-b361db5138c0",
+  "id": "8531",
+  "playerId": "8531",
+  "playerName": "Lizaad Williams",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943ddc"
+  },
+  "documentCode": "31dbeed0-3766-4985-b472-2637e9641da9",
+  "id": "8117",
+  "playerId": "8117",
+  "playerName": "Trent Boult",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Left-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943ddf"
+  },
+  "documentCode": "ea965420-2316-4312-bf7b-b281c4ea084e",
+  "id": "13866",
+  "playerId": "13866",
+  "playerName": "Sai Sudharsan",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943de2"
+  },
+  "documentCode": "39f75ff2-b42e-4d12-a091-dd75e871e332",
+  "id": "10226",
+  "playerId": "10226",
+  "playerName": "Shahrukh Khan",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943de3"
+  },
+  "documentCode": "a611afda-2b38-4667-aace-33598dda8bc4",
+  "id": "9693",
+  "playerId": "9693",
+  "playerName": "Rahul Tewatia",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943de7"
+  },
+  "documentCode": "ab1d0e52-6417-4b63-80bd-ee88763eb8bd",
+  "id": "10738",
+  "playerId": "10738",
+  "playerName": "Rashid Khan",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943de8"
+  },
+  "documentCode": "a3cf718e-1493-44a4-92bb-3bd2cac91e2c",
+  "id": "11595",
+  "playerId": "11595",
+  "playerName": "Ravisrinivasan Sai Kishore",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943ded"
+  },
+  "documentCode": "c0d3e4a6-d1de-49bd-93c2-ddd637098284",
+  "id": "15779",
+  "playerId": "15779",
+  "playerName": "Kumar Kushagra",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dee"
+  },
+  "documentCode": "5e4a1451-d368-4b16-b5ff-8dd678e40416",
+  "id": "13135",
+  "playerId": "13135",
+  "playerName": "Anuj Rawat",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943def"
+  },
+  "documentCode": "8a9af836-c372-4352-976f-f2713ebf653b",
+  "id": "2258",
+  "playerId": "2258",
+  "playerName": "Jos Buttler",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943df3"
+  },
+  "documentCode": "67a13873-5682-4a4b-8680-1cf013048421",
+  "id": "702",
+  "playerId": "702",
+  "playerName": "Ishant Sharma",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943df7"
+  },
+  "documentCode": "0532c768-e7b8-4672-8a0b-56654bc5785c",
+  "id": "10808",
+  "playerId": "10808",
+  "playerName": "Mohammed Siraj",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dfa"
+  },
+  "documentCode": "5c6b480a-4568-492e-8e7f-0d9adb9874b6",
+  "id": "9582",
+  "playerId": "9582",
+  "playerName": "Aiden Markram",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dfd"
+  },
+  "documentCode": "d04f51ca-8737-43d3-8086-f2895a10b05f",
+  "id": "14628",
+  "playerId": "14628",
+  "playerName": "Abdul Samad",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943e01"
+  },
+  "documentCode": "f92cbaec-4573-4d5a-a43d-3884ac32f718",
+  "id": "14599",
+  "playerId": "14599",
+  "playerName": "RS Hangargekar",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d2c"
+  },
+  "documentCode": "7ec178b8-01df-490a-ab24-0c5ee524505c",
+  "id": "11813",
+  "playerId": "11813",
+  "playerName": "Ruturaj Gaikwad",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.801Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.801Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d2e"
+  },
+  "documentCode": "13a95cd6-8bc0-4129-bdbe-dfc8cd665585",
+  "id": "22571",
+  "playerId": "22571",
+  "playerName": "Shaik Rasheed",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d31"
+  },
+  "documentCode": "3954f9da-23a0-4e7c-a004-83932aebab60",
+  "id": "11177",
+  "playerId": "11177",
+  "playerName": "Rachin Ravindra",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d38"
+  },
+  "documentCode": "ae77ff1d-f2e0-4c78-ad3f-fc8a14e1ae4d",
+  "id": "1593",
+  "playerId": "1593",
+  "playerName": "Ravichandran Ashwin",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d3c"
+  },
+  "documentCode": "33076137-6a31-4f00-b469-57aca534f0bc",
+  "id": "8512",
+  "playerId": "8512",
+  "playerName": "Jamie Overton",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d3e"
+  },
+  "documentCode": "82cbb1b5-1e99-46cc-92bb-bf46a02c7ed5",
+  "id": "9746",
+  "playerId": "9746",
+  "playerName": "Shreyas Gopal",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d3f"
+  },
+  "documentCode": "282a49b8-760d-4918-a1ac-724c5a198e4f",
+  "id": "16458",
+  "playerId": "16458",
+  "playerName": "Matheesha Pathirana",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.803Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.803Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d49"
+  },
+  "documentCode": "d8b0efcb-d73b-44bf-b4f1-d6404fa3cee2",
+  "id": "9204",
+  "playerId": "9204",
+  "playerName": "Nitish Rana",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d4a"
+  },
+  "documentCode": "e6dcdfaf-3d15-47f3-9385-4234135d9bbf",
+  "id": "12305",
+  "playerId": "12305",
+  "playerName": "Riyan Parag",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d4d"
+  },
+  "documentCode": "d7eb7c90-d02d-4e9d-8218-b803d74c1114",
+  "id": "8271",
+  "playerId": "8271",
+  "playerName": "Sanju Samson",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d4e"
+  },
+  "documentCode": "0ae444a3-8da2-4532-802c-98bab6429c3a",
+  "id": "14691",
+  "playerId": "14691",
+  "playerName": "Dhruv Jurel",
+  "playerRole": "WK-Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "WicketKeeper",
+  "isWicketKeeper": true,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d54"
+  },
+  "documentCode": "47547497-001f-4b2a-aec4-8865e60ec2a2",
+  "id": "23346",
+  "playerId": "23346",
+  "playerName": "Kwena Maphaka",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d6f"
+  },
+  "documentCode": "cfc2714a-e32b-4111-8dc8-ea7c40c249a8",
+  "id": "8497",
+  "playerId": "8497",
+  "playerName": "Travis Head",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d7f"
+  },
+  "documentCode": "c10aff5c-4c80-4f45-9475-07a7c982b733",
+  "id": "8642",
+  "playerId": "8642",
+  "playerName": "Adam Zampa",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d81"
+  },
+  "documentCode": "b59e5bb2-d130-4545-aba6-301efc1a80e2",
+  "id": "11436",
+  "playerId": "11436",
+  "playerName": "Brydon Carse",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d84"
+  },
+  "documentCode": "2392a8a9-b4b1-4d6d-9544-d2ee81160952",
+  "id": "13088",
+  "playerId": "13088",
+  "playerName": "Devdutt Padikkal",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d85"
+  },
+  "documentCode": "e0e46767-63e6-4d4d-8714-b7e849547db8",
+  "id": "52418",
+  "playerId": "52418",
+  "playerName": "Swastik Chikara",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d89"
+  },
+  "documentCode": "22677eef-3e2d-4958-bf5c-e0b861c99048",
+  "id": "13962",
+  "playerId": "13962",
+  "playerName": "Manoj Bhandage",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d95"
+  },
+  "documentCode": "15093f30-e922-4ccb-89ad-4e95cd8dce5a",
+  "id": "14172",
+  "playerId": "14172",
+  "playerName": "Yash Dayal",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Left-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943d9b"
+  },
+  "documentCode": "29860092-eb0c-4136-bb8c-ca54f5c35e5d",
+  "id": "14501",
+  "playerId": "14501",
+  "playerName": "Jake Fraser-McGurk",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943da2"
+  },
+  "documentCode": "3a7322ea-603b-4da2-b745-c01a96190414",
+  "id": "11777",
+  "playerId": "11777",
+  "playerName": "Ajay Jadav Mandal",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943da3"
+  },
+  "documentCode": "b3b9237a-c862-4566-9291-08d204bd28f1",
+  "id": "47742",
+  "playerId": "47742",
+  "playerName": "Manvanth Kumar L",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943da9"
+  },
+  "documentCode": "2663d063-89f2-42f9-adde-8ea4a1110dc8",
+  "id": "8292",
+  "playerId": "8292",
+  "playerName": "Kuldeep Yadav",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm wrist-spin",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943db0"
+  },
+  "documentCode": "f8d322cf-aafc-47af-a185-9bb3954ece2f",
+  "id": "22561",
+  "playerId": "22561",
+  "playerName": "Harnoor Singh",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943db2"
+  },
+  "documentCode": "f1ba7f54-9eaf-465d-9480-6d456c29be16",
+  "id": "32525",
+  "playerId": "32525",
+  "playerName": "Pyla Avinash",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943db5"
+  },
+  "documentCode": "59cc44cd-336e-46c7-9089-71b2362ef1ab",
+  "id": "8989",
+  "playerId": "8989",
+  "playerName": "Marcus Stoinis",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dc3"
+  },
+  "documentCode": "0f05fc3e-4afa-4592-ba04-f08283fa73a0",
+  "id": "7910",
+  "playerId": "7910",
+  "playerName": "Yuzvendra Chahal",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dc4"
+  },
+  "documentCode": "354e43b6-df71-4d06-95b9-03b763171e0f",
+  "id": "10486",
+  "playerId": "10486",
+  "playerName": "Vijaykumar Vyshak",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dc7"
+  },
+  "documentCode": "e8828a5e-7ffe-4b20-8f43-e7e37290a8e0",
+  "id": "11689",
+  "playerId": "11689",
+  "playerName": "Xavier Bartlett",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dcc"
+  },
+  "documentCode": "3b3dbfe6-98ca-4b88-b41f-a556f1a82471",
+  "id": "52428",
+  "playerId": "52428",
+  "playerName": "Bevon Jacobs",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dd0"
+  },
+  "documentCode": "c11b4c6c-625e-4fe6-b7a6-a17f1fc3dc6f",
+  "id": "1447337",
+  "playerId": "1447337",
+  "playerName": "Vignesh Puthur",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Left-arm wrist-spin",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dd1"
+  },
+  "documentCode": "1b0205aa-5040-410e-a85b-954b601c380b",
+  "id": "1431171",
+  "playerId": "1431171",
+  "playerName": "Satyanarayana Raju",
+  "playerRole": "Batting Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast-medium",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dd8"
+  },
+  "documentCode": "ce17a66c-9082-43bd-bed1-02a1e9e5d466",
+  "id": "11684",
+  "playerId": "11684",
+  "playerName": "Ashwani Kumar",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm fast-medium",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943ddb"
+  },
+  "documentCode": "94ee602c-4023-4bbc-a8da-56944a8d4147",
+  "id": "1844",
+  "playerId": "1844",
+  "playerName": "Karn Sharma",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dea"
+  },
+  "documentCode": "a512e1db-07a3-4eba-a934-c447892c35ef",
+  "id": "8182",
+  "playerId": "8182",
+  "playerName": "Jayant Yadav",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943dec"
+  },
+  "documentCode": "4a75d03a-b5a4-481b-80da-320de61147e5",
+  "id": "10945",
+  "playerId": "10945",
+  "playerName": "Washington Sundar",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Right-arm offbreak",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943df0"
+  },
+  "documentCode": "16a48a31-32be-409e-bdd6-1ee037927ee9",
+  "id": "13320",
+  "playerId": "13320",
+  "playerName": "Gerald Coetzee",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm fast",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943df1"
+  },
+  "documentCode": "06c24d07-aa49-410f-a043-ecba4601be57",
+  "id": "14596",
+  "playerId": "14596",
+  "playerName": "Manav Suthar",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943df9"
+  },
+  "documentCode": "9475f080-0821-4be2-b3db-2b976e29baed",
+  "id": "6349",
+  "playerId": "6349",
+  "playerName": "David Miller",
+  "playerRole": "Batter",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "",
+  "playerRoleType": "Batsman",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": true,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943e00"
+  },
+  "documentCode": "c20f1a6c-48d6-4987-8a7b-d8d13bb1c2fc",
+  "id": "14606",
+  "playerId": "14606",
+  "playerName": "Shahbaz Ahmed",
+  "playerRole": "Bowling Allrounder",
+  "playerBattingStyle": "Left-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "AllRounder",
+  "isWicketKeeper": false,
+  "isAllRounder": true,
+  "isBatsman": false,
+  "isBowler": false,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.809Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943e08"
+  },
+  "documentCode": "05ab93e8-b1af-4559-8852-2ee12b078a38",
+  "id": "14659",
+  "playerId": "14659",
+  "playerName": "Ravi Bishnoi",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Right-arm legbreak",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8fb5c4924ea952d943e0b"
+  },
+  "documentCode": "07e339e8-6b5c-49c7-aba7-bed0b60c18ab",
+  "id": "12930",
+  "playerId": "12930",
+  "playerName": "Manimaran Siddharth",
+  "playerRole": "Bowler",
+  "playerBattingStyle": "Right-hand bat",
+  "playerBowlingStyle": "Left-arm orthodox",
+  "playerRoleType": "Bowler",
+  "isWicketKeeper": false,
+  "isAllRounder": false,
+  "isBatsman": false,
+  "isBowler": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T22:17:00.810Z"
+  }
+}]
