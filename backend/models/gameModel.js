@@ -6,8 +6,8 @@ const MatchSchema = new mongoose.Schema(
       type: String,
       default: randomUUID().toString("hex"),
     },
-    gameName : {
-type : String,
+    gameName: {
+      type: String,
     },
     seriesId: {
       type: String,
@@ -53,7 +53,7 @@ type : String,
           type: String,
           require: true,
         },
-        playerName : {
+        playerName: {
           type: String,
           require: true,
         },
@@ -62,14 +62,14 @@ type : String,
           require: true,
           enum: ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"],
         },
-        player_id : {
+        player_id: {
           type: String,
           require: true,
         },
-        playerDocumentCode : {
+        playerDocumentCode: {
           type: String,
           require: true,
-        }
+        },
       },
     ],
     soldPlayerList: [
@@ -78,7 +78,7 @@ type : String,
           type: String,
           require: true,
         },
-        playerName : {
+        playerName: {
           type: String,
           require: true,
         },
@@ -87,14 +87,14 @@ type : String,
           require: true,
           enum: ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"],
         },
-        player_id : {
+        player_id: {
           type: String,
           require: true,
         },
-        playerDocumentCode : {
+        playerDocumentCode: {
           type: String,
           require: true,
-        }
+        },
       },
     ],
     playersList: [
@@ -103,19 +103,19 @@ type : String,
           type: String,
           require: true,
         },
-        playerName : {
+        playerName: {
           type: String,
           require: true,
         },
         soldFor: {
           type: Number,
           require: true,
-          default : 0
+          default: 0,
         },
         soldTo: {
           type: String,
           require: true,
-          default : ''
+          default: "",
         },
         isSold: {
           type: Boolean,
@@ -127,19 +127,19 @@ type : String,
           require: true,
           enum: ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"],
         },
-        player_id : {
+        player_id: {
           type: String,
           require: true,
         },
-        playerDocumentCode : {
+        playerDocumentCode: {
           type: String,
           require: true,
-        }
+        },
       },
     ],
     ownerPoints: [
       {
-        documentCode : {
+        documentCode: {
           type: String,
           require: true,
         },
@@ -157,28 +157,188 @@ type : String,
         },
       },
     ],
-    playerCountryAndLeagueDetails : [
+    playerCountryAndLeagueDetails: [
       {
-        playerId : {
+        playerId: {
           type: String,
           require: true,
         },
-        playerCountry : {
+        playerCountry: {
           type: String,
           require: true,
         },
-        playerName : {
+        playerName: {
           type: String,
           require: true,
-        }
-      }
+        },
+      },
     ],
-    notForeignTeamList : [
+    notForeignTeamList: [
       {
         type: String,
-          require: true,
-      }
-    ]
+        require: true,
+      },
+    ],
+    fantasyPoint: [
+      {
+        matchId: {
+          type: Number,
+        },
+        matchNo: {
+          type: String,
+        },
+        teamOwner: {
+          type: String,
+        },
+        teamName: {
+          type: String,
+        },
+        iplTeamName: {
+          type: String,
+        },
+        previousMatchPoint: {
+          type: Number,
+        },
+        currentMatchPoint: {
+          type: Number,
+        },
+        previousTotalPoint: {
+          type: Number,
+        },
+        overallPoint: {
+          type: Number,
+        },
+        currentPlayingXI: [
+          {
+            playerName: {
+              type: String,
+            },
+            playerType: {
+              type: String,
+            },
+            playerId: {
+              type: Number,
+            },
+            totalPointForTheMatch: {
+              type: Number,
+            },
+          },
+        ],
+        captain: {
+          type: String,
+        },
+        viceCaptain: {
+          type: String,
+        },
+        fantasyPointHistory: [
+          {
+            matchId: {
+              type: Number,
+            },
+            matchNo: {
+              type: String,
+            },
+            teamOwner: {
+              type: String,
+            },
+            teamName: {
+              type: String,
+            },
+            iplTeamName: {
+              type: String,
+            },
+            previousMatchPoint: {
+              type: Number,
+            },
+            currentMatchPoint: {
+              type: Number,
+            },
+            previousTotalPoint: {
+              type: Number,
+            },
+            overallPoint: {
+              type: Number,
+            },
+            currentPlayingXI: [
+              {
+                playerName: {
+                  type: String,
+                },
+                playerType: {
+                  type: String,
+                },
+                playerId: {
+                  type: Number,
+                },
+                totalPointForTheMatch: {
+                  type: Number,
+                },
+              },
+            ],
+            captain: {
+              type: String,
+            },
+            viceCaptain: {
+              type: String,
+            },
+          },
+        ],
+      },
+    ],
+    playerPoints: [
+      {
+        matchId: {
+          type: Number,
+        },
+        matchNo: {
+          type: String,
+        },
+        playersList: [
+          {
+            playerName: {
+              type: String,
+            },
+            playerId: {
+              type: Number,
+            },
+            teamName: {
+              type: String,
+              require: true,
+            },
+            totalPointForTheMatch: {
+              type: Number,
+            },
+          },
+        ],
+        playerPointsHistory: [
+          {
+            matchId: {
+              type: Number,
+            },
+            matchNo: {
+              type: String,
+            },
+            playersList: [
+              {
+                playerName: {
+                  type: String,
+                },
+                playerId: {
+                  type: Number,
+                },
+                teamName: {
+                  type: String,
+                  require: true,
+                },
+                totalPointForTheMatch: {
+                  type: Number,
+                },
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   { timestamps: true }
 );

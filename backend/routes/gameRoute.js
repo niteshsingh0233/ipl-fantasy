@@ -1,5 +1,5 @@
 const express = require("express");
-const { CreateGame, InviteOwners, JoinGame, UpdateMaximumOwnersCount,GetAllGames,GetAllMyGames,GetSingleGame,UpdateplayerCountryAndLeagueDetails } = require("../controllers/gameController.js");
+const { CreateGame, InviteOwners, JoinGame, UpdateMaximumOwnersCount,GetAllGames,GetAllMyGames,GetSingleGame,UpdateplayerCountryAndLeagueDetails, CreateGameUsingFile } = require("../controllers/gameController.js");
 const { RequireSignIn, authorizeRoles } = require("../middlewares/userMiddleware");
 
 const router = express.Router();
@@ -12,6 +12,7 @@ router.get("/create-game/:seriesId",RequireSignIn, CreateGame)
 .get("/admin/getAllGames",RequireSignIn,  authorizeRoles('Admin'), GetAllGames)
 .get("/me/getAllMyGames", RequireSignIn, GetAllMyGames)
 .get("/me/getSingleGame/:gameId", RequireSignIn, GetSingleGame)
+.post("/create-game-using-excel", RequireSignIn, CreateGameUsingFile)
 
 
 module.exports = router;

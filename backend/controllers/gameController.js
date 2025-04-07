@@ -224,7 +224,22 @@ exports.UpdateplayerCountryAndLeagueDetails = async  (req,res) => {
   } catch (error) {
     res.status(500).json({
       message: "UpdateplayerCountryAndLeagueDetails Failed.",
-      error,
+      error : error.message,
+    });
+  }
+}
+
+exports.CreateGameUsingFile = async (req,res) => {
+  try{
+
+    res.status(200).json({
+      message: "UpdateplayerCountryAndLeagueDetails successful.",
+      isSuccess: true,
+    });
+  }catch(error){
+    res.status(500).json({
+      message: "CreateGameUsingFile Failed.",
+      error : error.message,
     });
   }
 }

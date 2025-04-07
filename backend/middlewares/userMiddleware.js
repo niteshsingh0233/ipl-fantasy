@@ -2,10 +2,11 @@ const jwt = require('jsonwebtoken')
 
 exports.RequireSignIn = async (req, res, next) =>{
     try {
-        console.log(req.cookies.token)
+        //console.log('token ' ,req.cookies.token)
         //console.log(req.headers.authorization)
-        console.log(req.headers.authorization)
+        //console.log('authorization ' ,req.headers.authorization)
         const decode = await jwt.verify(req.cookies.token || req.headers.authorization , "434343434")
+        //console.log(decode)
         req.user = decode
         console.log(req.user)
         next()
@@ -13,7 +14,8 @@ exports.RequireSignIn = async (req, res, next) =>{
     catch (error) {
         res.status(401).json({
             message : "Authorization required.",
-            success : false
+            success : false,
+            error : error.message
         })
     }
 }
