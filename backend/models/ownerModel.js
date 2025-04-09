@@ -364,6 +364,26 @@ const ownerSchema = new mongoose.Schema(
       type: Number,
       default : 0
     },
+    fantasyPointDetails : [
+      {
+        pointType : {
+          type: String,
+          enum : ["POINTOVERSPENT", "WRONGSWAP", "WRONGCAPTAINSWAP", "WRONGCAPTAINSWAP", "WHATSAPPMSGDELETED", "MATCHPOINT", "BONUSPOINT"]
+        },
+        point : {
+          type: Number,
+          default : 0
+        },
+        totalFantasyPoint : {
+          type: Number,
+          default : 0
+        },
+        matchNumber : {
+          type: String,
+          default : ''
+        }
+      }
+    ],
     pointsSpent : [
       {
         spentType : {
@@ -377,7 +397,10 @@ const ownerSchema = new mongoose.Schema(
         pointsLeft : {
           type: Number,
           default : 0
-        } 
+        },
+        spentDetail :{
+          type: String,
+        }
       }
     ]
   },

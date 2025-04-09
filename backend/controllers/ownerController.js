@@ -226,6 +226,13 @@ if(ele.playerId ==players.playerId ){
       isForeigner : foreignPlayer
     });
 
+    owner.pointsSpent.push({
+      spentType : "RETAINEDPLAYER",
+      spentAmount : originalAmount,
+      pointsLeft : owner.pointsLeft,
+      spentDetail : players.playerName
+    })
+
     await owner.save()
     await game.save()
 
@@ -376,7 +383,8 @@ exports.UpdateTeamOwnerCountry = async (req, res) => {
     updateOwner.pointsSpent.push({
       spentType : "TEAM",
       spentAmount : teamBoughtForAmount,
-      pointsLeft : updateOwner.pointsLeft
+      pointsLeft : updateOwner.pointsLeft,
+      spentDetail : teamName
     })
     
     await updateOwner.save();
@@ -409,6 +417,21 @@ exports.AddPlayerInOwnerDetails = async (req, res) => {
     const user = await User.findById(owner.ownerId);
 
     let originalAmount = playerBoughtForAmount;
+
+    if(playerBoughtForAmount > owner.pointsLeft){
+      owner.totalFantasyPoint = owner.totalFantasyPoint - 300
+      owner.fantasyPointDetails.push({
+        pointType : "POINTOVERSPENT",
+        point : -300,
+        totalFantasyPoint : owner.totalFantasyPoint,
+        matchNumber : ''
+      })
+      await owner.save();
+      return res.status(200).json({
+        message: "You have spent more points than you have, -300 will be deducted from your fantasy points.",
+        success: true,
+      });
+    }
 
     console.log(game.unsoldPlayersList)
 
@@ -512,6 +535,13 @@ if(ele.playerId ==players.playerId ){
       boughtFor: originalAmount,
       isForeigner : foreignPlayer
     });
+
+    owner.pointsSpent.push({
+      spentType : "AUCTIONPLAYER",
+      spentAmount : originalAmount,
+      pointsLeft : owner.pointsLeft,
+      spentDetail : players.playerName
+    })
 
     await owner.save()
     await game.save()
