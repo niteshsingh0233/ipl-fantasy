@@ -363,7 +363,23 @@ const ownerSchema = new mongoose.Schema(
     totalFantasyPoint : {
       type: Number,
       default : 0
-    }
+    },
+    pointsSpent : [
+      {
+        spentType : {
+          type: String,
+          enum : ["TEAM", "RETAINEDPLAYER", "AUCTIONPLAYER"]
+        },
+        spentAmount : {
+          type: Number,
+          default : 0
+        },
+        pointsLeft : {
+          type: Number,
+          default : 0
+        } 
+      }
+    ]
   },
   { timestamps: true }
 );

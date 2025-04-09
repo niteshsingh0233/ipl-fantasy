@@ -110,3 +110,9 @@ origin: "http://localhost:5173",//"https://fantasy-app-ui.vercel.app",
 1.swapPlayers (playerSwap, captainSwap, viceCaptainSwap) -: OwnerController
 2.Add players in owners playingXI list first -: OwnerController
 2.calculate point for the match and add entry in pointdb and gamedb properties.
+
+
+    // deduct points from owner's pointsLeft property for sellTeam
+    // deduct points from game's ownerPoints property for sellTeam
+    // owner pointsSpent array needs to create and then 
+    // hit retained and sell player api and sell team api

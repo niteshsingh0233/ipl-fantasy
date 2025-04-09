@@ -311,10 +311,18 @@ exports.PayEntryFee = async (req, res, next) => {
 
 exports.UpdateTeamOwnerCountry = async (req, res) => {
   try {
-    const { ownerId, teamName, gameId } = req.body;
+    const { ownerId, teamName, gameId, teamBoughtForAmount } = req.body;
     console.log(teamList, ownerId, teamName);
     const updateOwner = await OwnerSchema.findById(ownerId);
     const game = await Games.findById(gameId);
+
+    if(teamBoughtForAmount < 100){
+      res.status(200).json({
+        message: "you can't buy the team for less than 100 points.",
+        success: true,
+      });
+      return;
+    }
 
     if (!teamList.includes(teamName)) {
       res.status(200).json({
@@ -353,13 +361,32 @@ exports.UpdateTeamOwnerCountry = async (req, res) => {
     }
 
     updateOwner.teamName = teamName;
+    updateOwner.pointsLeft = updateOwner.pointsLeft - teamBoughtForAmount
+    // deduct points from owner's pointsLeft property
+    // deduct points from game's ownerPoints property
+    // owner pointsSpent array needs to create and then 
+    // hit retained and sell player api and sell team api
 
+    game.ownerPoints.forEach((ownerDetail) => {
+      if(updateOwner.documentCode === ownerDetail.documentCode){
+        ownerDetail.pointsRemaining = ownerDetail.pointsRemaining - teamBoughtForAmount
+      }
+    })
+
+    updateOwner.pointsSpent.push({
+      spentType : "TEAM",
+      spentAmount : teamBoughtForAmount,
+      pointsLeft : updateOwner.pointsLeft
+    })
+    
     await updateOwner.save();
+    await game.save();
 
     // const user = await User.findById(owner.ownerId);
     res.status(200).json({
       message: "UpdateTeamOwnerCountry created.",
       updateOwner,
+      game,
       success: true,
     });
   } catch (error) {
