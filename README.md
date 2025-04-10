@@ -116,3 +116,14 @@ origin: "http://localhost:5173",//"https://fantasy-app-ui.vercel.app",
     // deduct points from game's ownerPoints property for sellTeam
     // owner pointsSpent array needs to create and then 
     // hit retained and sell player api and sell team api
+
+
+bug -:
+owner document codes getting copied in owner db ( need to check )
+
+Task -:
+> create playing x1 api and swap players and c & vc apis
+> replace player due to injury or other reasons
+
+Replacement -:
+// shardul thakur ( Praveen ) and DF player (Ashish bhai)
