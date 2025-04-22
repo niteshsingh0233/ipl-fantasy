@@ -1,0 +1,4810 @@
+[{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b19"
+  },
+  "documentCode": "1a205509-89e2-408b-9fe6-6dc916307231",
+  "id": 114960,
+  "matchId": "114960",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "1st Match",
+  "matchFormat": "T20",
+  "startDate": "1742652000000",
+  "endDate": "1742664600000",
+  "state": "Upcoming",
+  "status": "Match starts at Mar 22, 14:00 GMT",
+  "team1": {
+    "teamId": 63,
+    "teamName": "Kolkata Knight Riders",
+    "teamSName": "KKR",
+    "imageId": 225646
+  },
+  "teamIds": [
+    63,
+    59
+  ],
+  "team2": {
+    "teamId": 59,
+    "teamName": "Royal Challengers Bengaluru",
+    "teamSName": "RCB",
+    "imageId": 225643
+  },
+  "venueInfo": {
+    "id": 31,
+    "ground": "Eden Gardens",
+    "city": "Kolkata",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 31,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b1a"
+  },
+  "documentCode": "a4f29064-a7b6-424c-9163-b1a023ddabe5",
+  "id": 114967,
+  "matchId": "114967",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "2nd Match",
+  "matchFormat": "T20",
+  "startDate": "1742724000000",
+  "endDate": "1742736600000",
+  "state": "Upcoming",
+  "status": "Match starts at Mar 23, 10:00 GMT",
+  "team1": {
+    "teamId": 255,
+    "teamName": "Sunrisers Hyderabad",
+    "teamSName": "SRH",
+    "imageId": 225649
+  },
+  "teamIds": [
+    255,
+    64
+  ],
+  "team2": {
+    "teamId": 64,
+    "teamName": "Rajasthan Royals",
+    "teamSName": "RR",
+    "imageId": 225647
+  },
+  "venueInfo": {
+    "id": 80,
+    "ground": "Rajiv Gandhi International Stadium",
+    "city": "Hyderabad",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 80,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b1b"
+  },
+  "documentCode": "d95f45e6-6f64-4127-a011-e1f00b730f0e",
+  "id": 114976,
+  "matchId": "114976",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "3rd Match",
+  "matchFormat": "T20",
+  "startDate": "1742738400000",
+  "endDate": "1742751000000",
+  "state": "Upcoming",
+  "status": "Match starts at Mar 23, 14:00 GMT",
+  "team1": {
+    "teamId": 58,
+    "teamName": "Chennai Super Kings",
+    "teamSName": "CSK",
+    "imageId": 225641
+  },
+  "teamIds": [
+    58,
+    62
+  ],
+  "team2": {
+    "teamId": 62,
+    "teamName": "Mumbai Indians",
+    "teamSName": "MI",
+    "imageId": 225645
+  },
+  "venueInfo": {
+    "id": 11,
+    "ground": "MA Chidambaram Stadium",
+    "city": "Chennai",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 11,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b1c"
+  },
+  "documentCode": "a9a33d97-e4d5-4e4b-ab92-c96eff495949",
+  "id": 114985,
+  "matchId": "114985",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "4th Match",
+  "matchFormat": "T20",
+  "startDate": "1742824800000",
+  "endDate": "1742837400000",
+  "state": "Upcoming",
+  "status": "Match starts at Mar 24, 14:00 GMT",
+  "team1": {
+    "teamId": 61,
+    "teamName": "Delhi Capitals",
+    "teamSName": "DC",
+    "imageId": 225644
+  },
+  "teamIds": [
+    61,
+    966
+  ],
+  "team2": {
+    "teamId": 966,
+    "teamName": "Lucknow Super Giants",
+    "teamSName": "LSG",
+    "imageId": 389444
+  },
+  "venueInfo": {
+    "id": 154,
+    "ground": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium",
+    "city": "Visakhapatnam",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 154,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b1d"
+  },
+  "documentCode": "90554ae3-8b77-4266-b1eb-92df79646e27",
+  "id": 114987,
+  "matchId": "114987",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "5th Match",
+  "matchFormat": "T20",
+  "startDate": "1742911200000",
+  "endDate": "1742923800000",
+  "state": "Upcoming",
+  "status": "Match starts at Mar 25, 14:00 GMT",
+  "team1": {
+    "teamId": 971,
+    "teamName": "Gujarat Titans",
+    "teamSName": "GT",
+    "imageId": 235085
+  },
+  "teamIds": [
+    971,
+    65
+  ],
+  "team2": {
+    "teamId": 65,
+    "teamName": "Punjab Kings",
+    "teamSName": "PBKS",
+    "imageId": 225648
+  },
+  "venueInfo": {
+    "id": 50,
+    "ground": "Narendra Modi Stadium",
+    "city": "Ahmedabad",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 50,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b1e"
+  },
+  "documentCode": "e10b1807-82a4-4b56-a0c8-e81ae57f6fdb",
+  "id": 114996,
+  "matchId": "114996",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "6th Match",
+  "matchFormat": "T20",
+  "startDate": "1742997600000",
+  "endDate": "1743010200000",
+  "state": "Upcoming",
+  "status": "Match starts at Mar 26, 14:00 GMT",
+  "team1": {
+    "teamId": 64,
+    "teamName": "Rajasthan Royals",
+    "teamSName": "RR",
+    "imageId": 225647
+  },
+  "teamIds": [
+    64,
+    63
+  ],
+  "team2": {
+    "teamId": 63,
+    "teamName": "Kolkata Knight Riders",
+    "teamSName": "KKR",
+    "imageId": 225646
+  },
+  "venueInfo": {
+    "id": 380,
+    "ground": "Barsapara Cricket Stadium",
+    "city": "Guwahati",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 380,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b1f"
+  },
+  "documentCode": "3c4535d3-d45b-4433-9f2e-4d66574f8781",
+  "id": 115005,
+  "matchId": "115005",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "7th Match",
+  "matchFormat": "T20",
+  "startDate": "1743084000000",
+  "endDate": "1743096600000",
+  "state": "Upcoming",
+  "status": "Match starts at Mar 27, 14:00 GMT",
+  "team1": {
+    "teamId": 255,
+    "teamName": "Sunrisers Hyderabad",
+    "teamSName": "SRH",
+    "imageId": 225649
+  },
+  "teamIds": [
+    255,
+    966
+  ],
+  "team2": {
+    "teamId": 966,
+    "teamName": "Lucknow Super Giants",
+    "teamSName": "LSG",
+    "imageId": 389444
+  },
+  "venueInfo": {
+    "id": 80,
+    "ground": "Rajiv Gandhi International Stadium",
+    "city": "Hyderabad",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 80,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b20"
+  },
+  "documentCode": "2c5abd71-63c8-42e3-b0de-dd15dee5f31a",
+  "id": 115012,
+  "matchId": "115012",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "8th Match",
+  "matchFormat": "T20",
+  "startDate": "1743170400000",
+  "endDate": "1743183000000",
+  "state": "Upcoming",
+  "status": "Match starts at Mar 28, 14:00 GMT",
+  "team1": {
+    "teamId": 58,
+    "teamName": "Chennai Super Kings",
+    "teamSName": "CSK",
+    "imageId": 225641
+  },
+  "teamIds": [
+    58,
+    59
+  ],
+  "team2": {
+    "teamId": 59,
+    "teamName": "Royal Challengers Bengaluru",
+    "teamSName": "RCB",
+    "imageId": 225643
+  },
+  "venueInfo": {
+    "id": 11,
+    "ground": "MA Chidambaram Stadium",
+    "city": "Chennai",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 11,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b21"
+  },
+  "documentCode": "bbb1e440-85cb-4177-b76a-3b9cae1cadc1",
+  "id": 115014,
+  "matchId": "115014",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "9th Match",
+  "matchFormat": "T20",
+  "startDate": "1743256800000",
+  "endDate": "1743269400000",
+  "state": "Upcoming",
+  "status": "Match starts at Mar 29, 14:00 GMT",
+  "team1": {
+    "teamId": 971,
+    "teamName": "Gujarat Titans",
+    "teamSName": "GT",
+    "imageId": 235085
+  },
+  "teamIds": [
+    971,
+    62
+  ],
+  "team2": {
+    "teamId": 62,
+    "teamName": "Mumbai Indians",
+    "teamSName": "MI",
+    "imageId": 225645
+  },
+  "venueInfo": {
+    "id": 50,
+    "ground": "Narendra Modi Stadium",
+    "city": "Ahmedabad",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 50,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b22"
+  },
+  "documentCode": "1684039f-6c7e-45ab-9726-63b4003b271c",
+  "id": 115021,
+  "matchId": "115021",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "10th Match",
+  "matchFormat": "T20",
+  "startDate": "1743328800000",
+  "endDate": "1743341400000",
+  "state": "Upcoming",
+  "status": "Match starts at Mar 30, 10:00 GMT",
+  "team1": {
+    "teamId": 61,
+    "teamName": "Delhi Capitals",
+    "teamSName": "DC",
+    "imageId": 225644
+  },
+  "teamIds": [
+    61,
+    255
+  ],
+  "team2": {
+    "teamId": 255,
+    "teamName": "Sunrisers Hyderabad",
+    "teamSName": "SRH",
+    "imageId": 225649
+  },
+  "venueInfo": {
+    "id": 154,
+    "ground": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium",
+    "city": "Visakhapatnam",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 154,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.742Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b23"
+  },
+  "documentCode": "b1b14888-35b9-4082-84a0-32c5dbc65d62",
+  "id": 115030,
+  "matchId": "115030",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "11th Match",
+  "matchFormat": "T20",
+  "startDate": "1743343200000",
+  "endDate": "1743355800000",
+  "state": "Upcoming",
+  "status": "Match starts at Mar 30, 14:00 GMT",
+  "team1": {
+    "teamId": 64,
+    "teamName": "Rajasthan Royals",
+    "teamSName": "RR",
+    "imageId": 225647
+  },
+  "teamIds": [
+    64,
+    58
+  ],
+  "team2": {
+    "teamId": 58,
+    "teamName": "Chennai Super Kings",
+    "teamSName": "CSK",
+    "imageId": 225641
+  },
+  "venueInfo": {
+    "id": 380,
+    "ground": "Barsapara Cricket Stadium",
+    "city": "Guwahati",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 380,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b24"
+  },
+  "documentCode": "13696b91-6626-45c5-8c0d-b2c785bb5a79",
+  "id": 115032,
+  "matchId": "115032",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "12th Match",
+  "matchFormat": "T20",
+  "startDate": "1743429600000",
+  "endDate": "1743442200000",
+  "state": "Upcoming",
+  "status": "Match starts at Mar 31, 14:00 GMT",
+  "team1": {
+    "teamId": 62,
+    "teamName": "Mumbai Indians",
+    "teamSName": "MI",
+    "imageId": 225645
+  },
+  "teamIds": [
+    62,
+    63
+  ],
+  "team2": {
+    "teamId": 63,
+    "teamName": "Kolkata Knight Riders",
+    "teamSName": "KKR",
+    "imageId": 225646
+  },
+  "venueInfo": {
+    "id": 81,
+    "ground": "Wankhede Stadium",
+    "city": "Mumbai",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 81,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b25"
+  },
+  "documentCode": "e4a2e4a6-6db9-4c28-9472-579f1fd395dc",
+  "id": 115039,
+  "matchId": "115039",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "13th Match",
+  "matchFormat": "T20",
+  "startDate": "1743516000000",
+  "endDate": "1743528600000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 01, 14:00 GMT",
+  "team1": {
+    "teamId": 966,
+    "teamName": "Lucknow Super Giants",
+    "teamSName": "LSG",
+    "imageId": 389444
+  },
+  "teamIds": [
+    966,
+    65
+  ],
+  "team2": {
+    "teamId": 65,
+    "teamName": "Punjab Kings",
+    "teamSName": "PBKS",
+    "imageId": 225648
+  },
+  "venueInfo": {
+    "id": 485,
+    "ground": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium",
+    "city": "Lucknow",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 485,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b26"
+  },
+  "documentCode": "b7cdbeda-0f14-45df-af0b-8f6404cc91f4",
+  "id": 115048,
+  "matchId": "115048",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "14th Match",
+  "matchFormat": "T20",
+  "startDate": "1743602400000",
+  "endDate": "1743615000000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 02, 14:00 GMT",
+  "team1": {
+    "teamId": 59,
+    "teamName": "Royal Challengers Bengaluru",
+    "teamSName": "RCB",
+    "imageId": 225643
+  },
+  "teamIds": [
+    59,
+    971
+  ],
+  "team2": {
+    "teamId": 971,
+    "teamName": "Gujarat Titans",
+    "teamSName": "GT",
+    "imageId": 235085
+  },
+  "venueInfo": {
+    "id": 27,
+    "ground": "M.Chinnaswamy Stadium",
+    "city": "Bengaluru",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 27,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b27"
+  },
+  "documentCode": "d2a481b7-31e2-4b26-8f83-ac4a5dd3473a",
+  "id": 115050,
+  "matchId": "115050",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "15th Match",
+  "matchFormat": "T20",
+  "startDate": "1743688800000",
+  "endDate": "1743701400000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 03, 14:00 GMT",
+  "team1": {
+    "teamId": 63,
+    "teamName": "Kolkata Knight Riders",
+    "teamSName": "KKR",
+    "imageId": 225646
+  },
+  "teamIds": [
+    63,
+    255
+  ],
+  "team2": {
+    "teamId": 255,
+    "teamName": "Sunrisers Hyderabad",
+    "teamSName": "SRH",
+    "imageId": 225649
+  },
+  "venueInfo": {
+    "id": 31,
+    "ground": "Eden Gardens",
+    "city": "Kolkata",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 31,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b28"
+  },
+  "documentCode": "0e711c97-e8af-4204-9a0c-953eea1b322a",
+  "id": 115059,
+  "matchId": "115059",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "16th Match",
+  "matchFormat": "T20",
+  "startDate": "1743775200000",
+  "endDate": "1743787800000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 04, 14:00 GMT",
+  "team1": {
+    "teamId": 966,
+    "teamName": "Lucknow Super Giants",
+    "teamSName": "LSG",
+    "imageId": 389444
+  },
+  "teamIds": [
+    966,
+    62
+  ],
+  "team2": {
+    "teamId": 62,
+    "teamName": "Mumbai Indians",
+    "teamSName": "MI",
+    "imageId": 225645
+  },
+  "venueInfo": {
+    "id": 485,
+    "ground": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium",
+    "city": "Lucknow",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 485,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b29"
+  },
+  "documentCode": "c2b28cb6-1320-445d-9cc8-644c066ecebc",
+  "id": 115068,
+  "matchId": "115068",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "17th Match",
+  "matchFormat": "T20",
+  "startDate": "1743847200000",
+  "endDate": "1743859800000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 05, 10:00 GMT",
+  "team1": {
+    "teamId": 58,
+    "teamName": "Chennai Super Kings",
+    "teamSName": "CSK",
+    "imageId": 225641
+  },
+  "teamIds": [
+    58,
+    61
+  ],
+  "team2": {
+    "teamId": 61,
+    "teamName": "Delhi Capitals",
+    "teamSName": "DC",
+    "imageId": 225644
+  },
+  "venueInfo": {
+    "id": 11,
+    "ground": "MA Chidambaram Stadium",
+    "city": "Chennai",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 11,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b2a"
+  },
+  "documentCode": "981d6ba6-2ff9-41fd-bfe7-687dce3393be",
+  "id": 115075,
+  "matchId": "115075",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "18th Match",
+  "matchFormat": "T20",
+  "startDate": "1743861600000",
+  "endDate": "1743874200000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 05, 14:00 GMT",
+  "team1": {
+    "teamId": 65,
+    "teamName": "Punjab Kings",
+    "teamSName": "PBKS",
+    "imageId": 225648
+  },
+  "teamIds": [
+    65,
+    64
+  ],
+  "team2": {
+    "teamId": 64,
+    "teamName": "Rajasthan Royals",
+    "teamSName": "RR",
+    "imageId": 225647
+  },
+  "venueInfo": {
+    "id": 851,
+    "ground": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",
+    "city": "Chandigarh",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 851,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b2b"
+  },
+  "documentCode": "b08128e4-b03c-4592-baba-1856b0b0a92f",
+  "id": 115084,
+  "matchId": "115084",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "19th Match",
+  "matchFormat": "T20",
+  "startDate": "1743933600000",
+  "endDate": "1743946200000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 06, 10:00 GMT",
+  "team1": {
+    "teamId": 63,
+    "teamName": "Kolkata Knight Riders",
+    "teamSName": "KKR",
+    "imageId": 225646
+  },
+  "teamIds": [
+    63,
+    966
+  ],
+  "team2": {
+    "teamId": 966,
+    "teamName": "Lucknow Super Giants",
+    "teamSName": "LSG",
+    "imageId": 389444
+  },
+  "venueInfo": {
+    "id": 31,
+    "ground": "Eden Gardens",
+    "city": "Kolkata",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 31,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b2c"
+  },
+  "documentCode": "33b7e7cb-771d-4c4d-94eb-dc7fdb042b34",
+  "id": 115093,
+  "matchId": "115093",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "20th Match",
+  "matchFormat": "T20",
+  "startDate": "1743948000000",
+  "endDate": "1743960600000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 06, 14:00 GMT",
+  "team1": {
+    "teamId": 255,
+    "teamName": "Sunrisers Hyderabad",
+    "teamSName": "SRH",
+    "imageId": 225649
+  },
+  "teamIds": [
+    255,
+    971
+  ],
+  "team2": {
+    "teamId": 971,
+    "teamName": "Gujarat Titans",
+    "teamSName": "GT",
+    "imageId": 235085
+  },
+  "venueInfo": {
+    "id": 80,
+    "ground": "Rajiv Gandhi International Stadium",
+    "city": "Hyderabad",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 80,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b2d"
+  },
+  "documentCode": "475bdeb3-42a2-4ee0-a337-12903c51f7f6",
+  "id": 115095,
+  "matchId": "115095",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "21st Match",
+  "matchFormat": "T20",
+  "startDate": "1744034400000",
+  "endDate": "1744047000000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 07, 14:00 GMT",
+  "team1": {
+    "teamId": 62,
+    "teamName": "Mumbai Indians",
+    "teamSName": "MI",
+    "imageId": 225645
+  },
+  "teamIds": [
+    62,
+    59
+  ],
+  "team2": {
+    "teamId": 59,
+    "teamName": "Royal Challengers Bengaluru",
+    "teamSName": "RCB",
+    "imageId": 225643
+  },
+  "venueInfo": {
+    "id": 81,
+    "ground": "Wankhede Stadium",
+    "city": "Mumbai",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 81,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b2e"
+  },
+  "documentCode": "076b2109-0dff-4d9d-8ad4-1c7b81be4ef8",
+  "id": 115102,
+  "matchId": "115102",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "22nd Match",
+  "matchFormat": "T20",
+  "startDate": "1744120800000",
+  "endDate": "1744133400000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 08, 14:00 GMT",
+  "team1": {
+    "teamId": 65,
+    "teamName": "Punjab Kings",
+    "teamSName": "PBKS",
+    "imageId": 225648
+  },
+  "teamIds": [
+    65,
+    58
+  ],
+  "team2": {
+    "teamId": 58,
+    "teamName": "Chennai Super Kings",
+    "teamSName": "CSK",
+    "imageId": 225641
+  },
+  "venueInfo": {
+    "id": 851,
+    "ground": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",
+    "city": "Chandigarh",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 851,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b2f"
+  },
+  "documentCode": "218e6a92-b3d5-4776-9c79-6195fca6fc6a",
+  "id": 115104,
+  "matchId": "115104",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "23rd Match",
+  "matchFormat": "T20",
+  "startDate": "1744207200000",
+  "endDate": "1744219800000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 09, 14:00 GMT",
+  "team1": {
+    "teamId": 971,
+    "teamName": "Gujarat Titans",
+    "teamSName": "GT",
+    "imageId": 235085
+  },
+  "teamIds": [
+    971,
+    64
+  ],
+  "team2": {
+    "teamId": 64,
+    "teamName": "Rajasthan Royals",
+    "teamSName": "RR",
+    "imageId": 225647
+  },
+  "venueInfo": {
+    "id": 50,
+    "ground": "Narendra Modi Stadium",
+    "city": "Ahmedabad",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 50,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b30"
+  },
+  "documentCode": "3b585487-0a73-4cd3-a04e-177ed29a433b",
+  "id": 115111,
+  "matchId": "115111",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "24th Match",
+  "matchFormat": "T20",
+  "startDate": "1744293600000",
+  "endDate": "1744306200000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 10, 14:00 GMT",
+  "team1": {
+    "teamId": 59,
+    "teamName": "Royal Challengers Bengaluru",
+    "teamSName": "RCB",
+    "imageId": 225643
+  },
+  "teamIds": [
+    59,
+    61
+  ],
+  "team2": {
+    "teamId": 61,
+    "teamName": "Delhi Capitals",
+    "teamSName": "DC",
+    "imageId": 225644
+  },
+  "venueInfo": {
+    "id": 27,
+    "ground": "M.Chinnaswamy Stadium",
+    "city": "Bengaluru",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 27,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b31"
+  },
+  "documentCode": "721b44d8-ed33-44af-9a12-6fab4f4689d9",
+  "id": 115113,
+  "matchId": "115113",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "25th Match",
+  "matchFormat": "T20",
+  "startDate": "1744380000000",
+  "endDate": "1744392600000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 11, 14:00 GMT",
+  "team1": {
+    "teamId": 58,
+    "teamName": "Chennai Super Kings",
+    "teamSName": "CSK",
+    "imageId": 225641
+  },
+  "teamIds": [
+    58,
+    63
+  ],
+  "team2": {
+    "teamId": 63,
+    "teamName": "Kolkata Knight Riders",
+    "teamSName": "KKR",
+    "imageId": 225646
+  },
+  "venueInfo": {
+    "id": 11,
+    "ground": "MA Chidambaram Stadium",
+    "city": "Chennai",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 11,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b32"
+  },
+  "documentCode": "98219b80-8681-461f-a4ab-d90f28712ab9",
+  "id": 115122,
+  "matchId": "115122",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "26th Match",
+  "matchFormat": "T20",
+  "startDate": "1744452000000",
+  "endDate": "1744464600000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 12, 10:00 GMT",
+  "team1": {
+    "teamId": 966,
+    "teamName": "Lucknow Super Giants",
+    "teamSName": "LSG",
+    "imageId": 389444
+  },
+  "teamIds": [
+    966,
+    971
+  ],
+  "team2": {
+    "teamId": 971,
+    "teamName": "Gujarat Titans",
+    "teamSName": "GT",
+    "imageId": 235085
+  },
+  "venueInfo": {
+    "id": 485,
+    "ground": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium",
+    "city": "Lucknow",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 485,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b33"
+  },
+  "documentCode": "992af02c-98b6-433a-9f11-267474502524",
+  "id": 115129,
+  "matchId": "115129",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "27th Match",
+  "matchFormat": "T20",
+  "startDate": "1744466400000",
+  "endDate": "1744479000000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 12, 14:00 GMT",
+  "team1": {
+    "teamId": 255,
+    "teamName": "Sunrisers Hyderabad",
+    "teamSName": "SRH",
+    "imageId": 225649
+  },
+  "teamIds": [
+    255,
+    65
+  ],
+  "team2": {
+    "teamId": 65,
+    "teamName": "Punjab Kings",
+    "teamSName": "PBKS",
+    "imageId": 225648
+  },
+  "venueInfo": {
+    "id": 80,
+    "ground": "Rajiv Gandhi International Stadium",
+    "city": "Hyderabad",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 80,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b34"
+  },
+  "documentCode": "e4f9e116-69ff-4cb9-b348-ae90949b7dfa",
+  "id": 115138,
+  "matchId": "115138",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "28th Match",
+  "matchFormat": "T20",
+  "startDate": "1744538400000",
+  "endDate": "1744551000000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 13, 10:00 GMT",
+  "team1": {
+    "teamId": 64,
+    "teamName": "Rajasthan Royals",
+    "teamSName": "RR",
+    "imageId": 225647
+  },
+  "teamIds": [
+    64,
+    59
+  ],
+  "team2": {
+    "teamId": 59,
+    "teamName": "Royal Challengers Bengaluru",
+    "teamSName": "RCB",
+    "imageId": 225643
+  },
+  "venueInfo": {
+    "id": 76,
+    "ground": "Sawai Mansingh Stadium",
+    "city": "Jaipur",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 76,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b35"
+  },
+  "documentCode": "26d03ff4-63d1-40b0-8ef2-f78a6dafb7cc",
+  "id": 115140,
+  "matchId": "115140",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "29th Match",
+  "matchFormat": "T20",
+  "startDate": "1744552800000",
+  "endDate": "1744565400000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 13, 14:00 GMT",
+  "team1": {
+    "teamId": 61,
+    "teamName": "Delhi Capitals",
+    "teamSName": "DC",
+    "imageId": 225644
+  },
+  "teamIds": [
+    61,
+    62
+  ],
+  "team2": {
+    "teamId": 62,
+    "teamName": "Mumbai Indians",
+    "teamSName": "MI",
+    "imageId": 225645
+  },
+  "venueInfo": {
+    "id": 51,
+    "ground": "Arun Jaitley Stadium",
+    "city": "Delhi",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 51,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b36"
+  },
+  "documentCode": "e02b4d9f-e4f8-45a0-94bd-fd207837cb04",
+  "id": 115149,
+  "matchId": "115149",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "30th Match",
+  "matchFormat": "T20",
+  "startDate": "1744639200000",
+  "endDate": "1744651800000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 14, 14:00 GMT",
+  "team1": {
+    "teamId": 966,
+    "teamName": "Lucknow Super Giants",
+    "teamSName": "LSG",
+    "imageId": 389444
+  },
+  "teamIds": [
+    966,
+    58
+  ],
+  "team2": {
+    "teamId": 58,
+    "teamName": "Chennai Super Kings",
+    "teamSName": "CSK",
+    "imageId": 225641
+  },
+  "venueInfo": {
+    "id": 485,
+    "ground": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium",
+    "city": "Lucknow",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 485,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b37"
+  },
+  "documentCode": "1f13633a-87ff-49a8-a700-eb07eed6af03",
+  "id": 115156,
+  "matchId": "115156",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "31st Match",
+  "matchFormat": "T20",
+  "startDate": "1744725600000",
+  "endDate": "1744738200000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 15, 14:00 GMT",
+  "team1": {
+    "teamId": 65,
+    "teamName": "Punjab Kings",
+    "teamSName": "PBKS",
+    "imageId": 225648
+  },
+  "teamIds": [
+    65,
+    63
+  ],
+  "team2": {
+    "teamId": 63,
+    "teamName": "Kolkata Knight Riders",
+    "teamSName": "KKR",
+    "imageId": 225646
+  },
+  "venueInfo": {
+    "id": 851,
+    "ground": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",
+    "city": "Chandigarh",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 851,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b38"
+  },
+  "documentCode": "95767e05-845d-4393-9f23-f312951c788b",
+  "id": 115165,
+  "matchId": "115165",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "32nd Match",
+  "matchFormat": "T20",
+  "startDate": "1744812000000",
+  "endDate": "1744824600000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 16, 14:00 GMT",
+  "team1": {
+    "teamId": 61,
+    "teamName": "Delhi Capitals",
+    "teamSName": "DC",
+    "imageId": 225644
+  },
+  "teamIds": [
+    61,
+    64
+  ],
+  "team2": {
+    "teamId": 64,
+    "teamName": "Rajasthan Royals",
+    "teamSName": "RR",
+    "imageId": 225647
+  },
+  "venueInfo": {
+    "id": 51,
+    "ground": "Arun Jaitley Stadium",
+    "city": "Delhi",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 51,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b39"
+  },
+  "documentCode": "22f23754-79e5-4f4d-aca4-fba58f4e0b83",
+  "id": 115167,
+  "matchId": "115167",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "33rd Match",
+  "matchFormat": "T20",
+  "startDate": "1744898400000",
+  "endDate": "1744911000000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 17, 14:00 GMT",
+  "team1": {
+    "teamId": 62,
+    "teamName": "Mumbai Indians",
+    "teamSName": "MI",
+    "imageId": 225645
+  },
+  "teamIds": [
+    62,
+    255
+  ],
+  "team2": {
+    "teamId": 255,
+    "teamName": "Sunrisers Hyderabad",
+    "teamSName": "SRH",
+    "imageId": 225649
+  },
+  "venueInfo": {
+    "id": 81,
+    "ground": "Wankhede Stadium",
+    "city": "Mumbai",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 81,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b3a"
+  },
+  "documentCode": "66095d00-e6ed-4445-8904-f582cf8d2533",
+  "id": 115174,
+  "matchId": "115174",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "34th Match",
+  "matchFormat": "T20",
+  "startDate": "1744984800000",
+  "endDate": "1744997400000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 18, 14:00 GMT",
+  "team1": {
+    "teamId": 59,
+    "teamName": "Royal Challengers Bengaluru",
+    "teamSName": "RCB",
+    "imageId": 225643
+  },
+  "teamIds": [
+    59,
+    65
+  ],
+  "team2": {
+    "teamId": 65,
+    "teamName": "Punjab Kings",
+    "teamSName": "PBKS",
+    "imageId": 225648
+  },
+  "venueInfo": {
+    "id": 27,
+    "ground": "M.Chinnaswamy Stadium",
+    "city": "Bengaluru",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 27,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b3b"
+  },
+  "documentCode": "dc93274c-b550-48c5-a58d-afc17e821db6",
+  "id": 115176,
+  "matchId": "115176",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "35th Match",
+  "matchFormat": "T20",
+  "startDate": "1745056800000",
+  "endDate": "1745069400000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 19, 10:00 GMT",
+  "team1": {
+    "teamId": 971,
+    "teamName": "Gujarat Titans",
+    "teamSName": "GT",
+    "imageId": 235085
+  },
+  "teamIds": [
+    971,
+    61
+  ],
+  "team2": {
+    "teamId": 61,
+    "teamName": "Delhi Capitals",
+    "teamSName": "DC",
+    "imageId": 225644
+  },
+  "venueInfo": {
+    "id": 50,
+    "ground": "Narendra Modi Stadium",
+    "city": "Ahmedabad",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 50,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b3c"
+  },
+  "documentCode": "8911f7ce-5d09-4593-8530-e16ed0a219d6",
+  "id": 115183,
+  "matchId": "115183",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "36th Match",
+  "matchFormat": "T20",
+  "startDate": "1745071200000",
+  "endDate": "1745083800000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 19, 14:00 GMT",
+  "team1": {
+    "teamId": 64,
+    "teamName": "Rajasthan Royals",
+    "teamSName": "RR",
+    "imageId": 225647
+  },
+  "teamIds": [
+    64,
+    966
+  ],
+  "team2": {
+    "teamId": 966,
+    "teamName": "Lucknow Super Giants",
+    "teamSName": "LSG",
+    "imageId": 389444
+  },
+  "venueInfo": {
+    "id": 76,
+    "ground": "Sawai Mansingh Stadium",
+    "city": "Jaipur",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 76,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b3d"
+  },
+  "documentCode": "b5026fd0-17fe-4e7c-94d9-0f350e2d96f8",
+  "id": 115192,
+  "matchId": "115192",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "37th Match",
+  "matchFormat": "T20",
+  "startDate": "1745143200000",
+  "endDate": "1745155800000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 20, 10:00 GMT",
+  "team1": {
+    "teamId": 65,
+    "teamName": "Punjab Kings",
+    "teamSName": "PBKS",
+    "imageId": 225648
+  },
+  "teamIds": [
+    65,
+    59
+  ],
+  "team2": {
+    "teamId": 59,
+    "teamName": "Royal Challengers Bengaluru",
+    "teamSName": "RCB",
+    "imageId": 225643
+  },
+  "venueInfo": {
+    "id": 851,
+    "ground": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",
+    "city": "Chandigarh",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 851,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b3e"
+  },
+  "documentCode": "e89c005d-f396-4370-a4d6-b68a6e59cb4b",
+  "id": 115201,
+  "matchId": "115201",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "38th Match",
+  "matchFormat": "T20",
+  "startDate": "1745157600000",
+  "endDate": "1745170200000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 20, 14:00 GMT",
+  "team1": {
+    "teamId": 62,
+    "teamName": "Mumbai Indians",
+    "teamSName": "MI",
+    "imageId": 225645
+  },
+  "teamIds": [
+    62,
+    58
+  ],
+  "team2": {
+    "teamId": 58,
+    "teamName": "Chennai Super Kings",
+    "teamSName": "CSK",
+    "imageId": 225641
+  },
+  "venueInfo": {
+    "id": 81,
+    "ground": "Wankhede Stadium",
+    "city": "Mumbai",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 81,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b3f"
+  },
+  "documentCode": "d3b47a08-1dbd-49e4-801c-f293ee46499d",
+  "id": 115210,
+  "matchId": "115210",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "39th Match",
+  "matchFormat": "T20",
+  "startDate": "1745244000000",
+  "endDate": "1745256600000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 21, 14:00 GMT",
+  "team1": {
+    "teamId": 63,
+    "teamName": "Kolkata Knight Riders",
+    "teamSName": "KKR",
+    "imageId": 225646
+  },
+  "teamIds": [
+    63,
+    971
+  ],
+  "team2": {
+    "teamId": 971,
+    "teamName": "Gujarat Titans",
+    "teamSName": "GT",
+    "imageId": 235085
+  },
+  "venueInfo": {
+    "id": 31,
+    "ground": "Eden Gardens",
+    "city": "Kolkata",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 31,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.744Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b40"
+  },
+  "documentCode": "2d5f873a-8155-46c3-b30f-b2d84105c2e7",
+  "id": 115212,
+  "matchId": "115212",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "40th Match",
+  "matchFormat": "T20",
+  "startDate": "1745330400000",
+  "endDate": "1745343000000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 22, 14:00 GMT",
+  "team1": {
+    "teamId": 966,
+    "teamName": "Lucknow Super Giants",
+    "teamSName": "LSG",
+    "imageId": 389444
+  },
+  "teamIds": [
+    966,
+    61
+  ],
+  "team2": {
+    "teamId": 61,
+    "teamName": "Delhi Capitals",
+    "teamSName": "DC",
+    "imageId": 225644
+  },
+  "venueInfo": {
+    "id": 485,
+    "ground": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium",
+    "city": "Lucknow",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 485,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b41"
+  },
+  "documentCode": "373578e7-2308-4cbd-97b1-2f96544237be",
+  "id": 115221,
+  "matchId": "115221",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "41st Match",
+  "matchFormat": "T20",
+  "startDate": "1745416800000",
+  "endDate": "1745429400000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 23, 14:00 GMT",
+  "team1": {
+    "teamId": 255,
+    "teamName": "Sunrisers Hyderabad",
+    "teamSName": "SRH",
+    "imageId": 225649
+  },
+  "teamIds": [
+    255,
+    62
+  ],
+  "team2": {
+    "teamId": 62,
+    "teamName": "Mumbai Indians",
+    "teamSName": "MI",
+    "imageId": 225645
+  },
+  "venueInfo": {
+    "id": 80,
+    "ground": "Rajiv Gandhi International Stadium",
+    "city": "Hyderabad",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 80,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b42"
+  },
+  "documentCode": "66f64095-b5eb-4354-912e-00a5c9fa69aa",
+  "id": 115230,
+  "matchId": "115230",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "42nd Match",
+  "matchFormat": "T20",
+  "startDate": "1745503200000",
+  "endDate": "1745515800000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 24, 14:00 GMT",
+  "team1": {
+    "teamId": 59,
+    "teamName": "Royal Challengers Bengaluru",
+    "teamSName": "RCB",
+    "imageId": 225643
+  },
+  "teamIds": [
+    59,
+    64
+  ],
+  "team2": {
+    "teamId": 64,
+    "teamName": "Rajasthan Royals",
+    "teamSName": "RR",
+    "imageId": 225647
+  },
+  "venueInfo": {
+    "id": 27,
+    "ground": "M.Chinnaswamy Stadium",
+    "city": "Bengaluru",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 27,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b43"
+  },
+  "documentCode": "94ac0936-4a6b-403f-8f66-667de461b840",
+  "id": 115239,
+  "matchId": "115239",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "43rd Match",
+  "matchFormat": "T20",
+  "startDate": "1745589600000",
+  "endDate": "1745602200000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 25, 14:00 GMT",
+  "team1": {
+    "teamId": 58,
+    "teamName": "Chennai Super Kings",
+    "teamSName": "CSK",
+    "imageId": 225641
+  },
+  "teamIds": [
+    58,
+    255
+  ],
+  "team2": {
+    "teamId": 255,
+    "teamName": "Sunrisers Hyderabad",
+    "teamSName": "SRH",
+    "imageId": 225649
+  },
+  "venueInfo": {
+    "id": 11,
+    "ground": "MA Chidambaram Stadium",
+    "city": "Chennai",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 11,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b44"
+  },
+  "documentCode": "040fec83-876d-4bc9-8756-782980e55eb5",
+  "id": 115248,
+  "matchId": "115248",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "44th Match",
+  "matchFormat": "T20",
+  "startDate": "1745676000000",
+  "endDate": "1745688600000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 26, 14:00 GMT",
+  "team1": {
+    "teamId": 63,
+    "teamName": "Kolkata Knight Riders",
+    "teamSName": "KKR",
+    "imageId": 225646
+  },
+  "teamIds": [
+    63,
+    65
+  ],
+  "team2": {
+    "teamId": 65,
+    "teamName": "Punjab Kings",
+    "teamSName": "PBKS",
+    "imageId": 225648
+  },
+  "venueInfo": {
+    "id": 31,
+    "ground": "Eden Gardens",
+    "city": "Kolkata",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 31,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b45"
+  },
+  "documentCode": "949c474d-b8c9-4e53-a8ac-1ae8f885b9a1",
+  "id": 115255,
+  "matchId": "115255",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "45th Match",
+  "matchFormat": "T20",
+  "startDate": "1745748000000",
+  "endDate": "1745760600000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 27, 10:00 GMT",
+  "team1": {
+    "teamId": 62,
+    "teamName": "Mumbai Indians",
+    "teamSName": "MI",
+    "imageId": 225645
+  },
+  "teamIds": [
+    62,
+    966
+  ],
+  "team2": {
+    "teamId": 966,
+    "teamName": "Lucknow Super Giants",
+    "teamSName": "LSG",
+    "imageId": 389444
+  },
+  "venueInfo": {
+    "id": 81,
+    "ground": "Wankhede Stadium",
+    "city": "Mumbai",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 81,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b46"
+  },
+  "documentCode": "681fccf4-755d-41fd-8ee4-54fc5a5b5bd3",
+  "id": 115257,
+  "matchId": "115257",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "46th Match",
+  "matchFormat": "T20",
+  "startDate": "1745762400000",
+  "endDate": "1745775000000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 27, 14:00 GMT",
+  "team1": {
+    "teamId": 61,
+    "teamName": "Delhi Capitals",
+    "teamSName": "DC",
+    "imageId": 225644
+  },
+  "teamIds": [
+    61,
+    59
+  ],
+  "team2": {
+    "teamId": 59,
+    "teamName": "Royal Challengers Bengaluru",
+    "teamSName": "RCB",
+    "imageId": 225643
+  },
+  "venueInfo": {
+    "id": 51,
+    "ground": "Arun Jaitley Stadium",
+    "city": "Delhi",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 51,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b47"
+  },
+  "documentCode": "40ab8d53-59c7-4e15-88d6-60f5f32eb4d4",
+  "id": 115266,
+  "matchId": "115266",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "47th Match",
+  "matchFormat": "T20",
+  "startDate": "1745848800000",
+  "endDate": "1745861400000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 28, 14:00 GMT",
+  "team1": {
+    "teamId": 64,
+    "teamName": "Rajasthan Royals",
+    "teamSName": "RR",
+    "imageId": 225647
+  },
+  "teamIds": [
+    64,
+    971
+  ],
+  "team2": {
+    "teamId": 971,
+    "teamName": "Gujarat Titans",
+    "teamSName": "GT",
+    "imageId": 235085
+  },
+  "venueInfo": {
+    "id": 76,
+    "ground": "Sawai Mansingh Stadium",
+    "city": "Jaipur",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 76,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b48"
+  },
+  "documentCode": "7fe2fd0a-438e-4cbe-9d51-cf21316d7a8d",
+  "id": 115275,
+  "matchId": "115275",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "48th Match",
+  "matchFormat": "T20",
+  "startDate": "1745935200000",
+  "endDate": "1745947800000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 29, 14:00 GMT",
+  "team1": {
+    "teamId": 61,
+    "teamName": "Delhi Capitals",
+    "teamSName": "DC",
+    "imageId": 225644
+  },
+  "teamIds": [
+    61,
+    63
+  ],
+  "team2": {
+    "teamId": 63,
+    "teamName": "Kolkata Knight Riders",
+    "teamSName": "KKR",
+    "imageId": 225646
+  },
+  "venueInfo": {
+    "id": 51,
+    "ground": "Arun Jaitley Stadium",
+    "city": "Delhi",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 51,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b49"
+  },
+  "documentCode": "1c873032-149c-4441-8afd-ac87dd9df6b8",
+  "id": 115282,
+  "matchId": "115282",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "49th Match",
+  "matchFormat": "T20",
+  "startDate": "1746021600000",
+  "endDate": "1746034200000",
+  "state": "Upcoming",
+  "status": "Match starts at Apr 30, 14:00 GMT",
+  "team1": {
+    "teamId": 58,
+    "teamName": "Chennai Super Kings",
+    "teamSName": "CSK",
+    "imageId": 225641
+  },
+  "teamIds": [
+    58,
+    65
+  ],
+  "team2": {
+    "teamId": 65,
+    "teamName": "Punjab Kings",
+    "teamSName": "PBKS",
+    "imageId": 225648
+  },
+  "venueInfo": {
+    "id": 11,
+    "ground": "MA Chidambaram Stadium",
+    "city": "Chennai",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 11,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b4a"
+  },
+  "documentCode": "cf5ad1a4-c77e-48ef-a924-54ea63bec95f",
+  "id": 115291,
+  "matchId": "115291",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "50th Match",
+  "matchFormat": "T20",
+  "startDate": "1746108000000",
+  "endDate": "1746120600000",
+  "state": "Upcoming",
+  "status": "Match starts at May 01, 14:00 GMT",
+  "team1": {
+    "teamId": 64,
+    "teamName": "Rajasthan Royals",
+    "teamSName": "RR",
+    "imageId": 225647
+  },
+  "teamIds": [
+    64,
+    62
+  ],
+  "team2": {
+    "teamId": 62,
+    "teamName": "Mumbai Indians",
+    "teamSName": "MI",
+    "imageId": 225645
+  },
+  "venueInfo": {
+    "id": 76,
+    "ground": "Sawai Mansingh Stadium",
+    "city": "Jaipur",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 76,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.745Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b4b"
+  },
+  "documentCode": "9c462ac7-8561-48e5-893f-fe714dc41f02",
+  "id": 115300,
+  "matchId": "115300",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "51st Match",
+  "matchFormat": "T20",
+  "startDate": "1746194400000",
+  "endDate": "1746207000000",
+  "state": "Upcoming",
+  "status": "Match starts at May 02, 14:00 GMT",
+  "team1": {
+    "teamId": 971,
+    "teamName": "Gujarat Titans",
+    "teamSName": "GT",
+    "imageId": 235085
+  },
+  "teamIds": [
+    971,
+    255
+  ],
+  "team2": {
+    "teamId": 255,
+    "teamName": "Sunrisers Hyderabad",
+    "teamSName": "SRH",
+    "imageId": 225649
+  },
+  "venueInfo": {
+    "id": 50,
+    "ground": "Narendra Modi Stadium",
+    "city": "Ahmedabad",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 50,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b4c"
+  },
+  "documentCode": "92dfdcc3-cd56-493a-8616-f88284686d62",
+  "id": 115302,
+  "matchId": "115302",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "52nd Match",
+  "matchFormat": "T20",
+  "startDate": "1746280800000",
+  "endDate": "1746293400000",
+  "state": "Upcoming",
+  "status": "Match starts at May 03, 14:00 GMT",
+  "team1": {
+    "teamId": 59,
+    "teamName": "Royal Challengers Bengaluru",
+    "teamSName": "RCB",
+    "imageId": 225643
+  },
+  "teamIds": [
+    59,
+    58
+  ],
+  "team2": {
+    "teamId": 58,
+    "teamName": "Chennai Super Kings",
+    "teamSName": "CSK",
+    "imageId": 225641
+  },
+  "venueInfo": {
+    "id": 27,
+    "ground": "M.Chinnaswamy Stadium",
+    "city": "Bengaluru",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 27,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b4d"
+  },
+  "documentCode": "43b1a77f-0bf4-49bc-81c0-3c1bb9ce61d1",
+  "id": 115309,
+  "matchId": "115309",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "53rd Match",
+  "matchFormat": "T20",
+  "startDate": "1746352800000",
+  "endDate": "1746365400000",
+  "state": "Upcoming",
+  "status": "Match starts at May 04, 10:00 GMT",
+  "team1": {
+    "teamId": 63,
+    "teamName": "Kolkata Knight Riders",
+    "teamSName": "KKR",
+    "imageId": 225646
+  },
+  "teamIds": [
+    63,
+    64
+  ],
+  "team2": {
+    "teamId": 64,
+    "teamName": "Rajasthan Royals",
+    "teamSName": "RR",
+    "imageId": 225647
+  },
+  "venueInfo": {
+    "id": 31,
+    "ground": "Eden Gardens",
+    "city": "Kolkata",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 31,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b4e"
+  },
+  "documentCode": "aada302d-6ede-413d-b152-1cbd6008b869",
+  "id": 115318,
+  "matchId": "115318",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "54th Match",
+  "matchFormat": "T20",
+  "startDate": "1746367200000",
+  "endDate": "1746379800000",
+  "state": "Upcoming",
+  "status": "Match starts at May 04, 14:00 GMT",
+  "team1": {
+    "teamId": 65,
+    "teamName": "Punjab Kings",
+    "teamSName": "PBKS",
+    "imageId": 225648
+  },
+  "teamIds": [
+    65,
+    966
+  ],
+  "team2": {
+    "teamId": 966,
+    "teamName": "Lucknow Super Giants",
+    "teamSName": "LSG",
+    "imageId": 389444
+  },
+  "venueInfo": {
+    "id": 155,
+    "ground": "Himachal Pradesh Cricket Association Stadium",
+    "city": "Dharamsala",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 155,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b4f"
+  },
+  "documentCode": "f77a3024-be83-435d-ba4e-e6c8efb13efb",
+  "id": 115327,
+  "matchId": "115327",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "55th Match",
+  "matchFormat": "T20",
+  "startDate": "1746453600000",
+  "endDate": "1746466200000",
+  "state": "Upcoming",
+  "status": "Match starts at May 05, 14:00 GMT",
+  "team1": {
+    "teamId": 255,
+    "teamName": "Sunrisers Hyderabad",
+    "teamSName": "SRH",
+    "imageId": 225649
+  },
+  "teamIds": [
+    255,
+    61
+  ],
+  "team2": {
+    "teamId": 61,
+    "teamName": "Delhi Capitals",
+    "teamSName": "DC",
+    "imageId": 225644
+  },
+  "venueInfo": {
+    "id": 80,
+    "ground": "Rajiv Gandhi International Stadium",
+    "city": "Hyderabad",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 80,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b50"
+  },
+  "documentCode": "d0c06714-cd48-43d2-89e8-cff7b8d846b9",
+  "id": 115336,
+  "matchId": "115336",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "56th Match",
+  "matchFormat": "T20",
+  "startDate": "1746540000000",
+  "endDate": "1746552600000",
+  "state": "Upcoming",
+  "status": "Match starts at May 06, 14:00 GMT",
+  "team1": {
+    "teamId": 62,
+    "teamName": "Mumbai Indians",
+    "teamSName": "MI",
+    "imageId": 225645
+  },
+  "teamIds": [
+    62,
+    971
+  ],
+  "team2": {
+    "teamId": 971,
+    "teamName": "Gujarat Titans",
+    "teamSName": "GT",
+    "imageId": 235085
+  },
+  "venueInfo": {
+    "id": 81,
+    "ground": "Wankhede Stadium",
+    "city": "Mumbai",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 81,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b51"
+  },
+  "documentCode": "b5ef7df6-e36e-4f92-9995-df3c2d195bdf",
+  "id": 115345,
+  "matchId": "115345",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "57th Match",
+  "matchFormat": "T20",
+  "startDate": "1746626400000",
+  "endDate": "1746639000000",
+  "state": "Upcoming",
+  "status": "Match starts at May 07, 14:00 GMT",
+  "team1": {
+    "teamId": 63,
+    "teamName": "Kolkata Knight Riders",
+    "teamSName": "KKR",
+    "imageId": 225646
+  },
+  "teamIds": [
+    63,
+    58
+  ],
+  "team2": {
+    "teamId": 58,
+    "teamName": "Chennai Super Kings",
+    "teamSName": "CSK",
+    "imageId": 225641
+  },
+  "venueInfo": {
+    "id": 31,
+    "ground": "Eden Gardens",
+    "city": "Kolkata",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 31,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b52"
+  },
+  "documentCode": "7eda6044-ad7b-45b6-8cef-963fed04b5fd",
+  "id": 115347,
+  "matchId": "115347",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "58th Match",
+  "matchFormat": "T20",
+  "startDate": "1746712800000",
+  "endDate": "1746725400000",
+  "state": "Upcoming",
+  "status": "Match starts at May 08, 14:00 GMT",
+  "team1": {
+    "teamId": 65,
+    "teamName": "Punjab Kings",
+    "teamSName": "PBKS",
+    "imageId": 225648
+  },
+  "teamIds": [
+    65,
+    61
+  ],
+  "team2": {
+    "teamId": 61,
+    "teamName": "Delhi Capitals",
+    "teamSName": "DC",
+    "imageId": 225644
+  },
+  "venueInfo": {
+    "id": 155,
+    "ground": "Himachal Pradesh Cricket Association Stadium",
+    "city": "Dharamsala",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 155,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b53"
+  },
+  "documentCode": "42db24e8-a5e0-4add-b7f6-7b93fec93089",
+  "id": 115354,
+  "matchId": "115354",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "59th Match",
+  "matchFormat": "T20",
+  "startDate": "1746799200000",
+  "endDate": "1746811800000",
+  "state": "Upcoming",
+  "status": "Match starts at May 09, 14:00 GMT",
+  "team1": {
+    "teamId": 966,
+    "teamName": "Lucknow Super Giants",
+    "teamSName": "LSG",
+    "imageId": 389444
+  },
+  "teamIds": [
+    966,
+    59
+  ],
+  "team2": {
+    "teamId": 59,
+    "teamName": "Royal Challengers Bengaluru",
+    "teamSName": "RCB",
+    "imageId": 225643
+  },
+  "venueInfo": {
+    "id": 485,
+    "ground": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium",
+    "city": "Lucknow",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 485,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b54"
+  },
+  "documentCode": "0a6d8613-358a-4847-bc8c-128083bd23a8",
+  "id": 115356,
+  "matchId": "115356",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "60th Match",
+  "matchFormat": "T20",
+  "startDate": "1746885600000",
+  "endDate": "1746898200000",
+  "state": "Upcoming",
+  "status": "Match starts at May 10, 14:00 GMT",
+  "team1": {
+    "teamId": 255,
+    "teamName": "Sunrisers Hyderabad",
+    "teamSName": "SRH",
+    "imageId": 225649
+  },
+  "teamIds": [
+    255,
+    63
+  ],
+  "team2": {
+    "teamId": 63,
+    "teamName": "Kolkata Knight Riders",
+    "teamSName": "KKR",
+    "imageId": 225646
+  },
+  "venueInfo": {
+    "id": 80,
+    "ground": "Rajiv Gandhi International Stadium",
+    "city": "Hyderabad",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 80,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b55"
+  },
+  "documentCode": "0f8aa166-4cdb-4866-964b-689cf062be04",
+  "id": 115365,
+  "matchId": "115365",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "61st Match",
+  "matchFormat": "T20",
+  "startDate": "1746957600000",
+  "endDate": "1746970200000",
+  "state": "Upcoming",
+  "status": "Match starts at May 11, 10:00 GMT",
+  "team1": {
+    "teamId": 65,
+    "teamName": "Punjab Kings",
+    "teamSName": "PBKS",
+    "imageId": 225648
+  },
+  "teamIds": [
+    65,
+    62
+  ],
+  "team2": {
+    "teamId": 62,
+    "teamName": "Mumbai Indians",
+    "teamSName": "MI",
+    "imageId": 225645
+  },
+  "venueInfo": {
+    "id": 155,
+    "ground": "Himachal Pradesh Cricket Association Stadium",
+    "city": "Dharamsala",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 155,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b56"
+  },
+  "documentCode": "eafcb95a-c987-4b2a-946d-013bbce0bffc",
+  "id": 115372,
+  "matchId": "115372",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "62nd Match",
+  "matchFormat": "T20",
+  "startDate": "1746972000000",
+  "endDate": "1746984600000",
+  "state": "Upcoming",
+  "status": "Match starts at May 11, 14:00 GMT",
+  "team1": {
+    "teamId": 61,
+    "teamName": "Delhi Capitals",
+    "teamSName": "DC",
+    "imageId": 225644
+  },
+  "teamIds": [
+    61,
+    971
+  ],
+  "team2": {
+    "teamId": 971,
+    "teamName": "Gujarat Titans",
+    "teamSName": "GT",
+    "imageId": 235085
+  },
+  "venueInfo": {
+    "id": 51,
+    "ground": "Arun Jaitley Stadium",
+    "city": "Delhi",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 51,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b57"
+  },
+  "documentCode": "5fc34ec3-f53d-40ba-9c4f-48ac2a29b3df",
+  "id": 115381,
+  "matchId": "115381",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "63rd Match",
+  "matchFormat": "T20",
+  "startDate": "1747058400000",
+  "endDate": "1747071000000",
+  "state": "Upcoming",
+  "status": "Match starts at May 12, 14:00 GMT",
+  "team1": {
+    "teamId": 58,
+    "teamName": "Chennai Super Kings",
+    "teamSName": "CSK",
+    "imageId": 225641
+  },
+  "teamIds": [
+    58,
+    64
+  ],
+  "team2": {
+    "teamId": 64,
+    "teamName": "Rajasthan Royals",
+    "teamSName": "RR",
+    "imageId": 225647
+  },
+  "venueInfo": {
+    "id": 11,
+    "ground": "MA Chidambaram Stadium",
+    "city": "Chennai",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 11,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b58"
+  },
+  "documentCode": "69f66e6f-0d98-408b-8efd-85e1603926f2",
+  "id": 115390,
+  "matchId": "115390",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "64th Match",
+  "matchFormat": "T20",
+  "startDate": "1747144800000",
+  "endDate": "1747157400000",
+  "state": "Upcoming",
+  "status": "Match starts at May 13, 14:00 GMT",
+  "team1": {
+    "teamId": 59,
+    "teamName": "Royal Challengers Bengaluru",
+    "teamSName": "RCB",
+    "imageId": 225643
+  },
+  "teamIds": [
+    59,
+    255
+  ],
+  "team2": {
+    "teamId": 255,
+    "teamName": "Sunrisers Hyderabad",
+    "teamSName": "SRH",
+    "imageId": 225649
+  },
+  "venueInfo": {
+    "id": 27,
+    "ground": "M.Chinnaswamy Stadium",
+    "city": "Bengaluru",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 27,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b59"
+  },
+  "documentCode": "c7cd7959-8dc4-4ae7-842f-580c4ba262ca",
+  "id": 115392,
+  "matchId": "115392",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "65th Match",
+  "matchFormat": "T20",
+  "startDate": "1747231200000",
+  "endDate": "1747243800000",
+  "state": "Upcoming",
+  "status": "Match starts at May 14, 14:00 GMT",
+  "team1": {
+    "teamId": 971,
+    "teamName": "Gujarat Titans",
+    "teamSName": "GT",
+    "imageId": 235085
+  },
+  "teamIds": [
+    971,
+    966
+  ],
+  "team2": {
+    "teamId": 966,
+    "teamName": "Lucknow Super Giants",
+    "teamSName": "LSG",
+    "imageId": 389444
+  },
+  "venueInfo": {
+    "id": 50,
+    "ground": "Narendra Modi Stadium",
+    "city": "Ahmedabad",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 50,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b5a"
+  },
+  "documentCode": "8bea6e59-e7d7-4e02-a580-e33f8195f960",
+  "id": 115401,
+  "matchId": "115401",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "66th Match",
+  "matchFormat": "T20",
+  "startDate": "1747317600000",
+  "endDate": "1747330200000",
+  "state": "Upcoming",
+  "status": "Match starts at May 15, 14:00 GMT",
+  "team1": {
+    "teamId": 62,
+    "teamName": "Mumbai Indians",
+    "teamSName": "MI",
+    "imageId": 225645
+  },
+  "teamIds": [
+    62,
+    61
+  ],
+  "team2": {
+    "teamId": 61,
+    "teamName": "Delhi Capitals",
+    "teamSName": "DC",
+    "imageId": 225644
+  },
+  "venueInfo": {
+    "id": 81,
+    "ground": "Wankhede Stadium",
+    "city": "Mumbai",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 81,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.747Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.747Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b5b"
+  },
+  "documentCode": "e1d064b4-76d3-4151-b93e-6a8378627621",
+  "id": 115410,
+  "matchId": "115410",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "67th Match",
+  "matchFormat": "T20",
+  "startDate": "1747404000000",
+  "endDate": "1747416600000",
+  "state": "Upcoming",
+  "status": "Match starts at May 16, 14:00 GMT",
+  "team1": {
+    "teamId": 64,
+    "teamName": "Rajasthan Royals",
+    "teamSName": "RR",
+    "imageId": 225647
+  },
+  "teamIds": [
+    64,
+    65
+  ],
+  "team2": {
+    "teamId": 65,
+    "teamName": "Punjab Kings",
+    "teamSName": "PBKS",
+    "imageId": 225648
+  },
+  "venueInfo": {
+    "id": 76,
+    "ground": "Sawai Mansingh Stadium",
+    "city": "Jaipur",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 76,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.747Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.747Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b5c"
+  },
+  "documentCode": "c0cf4731-1232-4458-a429-1e9fe4273f08",
+  "id": 115417,
+  "matchId": "115417",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "68th Match",
+  "matchFormat": "T20",
+  "startDate": "1747490400000",
+  "endDate": "1747503000000",
+  "state": "Upcoming",
+  "status": "Match starts at May 17, 14:00 GMT",
+  "team1": {
+    "teamId": 59,
+    "teamName": "Royal Challengers Bengaluru",
+    "teamSName": "RCB",
+    "imageId": 225643
+  },
+  "teamIds": [
+    59,
+    63
+  ],
+  "team2": {
+    "teamId": 63,
+    "teamName": "Kolkata Knight Riders",
+    "teamSName": "KKR",
+    "imageId": 225646
+  },
+  "venueInfo": {
+    "id": 27,
+    "ground": "M.Chinnaswamy Stadium",
+    "city": "Bengaluru",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 27,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.747Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.747Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b5d"
+  },
+  "documentCode": "566a5039-e97c-4fcd-b844-a0cf18b39d23",
+  "id": 115426,
+  "matchId": "115426",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "69th Match",
+  "matchFormat": "T20",
+  "startDate": "1747562400000",
+  "endDate": "1747575000000",
+  "state": "Upcoming",
+  "status": "Match starts at May 18, 10:00 GMT",
+  "team1": {
+    "teamId": 971,
+    "teamName": "Gujarat Titans",
+    "teamSName": "GT",
+    "imageId": 235085
+  },
+  "teamIds": [
+    971,
+    58
+  ],
+  "team2": {
+    "teamId": 58,
+    "teamName": "Chennai Super Kings",
+    "teamSName": "CSK",
+    "imageId": 225641
+  },
+  "venueInfo": {
+    "id": 50,
+    "ground": "Narendra Modi Stadium",
+    "city": "Ahmedabad",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 50,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.747Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.747Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b5e"
+  },
+  "documentCode": "89229351-f5c0-4c2e-94f5-308a409b18e1",
+  "id": 115435,
+  "matchId": "115435",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "70th Match",
+  "matchFormat": "T20",
+  "startDate": "1747576800000",
+  "endDate": "1747589400000",
+  "state": "Upcoming",
+  "status": "Match starts at May 18, 14:00 GMT",
+  "team1": {
+    "teamId": 966,
+    "teamName": "Lucknow Super Giants",
+    "teamSName": "LSG",
+    "imageId": 389444
+  },
+  "teamIds": [
+    966,
+    255
+  ],
+  "team2": {
+    "teamId": 255,
+    "teamName": "Sunrisers Hyderabad",
+    "teamSName": "SRH",
+    "imageId": 225649
+  },
+  "venueInfo": {
+    "id": 485,
+    "ground": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium",
+    "city": "Lucknow",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 485,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.747Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.747Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b5f"
+  },
+  "documentCode": "8288cb02-db97-4971-977e-002c25eb06b7",
+  "id": 115437,
+  "matchId": "115437",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "Qualifier 1",
+  "matchFormat": "T20",
+  "startDate": "1747749600000",
+  "endDate": "1747762200000",
+  "state": "Upcoming",
+  "status": "Match starts at May 20, 14:00 GMT",
+  "team1": {
+    "teamId": 106,
+    "teamName": "TBC",
+    "teamSName": "TBC",
+    "imageId": 172198
+  },
+  "teamIds": [
+    106,
+    106
+  ],
+  "team2": {
+    "teamId": 106,
+    "teamName": "TBC",
+    "teamSName": "TBC",
+    "imageId": 172198
+  },
+  "venueInfo": {
+    "id": 80,
+    "ground": "Rajiv Gandhi International Stadium",
+    "city": "Hyderabad",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 80,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.747Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.747Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b60"
+  },
+  "documentCode": "2e6a895f-3de7-46fe-9b9d-628ca879183e",
+  "id": 115444,
+  "matchId": "115444",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "Eliminator",
+  "matchFormat": "T20",
+  "startDate": "1747836000000",
+  "endDate": "1747848600000",
+  "state": "Upcoming",
+  "status": "Match starts at May 21, 14:00 GMT",
+  "team1": {
+    "teamId": 106,
+    "teamName": "TBC",
+    "teamSName": "TBC",
+    "imageId": 172198
+  },
+  "teamIds": [
+    106,
+    106
+  ],
+  "team2": {
+    "teamId": 106,
+    "teamName": "TBC",
+    "teamSName": "TBC",
+    "imageId": 172198
+  },
+  "venueInfo": {
+    "id": 80,
+    "ground": "Rajiv Gandhi International Stadium",
+    "city": "Hyderabad",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 80,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.747Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.747Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b61"
+  },
+  "documentCode": "09a372af-e413-4d80-be35-3ddd416a81e5",
+  "id": 115446,
+  "matchId": "115446",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "Qualifier 2",
+  "matchFormat": "T20",
+  "startDate": "1748008800000",
+  "endDate": "1748021400000",
+  "state": "Upcoming",
+  "status": "Match starts at May 23, 14:00 GMT",
+  "team1": {
+    "teamId": 106,
+    "teamName": "TBC",
+    "teamSName": "TBC",
+    "imageId": 172198
+  },
+  "teamIds": [
+    106,
+    106
+  ],
+  "team2": {
+    "teamId": 106,
+    "teamName": "TBC",
+    "teamSName": "TBC",
+    "imageId": 172198
+  },
+  "venueInfo": {
+    "id": 31,
+    "ground": "Eden Gardens",
+    "city": "Kolkata",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 31,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.747Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.747Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b86cb9d96ffc65e6d28b62"
+  },
+  "documentCode": "de2cea77-a5f9-47d0-8a3e-e3d8e9b66ac2",
+  "id": 115455,
+  "matchId": "115455",
+  "seriesId": 9237,
+  "seriesName": "Indian Premier League 2025",
+  "matchDesc": "Final",
+  "matchFormat": "T20",
+  "startDate": "1748181600000",
+  "endDate": "1748194200000",
+  "state": "Upcoming",
+  "status": "Match starts at May 25, 14:00 GMT",
+  "team1": {
+    "teamId": 106,
+    "teamName": "TBC",
+    "teamSName": "TBC",
+    "imageId": 172198
+  },
+  "teamIds": [
+    106,
+    106
+  ],
+  "team2": {
+    "teamId": 106,
+    "teamName": "TBC",
+    "teamSName": "TBC",
+    "imageId": 172198
+  },
+  "venueInfo": {
+    "id": 31,
+    "ground": "Eden Gardens",
+    "city": "Kolkata",
+    "timezone": "+05:30"
+  },
+  "venueInfoId": 31,
+  "currBatTeamId": null,
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 0,
+        "runs": 0,
+        "wickets": 0,
+        "overs": 0
+      }
+    }
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T12:08:25.747Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T12:08:25.747Z"
+  }
+}]

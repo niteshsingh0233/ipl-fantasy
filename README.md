@@ -127,3 +127,16 @@ Task -:
 
 Replacement -:
 // shardul thakur ( Praveen ) and DF player (Ashish bhai)
+
+// captain name and vice captain name property add in ownerdb
+add property playerplayingstyle in owners iscaptain flag and isvicecaptain flag for playerslist and playingxi list
+
+// target for tomm :
+draft-playing-xi
+create-playing-xi
+swap-players
+swap-captain
+swap-vicecaptain
+
+// target for sunday :
+points-calculation-for-match-and-update-fantasy-points

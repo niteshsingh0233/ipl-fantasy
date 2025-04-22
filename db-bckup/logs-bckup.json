@@ -1,0 +1,182 @@
+[{
+  "_id": {
+    "$oid": "67c0b18047d2caf3852f36df"
+  },
+  "documentCode": "5f937d41-c28a-4afb-bcf5-aa7d1e0c85d8",
+  "logEnv": "DEV",
+  "transactionScopeId": "7ad606a5-95f2-4351-9549-a3a793393d5f",
+  "name": "bacchi",
+  "logString": [
+    "hi",
+    "67b7761cd94c84d14c404c77",
+    "{\"transaction-scope-id\":\"7ad606a5-95f2-4351-9549-a3a793393d5f\",\"content-type\":\"application/json\",\"user-agent\":\"PostmanRuntime/7.43.0\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"9b0891da-491d-420f-b17e-3aa225ef334a\",\"host\":\"localhost:6969\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\",\"content-length\":\"477\",\"cookie\":\"token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2I3NzYxY2Q5NGM4NGQxNGM0MDRjNzciLCJ1c2VyTmFtZSI6ImJhY2NoaSIsInJvbGVzIjoiQWRtaW4iLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3NDA2ODA3MzQsImV4cCI6MTc0MDY4NDMzNH0.B5ALGcSwHwzOdIjbmGAtgc1UBdit-NeKXEklRhmlGfQ\"}"
+  ],
+  "isErrored": false,
+  "logType": "INFO",
+  "createdAt": {
+    "$date": "2025-02-27T18:40:00.464Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T18:40:00.464Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c0b26e32c3dd3b156c1b7c"
+  },
+  "documentCode": "61beeea1-4941-4392-8fd6-f26c51191eee",
+  "logEnv": "DEV",
+  "transactionScopeId": "7ad606a5-15f2-4351-9549-a3a793393d5f",
+  "name": "bacchi",
+  "logString": [
+    "hi",
+    "67b7761cd94c84d14c404c77",
+    "{\"transaction-scope-id\":\"7ad606a5-15f2-4351-9549-a3a793393d5f\",\"content-type\":\"application/json\",\"user-agent\":\"PostmanRuntime/7.43.0\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"bd1c1dba-2d8c-4554-a6f3-ebef25dc778c\",\"host\":\"localhost:6969\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\",\"content-length\":\"477\",\"cookie\":\"token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2I3NzYxY2Q5NGM4NGQxNGM0MDRjNzciLCJ1c2VyTmFtZSI6ImJhY2NoaSIsInJvbGVzIjoiQWRtaW4iLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3NDA2ODA3MzQsImV4cCI6MTc0MDY4NDMzNH0.B5ALGcSwHwzOdIjbmGAtgc1UBdit-NeKXEklRhmlGfQ\"}"
+  ],
+  "isErrored": false,
+  "logType": "INFO",
+  "createdAt": {
+    "$date": "2025-02-27T18:43:58.292Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T18:43:58.292Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c0b28bea2aa7829d427aa2"
+  },
+  "documentCode": "dad8d8f5-a554-4258-8ecc-a05d2db25424",
+  "logEnv": "DEV",
+  "transactionScopeId": "7ad606a5-25f2-4351-9549-a3a793393d5f",
+  "name": "bacchi",
+  "logString": [
+    "hi",
+    "67b7761cd94c84d14c404c77",
+    "{\"transaction-scope-id\":\"7ad606a5-25f2-4351-9549-a3a793393d5f\",\"content-type\":\"application/json\",\"user-agent\":\"PostmanRuntime/7.43.0\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"45e169ec-dbbf-4988-b0df-41a0378aa6ed\",\"host\":\"localhost:6969\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\",\"content-length\":\"477\",\"cookie\":\"token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2I3NzYxY2Q5NGM4NGQxNGM0MDRjNzciLCJ1c2VyTmFtZSI6ImJhY2NoaSIsInJvbGVzIjoiQWRtaW4iLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3NDA2ODA3MzQsImV4cCI6MTc0MDY4NDMzNH0.B5ALGcSwHwzOdIjbmGAtgc1UBdit-NeKXEklRhmlGfQ\"}"
+  ],
+  "isErrored": false,
+  "logType": "INFO",
+  "createdAt": {
+    "$date": "2025-02-27T18:44:27.184Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T18:44:27.184Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c0b4f9434580da83128e06"
+  },
+  "documentCode": "94644116-c81e-413e-a49f-82a5da713a3d",
+  "logEnv": "DEV",
+  "method": "POST",
+  "routeName": "logs",
+  "urlDetails": {
+    "baseUrl": "/api/v1/logs",
+    "url": "/create-logs",
+    "originalUrl": "/api/v1/logs/create-logs"
+  },
+  "transactionScopeId": "7ad606a5-35f2-4351-9549-a3a793393d5f",
+  "name": "bacchi",
+  "logString": [
+    "hi",
+    "/api/v1/logs/create-logs",
+    "67b7761cd94c84d14c404c77",
+    "{\"transaction-scope-id\":\"7ad606a5-35f2-4351-9549-a3a793393d5f\",\"user-agent\":\"PostmanRuntime/7.43.0\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"f2d35bf8-00f3-4356-aade-8317cddf9193\",\"host\":\"localhost:6969\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\",\"cookie\":\"token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2I3NzYxY2Q5NGM4NGQxNGM0MDRjNzciLCJ1c2VyTmFtZSI6ImJhY2NoaSIsInJvbGVzIjoiQWRtaW4iLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3NDA2ODA3MzQsImV4cCI6MTc0MDY4NDMzNH0.B5ALGcSwHwzOdIjbmGAtgc1UBdit-NeKXEklRhmlGfQ\",\"content-length\":\"0\"}"
+  ],
+  "isErrored": false,
+  "logType": "INFO",
+  "createdAt": {
+    "$date": "2025-02-27T18:54:49.177Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T18:54:49.177Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c0b6b2e9ac8841e7a2d08c"
+  },
+  "documentCode": "ef03aad5-e37b-41a2-a258-fbb3b56bcb96",
+  "logEnv": "DEV",
+  "method": "POST",
+  "routeName": "cds",
+  "urlDetails": {
+    "baseUrl": "/api/v1/cds",
+    "url": "/create-cds",
+    "originalUrl": "/api/v1/cds/create-cds"
+  },
+  "transactionScopeId": "7ad606a5-45f2-4351-9549-a3a793393d5f",
+  "name": "bacchi",
+  "logString": [],
+  "isErrored": false,
+  "logType": "INFO",
+  "createdAt": {
+    "$date": "2025-02-27T19:02:10.904Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T19:02:10.904Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c0b9cbe63cbbba382331de"
+  },
+  "documentCode": "bac9025e-f80c-4c9e-bfe7-5a9679e6d470",
+  "logEnv": "DEV",
+  "method": "POST",
+  "routeName": "cds",
+  "urlDetails": {
+    "baseUrl": "/api/v1/cds",
+    "url": "/create-cds",
+    "originalUrl": "/api/v1/cds/create-cds"
+  },
+  "transactionScopeId": "7ad606a5-47f2-4351-9549-a3a793393d5f",
+  "name": "bacchi",
+  "logString": [],
+  "isErrored": false,
+  "logType": "INFO",
+  "createdAt": {
+    "$date": "2025-02-27T19:15:23.791Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T19:15:23.791Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c0ba9194829702b9ba3c46"
+  },
+  "documentCode": "e93186e1-3f39-48f1-a42f-68c37ccde03e",
+  "logEnv": "DEV",
+  "method": "POST",
+  "routeName": "cds",
+  "urlDetails": {
+    "baseUrl": "/api/v1/cds",
+    "url": "/create-cds",
+    "originalUrl": "/api/v1/cds/create-cds"
+  },
+  "transactionScopeId": "7ad606a5-57f2-4351-9549-a3a793393d5f",
+  "name": "bacchi",
+  "logString": [
+    "Create CDS Started!",
+    "Create CDS test! undefined",
+    "Create CDS done! {\"documentCode\":\"f0a7e601-02cb-4f39-ae33-9e3f30fb6d91\",\"cdsName\":\"test-cddsddsdddddddds3f\",\"url\":\"gttpgfddg\",\"method\":\"POST\",\"extraHeaders\":[{\"headerName\":\"CDP-substctip\",\"headerValue\":\"fsefsf\",\"_id\":\"67c0ba9294829702b9ba3c4f\"},{\"headerName\":\"CDP-subsdfdftctip\",\"headerValue\":\"fsefddfsdfsf\",\"_id\":\"67c0ba9294829702b9ba3c50\"}],\"queryParams\":[{\"paramKey\":\"seriesId\",\"paramValue\":\"9237\",\"_id\":\"67c0ba9294829702b9ba3c51\"}],\"isDeleted\":false,\"_id\":\"67c0ba9294829702b9ba3c4e\",\"createdAt\":\"2025-02-27T19:18:42.623Z\",\"updatedAt\":\"2025-02-27T19:18:42.623Z\",\"__v\":0}"
+  ],
+  "isErrored": false,
+  "logType": "INFO",
+  "createdAt": {
+    "$date": "2025-02-27T19:18:41.967Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T19:18:42.645Z"
+  },
+  "__v": 0
+}]

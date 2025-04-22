@@ -1,0 +1,197 @@
+[{
+  "_id": {
+    "$oid": "67b852597c6d1c0472178d21"
+  },
+  "documentCode": "37e3adb6-1881-4b74-afb0-21521ac6f257",
+  "id": 58,
+  "teamId": "58",
+  "teamName": "Chennai Super Kings",
+  "teamSName": "CSK",
+  "imageId": 225641,
+  "countryName": "India",
+  "belongsTo": "IPL",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:15:53.366Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:15:53.366Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852597c6d1c0472178d22"
+  },
+  "documentCode": "4201f7a8-c5b8-4545-885d-3125d59d99a8",
+  "id": 61,
+  "teamId": "61",
+  "teamName": "Delhi Capitals",
+  "teamSName": "DC",
+  "imageId": 225644,
+  "countryName": "India",
+  "belongsTo": "IPL",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:15:53.367Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:15:53.367Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852597c6d1c0472178d23"
+  },
+  "documentCode": "2a2d762b-bc98-462c-b177-09c4380bb1a4",
+  "id": 65,
+  "teamId": "65",
+  "teamName": "Punjab Kings",
+  "teamSName": "PBKS",
+  "imageId": 225648,
+  "countryName": "India",
+  "belongsTo": "IPL",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:15:53.367Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:15:53.367Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852597c6d1c0472178d24"
+  },
+  "documentCode": "c19980ff-80cd-45db-a039-07e3aef3ad1f",
+  "id": 63,
+  "teamId": "63",
+  "teamName": "Kolkata Knight Riders",
+  "teamSName": "KKR",
+  "imageId": 225646,
+  "countryName": "India",
+  "belongsTo": "IPL",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:15:53.367Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:15:53.367Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852597c6d1c0472178d25"
+  },
+  "documentCode": "fcec9ba3-c054-4655-b94f-b35403fa6b35",
+  "id": 62,
+  "teamId": "62",
+  "teamName": "Mumbai Indians",
+  "teamSName": "MI",
+  "imageId": 225645,
+  "countryName": "India",
+  "belongsTo": "IPL",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:15:53.367Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:15:53.367Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852597c6d1c0472178d26"
+  },
+  "documentCode": "fce5b96c-3cd1-4322-89ea-c99bce28b739",
+  "id": 64,
+  "teamId": "64",
+  "teamName": "Rajasthan Royals",
+  "teamSName": "RR",
+  "imageId": 225647,
+  "countryName": "India",
+  "belongsTo": "IPL",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:15:53.367Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:15:53.367Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852597c6d1c0472178d27"
+  },
+  "documentCode": "5d671c96-f5c5-47a7-a9d6-45b6796ec06c",
+  "id": 59,
+  "teamId": "59",
+  "teamName": "Royal Challengers Bengaluru",
+  "teamSName": "RCB",
+  "imageId": 225643,
+  "countryName": "India",
+  "belongsTo": "IPL",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:15:53.367Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:15:53.367Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852597c6d1c0472178d28"
+  },
+  "documentCode": "db1b5962-5a1b-467f-a0bf-b9f0865faec8",
+  "id": 255,
+  "teamId": "255",
+  "teamName": "Sunrisers Hyderabad",
+  "teamSName": "SRH",
+  "imageId": 225649,
+  "countryName": "India",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:15:53.368Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:15:53.368Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852597c6d1c0472178d29"
+  },
+  "documentCode": "48ed7316-bde0-4b43-8fc2-db66a84d7972",
+  "id": 971,
+  "teamId": "971",
+  "teamName": "Gujarat Titans",
+  "teamSName": "GT",
+  "imageId": 235085,
+  "countryName": "India",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:15:53.368Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:15:53.368Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852597c6d1c0472178d2a"
+  },
+  "documentCode": "ef34a685-7b7d-4ff3-83c9-7dc1554b2bb6",
+  "id": 966,
+  "teamId": "966",
+  "teamName": "Lucknow Super Giants",
+  "teamSName": "LSG",
+  "imageId": 389444,
+  "countryName": "India",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:15:53.368Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:15:53.368Z"
+  }
+}]

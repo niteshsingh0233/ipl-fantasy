@@ -1,0 +1,5450 @@
+[{
+  "_id": {
+    "$oid": "67f574b9421edd01df766b5c"
+  },
+  "documentCode": "1f85ba03-f665-451a-966d-709af3ca7fdb",
+  "seriesId": "9237",
+  "seriesDetails": {
+    "$oid": "67b8800c73cf2a95e3a9bead"
+  },
+  "ownerId": [
+    {
+      "$oid": "67f573b4421edd01df7655cf"
+    },
+    {
+      "$oid": "67f57386421edd01df76559e"
+    },
+    {
+      "$oid": "67f57365421edd01df76556d"
+    },
+    {
+      "$oid": "67f57341421edd01df76553c"
+    },
+    {
+      "$oid": "67f57320421edd01df76550b"
+    },
+    {
+      "$oid": "67f572de421edd01df7654da"
+    },
+    {
+      "$oid": "67f572b7421edd01df7654a9"
+    },
+    {
+      "$oid": "67f571e8421edd01df765478"
+    },
+    {
+      "$oid": "67f57b0e591a5fba60ffdee3"
+    },
+    {
+      "$oid": "67f57899e82081c624131e28"
+    }
+  ],
+  "users": [
+    {
+      "$oid": "67ba145393170272445081e9"
+    },
+    {
+      "$oid": "67ba11e993170272445081d5"
+    },
+    {
+      "$oid": "67ba12bd93170272445081dd"
+    },
+    {
+      "$oid": "67ba134b93170272445081e1"
+    },
+    {
+      "$oid": "67ba125593170272445081d9"
+    },
+    {
+      "$oid": "67ba1074f382fb1de4798a30"
+    },
+    {
+      "$oid": "67ba13c993170272445081e5"
+    },
+    {
+      "$oid": "67b82e2977d627feb658c622"
+    },
+    {
+      "$oid": "67b82d9277d627feb658c61c"
+    },
+    {
+      "$oid": "67ba116093170272445081d1"
+    }
+  ],
+  "pointsId": [],
+  "maximumOwners": 10,
+  "maximumPoints": 3000,
+  "maximumMoneyGame": 2000,
+  "unsoldPlayersList": [
+    {
+      "playerId": "1427488",
+      "playerName": "Andre Siddarth C",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d2d",
+      "playerDocumentCode": "482d1524-57bd-4bdc-996d-2ba039245d3d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b5e"
+      }
+    },
+    {
+      "playerId": "24261",
+      "playerName": "Ashok Sharma",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d57",
+      "playerDocumentCode": "460d94dc-2001-41b3-9dec-8c97826660c9",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b88"
+      }
+    },
+    {
+      "playerId": "1447065",
+      "playerName": "Aniket Verma",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d72",
+      "playerDocumentCode": "8ce45b46-6364-4ad1-ad6c-910ddd7145dd",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ba3"
+      }
+    },
+    {
+      "playerId": "10946",
+      "playerName": "Zeeshan Ansari",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d78",
+      "playerDocumentCode": "cf38d118-f41c-430e-b86f-dba3b3f6e87b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ba9"
+      }
+    },
+    {
+      "playerId": "46926",
+      "playerName": "Eshan Malinga",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d7e",
+      "playerDocumentCode": "11f04814-b73d-4d9b-be6d-fab9d82ab7f3",
+      "_id": {
+        "$oid": "67f574b9421edd01df766baf"
+      }
+    },
+    {
+      "playerId": "1447073",
+      "playerName": "Abhinandan Singh",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d97",
+      "playerDocumentCode": "49e00550-e6bd-48ad-977e-a44d502a92f4",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bc8"
+      }
+    },
+    {
+      "playerId": "22386",
+      "playerName": "Tripurana Vijay",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d9e",
+      "playerDocumentCode": "7e89586d-2002-4e96-9c62-06c2dd3f1ba1",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bcf"
+      }
+    },
+    {
+      "playerId": "1431811",
+      "playerName": "Vipraj Nigam",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d9f",
+      "playerDocumentCode": "9511333e-ae27-4317-a049-144c65bc8bec",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bd0"
+      }
+    },
+    {
+      "playerId": "11777",
+      "playerName": "Ajay Jadav Mandal",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943da2",
+      "playerDocumentCode": "3a7322ea-603b-4da2-b745-c01a96190414",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bd3"
+      }
+    },
+    {
+      "playerId": "47742",
+      "playerName": "Manvanth Kumar L",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943da3",
+      "playerDocumentCode": "b3b9237a-c862-4566-9291-08d204bd28f1",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bd4"
+      }
+    },
+    {
+      "playerId": "1447321",
+      "playerName": "Madhav Tiwari",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943da4",
+      "playerDocumentCode": "c6c82554-b6a7-4e45-bf18-b3464058a725",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bd5"
+      }
+    },
+    {
+      "playerId": "22561",
+      "playerName": "Harnoor Singh",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943db0",
+      "playerDocumentCode": "f8d322cf-aafc-47af-a185-9bb3954ece2f",
+      "_id": {
+        "$oid": "67f574b9421edd01df766be1"
+      }
+    },
+    {
+      "playerId": "32525",
+      "playerName": "Pyla Avinash",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943db2",
+      "playerDocumentCode": "f1ba7f54-9eaf-465d-9480-6d456c29be16",
+      "_id": {
+        "$oid": "67f574b9421edd01df766be3"
+      }
+    },
+    {
+      "playerId": "13082",
+      "playerName": "Krishnan Shrijith",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943dd5",
+      "playerDocumentCode": "d0ec7a67-837c-4e54-8bbf-2650ab3b2ccc",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c06"
+      }
+    },
+    {
+      "playerId": "11684",
+      "playerName": "Ashwani Kumar",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dd8",
+      "playerDocumentCode": "ce17a66c-9082-43bd-bed1-02a1e9e5d466",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c09"
+      }
+    },
+    {
+      "playerId": "12071",
+      "playerName": "Mujeeb Ur Rahman",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dde",
+      "playerDocumentCode": "8b9db615-0860-4584-a4b3-790dcb756d7c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c0f"
+      }
+    },
+    {
+      "playerId": "36515",
+      "playerName": "Digvesh Singh",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943e02",
+      "playerDocumentCode": "c7dcd5c8-c571-4a38-9b2b-aa39a6f408b8",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c33"
+      }
+    },
+    {
+      "playerId": "12930",
+      "playerName": "Manimaran Siddharth",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943e0b",
+      "playerDocumentCode": "07e339e8-6b5c-49c7-aba7-bed0b60c18ab",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c3c"
+      }
+    },
+    {
+      "playerId": "54735",
+      "playerName": "Prince Yadav",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943e0e",
+      "playerDocumentCode": "41d52671-622d-4ec6-9d35-706f93c94bec",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c3f"
+      }
+    }
+  ],
+  "soldPlayerList": [
+    {
+      "playerId": "12926",
+      "playerName": "Varun Chakravarthy",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d67",
+      "playerDocumentCode": "a6e40224-e4d5-42c8-94cf-c4b8f2dfe9a6",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b98"
+      }
+    },
+    {
+      "playerId": "10738",
+      "playerName": "Rashid Khan",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943de7",
+      "playerDocumentCode": "ab1d0e52-6417-4b63-80bd-ee88763eb8bd",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c18"
+      }
+    },
+    {
+      "playerId": "10479",
+      "playerName": "Philip Salt",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d8e",
+      "playerDocumentCode": "a96cfb70-e065-4aba-9e96-17fef9ae221c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bbf"
+      }
+    },
+    {
+      "playerId": "9838",
+      "playerName": "Devon Conway",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d39",
+      "playerDocumentCode": "5979277f-96ed-4bac-98c9-e635164cd259",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b6a"
+      }
+    },
+    {
+      "playerId": "12086",
+      "playerName": "Abhishek Sharma",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d74",
+      "playerDocumentCode": "4a00e79a-f929-4734-82ca-e4ec31e4e196",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ba5"
+      }
+    },
+    {
+      "playerId": "14501",
+      "playerName": "Jake Fraser-McGurk",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d9b",
+      "playerDocumentCode": "29860092-eb0c-4136-bb8c-ca54f5c35e5d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bcc"
+      }
+    },
+    {
+      "playerId": "8271",
+      "playerName": "Sanju Samson",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d4d",
+      "playerDocumentCode": "d7eb7c90-d02d-4e9d-8218-b803d74c1114",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b7e"
+      }
+    },
+    {
+      "playerId": "10636",
+      "playerName": "Rajat Patidar",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d83",
+      "playerDocumentCode": "398c5419-afe6-45a9-b7e7-6f52a031d607",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bb4"
+      }
+    },
+    {
+      "playerId": "2276",
+      "playerName": "Sunil Narine",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d62",
+      "playerDocumentCode": "f20920c0-3c41-4a8c-80a7-f093337de1b5",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b93"
+      }
+    },
+    {
+      "playerId": "12258",
+      "playerName": "Will Jacks",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dcf",
+      "playerDocumentCode": "c0ff7127-9750-46ab-aac2-c9603a4f8b39",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c00"
+      }
+    },
+    {
+      "playerId": "265",
+      "playerName": "MS Dhoni",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d3a",
+      "playerDocumentCode": "54513614-b748-4ff2-bd2f-94a3ab3edfd5",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b6b"
+      }
+    },
+    {
+      "playerId": "1429626",
+      "playerName": "Vansh Bedi",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d3b",
+      "playerDocumentCode": "17b166a2-d6ff-4690-8b83-9eadf8a716dd",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b6c"
+      }
+    },
+    {
+      "playerId": "19243",
+      "playerName": "Tristan Stubbs",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943da5",
+      "playerDocumentCode": "9e406032-fc3d-4bec-88dc-e1e17c7b06c3",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bd6"
+      }
+    },
+    {
+      "playerId": "24326",
+      "playerName": "Abishek Porel",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943da6",
+      "playerDocumentCode": "52524917-f4f9-4ba3-87c6-cb4ef4a8a252",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bd7"
+      }
+    },
+    {
+      "playerId": "14798",
+      "playerName": "Donovan Ferreira",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943da7",
+      "playerDocumentCode": "ad31af4a-90a6-4736-bc06-de7dd8ad95f5",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bd8"
+      }
+    },
+    {
+      "playerId": "8733",
+      "playerName": "KL Rahul",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943da8",
+      "playerDocumentCode": "9d8db977-104c-4aed-b9ed-13e14aa86f9e",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bd9"
+      }
+    },
+    {
+      "playerId": "14254",
+      "playerName": "Prabhsimran Singh",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943dbd",
+      "playerDocumentCode": "7e814958-ae62-4d29-b863-e67a599b2ad0",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bee"
+      }
+    },
+    {
+      "playerId": "11893",
+      "playerName": "Vishnu Vinod",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943dbf",
+      "playerDocumentCode": "a822b383-75ae-403b-962a-30c7b551d8a2",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bf0"
+      }
+    },
+    {
+      "playerId": "10637",
+      "playerName": "Josh Inglis",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943dbe",
+      "playerDocumentCode": "52f0df80-77ea-4032-b889-1bc31b1e7787",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bef"
+      }
+    },
+    {
+      "playerId": "13972",
+      "playerName": "Luvnith Sisodia",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d66",
+      "playerDocumentCode": "01eec3a4-c80f-4a02-b3df-56ed1f39ea76",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b97"
+      }
+    },
+    {
+      "playerId": "8520",
+      "playerName": "Quinton de Kock",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d64",
+      "playerDocumentCode": "a7d5b9b2-7720-4431-b9f4-784130f98a7d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b95"
+      }
+    },
+    {
+      "playerId": "13213",
+      "playerName": "Rahmanullah Gurbaz",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d65",
+      "playerDocumentCode": "3eb212d1-5ae3-42c3-aab3-5ccc3915d487",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b96"
+      }
+    },
+    {
+      "playerId": "13070",
+      "playerName": "Ryan Rickelton",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943dd4",
+      "playerDocumentCode": "efe8e6eb-8774-4d4f-8f1f-917f2acf30d4",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c05"
+      }
+    },
+    {
+      "playerId": "36454",
+      "playerName": "Robin Minz",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943dd6",
+      "playerDocumentCode": "de106dac-03a5-424f-bd15-d46b72f1e4dc",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c07"
+      }
+    },
+    {
+      "playerId": "14691",
+      "playerName": "Dhruv Jurel",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d4e",
+      "playerDocumentCode": "0ae444a3-8da2-4532-802c-98bab6429c3a",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b7f"
+      }
+    },
+    {
+      "playerId": "32854",
+      "playerName": "Kunal Singh Rathore",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d4f",
+      "playerDocumentCode": "21870f78-d64f-4405-b619-2b68b32298f6",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b80"
+      }
+    },
+    {
+      "playerId": "10214",
+      "playerName": "Jitesh Sharma",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d8f",
+      "playerDocumentCode": "baac09df-fb5c-45f0-844c-1dcda1bd3e44",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bc0"
+      }
+    },
+    {
+      "playerId": "10209",
+      "playerName": "Heinrich Klaasen",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d76",
+      "playerDocumentCode": "a70b0b52-ac1f-4400-ac3d-10deed88da69",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ba7"
+      }
+    },
+    {
+      "playerId": "10276",
+      "playerName": "Ishan Kishan",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d77",
+      "playerDocumentCode": "c8cb6454-bd28-4e61-a81a-ac757814eeb9",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ba8"
+      }
+    },
+    {
+      "playerId": "9406",
+      "playerName": "Nicholas Pooran",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943e04",
+      "playerDocumentCode": "221797ac-7006-42d6-ab12-4a560e97f972",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c35"
+      }
+    },
+    {
+      "playerId": "10744",
+      "playerName": "Rishabh Pant",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943e06",
+      "playerDocumentCode": "2cc9ce6a-0046-452f-a7c2-338b843325e9",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c37"
+      }
+    },
+    {
+      "playerId": "13388",
+      "playerName": "Aryan Juyal",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943e05",
+      "playerDocumentCode": "b2b88e2c-4b25-421d-8c2e-931036ac3f84",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c36"
+      }
+    },
+    {
+      "playerId": "14327",
+      "playerName": "Akash Singh",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943e07",
+      "playerDocumentCode": "b32e56ab-de55-487e-b91c-1e86d57a184c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c38"
+      }
+    },
+    {
+      "playerId": "13089",
+      "playerName": "Matthew Breetzke",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943e03",
+      "playerDocumentCode": "6de5f5c2-4f70-4fb0-bdb2-dfed225b464c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c34"
+      }
+    },
+    {
+      "playerId": "15779",
+      "playerName": "Kumar Kushagra",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943ded",
+      "playerDocumentCode": "c0d3e4a6-d1de-49bd-93c2-ddd637098284",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c1e"
+      }
+    },
+    {
+      "playerId": "13135",
+      "playerName": "Anuj Rawat",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943dee",
+      "playerDocumentCode": "5e4a1451-d368-4b16-b5ff-8dd678e40416",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c1f"
+      }
+    },
+    {
+      "playerId": "2258",
+      "playerName": "Jos Buttler",
+      "playerStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943def",
+      "playerDocumentCode": "8a9af836-c372-4352-976f-f2713ebf653b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c20"
+      }
+    },
+    {
+      "playerId": "11813",
+      "playerName": "Ruturaj Gaikwad",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d2c",
+      "playerDocumentCode": "7ec178b8-01df-490a-ab24-0c5ee524505c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b5d"
+      }
+    },
+    {
+      "playerId": "22571",
+      "playerName": "Shaik Rasheed",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d2e",
+      "playerDocumentCode": "13a95cd6-8bc0-4129-bdbe-dfc8cd665585",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b5f"
+      }
+    },
+    {
+      "playerId": "9012",
+      "playerName": "Rahul Tripathi",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d2f",
+      "playerDocumentCode": "8b925e8b-b82b-42ca-8bff-1060c87f151b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b60"
+      }
+    },
+    {
+      "playerId": "8257",
+      "playerName": "Karun Nair",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d99",
+      "playerDocumentCode": "06880860-5780-4fc4-a15b-30f645490c6e",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bca"
+      }
+    },
+    {
+      "playerId": "12201",
+      "playerName": "Harry Brook",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d9a",
+      "playerDocumentCode": "fded35f1-f3ef-4c56-a075-ab2155cefb08",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bcb"
+      }
+    },
+    {
+      "playerId": "7825",
+      "playerName": "Faf du Plessis",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d98",
+      "playerDocumentCode": "f9290477-89be-4ba7-b9d9-1465aaf0dd0f",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bc9"
+      }
+    },
+    {
+      "playerId": "14700",
+      "playerName": "Sameer Rizvi ",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d9c",
+      "playerDocumentCode": "cdf56a88-5e21-449b-958d-7c4bc0226c35",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bcd"
+      }
+    },
+    {
+      "playerId": "13915",
+      "playerName": "Nehal Wadhera",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943daf",
+      "playerDocumentCode": "3f64af67-a7ab-4675-9754-7a2bb3898193",
+      "_id": {
+        "$oid": "67f574b9421edd01df766be0"
+      }
+    },
+    {
+      "playerId": "9428",
+      "playerName": "Shreyas Iyer",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943db1",
+      "playerDocumentCode": "41638be4-5bc4-43ba-9a79-b8ab7bb39090",
+      "_id": {
+        "$oid": "67f574b9421edd01df766be2"
+      }
+    },
+    {
+      "playerId": "14689",
+      "playerName": "Priyansh Arya",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943db3",
+      "playerDocumentCode": "e194c2d4-b023-4b37-9b0d-afe3b6a23472",
+      "_id": {
+        "$oid": "67f574b9421edd01df766be4"
+      }
+    },
+    {
+      "playerId": "1447",
+      "playerName": "Ajinkya Rahane",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d5a",
+      "playerDocumentCode": "827da505-dcd4-491c-9422-97763a65dd95",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b8b"
+      }
+    },
+    {
+      "playerId": "1836",
+      "playerName": "Manish Pandey",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d59",
+      "playerDocumentCode": "3286c7d0-0e4a-453d-bab0-08b2542061a9",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b8a"
+      }
+    },
+    {
+      "playerId": "22566",
+      "playerName": "Angkrish Raghuvanshi",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d5c",
+      "playerDocumentCode": "7853f3b3-df19-4f62-90a5-5618a70e49b2",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b8d"
+      }
+    },
+    {
+      "playerId": "10896",
+      "playerName": "Rinku Singh",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d5b",
+      "playerDocumentCode": "becfe512-bc84-485d-bc8a-229e0fea9a58",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b8c"
+      }
+    },
+    {
+      "playerId": "11445",
+      "playerName": "Rovman Powell",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d5d",
+      "playerDocumentCode": "52edc839-af09-4b0e-a452-61429adee0db",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b8e"
+      }
+    },
+    {
+      "playerId": "7915",
+      "playerName": "Suryakumar Yadav",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943dc9",
+      "playerDocumentCode": "9389ddff-236a-4f34-a41a-941546b6c847",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bfa"
+      }
+    },
+    {
+      "playerId": "576",
+      "playerName": "Rohit Sharma",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943dc8",
+      "playerDocumentCode": "5a4e6989-6aa8-4f96-bb54-5d4c9b4a59d3",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bf9"
+      }
+    },
+    {
+      "playerId": "14504",
+      "playerName": "Tilak Varma",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943dca",
+      "playerDocumentCode": "ef534e1e-039b-460a-8316-10cfaf7fbdb4",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bfb"
+      }
+    },
+    {
+      "playerId": "36139",
+      "playerName": "Naman Dhir",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943dcb",
+      "playerDocumentCode": "b89c145e-b3ba-4694-bf3d-54302e8a4d8b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bfc"
+      }
+    },
+    {
+      "playerId": "13940",
+      "playerName": "Yashasvi Jaiswal",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d47",
+      "playerDocumentCode": "bdab96ec-9480-4496-8d31-e66cbb71f6e7",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b78"
+      }
+    },
+    {
+      "playerId": "9789",
+      "playerName": "Shimron Hetmyer",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d46",
+      "playerDocumentCode": "f6da7560-fedc-46be-9651-efa038eb2205",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b77"
+      }
+    },
+    {
+      "playerId": "19328",
+      "playerName": "Shubham Dubey",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d48",
+      "playerDocumentCode": "ccb6df9d-c7fe-497b-9bbb-c391f83a13d3",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b79"
+      }
+    },
+    {
+      "playerId": "51791",
+      "playerName": "Vaibhav Suryavanshi",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d45",
+      "playerDocumentCode": "2d2ba2d4-49ed-4d73-97c2-c4b7aeb2c6d4",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b76"
+      }
+    },
+    {
+      "playerId": "9204",
+      "playerName": "Nitish Rana",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d49",
+      "playerDocumentCode": "d8b0efcb-d73b-44bf-b4f1-d6404fa3cee2",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b7a"
+      }
+    },
+    {
+      "playerId": "1413",
+      "playerName": "Virat Kohli",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d82",
+      "playerDocumentCode": "577e08bf-a5a0-423e-9fd0-5a8fcdd4f485",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bb3"
+      }
+    },
+    {
+      "playerId": "52418",
+      "playerName": "Swastik Chikara",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d85",
+      "playerDocumentCode": "e0e46767-63e6-4d4d-8714-b7e849547db8",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bb6"
+      }
+    },
+    {
+      "playerId": "13088",
+      "playerName": "Devdutt Padikkal",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d84",
+      "playerDocumentCode": "2392a8a9-b4b1-4d6d-9544-d2ee81160952",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bb5"
+      }
+    },
+    {
+      "playerId": "13169",
+      "playerName": "Tim David",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d86",
+      "playerDocumentCode": "544ae68a-73cc-424d-9cb5-6bb1ff67d9d5",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bb7"
+      }
+    },
+    {
+      "playerId": "8497",
+      "playerName": "Travis Head",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d6f",
+      "playerDocumentCode": "cfc2714a-e32b-4111-8dc8-ea7c40c249a8",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ba0"
+      }
+    },
+    {
+      "playerId": "10499",
+      "playerName": "Abhinav Manohar",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d70",
+      "playerDocumentCode": "8e03ac7e-f4f4-405b-9591-60b8f1cc5955",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ba1"
+      }
+    },
+    {
+      "playerId": "13914",
+      "playerName": "Atharva Taide",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d6e",
+      "playerDocumentCode": "4fdac8f0-7ac1-424d-8fe2-536dde14a2cd",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b9f"
+      }
+    },
+    {
+      "playerId": "8709",
+      "playerName": "Sachin Baby",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d71",
+      "playerDocumentCode": "9673eb8a-1813-4240-bbd2-c6745f41d922",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ba2"
+      }
+    },
+    {
+      "playerId": "6349",
+      "playerName": "David Miller",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943df9",
+      "playerDocumentCode": "9475f080-0821-4be2-b3db-2b976e29baed",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c2a"
+      }
+    },
+    {
+      "playerId": "9582",
+      "playerName": "Aiden Markram",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943dfa",
+      "playerDocumentCode": "5c6b480a-4568-492e-8e7f-0d9adb9874b6",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c2b"
+      }
+    },
+    {
+      "playerId": "10223",
+      "playerName": "Himmat Singh",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943df8",
+      "playerDocumentCode": "f209d5af-7adb-44f4-88b1-52706f001a78",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c29"
+      }
+    },
+    {
+      "playerId": "11808",
+      "playerName": "Shubman Gill",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943de0",
+      "playerDocumentCode": "085884c2-b3d1-4061-a8c7-340bec6cd58a",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c11"
+      }
+    },
+    {
+      "playerId": "13866",
+      "playerName": "Sai Sudharsan",
+      "playerStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943ddf",
+      "playerDocumentCode": "ea965420-2316-4312-bf7b-b281c4ea084e",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c10"
+      }
+    },
+    {
+      "playerId": "8512",
+      "playerName": "Jamie Overton",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d3c",
+      "playerDocumentCode": "33076137-6a31-4f00-b469-57aca534f0bc",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b6d"
+      }
+    },
+    {
+      "playerId": "12092",
+      "playerName": "Kamlesh Nagarkoti",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d3d",
+      "playerDocumentCode": "32a4d3b0-8c95-47c8-a286-0963d26397da",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b6e"
+      }
+    },
+    {
+      "playerId": "16458",
+      "playerName": "Matheesha Pathirana",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d3f",
+      "playerDocumentCode": "282a49b8-760d-4918-a1ac-724c5a198e4f",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b70"
+      }
+    },
+    {
+      "playerId": "9746",
+      "playerName": "Shreyas Gopal",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d3e",
+      "playerDocumentCode": "82cbb1b5-1e99-46cc-92bb-bf46a02c7ed5",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b6f"
+      }
+    },
+    {
+      "playerId": "13184",
+      "playerName": "Mukesh Choudhary",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d40",
+      "playerDocumentCode": "04d23acf-e567-4dfe-beb2-8132224f5681",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b71"
+      }
+    },
+    {
+      "playerId": "15480",
+      "playerName": "Nathan Ellis",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d41",
+      "playerDocumentCode": "3ae10704-0be8-4e18-9e54-fc870b9633be",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b72"
+      }
+    },
+    {
+      "playerId": "19807",
+      "playerName": "Gurjapneet Singh",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d42",
+      "playerDocumentCode": "9a273eef-ce51-4d84-852a-772348350d9e",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b73"
+      }
+    },
+    {
+      "playerId": "15452",
+      "playerName": "Noor Ahmad",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d43",
+      "playerDocumentCode": "716913c3-2a8d-48ac-8e4c-b952e5513598",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b74"
+      }
+    },
+    {
+      "playerId": "10952",
+      "playerName": "Khaleel Ahmed",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d44",
+      "playerDocumentCode": "5ce003ac-32b3-4713-8dc3-8fc7ce688b51",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b75"
+      }
+    },
+    {
+      "playerId": "8292",
+      "playerName": "Kuldeep Yadav",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943da9",
+      "playerDocumentCode": "2663d063-89f2-42f9-adde-8ea4a1110dc8",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bda"
+      }
+    },
+    {
+      "playerId": "8393",
+      "playerName": "Dushmantha Chameera",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943daa",
+      "playerDocumentCode": "d0a85c8f-8886-4da5-936b-d49a953eb980",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bdb"
+      }
+    },
+    {
+      "playerId": "7710",
+      "playerName": "Mitchell Starc",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dab",
+      "playerDocumentCode": "83f83268-7adb-4837-a849-a1d72ec51f0a",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bdc"
+      }
+    },
+    {
+      "playerId": "8181",
+      "playerName": "Mohit Sharma",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dac",
+      "playerDocumentCode": "2bcada91-15eb-4d86-af1f-c6756bee2a40",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bdd"
+      }
+    },
+    {
+      "playerId": "10225",
+      "playerName": "T Natarajan",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dad",
+      "playerDocumentCode": "4b11d048-9d33-4ae7-9322-db0c08cc697d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bde"
+      }
+    },
+    {
+      "playerId": "10754",
+      "playerName": "Mukesh Kumar",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dae",
+      "playerDocumentCode": "8120eb64-bdff-443a-885d-40bf551f131e",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bdf"
+      }
+    },
+    {
+      "playerId": "14452",
+      "playerName": "Harpreet Brar",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dc0",
+      "playerDocumentCode": "ca4eee7e-8db0-4a03-886a-d9b5179331a2",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bf1"
+      }
+    },
+    {
+      "playerId": "10692",
+      "playerName": "Lockie Ferguson",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dc1",
+      "playerDocumentCode": "8f2eb1c1-e712-4d84-b503-64165b0a310d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bf2"
+      }
+    },
+    {
+      "playerId": "7910",
+      "playerName": "Yuzvendra Chahal",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dc3",
+      "playerDocumentCode": "0f05fc3e-4afa-4592-ba04-f08283fa73a0",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bf4"
+      }
+    },
+    {
+      "playerId": "13217",
+      "playerName": "Arshdeep Singh",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dc2",
+      "playerDocumentCode": "eae0fd67-de39-4d99-b5d0-a9ef17dac48d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bf3"
+      }
+    },
+    {
+      "playerId": "11689",
+      "playerName": "Xavier Bartlett",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dc7",
+      "playerDocumentCode": "e8828a5e-7ffe-4b20-8f43-e7e37290a8e0",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bf8"
+      }
+    },
+    {
+      "playerId": "14336",
+      "playerName": "Kuldeep Sen",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dc5",
+      "playerDocumentCode": "88265e23-ae0d-4731-bc4f-d97cdd5b49f8",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bf6"
+      }
+    },
+    {
+      "playerId": "10486",
+      "playerName": "Vijaykumar Vyshak",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dc4",
+      "playerDocumentCode": "354e43b6-df71-4d06-95b9-03b763171e0f",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bf5"
+      }
+    },
+    {
+      "playerId": "12096",
+      "playerName": "Yash Thakur",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dc6",
+      "playerDocumentCode": "39836091-bb7f-491a-aca4-d858c80d4d43",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bf7"
+      }
+    },
+    {
+      "playerId": "24729",
+      "playerName": "Harshit Rana",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d6a",
+      "playerDocumentCode": "e4752f72-0586-4f88-b765-938c3629dbe4",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b9b"
+      }
+    },
+    {
+      "playerId": "15861",
+      "playerName": "Vaibhav Arora",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d69",
+      "playerDocumentCode": "fc837f0b-e26e-4eb6-99aa-f62e21053ad0",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b9a"
+      }
+    },
+    {
+      "playerId": "12627",
+      "playerName": "Mayank Markande",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d68",
+      "playerDocumentCode": "2cd63027-9879-40bf-8d41-a7562312bf2d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b99"
+      }
+    },
+    {
+      "playerId": "19027",
+      "playerName": "Umran Malik",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d6c",
+      "playerDocumentCode": "b07ba6af-36b9-4c60-9518-c46bc77138f5",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b9d"
+      }
+    },
+    {
+      "playerId": "11427",
+      "playerName": "Anrich Nortje",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d6b",
+      "playerDocumentCode": "b5739237-0e49-46be-b519-0b4e76b0eec3",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b9c"
+      }
+    },
+    {
+      "playerId": "13143",
+      "playerName": "Spencer Johnson",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d6d",
+      "playerDocumentCode": "23541bbf-e59e-47ea-989a-8da290bdf24c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b9e"
+      }
+    },
+    {
+      "playerId": "9311",
+      "playerName": "Jasprit Bumrah",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dd7",
+      "playerDocumentCode": "ae9a360c-b6ef-4994-a45b-22ea5088b15a",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c08"
+      }
+    },
+    {
+      "playerId": "8117",
+      "playerName": "Trent Boult",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943ddc",
+      "playerDocumentCode": "31dbeed0-3766-4985-b472-2637e9641da9",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c0d"
+      }
+    },
+    {
+      "playerId": "7836",
+      "playerName": "Deepak Chahar",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943ddd",
+      "playerDocumentCode": "197ac4eb-4142-4d33-806d-ec0beb8acb84",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c0e"
+      }
+    },
+    {
+      "playerId": "1844",
+      "playerName": "Karn Sharma",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943ddb",
+      "playerDocumentCode": "94ee602c-4023-4bbc-a8da-56944a8d4147",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c0c"
+      }
+    },
+    {
+      "playerId": "8531",
+      "playerName": "Lizaad Williams",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dda",
+      "playerDocumentCode": "6b4780cb-34f4-4abd-b6be-b361db5138c0",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c0b"
+      }
+    },
+    {
+      "playerId": "8349",
+      "playerName": "Reece Topley",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dd9",
+      "playerDocumentCode": "c038dd2b-0481-4cd9-ba85-caa39c27f016",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c0a"
+      }
+    },
+    {
+      "playerId": "8356",
+      "playerName": "Sandeep Sharma",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d50",
+      "playerDocumentCode": "5b859b12-ea0f-468d-a1fc-15ba19f5a902",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b81"
+      }
+    },
+    {
+      "playerId": "11307",
+      "playerName": "Tushar Deshpande",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d51",
+      "playerDocumentCode": "7963263a-cc5d-4567-851f-64109ec17db3",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b82"
+      }
+    },
+    {
+      "playerId": "15727",
+      "playerName": "Akash Madhwal",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d53",
+      "playerDocumentCode": "09ae5d92-957a-4c80-94c0-bdf6fe157207",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b84"
+      }
+    },
+    {
+      "playerId": "14190",
+      "playerName": "Kumar Kartikeya",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d52",
+      "playerDocumentCode": "71e9b934-ce72-4474-bd63-f215010af647",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b83"
+      }
+    },
+    {
+      "playerId": "23346",
+      "playerName": "Kwena Maphaka",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d54",
+      "playerDocumentCode": "47547497-001f-4b2a-aec4-8865e60ec2a2",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b85"
+      }
+    },
+    {
+      "playerId": "18504",
+      "playerName": "Maheesh Theekshana",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d55",
+      "playerDocumentCode": "50880831-2690-4c3b-9202-c62658ac477e",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b86"
+      }
+    },
+    {
+      "playerId": "14282",
+      "playerName": "Fazalhaq Farooqi",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d56",
+      "playerDocumentCode": "e07ea494-9c03-4d5b-93af-be9b664f6263",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b87"
+      }
+    },
+    {
+      "playerId": "11540",
+      "playerName": "Jofra Archer",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d58",
+      "playerDocumentCode": "74e0cda0-0ff9-499e-82da-59682f633cd9",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b89"
+      }
+    },
+    {
+      "playerId": "1726",
+      "playerName": "Bhuvneshwar Kumar",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d91",
+      "playerDocumentCode": "f29997e8-4bef-4972-891b-f5b647b5cb03",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bc2"
+      }
+    },
+    {
+      "playerId": "6258",
+      "playerName": "Josh Hazlewood",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d90",
+      "playerDocumentCode": "f81ba51b-2567-43ac-a220-67b8d2f7c145",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bc1"
+      }
+    },
+    {
+      "playerId": "18509",
+      "playerName": "Nuwan Thushara",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d96",
+      "playerDocumentCode": "2e5aa2cb-ee74-4d3a-be64-0081dfb0176a",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bc7"
+      }
+    },
+    {
+      "playerId": "9603",
+      "playerName": "Lungi Ngidi",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d92",
+      "playerDocumentCode": "5a6b624a-68c3-41d2-8f83-c45b955d56fc",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bc3"
+      }
+    },
+    {
+      "playerId": "14172",
+      "playerName": "Yash Dayal",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d95",
+      "playerDocumentCode": "15093f30-e922-4ccb-89ad-4e95cd8dce5a",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bc6"
+      }
+    },
+    {
+      "playerId": "14274",
+      "playerName": "Rasikh Dar Salam",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d93",
+      "playerDocumentCode": "8813e51b-9357-41d1-a09b-8f1da4400e7a",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bc4"
+      }
+    },
+    {
+      "playerId": "36487",
+      "playerName": "Suyash Sharma",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d94",
+      "playerDocumentCode": "1681108b-72e8-4466-8066-2e6d5d6abb76",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bc5"
+      }
+    },
+    {
+      "playerId": "8095",
+      "playerName": "Pat Cummins",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d79",
+      "playerDocumentCode": "c12f868d-7b82-4751-b479-5a46dc39f757",
+      "_id": {
+        "$oid": "67f574b9421edd01df766baa"
+      }
+    },
+    {
+      "playerId": "7909",
+      "playerName": "Mohammed Shami",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d7a",
+      "playerDocumentCode": "2bf1ca8e-d27e-40c6-a4ea-eaa6822b9005",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bab"
+      }
+    },
+    {
+      "playerId": "8175",
+      "playerName": "Harshal Patel",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d7b",
+      "playerDocumentCode": "5217e9c2-43e5-48e7-9309-26ef9de6c62d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bac"
+      }
+    },
+    {
+      "playerId": "12087",
+      "playerName": "Rahul Chahar",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d7c",
+      "playerDocumentCode": "80909f91-a0a5-42b9-bfed-8315bea1b565",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bad"
+      }
+    },
+    {
+      "playerId": "8642",
+      "playerName": "Adam Zampa",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d7f",
+      "playerDocumentCode": "c10aff5c-4c80-4f45-9475-07a7c982b733",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bb0"
+      }
+    },
+    {
+      "playerId": "14163",
+      "playerName": "Simarjeet Singh",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d7d",
+      "playerDocumentCode": "cefdb528-2fc6-427f-ae78-a2be5bc08b3b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bae"
+      }
+    },
+    {
+      "playerId": "6327",
+      "playerName": "Jaydev Unadkat",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d80",
+      "playerDocumentCode": "f2634d46-14c6-4d7a-8638-de81ca9fe90e",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bb1"
+      }
+    },
+    {
+      "playerId": "11436",
+      "playerName": "Brydon Carse",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d81",
+      "playerDocumentCode": "b59e5bb2-d130-4545-aba6-301efc1a80e2",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bb2"
+      }
+    },
+    {
+      "playerId": "14659",
+      "playerName": "Ravi Bishnoi",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943e08",
+      "playerDocumentCode": "05ab93e8-b1af-4559-8852-2ee12b078a38",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c39"
+      }
+    },
+    {
+      "playerId": "22401",
+      "playerName": "Mayank Yadav",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943e09",
+      "playerDocumentCode": "3c191f09-30fb-4548-9f7b-efaa3cc6a9fc",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c3a"
+      }
+    },
+    {
+      "playerId": "9781",
+      "playerName": "Avesh Khan",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943e0d",
+      "playerDocumentCode": "b11689a8-be91-48e6-957e-61d38b889318",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c3e"
+      }
+    },
+    {
+      "playerId": "14726",
+      "playerName": "Akash Deep",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943e0a",
+      "playerDocumentCode": "f9595684-d443-4af5-8eb2-4d0654bf4075",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c3b"
+      }
+    },
+    {
+      "playerId": "50458",
+      "playerName": "Shamar Joseph",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943e0c",
+      "playerDocumentCode": "800009af-f59d-44ee-8228-75d7c78f8911",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c3d"
+      }
+    },
+    {
+      "playerId": "13534",
+      "playerName": "Mohsin Khan",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943e0f",
+      "playerDocumentCode": "865bd1d7-87c4-4e46-93c6-6e845e9a6bb2",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c40"
+      }
+    },
+    {
+      "playerId": "13320",
+      "playerName": "Gerald Coetzee",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943df0",
+      "playerDocumentCode": "16a48a31-32be-409e-bdd6-1ee037927ee9",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c21"
+      }
+    },
+    {
+      "playerId": "14596",
+      "playerName": "Manav Suthar",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943df1",
+      "playerDocumentCode": "06c24d07-aa49-410f-a043-ecba4601be57",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c22"
+      }
+    },
+    {
+      "playerId": "22141",
+      "playerName": "Gurnoor Brar",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943df2",
+      "playerDocumentCode": "f2113c4f-319f-4a1a-b776-85fc0eb307f2",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c23"
+      }
+    },
+    {
+      "playerId": "702",
+      "playerName": "Ishant Sharma",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943df3",
+      "playerDocumentCode": "67a13873-5682-4a4b-8680-1cf013048421",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c24"
+      }
+    },
+    {
+      "playerId": "9585",
+      "playerName": "Kagiso Rabada",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943df4",
+      "playerDocumentCode": "2cb4dee5-d9fe-48d5-9742-859d6f842fdd",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c25"
+      }
+    },
+    {
+      "playerId": "10551",
+      "playerName": "Prasidh Krishna",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943df6",
+      "playerDocumentCode": "c41c66b6-4fed-47a4-8bc8-d60924443702",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c27"
+      }
+    },
+    {
+      "playerId": "12643",
+      "playerName": "Kulwant Khejroliya",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943df5",
+      "playerDocumentCode": "5527a9bb-25b0-4c5e-a771-5d8093c495c5",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c26"
+      }
+    },
+    {
+      "playerId": "10808",
+      "playerName": "Mohammed Siraj",
+      "playerStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943df7",
+      "playerDocumentCode": "0532c768-e7b8-4672-8a0b-56654bc5785c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c28"
+      }
+    },
+    {
+      "playerId": "11195",
+      "playerName": "Shivam Dube",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d30",
+      "playerDocumentCode": "94fc4449-2a44-410d-9f26-f80c83097e5c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b61"
+      }
+    },
+    {
+      "playerId": "8204",
+      "playerName": "Vijay Shankar",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d33",
+      "playerDocumentCode": "3dd419fd-cb1c-4da1-9d28-44d9eefac7fb",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b64"
+      }
+    },
+    {
+      "playerId": "9427",
+      "playerName": "Deepak Hooda",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d32",
+      "playerDocumentCode": "b4ab8873-945f-452a-b5ef-c77d2211e286",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b63"
+      }
+    },
+    {
+      "playerId": "11177",
+      "playerName": "Rachin Ravindra",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d31",
+      "playerDocumentCode": "3954f9da-23a0-4e7c-a004-83932aebab60",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b62"
+      }
+    },
+    {
+      "playerId": "32835",
+      "playerName": "Ramakrishna Ghosh",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d34",
+      "playerDocumentCode": "3b60beef-f7d0-4f86-a46f-447ef7455d70",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b65"
+      }
+    },
+    {
+      "playerId": "587",
+      "playerName": "Ravindra Jadeja",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d35",
+      "playerDocumentCode": "def2567d-e101-4673-b3d9-059b31c48dd7",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b66"
+      }
+    },
+    {
+      "playerId": "14598",
+      "playerName": "Anshul Kamboj",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d36",
+      "playerDocumentCode": "15d3e88a-ee77-453f-9ac1-afdc27c53310",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b67"
+      }
+    },
+    {
+      "playerId": "1593",
+      "playerName": "Ravichandran Ashwin",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d38",
+      "playerDocumentCode": "ae77ff1d-f2e0-4c78-ad3f-fc8a14e1ae4d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b69"
+      }
+    },
+    {
+      "playerId": "10420",
+      "playerName": "Sam Curran",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d37",
+      "playerDocumentCode": "daa212c5-1f94-4aa2-9aa5-b777edfe1754",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b68"
+      }
+    },
+    {
+      "playerId": "13497",
+      "playerName": "Ashutosh Sharma",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d9d",
+      "playerDocumentCode": "c0e7e0fc-f629-4069-a106-3b65e43718bf",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bce"
+      }
+    },
+    {
+      "playerId": "8808",
+      "playerName": "Axar Patel",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943da0",
+      "playerDocumentCode": "3efca1da-cfa5-47b9-b143-83e5803a17cc",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bd1"
+      }
+    },
+    {
+      "playerId": "12779",
+      "playerName": "Darshan Nalkande",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943da1",
+      "playerDocumentCode": "9f30f630-954f-4939-8ef3-696799ac7b55",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bd2"
+      }
+    },
+    {
+      "playerId": "27424",
+      "playerName": "Musheer Khan",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943db4",
+      "playerDocumentCode": "fc131cbe-cfe6-46a7-8321-310fc8fbbcfd",
+      "_id": {
+        "$oid": "67f574b9421edd01df766be5"
+      }
+    },
+    {
+      "playerId": "8989",
+      "playerName": "Marcus Stoinis",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943db5",
+      "playerDocumentCode": "59cc44cd-336e-46c7-9089-71b2362ef1ab",
+      "_id": {
+        "$oid": "67f574b9421edd01df766be6"
+      }
+    },
+    {
+      "playerId": "7662",
+      "playerName": "Glenn Maxwell",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943db6",
+      "playerDocumentCode": "218cfb05-034e-4808-ae11-8550a55cadf0",
+      "_id": {
+        "$oid": "67f574b9421edd01df766be7"
+      }
+    },
+    {
+      "playerId": "13170",
+      "playerName": "Aaron Hardie",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943db7",
+      "playerDocumentCode": "8b3ef7a7-443a-43ff-b4a2-1d16d8ebee7f",
+      "_id": {
+        "$oid": "67f574b9421edd01df766be8"
+      }
+    },
+    {
+      "playerId": "14922",
+      "playerName": "Suryansh Shedge",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943db8",
+      "playerDocumentCode": "5ebffcb1-67d9-4aa1-9463-428e4f819173",
+      "_id": {
+        "$oid": "67f574b9421edd01df766be9"
+      }
+    },
+    {
+      "playerId": "10919",
+      "playerName": "Shashank Singh",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943db9",
+      "playerDocumentCode": "7d9aff84-34fe-41a0-ad08-11eccf49b002",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bea"
+      }
+    },
+    {
+      "playerId": "10484",
+      "playerName": "Praveen Dubey",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dba",
+      "playerDocumentCode": "23521536-b7e7-4152-aeeb-a5c2d0776d73",
+      "_id": {
+        "$oid": "67f574b9421edd01df766beb"
+      }
+    },
+    {
+      "playerId": "13214",
+      "playerName": "Azmatullah Omarzai",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dbb",
+      "playerDocumentCode": "09b18860-fbd5-4a85-a86a-014164a01d83",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bec"
+      }
+    },
+    {
+      "playerId": "14565",
+      "playerName": "Marco Jansen",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dbc",
+      "playerDocumentCode": "8796d29e-2700-4b22-9b24-bea5da436711",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bed"
+      }
+    },
+    {
+      "playerId": "12337",
+      "playerName": "Ramandeep Singh ",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d5f",
+      "playerDocumentCode": "a7d49c52-15db-440b-94eb-868ff5266d31",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b90"
+      }
+    },
+    {
+      "playerId": "12344",
+      "playerName": "Anukul Roy",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d5e",
+      "playerDocumentCode": "478185ac-c09d-4438-b469-e9e5be075ee7",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b8f"
+      }
+    },
+    {
+      "playerId": "10917",
+      "playerName": "Venkatesh Iyer",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d60",
+      "playerDocumentCode": "097bce32-5b15-4cf7-bc44-291bdfe5dbc0",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b91"
+      }
+    },
+    {
+      "playerId": "6692",
+      "playerName": "Moeen Ali",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d61",
+      "playerDocumentCode": "5e70128d-23ca-48b2-8c6d-1560f712fde0",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b92"
+      }
+    },
+    {
+      "playerId": "7736",
+      "playerName": "Andre Russell",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d63",
+      "playerDocumentCode": "e7a93553-e48f-480d-b9c3-ecebdea0d23c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b94"
+      }
+    },
+    {
+      "playerId": "52428",
+      "playerName": "Bevon Jacobs",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dcc",
+      "playerDocumentCode": "3b3dbfe6-98ca-4b88-b41f-a556f1a82471",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bfd"
+      }
+    },
+    {
+      "playerId": "9647",
+      "playerName": "Hardik Pandya",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dcd",
+      "playerDocumentCode": "17861d1a-92fb-40ae-925a-d94f0fde179e",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bfe"
+      }
+    },
+    {
+      "playerId": "22601",
+      "playerName": "Raj Bawa",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dce",
+      "playerDocumentCode": "6bc56aa1-9379-4b8d-a745-060926235d58",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bff"
+      }
+    },
+    {
+      "playerId": "1447337",
+      "playerName": "Vignesh Puthur",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dd0",
+      "playerDocumentCode": "c11b4c6c-625e-4fe6-b7a6-a17f1fc3dc6f",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c01"
+      }
+    },
+    {
+      "playerId": "1431171",
+      "playerName": "Satyanarayana Raju",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dd1",
+      "playerDocumentCode": "1b0205aa-5040-410e-a85b-954b601c380b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c02"
+      }
+    },
+    {
+      "playerId": "10100",
+      "playerName": "Mitchell Santner",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dd2",
+      "playerDocumentCode": "bc339a8f-6b53-4556-99dc-397a7af63ca8",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c03"
+      }
+    },
+    {
+      "playerId": "13747",
+      "playerName": "Arjun Tendulkar",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dd3",
+      "playerDocumentCode": "e06675da-b49c-466e-a581-2f235c64246b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c04"
+      }
+    },
+    {
+      "playerId": "12305",
+      "playerName": "Riyan Parag",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d4a",
+      "playerDocumentCode": "e6dcdfaf-3d15-47f3-9385-4234135d9bbf",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b7b"
+      }
+    },
+    {
+      "playerId": "15749",
+      "playerName": "Yudhvir Singh Charak",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d4b",
+      "playerDocumentCode": "20a7f1f8-473e-40bf-ac39-96df9b98d0f8",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b7c"
+      }
+    },
+    {
+      "playerId": "10926",
+      "playerName": "Wanindu Hasaranga",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d4c",
+      "playerDocumentCode": "45126003-ed66-4b8e-bc0f-5a793c18df5b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766b7d"
+      }
+    },
+    {
+      "playerId": "13962",
+      "playerName": "Manoj Bhandage",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d89",
+      "playerDocumentCode": "22677eef-3e2d-4958-bf5c-e0b861c99048",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bba"
+      }
+    },
+    {
+      "playerId": "11311",
+      "playerName": "Krunal Pandya",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d87",
+      "playerDocumentCode": "da90b076-6a8a-4474-8aa9-32fa6c34a732",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bb8"
+      }
+    },
+    {
+      "playerId": "10045",
+      "playerName": "Liam Livingstone",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d88",
+      "playerDocumentCode": "b787cf69-2a23-4d61-803b-016e12b5143d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bb9"
+      }
+    },
+    {
+      "playerId": "19636",
+      "playerName": "Jacob Bethell",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d8a",
+      "playerDocumentCode": "dcb6fade-38a3-48f3-8229-1f8369fa2fb6",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bbb"
+      }
+    },
+    {
+      "playerId": "13646",
+      "playerName": "Romario Shepherd",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d8b",
+      "playerDocumentCode": "76b32d86-49fe-4d76-99d1-4cd3f314597b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bbc"
+      }
+    },
+    {
+      "playerId": "10238",
+      "playerName": "Swapnil Singh",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d8c",
+      "playerDocumentCode": "779f5d22-7126-4d23-b896-612d65504584",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bbd"
+      }
+    },
+    {
+      "playerId": "36524",
+      "playerName": "Mohit Rathee",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d8d",
+      "playerDocumentCode": "2860614b-6e23-4e5d-b427-6b408e60593f",
+      "_id": {
+        "$oid": "67f574b9421edd01df766bbe"
+      }
+    },
+    {
+      "playerId": "14701",
+      "playerName": "Nitish Kumar Reddy",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d73",
+      "playerDocumentCode": "9ec410c9-1247-4b9f-93f5-9cc8a02ef73b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ba4"
+      }
+    },
+    {
+      "playerId": "10940",
+      "playerName": "Kamindu Mendis",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d75",
+      "playerDocumentCode": "54dbed61-41a1-431f-b716-8f4bce0900aa",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ba6"
+      }
+    },
+    {
+      "playerId": "13907",
+      "playerName": "Ayush Badoni",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dfb",
+      "playerDocumentCode": "40c99c43-4a14-4048-a68f-fa1e706af005",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c2c"
+      }
+    },
+    {
+      "playerId": "6250",
+      "playerName": "Mitchell Marsh",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dfc",
+      "playerDocumentCode": "47943d3a-141e-41af-93b0-f20afc2770ea",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c2d"
+      }
+    },
+    {
+      "playerId": "14628",
+      "playerName": "Abdul Samad",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dfd",
+      "playerDocumentCode": "d04f51ca-8737-43d3-8086-f2895a10b05f",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c2e"
+      }
+    },
+    {
+      "playerId": "14693",
+      "playerName": "Yuvraj Chaudhary",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dff",
+      "playerDocumentCode": "bf5274b2-fb85-4d80-af55-c8a6fab01500",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c30"
+      }
+    },
+    {
+      "playerId": "51378",
+      "playerName": "Arshin Kulkarni",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dfe",
+      "playerDocumentCode": "e6221a64-864a-4893-9b33-7c69d5fe726a",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c2f"
+      }
+    },
+    {
+      "playerId": "14606",
+      "playerName": "Shahbaz Ahmed",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943e00",
+      "playerDocumentCode": "c20f1a6c-48d6-4987-8a7b-d8d13bb1c2fc",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c31"
+      }
+    },
+    {
+      "playerId": "14599",
+      "playerName": "RS Hangargekar",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943e01",
+      "playerDocumentCode": "f92cbaec-4573-4d5a-a43d-3884ac32f718",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c32"
+      }
+    },
+    {
+      "playerId": "10693",
+      "playerName": "Glenn Phillips",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943de1",
+      "playerDocumentCode": "1ecac0a3-22c3-4364-adfe-bfb11aad24af",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c12"
+      }
+    },
+    {
+      "playerId": "9693",
+      "playerName": "Rahul Tewatia",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943de3",
+      "playerDocumentCode": "a611afda-2b38-4667-aace-33598dda8bc4",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c14"
+      }
+    },
+    {
+      "playerId": "10226",
+      "playerName": "Shahrukh Khan",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943de2",
+      "playerDocumentCode": "39f75ff2-b42e-4d12-a091-dd75e871e332",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c13"
+      }
+    },
+    {
+      "playerId": "22576",
+      "playerName": "Nishant Sindhu",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943de4",
+      "playerDocumentCode": "651815dd-8453-4deb-9d2f-b4c573d06d27",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c15"
+      }
+    },
+    {
+      "playerId": "13748",
+      "playerName": "Sherfane Rutherford",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943de5",
+      "playerDocumentCode": "6ae748e0-5167-4df0-a260-76a994483902",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c16"
+      }
+    },
+    {
+      "playerId": "10954",
+      "playerName": "Mahipal Lomror",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943de6",
+      "playerDocumentCode": "15ebb478-6a37-4363-892f-ec4b62abf377",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c17"
+      }
+    },
+    {
+      "playerId": "11595",
+      "playerName": "Ravisrinivasan Sai Kishore",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943de8",
+      "playerDocumentCode": "a3cf718e-1493-44a4-92bb-3bd2cac91e2c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c19"
+      }
+    },
+    {
+      "playerId": "8182",
+      "playerName": "Jayant Yadav",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dea",
+      "playerDocumentCode": "a512e1db-07a3-4eba-a934-c447892c35ef",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c1b"
+      }
+    },
+    {
+      "playerId": "18637",
+      "playerName": "Arshad Khan",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943de9",
+      "playerDocumentCode": "805fc1d0-a9d8-4c14-aa82-9fc58709563e",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c1a"
+      }
+    },
+    {
+      "playerId": "11077",
+      "playerName": "Karim Janat",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943deb",
+      "playerDocumentCode": "3dc26dcf-b633-4220-a4ef-6d0eb5ba502c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c1c"
+      }
+    },
+    {
+      "playerId": "10945",
+      "playerName": "Washington Sundar",
+      "playerStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dec",
+      "playerDocumentCode": "4a75d03a-b5a4-481b-80da-320de61147e5",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c1d"
+      }
+    }
+  ],
+  "playersList": [
+    {
+      "playerId": "11813",
+      "playerName": "Ruturaj Gaikwad",
+      "soldFor": 670,
+      "soldTo": "deepak",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d2c",
+      "playerDocumentCode": "7ec178b8-01df-490a-ab24-0c5ee524505c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c41"
+      }
+    },
+    {
+      "playerId": "1427488",
+      "playerName": "Andre Siddarth C",
+      "soldFor": 0,
+      "soldTo": "",
+      "isSold": false,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d2d",
+      "playerDocumentCode": "482d1524-57bd-4bdc-996d-2ba039245d3d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c42"
+      }
+    },
+    {
+      "playerId": "22571",
+      "playerName": "Shaik Rasheed",
+      "soldFor": 40,
+      "soldTo": "deepak",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d2e",
+      "playerDocumentCode": "13a95cd6-8bc0-4129-bdbe-dfc8cd665585",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c43"
+      }
+    },
+    {
+      "playerId": "9012",
+      "playerName": "Rahul Tripathi",
+      "soldFor": 150,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d2f",
+      "playerDocumentCode": "8b925e8b-b82b-42ca-8bff-1060c87f151b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c44"
+      }
+    },
+    {
+      "playerId": "11195",
+      "playerName": "Shivam Dube",
+      "soldFor": 510,
+      "soldTo": "bipin",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d30",
+      "playerDocumentCode": "94fc4449-2a44-410d-9f26-f80c83097e5c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c45"
+      }
+    },
+    {
+      "playerId": "11177",
+      "playerName": "Rachin Ravindra",
+      "soldFor": 280,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d31",
+      "playerDocumentCode": "3954f9da-23a0-4e7c-a004-83932aebab60",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c46"
+      }
+    },
+    {
+      "playerId": "9427",
+      "playerName": "Deepak Hooda",
+      "soldFor": 100,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d32",
+      "playerDocumentCode": "b4ab8873-945f-452a-b5ef-c77d2211e286",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c47"
+      }
+    },
+    {
+      "playerId": "8204",
+      "playerName": "Vijay Shankar",
+      "soldFor": 170,
+      "soldTo": "ayush",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d33",
+      "playerDocumentCode": "3dd419fd-cb1c-4da1-9d28-44d9eefac7fb",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c48"
+      }
+    },
+    {
+      "playerId": "32835",
+      "playerName": "Ramakrishna Ghosh",
+      "soldFor": 20,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d34",
+      "playerDocumentCode": "3b60beef-f7d0-4f86-a46f-447ef7455d70",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c49"
+      }
+    },
+    {
+      "playerId": "587",
+      "playerName": "Ravindra Jadeja",
+      "soldFor": 300,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d35",
+      "playerDocumentCode": "def2567d-e101-4673-b3d9-059b31c48dd7",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c4a"
+      }
+    },
+    {
+      "playerId": "14598",
+      "playerName": "Anshul Kamboj",
+      "soldFor": 20,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d36",
+      "playerDocumentCode": "15d3e88a-ee77-453f-9ac1-afdc27c53310",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c4b"
+      }
+    },
+    {
+      "playerId": "10420",
+      "playerName": "Sam Curran",
+      "soldFor": 280,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d37",
+      "playerDocumentCode": "daa212c5-1f94-4aa2-9aa5-b777edfe1754",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c4c"
+      }
+    },
+    {
+      "playerId": "1593",
+      "playerName": "Ravichandran Ashwin",
+      "soldFor": 200,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d38",
+      "playerDocumentCode": "ae77ff1d-f2e0-4c78-ad3f-fc8a14e1ae4d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c4d"
+      }
+    },
+    {
+      "playerId": "9838",
+      "playerName": "Devon Conway",
+      "soldFor": 130,
+      "soldTo": "deepak",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d39",
+      "playerDocumentCode": "5979277f-96ed-4bac-98c9-e635164cd259",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c4e"
+      }
+    },
+    {
+      "playerId": "265",
+      "playerName": "MS Dhoni",
+      "soldFor": 60,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d3a",
+      "playerDocumentCode": "54513614-b748-4ff2-bd2f-94a3ab3edfd5",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c4f"
+      }
+    },
+    {
+      "playerId": "1429626",
+      "playerName": "Vansh Bedi",
+      "soldFor": 10,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d3b",
+      "playerDocumentCode": "17b166a2-d6ff-4690-8b83-9eadf8a716dd",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c50"
+      }
+    },
+    {
+      "playerId": "8512",
+      "playerName": "Jamie Overton",
+      "soldFor": 10,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d3c",
+      "playerDocumentCode": "33076137-6a31-4f00-b469-57aca534f0bc",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c51"
+      }
+    },
+    {
+      "playerId": "12092",
+      "playerName": "Kamlesh Nagarkoti",
+      "soldFor": 10,
+      "soldTo": "bipin",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d3d",
+      "playerDocumentCode": "32a4d3b0-8c95-47c8-a286-0963d26397da",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c52"
+      }
+    },
+    {
+      "playerId": "9746",
+      "playerName": "Shreyas Gopal",
+      "soldFor": 10,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d3e",
+      "playerDocumentCode": "82cbb1b5-1e99-46cc-92bb-bf46a02c7ed5",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c53"
+      }
+    },
+    {
+      "playerId": "16458",
+      "playerName": "Matheesha Pathirana",
+      "soldFor": 170,
+      "soldTo": "deepak",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d3f",
+      "playerDocumentCode": "282a49b8-760d-4918-a1ac-724c5a198e4f",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c54"
+      }
+    },
+    {
+      "playerId": "13184",
+      "playerName": "Mukesh Choudhary",
+      "soldFor": 20,
+      "soldTo": "Nitesh Singh",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d40",
+      "playerDocumentCode": "04d23acf-e567-4dfe-beb2-8132224f5681",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c55"
+      }
+    },
+    {
+      "playerId": "15480",
+      "playerName": "Nathan Ellis",
+      "soldFor": 20,
+      "soldTo": "bipin",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d41",
+      "playerDocumentCode": "3ae10704-0be8-4e18-9e54-fc870b9633be",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c56"
+      }
+    },
+    {
+      "playerId": "19807",
+      "playerName": "Gurjapneet Singh",
+      "soldFor": 20,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d42",
+      "playerDocumentCode": "9a273eef-ce51-4d84-852a-772348350d9e",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c57"
+      }
+    },
+    {
+      "playerId": "15452",
+      "playerName": "Noor Ahmad",
+      "soldFor": 140,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d43",
+      "playerDocumentCode": "716913c3-2a8d-48ac-8e4c-b952e5513598",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c58"
+      }
+    },
+    {
+      "playerId": "10952",
+      "playerName": "Khaleel Ahmed",
+      "soldFor": 120,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d44",
+      "playerDocumentCode": "5ce003ac-32b3-4713-8dc3-8fc7ce688b51",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c59"
+      }
+    },
+    {
+      "playerId": "51791",
+      "playerName": "Vaibhav Suryavanshi",
+      "soldFor": 90,
+      "soldTo": "bipin",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d45",
+      "playerDocumentCode": "2d2ba2d4-49ed-4d73-97c2-c4b7aeb2c6d4",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c5a"
+      }
+    },
+    {
+      "playerId": "9789",
+      "playerName": "Shimron Hetmyer",
+      "soldFor": 80,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d46",
+      "playerDocumentCode": "f6da7560-fedc-46be-9651-efa038eb2205",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c5b"
+      }
+    },
+    {
+      "playerId": "13940",
+      "playerName": "Yashasvi Jaiswal",
+      "soldFor": 870,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d47",
+      "playerDocumentCode": "bdab96ec-9480-4496-8d31-e66cbb71f6e7",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c5c"
+      }
+    },
+    {
+      "playerId": "19328",
+      "playerName": "Shubham Dubey",
+      "soldFor": 10,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d48",
+      "playerDocumentCode": "ccb6df9d-c7fe-497b-9bbb-c391f83a13d3",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c5d"
+      }
+    },
+    {
+      "playerId": "9204",
+      "playerName": "Nitish Rana",
+      "soldFor": 140,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d49",
+      "playerDocumentCode": "d8b0efcb-d73b-44bf-b4f1-d6404fa3cee2",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c5e"
+      }
+    },
+    {
+      "playerId": "12305",
+      "playerName": "Riyan Parag",
+      "soldFor": 240,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d4a",
+      "playerDocumentCode": "e6dcdfaf-3d15-47f3-9385-4234135d9bbf",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c5f"
+      }
+    },
+    {
+      "playerId": "15749",
+      "playerName": "Yudhvir Singh Charak",
+      "soldFor": 90,
+      "soldTo": "bipin",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d4b",
+      "playerDocumentCode": "20a7f1f8-473e-40bf-ac39-96df9b98d0f8",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c60"
+      }
+    },
+    {
+      "playerId": "10926",
+      "playerName": "Wanindu Hasaranga",
+      "soldFor": 110,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d4c",
+      "playerDocumentCode": "45126003-ed66-4b8e-bc0f-5a793c18df5b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c61"
+      }
+    },
+    {
+      "playerId": "8271",
+      "playerName": "Sanju Samson",
+      "soldFor": 430,
+      "soldTo": "bipin",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d4d",
+      "playerDocumentCode": "d7eb7c90-d02d-4e9d-8218-b803d74c1114",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c62"
+      }
+    },
+    {
+      "playerId": "14691",
+      "playerName": "Dhruv Jurel",
+      "soldFor": 90,
+      "soldTo": "deepak",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d4e",
+      "playerDocumentCode": "0ae444a3-8da2-4532-802c-98bab6429c3a",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c63"
+      }
+    },
+    {
+      "playerId": "32854",
+      "playerName": "Kunal Singh Rathore",
+      "soldFor": 30,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d4f",
+      "playerDocumentCode": "21870f78-d64f-4405-b619-2b68b32298f6",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c64"
+      }
+    },
+    {
+      "playerId": "8356",
+      "playerName": "Sandeep Sharma",
+      "soldFor": 80,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d50",
+      "playerDocumentCode": "5b859b12-ea0f-468d-a1fc-15ba19f5a902",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c65"
+      }
+    },
+    {
+      "playerId": "11307",
+      "playerName": "Tushar Deshpande",
+      "soldFor": 100,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d51",
+      "playerDocumentCode": "7963263a-cc5d-4567-851f-64109ec17db3",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c66"
+      }
+    },
+    {
+      "playerId": "14190",
+      "playerName": "Kumar Kartikeya",
+      "soldFor": 70,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d52",
+      "playerDocumentCode": "71e9b934-ce72-4474-bd63-f215010af647",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c67"
+      }
+    },
+    {
+      "playerId": "15727",
+      "playerName": "Akash Madhwal",
+      "soldFor": 20,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d53",
+      "playerDocumentCode": "09ae5d92-957a-4c80-94c0-bdf6fe157207",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c68"
+      }
+    },
+    {
+      "playerId": "23346",
+      "playerName": "Kwena Maphaka",
+      "soldFor": 10,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d54",
+      "playerDocumentCode": "47547497-001f-4b2a-aec4-8865e60ec2a2",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c69"
+      }
+    },
+    {
+      "playerId": "18504",
+      "playerName": "Maheesh Theekshana",
+      "soldFor": 40,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d55",
+      "playerDocumentCode": "50880831-2690-4c3b-9202-c62658ac477e",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c6a"
+      }
+    },
+    {
+      "playerId": "14282",
+      "playerName": "Fazalhaq Farooqi",
+      "soldFor": 80,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d56",
+      "playerDocumentCode": "e07ea494-9c03-4d5b-93af-be9b664f6263",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c6b"
+      }
+    },
+    {
+      "playerId": "24261",
+      "playerName": "Ashok Sharma",
+      "soldFor": 0,
+      "soldTo": "",
+      "isSold": false,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d57",
+      "playerDocumentCode": "460d94dc-2001-41b3-9dec-8c97826660c9",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c6c"
+      }
+    },
+    {
+      "playerId": "11540",
+      "playerName": "Jofra Archer",
+      "soldFor": 100,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d58",
+      "playerDocumentCode": "74e0cda0-0ff9-499e-82da-59682f633cd9",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c6d"
+      }
+    },
+    {
+      "playerId": "1836",
+      "playerName": "Manish Pandey",
+      "soldFor": 50,
+      "soldTo": "bipin",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d59",
+      "playerDocumentCode": "3286c7d0-0e4a-453d-bab0-08b2542061a9",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c6e"
+      }
+    },
+    {
+      "playerId": "1447",
+      "playerName": "Ajinkya Rahane",
+      "soldFor": 290,
+      "soldTo": "bipin",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d5a",
+      "playerDocumentCode": "827da505-dcd4-491c-9422-97763a65dd95",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c6f"
+      }
+    },
+    {
+      "playerId": "10896",
+      "playerName": "Rinku Singh",
+      "soldFor": 200,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d5b",
+      "playerDocumentCode": "becfe512-bc84-485d-bc8a-229e0fea9a58",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c70"
+      }
+    },
+    {
+      "playerId": "22566",
+      "playerName": "Angkrish Raghuvanshi",
+      "soldFor": 70,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d5c",
+      "playerDocumentCode": "7853f3b3-df19-4f62-90a5-5618a70e49b2",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c71"
+      }
+    },
+    {
+      "playerId": "11445",
+      "playerName": "Rovman Powell",
+      "soldFor": 10,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d5d",
+      "playerDocumentCode": "52edc839-af09-4b0e-a452-61429adee0db",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c72"
+      }
+    },
+    {
+      "playerId": "12344",
+      "playerName": "Anukul Roy",
+      "soldFor": 20,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d5e",
+      "playerDocumentCode": "478185ac-c09d-4438-b469-e9e5be075ee7",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c73"
+      }
+    },
+    {
+      "playerId": "12337",
+      "playerName": "Ramandeep Singh ",
+      "soldFor": 40,
+      "soldTo": "deepak",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d5f",
+      "playerDocumentCode": "a7d49c52-15db-440b-94eb-868ff5266d31",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c74"
+      }
+    },
+    {
+      "playerId": "10917",
+      "playerName": "Venkatesh Iyer",
+      "soldFor": 690,
+      "soldTo": "deepak",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d60",
+      "playerDocumentCode": "097bce32-5b15-4cf7-bc44-291bdfe5dbc0",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c75"
+      }
+    },
+    {
+      "playerId": "6692",
+      "playerName": "Moeen Ali",
+      "soldFor": 10,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d61",
+      "playerDocumentCode": "5e70128d-23ca-48b2-8c6d-1560f712fde0",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c76"
+      }
+    },
+    {
+      "playerId": "2276",
+      "playerName": "Sunil Narine",
+      "soldFor": 40,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d62",
+      "playerDocumentCode": "f20920c0-3c41-4a8c-80a7-f093337de1b5",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c77"
+      }
+    },
+    {
+      "playerId": "7736",
+      "playerName": "Andre Russell",
+      "soldFor": 290,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d63",
+      "playerDocumentCode": "e7a93553-e48f-480d-b9c3-ecebdea0d23c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c78"
+      }
+    },
+    {
+      "playerId": "8520",
+      "playerName": "Quinton de Kock",
+      "soldFor": 400,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d64",
+      "playerDocumentCode": "a7d5b9b2-7720-4431-b9f4-784130f98a7d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c79"
+      }
+    },
+    {
+      "playerId": "13213",
+      "playerName": "Rahmanullah Gurbaz",
+      "soldFor": 100,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d65",
+      "playerDocumentCode": "3eb212d1-5ae3-42c3-aab3-5ccc3915d487",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c7a"
+      }
+    },
+    {
+      "playerId": "13972",
+      "playerName": "Luvnith Sisodia",
+      "soldFor": 10,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d66",
+      "playerDocumentCode": "01eec3a4-c80f-4a02-b3df-56ed1f39ea76",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c7b"
+      }
+    },
+    {
+      "playerId": "12926",
+      "playerName": "Varun Chakravarthy",
+      "soldFor": 50,
+      "soldTo": "ayush",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d67",
+      "playerDocumentCode": "a6e40224-e4d5-42c8-94cf-c4b8f2dfe9a6",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c7c"
+      }
+    },
+    {
+      "playerId": "12627",
+      "playerName": "Mayank Markande",
+      "soldFor": 10,
+      "soldTo": "Nitesh Singh",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d68",
+      "playerDocumentCode": "2cd63027-9879-40bf-8d41-a7562312bf2d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c7d"
+      }
+    },
+    {
+      "playerId": "15861",
+      "playerName": "Vaibhav Arora",
+      "soldFor": 10,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d69",
+      "playerDocumentCode": "fc837f0b-e26e-4eb6-99aa-f62e21053ad0",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c7e"
+      }
+    },
+    {
+      "playerId": "24729",
+      "playerName": "Harshit Rana",
+      "soldFor": 170,
+      "soldTo": "Nitesh Singh",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d6a",
+      "playerDocumentCode": "e4752f72-0586-4f88-b765-938c3629dbe4",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c7f"
+      }
+    },
+    {
+      "playerId": "11427",
+      "playerName": "Anrich Nortje",
+      "soldFor": 10,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d6b",
+      "playerDocumentCode": "b5739237-0e49-46be-b519-0b4e76b0eec3",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c80"
+      }
+    },
+    {
+      "playerId": "19027",
+      "playerName": "Umran Malik",
+      "soldFor": 30,
+      "soldTo": "Nitesh Singh",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d6c",
+      "playerDocumentCode": "b07ba6af-36b9-4c60-9518-c46bc77138f5",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c81"
+      }
+    },
+    {
+      "playerId": "13143",
+      "playerName": "Spencer Johnson",
+      "soldFor": 20,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d6d",
+      "playerDocumentCode": "23541bbf-e59e-47ea-989a-8da290bdf24c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c82"
+      }
+    },
+    {
+      "playerId": "13914",
+      "playerName": "Atharva Taide",
+      "soldFor": 10,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d6e",
+      "playerDocumentCode": "4fdac8f0-7ac1-424d-8fe2-536dde14a2cd",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c83"
+      }
+    },
+    {
+      "playerId": "8497",
+      "playerName": "Travis Head",
+      "soldFor": 880,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d6f",
+      "playerDocumentCode": "cfc2714a-e32b-4111-8dc8-ea7c40c249a8",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c84"
+      }
+    },
+    {
+      "playerId": "10499",
+      "playerName": "Abhinav Manohar",
+      "soldFor": 30,
+      "soldTo": "deepak",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d70",
+      "playerDocumentCode": "8e03ac7e-f4f4-405b-9591-60b8f1cc5955",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c85"
+      }
+    },
+    {
+      "playerId": "8709",
+      "playerName": "Sachin Baby",
+      "soldFor": 20,
+      "soldTo": "bipin",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d71",
+      "playerDocumentCode": "9673eb8a-1813-4240-bbd2-c6745f41d922",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c86"
+      }
+    },
+    {
+      "playerId": "1447065",
+      "playerName": "Aniket Verma",
+      "soldFor": 0,
+      "soldTo": "",
+      "isSold": false,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d72",
+      "playerDocumentCode": "8ce45b46-6364-4ad1-ad6c-910ddd7145dd",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c87"
+      }
+    },
+    {
+      "playerId": "14701",
+      "playerName": "Nitish Kumar Reddy",
+      "soldFor": 320,
+      "soldTo": "bipin",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d73",
+      "playerDocumentCode": "9ec410c9-1247-4b9f-93f5-9cc8a02ef73b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c88"
+      }
+    },
+    {
+      "playerId": "12086",
+      "playerName": "Abhishek Sharma",
+      "soldFor": 130,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d74",
+      "playerDocumentCode": "4a00e79a-f929-4734-82ca-e4ec31e4e196",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c89"
+      }
+    },
+    {
+      "playerId": "10940",
+      "playerName": "Kamindu Mendis",
+      "soldFor": 10,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d75",
+      "playerDocumentCode": "54dbed61-41a1-431f-b716-8f4bce0900aa",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c8a"
+      }
+    },
+    {
+      "playerId": "10209",
+      "playerName": "Heinrich Klaasen",
+      "soldFor": 300,
+      "soldTo": "bipin",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d76",
+      "playerDocumentCode": "a70b0b52-ac1f-4400-ac3d-10deed88da69",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c8b"
+      }
+    },
+    {
+      "playerId": "10276",
+      "playerName": "Ishan Kishan",
+      "soldFor": 250,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d77",
+      "playerDocumentCode": "c8cb6454-bd28-4e61-a81a-ac757814eeb9",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c8c"
+      }
+    },
+    {
+      "playerId": "10946",
+      "playerName": "Zeeshan Ansari",
+      "soldFor": 0,
+      "soldTo": "",
+      "isSold": false,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d78",
+      "playerDocumentCode": "cf38d118-f41c-430e-b86f-dba3b3f6e87b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c8d"
+      }
+    },
+    {
+      "playerId": "8095",
+      "playerName": "Pat Cummins",
+      "soldFor": 140,
+      "soldTo": "Nitesh Singh",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d79",
+      "playerDocumentCode": "c12f868d-7b82-4751-b479-5a46dc39f757",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c8e"
+      }
+    },
+    {
+      "playerId": "7909",
+      "playerName": "Mohammed Shami",
+      "soldFor": 300,
+      "soldTo": "deepak",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d7a",
+      "playerDocumentCode": "2bf1ca8e-d27e-40c6-a4ea-eaa6822b9005",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c8f"
+      }
+    },
+    {
+      "playerId": "8175",
+      "playerName": "Harshal Patel",
+      "soldFor": 170,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d7b",
+      "playerDocumentCode": "5217e9c2-43e5-48e7-9309-26ef9de6c62d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c90"
+      }
+    },
+    {
+      "playerId": "12087",
+      "playerName": "Rahul Chahar",
+      "soldFor": 80,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d7c",
+      "playerDocumentCode": "80909f91-a0a5-42b9-bfed-8315bea1b565",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c91"
+      }
+    },
+    {
+      "playerId": "14163",
+      "playerName": "Simarjeet Singh",
+      "soldFor": 20,
+      "soldTo": "deepak",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d7d",
+      "playerDocumentCode": "cefdb528-2fc6-427f-ae78-a2be5bc08b3b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c92"
+      }
+    },
+    {
+      "playerId": "46926",
+      "playerName": "Eshan Malinga",
+      "soldFor": 0,
+      "soldTo": "",
+      "isSold": false,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d7e",
+      "playerDocumentCode": "11f04814-b73d-4d9b-be6d-fab9d82ab7f3",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c93"
+      }
+    },
+    {
+      "playerId": "8642",
+      "playerName": "Adam Zampa",
+      "soldFor": 50,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d7f",
+      "playerDocumentCode": "c10aff5c-4c80-4f45-9475-07a7c982b733",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c94"
+      }
+    },
+    {
+      "playerId": "6327",
+      "playerName": "Jaydev Unadkat",
+      "soldFor": 10,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d80",
+      "playerDocumentCode": "f2634d46-14c6-4d7a-8638-de81ca9fe90e",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c95"
+      }
+    },
+    {
+      "playerId": "11436",
+      "playerName": "Brydon Carse",
+      "soldFor": 20,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d81",
+      "playerDocumentCode": "b59e5bb2-d130-4545-aba6-301efc1a80e2",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c96"
+      }
+    },
+    {
+      "playerId": "1413",
+      "playerName": "Virat Kohli",
+      "soldFor": 950,
+      "soldTo": "Nitesh Singh",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d82",
+      "playerDocumentCode": "577e08bf-a5a0-423e-9fd0-5a8fcdd4f485",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c97"
+      }
+    },
+    {
+      "playerId": "10636",
+      "playerName": "Rajat Patidar",
+      "soldFor": 220,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d83",
+      "playerDocumentCode": "398c5419-afe6-45a9-b7e7-6f52a031d607",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c98"
+      }
+    },
+    {
+      "playerId": "13088",
+      "playerName": "Devdutt Padikkal",
+      "soldFor": 10,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d84",
+      "playerDocumentCode": "2392a8a9-b4b1-4d6d-9544-d2ee81160952",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c99"
+      }
+    },
+    {
+      "playerId": "52418",
+      "playerName": "Swastik Chikara",
+      "soldFor": 10,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d85",
+      "playerDocumentCode": "e0e46767-63e6-4d4d-8714-b7e849547db8",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c9a"
+      }
+    },
+    {
+      "playerId": "13169",
+      "playerName": "Tim David",
+      "soldFor": 20,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d86",
+      "playerDocumentCode": "544ae68a-73cc-424d-9cb5-6bb1ff67d9d5",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c9b"
+      }
+    },
+    {
+      "playerId": "11311",
+      "playerName": "Krunal Pandya",
+      "soldFor": 220,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d87",
+      "playerDocumentCode": "da90b076-6a8a-4474-8aa9-32fa6c34a732",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c9c"
+      }
+    },
+    {
+      "playerId": "10045",
+      "playerName": "Liam Livingstone",
+      "soldFor": 200,
+      "soldTo": "bipin",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d88",
+      "playerDocumentCode": "b787cf69-2a23-4d61-803b-016e12b5143d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c9d"
+      }
+    },
+    {
+      "playerId": "13962",
+      "playerName": "Manoj Bhandage",
+      "soldFor": 20,
+      "soldTo": "deepak",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d89",
+      "playerDocumentCode": "22677eef-3e2d-4958-bf5c-e0b861c99048",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c9e"
+      }
+    },
+    {
+      "playerId": "19636",
+      "playerName": "Jacob Bethell",
+      "soldFor": 30,
+      "soldTo": "ayush",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d8a",
+      "playerDocumentCode": "dcb6fade-38a3-48f3-8229-1f8369fa2fb6",
+      "_id": {
+        "$oid": "67f574b9421edd01df766c9f"
+      }
+    },
+    {
+      "playerId": "13646",
+      "playerName": "Romario Shepherd",
+      "soldFor": 10,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d8b",
+      "playerDocumentCode": "76b32d86-49fe-4d76-99d1-4cd3f314597b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ca0"
+      }
+    },
+    {
+      "playerId": "10238",
+      "playerName": "Swapnil Singh",
+      "soldFor": 50,
+      "soldTo": "deepak",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d8c",
+      "playerDocumentCode": "779f5d22-7126-4d23-b896-612d65504584",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ca1"
+      }
+    },
+    {
+      "playerId": "36524",
+      "playerName": "Mohit Rathee",
+      "soldFor": 10,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d8d",
+      "playerDocumentCode": "2860614b-6e23-4e5d-b427-6b408e60593f",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ca2"
+      }
+    },
+    {
+      "playerId": "10479",
+      "playerName": "Philip Salt",
+      "soldFor": 140,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d8e",
+      "playerDocumentCode": "a96cfb70-e065-4aba-9e96-17fef9ae221c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ca3"
+      }
+    },
+    {
+      "playerId": "10214",
+      "playerName": "Jitesh Sharma",
+      "soldFor": 70,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943d8f",
+      "playerDocumentCode": "baac09df-fb5c-45f0-844c-1dcda1bd3e44",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ca4"
+      }
+    },
+    {
+      "playerId": "6258",
+      "playerName": "Josh Hazlewood",
+      "soldFor": 100,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d90",
+      "playerDocumentCode": "f81ba51b-2567-43ac-a220-67b8d2f7c145",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ca5"
+      }
+    },
+    {
+      "playerId": "1726",
+      "playerName": "Bhuvneshwar Kumar",
+      "soldFor": 170,
+      "soldTo": "Nitesh Singh",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d91",
+      "playerDocumentCode": "f29997e8-4bef-4972-891b-f5b647b5cb03",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ca6"
+      }
+    },
+    {
+      "playerId": "9603",
+      "playerName": "Lungi Ngidi",
+      "soldFor": 10,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d92",
+      "playerDocumentCode": "5a6b624a-68c3-41d2-8f83-c45b955d56fc",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ca7"
+      }
+    },
+    {
+      "playerId": "14274",
+      "playerName": "Rasikh Dar Salam",
+      "soldFor": 30,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d93",
+      "playerDocumentCode": "8813e51b-9357-41d1-a09b-8f1da4400e7a",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ca8"
+      }
+    },
+    {
+      "playerId": "36487",
+      "playerName": "Suyash Sharma",
+      "soldFor": 30,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d94",
+      "playerDocumentCode": "1681108b-72e8-4466-8066-2e6d5d6abb76",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ca9"
+      }
+    },
+    {
+      "playerId": "14172",
+      "playerName": "Yash Dayal",
+      "soldFor": 70,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d95",
+      "playerDocumentCode": "15093f30-e922-4ccb-89ad-4e95cd8dce5a",
+      "_id": {
+        "$oid": "67f574b9421edd01df766caa"
+      }
+    },
+    {
+      "playerId": "18509",
+      "playerName": "Nuwan Thushara",
+      "soldFor": 30,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d96",
+      "playerDocumentCode": "2e5aa2cb-ee74-4d3a-be64-0081dfb0176a",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cab"
+      }
+    },
+    {
+      "playerId": "1447073",
+      "playerName": "Abhinandan Singh",
+      "soldFor": 0,
+      "soldTo": "",
+      "isSold": false,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943d97",
+      "playerDocumentCode": "49e00550-e6bd-48ad-977e-a44d502a92f4",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cac"
+      }
+    },
+    {
+      "playerId": "7825",
+      "playerName": "Faf du Plessis",
+      "soldFor": 90,
+      "soldTo": "Nitesh Singh",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d98",
+      "playerDocumentCode": "f9290477-89be-4ba7-b9d9-1465aaf0dd0f",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cad"
+      }
+    },
+    {
+      "playerId": "8257",
+      "playerName": "Karun Nair",
+      "soldFor": 20,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d99",
+      "playerDocumentCode": "06880860-5780-4fc4-a15b-30f645490c6e",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cae"
+      }
+    },
+    {
+      "playerId": "12201",
+      "playerName": "Harry Brook",
+      "soldFor": 80,
+      "soldTo": "ayush",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d9a",
+      "playerDocumentCode": "fded35f1-f3ef-4c56-a075-ab2155cefb08",
+      "_id": {
+        "$oid": "67f574b9421edd01df766caf"
+      }
+    },
+    {
+      "playerId": "14501",
+      "playerName": "Jake Fraser-McGurk",
+      "soldFor": 50,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d9b",
+      "playerDocumentCode": "29860092-eb0c-4136-bb8c-ca54f5c35e5d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cb0"
+      }
+    },
+    {
+      "playerId": "14700",
+      "playerName": "Sameer Rizvi ",
+      "soldFor": 50,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943d9c",
+      "playerDocumentCode": "cdf56a88-5e21-449b-958d-7c4bc0226c35",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cb1"
+      }
+    },
+    {
+      "playerId": "13497",
+      "playerName": "Ashutosh Sharma",
+      "soldFor": 70,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d9d",
+      "playerDocumentCode": "c0e7e0fc-f629-4069-a106-3b65e43718bf",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cb2"
+      }
+    },
+    {
+      "playerId": "22386",
+      "playerName": "Tripurana Vijay",
+      "soldFor": 0,
+      "soldTo": "",
+      "isSold": false,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d9e",
+      "playerDocumentCode": "7e89586d-2002-4e96-9c62-06c2dd3f1ba1",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cb3"
+      }
+    },
+    {
+      "playerId": "1431811",
+      "playerName": "Vipraj Nigam",
+      "soldFor": 0,
+      "soldTo": "",
+      "isSold": false,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943d9f",
+      "playerDocumentCode": "9511333e-ae27-4317-a049-144c65bc8bec",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cb4"
+      }
+    },
+    {
+      "playerId": "8808",
+      "playerName": "Axar Patel",
+      "soldFor": 380,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943da0",
+      "playerDocumentCode": "3efca1da-cfa5-47b9-b143-83e5803a17cc",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cb5"
+      }
+    },
+    {
+      "playerId": "12779",
+      "playerName": "Darshan Nalkande",
+      "soldFor": 30,
+      "soldTo": "Nitesh Singh",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943da1",
+      "playerDocumentCode": "9f30f630-954f-4939-8ef3-696799ac7b55",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cb6"
+      }
+    },
+    {
+      "playerId": "11777",
+      "playerName": "Ajay Jadav Mandal",
+      "soldFor": 0,
+      "soldTo": "",
+      "isSold": false,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943da2",
+      "playerDocumentCode": "3a7322ea-603b-4da2-b745-c01a96190414",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cb7"
+      }
+    },
+    {
+      "playerId": "47742",
+      "playerName": "Manvanth Kumar L",
+      "soldFor": 0,
+      "soldTo": "",
+      "isSold": false,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943da3",
+      "playerDocumentCode": "b3b9237a-c862-4566-9291-08d204bd28f1",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cb8"
+      }
+    },
+    {
+      "playerId": "1447321",
+      "playerName": "Madhav Tiwari",
+      "soldFor": 0,
+      "soldTo": "",
+      "isSold": false,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943da4",
+      "playerDocumentCode": "c6c82554-b6a7-4e45-bf18-b3464058a725",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cb9"
+      }
+    },
+    {
+      "playerId": "19243",
+      "playerName": "Tristan Stubbs",
+      "soldFor": 130,
+      "soldTo": "deepak",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943da5",
+      "playerDocumentCode": "9e406032-fc3d-4bec-88dc-e1e17c7b06c3",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cba"
+      }
+    },
+    {
+      "playerId": "24326",
+      "playerName": "Abishek Porel",
+      "soldFor": 160,
+      "soldTo": "ayush",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943da6",
+      "playerDocumentCode": "52524917-f4f9-4ba3-87c6-cb4ef4a8a252",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cbb"
+      }
+    },
+    {
+      "playerId": "14798",
+      "playerName": "Donovan Ferreira",
+      "soldFor": 90,
+      "soldTo": "Nitesh Singh",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943da7",
+      "playerDocumentCode": "ad31af4a-90a6-4736-bc06-de7dd8ad95f5",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cbc"
+      }
+    },
+    {
+      "playerId": "8733",
+      "playerName": "KL Rahul",
+      "soldFor": 710,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943da8",
+      "playerDocumentCode": "9d8db977-104c-4aed-b9ed-13e14aa86f9e",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cbd"
+      }
+    },
+    {
+      "playerId": "8292",
+      "playerName": "Kuldeep Yadav",
+      "soldFor": 240,
+      "soldTo": "Nitesh Singh",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943da9",
+      "playerDocumentCode": "2663d063-89f2-42f9-adde-8ea4a1110dc8",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cbe"
+      }
+    },
+    {
+      "playerId": "8393",
+      "playerName": "Dushmantha Chameera",
+      "soldFor": 10,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943daa",
+      "playerDocumentCode": "d0a85c8f-8886-4da5-936b-d49a953eb980",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cbf"
+      }
+    },
+    {
+      "playerId": "7710",
+      "playerName": "Mitchell Starc",
+      "soldFor": 210,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dab",
+      "playerDocumentCode": "83f83268-7adb-4837-a849-a1d72ec51f0a",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cc0"
+      }
+    },
+    {
+      "playerId": "8181",
+      "playerName": "Mohit Sharma",
+      "soldFor": 110,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dac",
+      "playerDocumentCode": "2bcada91-15eb-4d86-af1f-c6756bee2a40",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cc1"
+      }
+    },
+    {
+      "playerId": "10225",
+      "playerName": "T Natarajan",
+      "soldFor": 70,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dad",
+      "playerDocumentCode": "4b11d048-9d33-4ae7-9322-db0c08cc697d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cc2"
+      }
+    },
+    {
+      "playerId": "10754",
+      "playerName": "Mukesh Kumar",
+      "soldFor": 70,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dae",
+      "playerDocumentCode": "8120eb64-bdff-443a-885d-40bf551f131e",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cc3"
+      }
+    },
+    {
+      "playerId": "13915",
+      "playerName": "Nehal Wadhera",
+      "soldFor": 50,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943daf",
+      "playerDocumentCode": "3f64af67-a7ab-4675-9754-7a2bb3898193",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cc4"
+      }
+    },
+    {
+      "playerId": "22561",
+      "playerName": "Harnoor Singh",
+      "soldFor": 0,
+      "soldTo": "",
+      "isSold": false,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943db0",
+      "playerDocumentCode": "f8d322cf-aafc-47af-a185-9bb3954ece2f",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cc5"
+      }
+    },
+    {
+      "playerId": "9428",
+      "playerName": "Shreyas Iyer",
+      "soldFor": 550,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943db1",
+      "playerDocumentCode": "41638be4-5bc4-43ba-9a79-b8ab7bb39090",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cc6"
+      }
+    },
+    {
+      "playerId": "32525",
+      "playerName": "Pyla Avinash",
+      "soldFor": 0,
+      "soldTo": "",
+      "isSold": false,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943db2",
+      "playerDocumentCode": "f1ba7f54-9eaf-465d-9480-6d456c29be16",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cc7"
+      }
+    },
+    {
+      "playerId": "14689",
+      "playerName": "Priyansh Arya",
+      "soldFor": 40,
+      "soldTo": "ayush",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943db3",
+      "playerDocumentCode": "e194c2d4-b023-4b37-9b0d-afe3b6a23472",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cc8"
+      }
+    },
+    {
+      "playerId": "27424",
+      "playerName": "Musheer Khan",
+      "soldFor": 30,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943db4",
+      "playerDocumentCode": "fc131cbe-cfe6-46a7-8321-310fc8fbbcfd",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cc9"
+      }
+    },
+    {
+      "playerId": "8989",
+      "playerName": "Marcus Stoinis",
+      "soldFor": 310,
+      "soldTo": "bipin",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943db5",
+      "playerDocumentCode": "59cc44cd-336e-46c7-9089-71b2362ef1ab",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cca"
+      }
+    },
+    {
+      "playerId": "7662",
+      "playerName": "Glenn Maxwell",
+      "soldFor": 290,
+      "soldTo": "ayush",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943db6",
+      "playerDocumentCode": "218cfb05-034e-4808-ae11-8550a55cadf0",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ccb"
+      }
+    },
+    {
+      "playerId": "13170",
+      "playerName": "Aaron Hardie",
+      "soldFor": 10,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943db7",
+      "playerDocumentCode": "8b3ef7a7-443a-43ff-b4a2-1d16d8ebee7f",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ccc"
+      }
+    },
+    {
+      "playerId": "14922",
+      "playerName": "Suryansh Shedge",
+      "soldFor": 20,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943db8",
+      "playerDocumentCode": "5ebffcb1-67d9-4aa1-9463-428e4f819173",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ccd"
+      }
+    },
+    {
+      "playerId": "10919",
+      "playerName": "Shashank Singh",
+      "soldFor": 140,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943db9",
+      "playerDocumentCode": "7d9aff84-34fe-41a0-ad08-11eccf49b002",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cce"
+      }
+    },
+    {
+      "playerId": "10484",
+      "playerName": "Praveen Dubey",
+      "soldFor": 10,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dba",
+      "playerDocumentCode": "23521536-b7e7-4152-aeeb-a5c2d0776d73",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ccf"
+      }
+    },
+    {
+      "playerId": "13214",
+      "playerName": "Azmatullah Omarzai",
+      "soldFor": 90,
+      "soldTo": "Nitesh Singh",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dbb",
+      "playerDocumentCode": "09b18860-fbd5-4a85-a86a-014164a01d83",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cd0"
+      }
+    },
+    {
+      "playerId": "14565",
+      "playerName": "Marco Jansen",
+      "soldFor": 220,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dbc",
+      "playerDocumentCode": "8796d29e-2700-4b22-9b24-bea5da436711",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cd1"
+      }
+    },
+    {
+      "playerId": "14254",
+      "playerName": "Prabhsimran Singh",
+      "soldFor": 300,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943dbd",
+      "playerDocumentCode": "7e814958-ae62-4d29-b863-e67a599b2ad0",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cd2"
+      }
+    },
+    {
+      "playerId": "10637",
+      "playerName": "Josh Inglis",
+      "soldFor": 150,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943dbe",
+      "playerDocumentCode": "52f0df80-77ea-4032-b889-1bc31b1e7787",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cd3"
+      }
+    },
+    {
+      "playerId": "11893",
+      "playerName": "Vishnu Vinod",
+      "soldFor": 10,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943dbf",
+      "playerDocumentCode": "a822b383-75ae-403b-962a-30c7b551d8a2",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cd4"
+      }
+    },
+    {
+      "playerId": "14452",
+      "playerName": "Harpreet Brar",
+      "soldFor": 70,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dc0",
+      "playerDocumentCode": "ca4eee7e-8db0-4a03-886a-d9b5179331a2",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cd5"
+      }
+    },
+    {
+      "playerId": "10692",
+      "playerName": "Lockie Ferguson",
+      "soldFor": 10,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dc1",
+      "playerDocumentCode": "8f2eb1c1-e712-4d84-b503-64165b0a310d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cd6"
+      }
+    },
+    {
+      "playerId": "13217",
+      "playerName": "Arshdeep Singh",
+      "soldFor": 340,
+      "soldTo": "ayush",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dc2",
+      "playerDocumentCode": "eae0fd67-de39-4d99-b5d0-a9ef17dac48d",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cd7"
+      }
+    },
+    {
+      "playerId": "7910",
+      "playerName": "Yuzvendra Chahal",
+      "soldFor": 250,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dc3",
+      "playerDocumentCode": "0f05fc3e-4afa-4592-ba04-f08283fa73a0",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cd8"
+      }
+    },
+    {
+      "playerId": "10486",
+      "playerName": "Vijaykumar Vyshak",
+      "soldFor": 40,
+      "soldTo": "bipin",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dc4",
+      "playerDocumentCode": "354e43b6-df71-4d06-95b9-03b763171e0f",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cd9"
+      }
+    },
+    {
+      "playerId": "14336",
+      "playerName": "Kuldeep Sen",
+      "soldFor": 10,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dc5",
+      "playerDocumentCode": "88265e23-ae0d-4731-bc4f-d97cdd5b49f8",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cda"
+      }
+    },
+    {
+      "playerId": "12096",
+      "playerName": "Yash Thakur",
+      "soldFor": 30,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dc6",
+      "playerDocumentCode": "39836091-bb7f-491a-aca4-d858c80d4d43",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cdb"
+      }
+    },
+    {
+      "playerId": "11689",
+      "playerName": "Xavier Bartlett",
+      "soldFor": 10,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dc7",
+      "playerDocumentCode": "e8828a5e-7ffe-4b20-8f43-e7e37290a8e0",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cdc"
+      }
+    },
+    {
+      "playerId": "576",
+      "playerName": "Rohit Sharma",
+      "soldFor": 540,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943dc8",
+      "playerDocumentCode": "5a4e6989-6aa8-4f96-bb54-5d4c9b4a59d3",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cdd"
+      }
+    },
+    {
+      "playerId": "7915",
+      "playerName": "Suryakumar Yadav",
+      "soldFor": 610,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943dc9",
+      "playerDocumentCode": "9389ddff-236a-4f34-a41a-941546b6c847",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cde"
+      }
+    },
+    {
+      "playerId": "14504",
+      "playerName": "Tilak Varma",
+      "soldFor": 300,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943dca",
+      "playerDocumentCode": "ef534e1e-039b-460a-8316-10cfaf7fbdb4",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cdf"
+      }
+    },
+    {
+      "playerId": "36139",
+      "playerName": "Naman Dhir",
+      "soldFor": 50,
+      "soldTo": "bipin",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943dcb",
+      "playerDocumentCode": "b89c145e-b3ba-4694-bf3d-54302e8a4d8b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ce0"
+      }
+    },
+    {
+      "playerId": "52428",
+      "playerName": "Bevon Jacobs",
+      "soldFor": 50,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dcc",
+      "playerDocumentCode": "3b3dbfe6-98ca-4b88-b41f-a556f1a82471",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ce1"
+      }
+    },
+    {
+      "playerId": "9647",
+      "playerName": "Hardik Pandya",
+      "soldFor": 360,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dcd",
+      "playerDocumentCode": "17861d1a-92fb-40ae-925a-d94f0fde179e",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ce2"
+      }
+    },
+    {
+      "playerId": "22601",
+      "playerName": "Raj Bawa",
+      "soldFor": 30,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dce",
+      "playerDocumentCode": "6bc56aa1-9379-4b8d-a745-060926235d58",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ce3"
+      }
+    },
+    {
+      "playerId": "12258",
+      "playerName": "Will Jacks",
+      "soldFor": 20,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dcf",
+      "playerDocumentCode": "c0ff7127-9750-46ab-aac2-c9603a4f8b39",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ce4"
+      }
+    },
+    {
+      "playerId": "1447337",
+      "playerName": "Vignesh Puthur",
+      "soldFor": 30,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dd0",
+      "playerDocumentCode": "c11b4c6c-625e-4fe6-b7a6-a17f1fc3dc6f",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ce5"
+      }
+    },
+    {
+      "playerId": "1431171",
+      "playerName": "Satyanarayana Raju",
+      "soldFor": 20,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dd1",
+      "playerDocumentCode": "1b0205aa-5040-410e-a85b-954b601c380b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ce6"
+      }
+    },
+    {
+      "playerId": "10100",
+      "playerName": "Mitchell Santner",
+      "soldFor": 130,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dd2",
+      "playerDocumentCode": "bc339a8f-6b53-4556-99dc-397a7af63ca8",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ce7"
+      }
+    },
+    {
+      "playerId": "13747",
+      "playerName": "Arjun Tendulkar",
+      "soldFor": 100,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dd3",
+      "playerDocumentCode": "e06675da-b49c-466e-a581-2f235c64246b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ce8"
+      }
+    },
+    {
+      "playerId": "13070",
+      "playerName": "Ryan Rickelton",
+      "soldFor": 110,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943dd4",
+      "playerDocumentCode": "efe8e6eb-8774-4d4f-8f1f-917f2acf30d4",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ce9"
+      }
+    },
+    {
+      "playerId": "13082",
+      "playerName": "Krishnan Shrijith",
+      "soldFor": 0,
+      "soldTo": "",
+      "isSold": false,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943dd5",
+      "playerDocumentCode": "d0ec7a67-837c-4e54-8bbf-2650ab3b2ccc",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cea"
+      }
+    },
+    {
+      "playerId": "36454",
+      "playerName": "Robin Minz",
+      "soldFor": 60,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943dd6",
+      "playerDocumentCode": "de106dac-03a5-424f-bd15-d46b72f1e4dc",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ceb"
+      }
+    },
+    {
+      "playerId": "9311",
+      "playerName": "Jasprit Bumrah",
+      "soldFor": 320,
+      "soldTo": "deepak",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dd7",
+      "playerDocumentCode": "ae9a360c-b6ef-4994-a45b-22ea5088b15a",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cec"
+      }
+    },
+    {
+      "playerId": "11684",
+      "playerName": "Ashwani Kumar",
+      "soldFor": 0,
+      "soldTo": "",
+      "isSold": false,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dd8",
+      "playerDocumentCode": "ce17a66c-9082-43bd-bed1-02a1e9e5d466",
+      "_id": {
+        "$oid": "67f574b9421edd01df766ced"
+      }
+    },
+    {
+      "playerId": "8349",
+      "playerName": "Reece Topley",
+      "soldFor": 30,
+      "soldTo": "bipin",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dd9",
+      "playerDocumentCode": "c038dd2b-0481-4cd9-ba85-caa39c27f016",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cee"
+      }
+    },
+    {
+      "playerId": "8531",
+      "playerName": "Lizaad Williams",
+      "soldFor": 10,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dda",
+      "playerDocumentCode": "6b4780cb-34f4-4abd-b6be-b361db5138c0",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cef"
+      }
+    },
+    {
+      "playerId": "1844",
+      "playerName": "Karn Sharma",
+      "soldFor": 10,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943ddb",
+      "playerDocumentCode": "94ee602c-4023-4bbc-a8da-56944a8d4147",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cf0"
+      }
+    },
+    {
+      "playerId": "8117",
+      "playerName": "Trent Boult",
+      "soldFor": 220,
+      "soldTo": "ayush",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943ddc",
+      "playerDocumentCode": "31dbeed0-3766-4985-b472-2637e9641da9",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cf1"
+      }
+    },
+    {
+      "playerId": "7836",
+      "playerName": "Deepak Chahar",
+      "soldFor": 100,
+      "soldTo": "bipin",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943ddd",
+      "playerDocumentCode": "197ac4eb-4142-4d33-806d-ec0beb8acb84",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cf2"
+      }
+    },
+    {
+      "playerId": "12071",
+      "playerName": "Mujeeb Ur Rahman",
+      "soldFor": 0,
+      "soldTo": "",
+      "isSold": false,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943dde",
+      "playerDocumentCode": "8b9db615-0860-4584-a4b3-790dcb756d7c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cf3"
+      }
+    },
+    {
+      "playerId": "13866",
+      "playerName": "Sai Sudharsan",
+      "soldFor": 500,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943ddf",
+      "playerDocumentCode": "ea965420-2316-4312-bf7b-b281c4ea084e",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cf4"
+      }
+    },
+    {
+      "playerId": "11808",
+      "playerName": "Shubman Gill",
+      "soldFor": 1110,
+      "soldTo": "ayush",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943de0",
+      "playerDocumentCode": "085884c2-b3d1-4061-a8c7-340bec6cd58a",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cf5"
+      }
+    },
+    {
+      "playerId": "10693",
+      "playerName": "Glenn Phillips",
+      "soldFor": 100,
+      "soldTo": "deepak",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943de1",
+      "playerDocumentCode": "1ecac0a3-22c3-4364-adfe-bfb11aad24af",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cf6"
+      }
+    },
+    {
+      "playerId": "10226",
+      "playerName": "Shahrukh Khan",
+      "soldFor": 100,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943de2",
+      "playerDocumentCode": "39f75ff2-b42e-4d12-a091-dd75e871e332",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cf7"
+      }
+    },
+    {
+      "playerId": "9693",
+      "playerName": "Rahul Tewatia",
+      "soldFor": 130,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943de3",
+      "playerDocumentCode": "a611afda-2b38-4667-aace-33598dda8bc4",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cf8"
+      }
+    },
+    {
+      "playerId": "22576",
+      "playerName": "Nishant Sindhu",
+      "soldFor": 20,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943de4",
+      "playerDocumentCode": "651815dd-8453-4deb-9d2f-b4c573d06d27",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cf9"
+      }
+    },
+    {
+      "playerId": "13748",
+      "playerName": "Sherfane Rutherford",
+      "soldFor": 40,
+      "soldTo": "ayush",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943de5",
+      "playerDocumentCode": "6ae748e0-5167-4df0-a260-76a994483902",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cfa"
+      }
+    },
+    {
+      "playerId": "10954",
+      "playerName": "Mahipal Lomror",
+      "soldFor": 10,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943de6",
+      "playerDocumentCode": "15ebb478-6a37-4363-892f-ec4b62abf377",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cfb"
+      }
+    },
+    {
+      "playerId": "10738",
+      "playerName": "Rashid Khan",
+      "soldFor": 110,
+      "soldTo": "Nitesh Singh",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943de7",
+      "playerDocumentCode": "ab1d0e52-6417-4b63-80bd-ee88763eb8bd",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cfc"
+      }
+    },
+    {
+      "playerId": "11595",
+      "playerName": "Ravisrinivasan Sai Kishore",
+      "soldFor": 50,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943de8",
+      "playerDocumentCode": "a3cf718e-1493-44a4-92bb-3bd2cac91e2c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cfd"
+      }
+    },
+    {
+      "playerId": "18637",
+      "playerName": "Arshad Khan",
+      "soldFor": 10,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943de9",
+      "playerDocumentCode": "805fc1d0-a9d8-4c14-aa82-9fc58709563e",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cfe"
+      }
+    },
+    {
+      "playerId": "8182",
+      "playerName": "Jayant Yadav",
+      "soldFor": 10,
+      "soldTo": "ayush",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dea",
+      "playerDocumentCode": "a512e1db-07a3-4eba-a934-c447892c35ef",
+      "_id": {
+        "$oid": "67f574b9421edd01df766cff"
+      }
+    },
+    {
+      "playerId": "11077",
+      "playerName": "Karim Janat",
+      "soldFor": 50,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943deb",
+      "playerDocumentCode": "3dc26dcf-b633-4220-a4ef-6d0eb5ba502c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d00"
+      }
+    },
+    {
+      "playerId": "10945",
+      "playerName": "Washington Sundar",
+      "soldFor": 300,
+      "soldTo": "Nitesh Singh",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dec",
+      "playerDocumentCode": "4a75d03a-b5a4-481b-80da-320de61147e5",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d01"
+      }
+    },
+    {
+      "playerId": "15779",
+      "playerName": "Kumar Kushagra",
+      "soldFor": 10,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943ded",
+      "playerDocumentCode": "c0d3e4a6-d1de-49bd-93c2-ddd637098284",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d02"
+      }
+    },
+    {
+      "playerId": "13135",
+      "playerName": "Anuj Rawat",
+      "soldFor": 150,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943dee",
+      "playerDocumentCode": "5e4a1451-d368-4b16-b5ff-8dd678e40416",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d03"
+      }
+    },
+    {
+      "playerId": "2258",
+      "playerName": "Jos Buttler",
+      "soldFor": 600,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943def",
+      "playerDocumentCode": "8a9af836-c372-4352-976f-f2713ebf653b",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d04"
+      }
+    },
+    {
+      "playerId": "13320",
+      "playerName": "Gerald Coetzee",
+      "soldFor": 10,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943df0",
+      "playerDocumentCode": "16a48a31-32be-409e-bdd6-1ee037927ee9",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d05"
+      }
+    },
+    {
+      "playerId": "14596",
+      "playerName": "Manav Suthar",
+      "soldFor": 20,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943df1",
+      "playerDocumentCode": "06c24d07-aa49-410f-a043-ecba4601be57",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d06"
+      }
+    },
+    {
+      "playerId": "22141",
+      "playerName": "Gurnoor Brar",
+      "soldFor": 20,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943df2",
+      "playerDocumentCode": "f2113c4f-319f-4a1a-b776-85fc0eb307f2",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d07"
+      }
+    },
+    {
+      "playerId": "702",
+      "playerName": "Ishant Sharma",
+      "soldFor": 10,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943df3",
+      "playerDocumentCode": "67a13873-5682-4a4b-8680-1cf013048421",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d08"
+      }
+    },
+    {
+      "playerId": "9585",
+      "playerName": "Kagiso Rabada",
+      "soldFor": 200,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943df4",
+      "playerDocumentCode": "2cb4dee5-d9fe-48d5-9742-859d6f842fdd",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d09"
+      }
+    },
+    {
+      "playerId": "12643",
+      "playerName": "Kulwant Khejroliya",
+      "soldFor": 60,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943df5",
+      "playerDocumentCode": "5527a9bb-25b0-4c5e-a771-5d8093c495c5",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d0a"
+      }
+    },
+    {
+      "playerId": "10551",
+      "playerName": "Prasidh Krishna",
+      "soldFor": 30,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943df6",
+      "playerDocumentCode": "c41c66b6-4fed-47a4-8bc8-d60924443702",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d0b"
+      }
+    },
+    {
+      "playerId": "10808",
+      "playerName": "Mohammed Siraj",
+      "soldFor": 100,
+      "soldTo": "deepak",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943df7",
+      "playerDocumentCode": "0532c768-e7b8-4672-8a0b-56654bc5785c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d0c"
+      }
+    },
+    {
+      "playerId": "10223",
+      "playerName": "Himmat Singh",
+      "soldFor": 30,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943df8",
+      "playerDocumentCode": "f209d5af-7adb-44f4-88b1-52706f001a78",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d0d"
+      }
+    },
+    {
+      "playerId": "6349",
+      "playerName": "David Miller",
+      "soldFor": 70,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943df9",
+      "playerDocumentCode": "9475f080-0821-4be2-b3db-2b976e29baed",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d0e"
+      }
+    },
+    {
+      "playerId": "9582",
+      "playerName": "Aiden Markram",
+      "soldFor": 300,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "BATSMAN",
+      "player_id": "67b8fb5c4924ea952d943dfa",
+      "playerDocumentCode": "5c6b480a-4568-492e-8e7f-0d9adb9874b6",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d0f"
+      }
+    },
+    {
+      "playerId": "13907",
+      "playerName": "Ayush Badoni",
+      "soldFor": 190,
+      "soldTo": "Nitesh Singh",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dfb",
+      "playerDocumentCode": "40c99c43-4a14-4048-a68f-fa1e706af005",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d10"
+      }
+    },
+    {
+      "playerId": "6250",
+      "playerName": "Mitchell Marsh",
+      "soldFor": 100,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dfc",
+      "playerDocumentCode": "47943d3a-141e-41af-93b0-f20afc2770ea",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d11"
+      }
+    },
+    {
+      "playerId": "14628",
+      "playerName": "Abdul Samad",
+      "soldFor": 30,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dfd",
+      "playerDocumentCode": "d04f51ca-8737-43d3-8086-f2895a10b05f",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d12"
+      }
+    },
+    {
+      "playerId": "51378",
+      "playerName": "Arshin Kulkarni",
+      "soldFor": 20,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dfe",
+      "playerDocumentCode": "e6221a64-864a-4893-9b33-7c69d5fe726a",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d13"
+      }
+    },
+    {
+      "playerId": "14693",
+      "playerName": "Yuvraj Chaudhary",
+      "soldFor": 10,
+      "soldTo": "vipul",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943dff",
+      "playerDocumentCode": "bf5274b2-fb85-4d80-af55-c8a6fab01500",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d14"
+      }
+    },
+    {
+      "playerId": "14606",
+      "playerName": "Shahbaz Ahmed",
+      "soldFor": 200,
+      "soldTo": "ayush",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943e00",
+      "playerDocumentCode": "c20f1a6c-48d6-4987-8a7b-d8d13bb1c2fc",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d15"
+      }
+    },
+    {
+      "playerId": "14599",
+      "playerName": "RS Hangargekar",
+      "soldFor": 70,
+      "soldTo": "rahul",
+      "isSold": true,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943e01",
+      "playerDocumentCode": "f92cbaec-4573-4d5a-a43d-3884ac32f718",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d16"
+      }
+    },
+    {
+      "playerId": "36515",
+      "playerName": "Digvesh Singh",
+      "soldFor": 0,
+      "soldTo": "",
+      "isSold": false,
+      "playingStyle": "ALLROUNDER",
+      "player_id": "67b8fb5c4924ea952d943e02",
+      "playerDocumentCode": "c7dcd5c8-c571-4a38-9b2b-aa39a6f408b8",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d17"
+      }
+    },
+    {
+      "playerId": "13089",
+      "playerName": "Matthew Breetzke",
+      "soldFor": 10,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943e03",
+      "playerDocumentCode": "6de5f5c2-4f70-4fb0-bdb2-dfed225b464c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d18"
+      }
+    },
+    {
+      "playerId": "9406",
+      "playerName": "Nicholas Pooran",
+      "soldFor": 220,
+      "soldTo": "Nitesh Singh",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943e04",
+      "playerDocumentCode": "221797ac-7006-42d6-ab12-4a560e97f972",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d19"
+      }
+    },
+    {
+      "playerId": "13388",
+      "playerName": "Aryan Juyal",
+      "soldFor": 10,
+      "soldTo": "ayush",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943e05",
+      "playerDocumentCode": "b2b88e2c-4b25-421d-8c2e-931036ac3f84",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d1a"
+      }
+    },
+    {
+      "playerId": "10744",
+      "playerName": "Rishabh Pant",
+      "soldFor": 310,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943e06",
+      "playerDocumentCode": "2cc9ce6a-0046-452f-a7c2-338b843325e9",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d1b"
+      }
+    },
+    {
+      "playerId": "14327",
+      "playerName": "Akash Singh",
+      "soldFor": 20,
+      "soldTo": "ayush",
+      "isSold": true,
+      "playingStyle": "WICKETKEEPER",
+      "player_id": "67b8fb5c4924ea952d943e07",
+      "playerDocumentCode": "b32e56ab-de55-487e-b91c-1e86d57a184c",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d1c"
+      }
+    },
+    {
+      "playerId": "14659",
+      "playerName": "Ravi Bishnoi",
+      "soldFor": 220,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943e08",
+      "playerDocumentCode": "05ab93e8-b1af-4559-8852-2ee12b078a38",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d1d"
+      }
+    },
+    {
+      "playerId": "22401",
+      "playerName": "Mayank Yadav",
+      "soldFor": 60,
+      "soldTo": "dharam",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943e09",
+      "playerDocumentCode": "3c191f09-30fb-4548-9f7b-efaa3cc6a9fc",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d1e"
+      }
+    },
+    {
+      "playerId": "14726",
+      "playerName": "Akash Deep",
+      "soldFor": 50,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943e0a",
+      "playerDocumentCode": "f9595684-d443-4af5-8eb2-4d0654bf4075",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d1f"
+      }
+    },
+    {
+      "playerId": "12930",
+      "playerName": "Manimaran Siddharth",
+      "soldFor": 0,
+      "soldTo": "",
+      "isSold": false,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943e0b",
+      "playerDocumentCode": "07e339e8-6b5c-49c7-aba7-bed0b60c18ab",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d20"
+      }
+    },
+    {
+      "playerId": "50458",
+      "playerName": "Shamar Joseph",
+      "soldFor": 10,
+      "soldTo": "pravin singh",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943e0c",
+      "playerDocumentCode": "800009af-f59d-44ee-8228-75d7c78f8911",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d21"
+      }
+    },
+    {
+      "playerId": "9781",
+      "playerName": "Avesh Khan",
+      "soldFor": 110,
+      "soldTo": "ashish",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943e0d",
+      "playerDocumentCode": "b11689a8-be91-48e6-957e-61d38b889318",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d22"
+      }
+    },
+    {
+      "playerId": "54735",
+      "playerName": "Prince Yadav",
+      "soldFor": 0,
+      "soldTo": "",
+      "isSold": false,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943e0e",
+      "playerDocumentCode": "41d52671-622d-4ec6-9d35-706f93c94bec",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d23"
+      }
+    },
+    {
+      "playerId": "13534",
+      "playerName": "Mohsin Khan",
+      "soldFor": 70,
+      "soldTo": "Praveen Pradhan",
+      "isSold": true,
+      "playingStyle": "BOWLER",
+      "player_id": "67b8fb5c4924ea952d943e0f",
+      "playerDocumentCode": "865bd1d7-87c4-4e46-93c6-6e845e9a6bb2",
+      "_id": {
+        "$oid": "67f574b9421edd01df766d24"
+      }
+    }
+  ],
+  "ownerPoints": [
+    {
+      "documentCode": "904beed2-c6bc-4b9f-8f6e-1c83066c40bd",
+      "ownerName": "ayush",
+      "ownerTeamName": "Jai Shree Mahakal",
+      "pointsRemaining": 0,
+      "_id": {
+        "$oid": "67f57a48591a5fba60ffdce0"
+      }
+    },
+    {
+      "documentCode": "1ed14b14-e4f1-46eb-85ce-6bb4fc77a55f",
+      "ownerName": "Nitesh Singh",
+      "ownerTeamName": "Har Har Mahadev!",
+      "pointsRemaining": 10,
+      "_id": {
+        "$oid": "67f57b4c591a5fba60ffe0b2"
+      }
+    },
+    {
+      "documentCode": "59870199-7b15-4b34-99c5-8f642fc27433",
+      "ownerName": "Praveen Pradhan",
+      "ownerTeamName": "Meta 11",
+      "pointsRemaining": 0,
+      "_id": {
+        "$oid": "67f57b7a591a5fba60ffe284"
+      }
+    },
+    {
+      "documentCode": "62651cbf-3516-4459-b7ea-78a74da703b1",
+      "ownerName": "deepak",
+      "ownerTeamName": "Pelu 11",
+      "pointsRemaining": 0,
+      "_id": {
+        "$oid": "67f57bb1591a5fba60ffe457"
+      }
+    },
+    {
+      "documentCode": "aa932a12-91e8-4519-ada9-69d3a7d6438d",
+      "ownerName": "pravin singh",
+      "ownerTeamName": "Neem Karoli Baba",
+      "pointsRemaining": 10,
+      "_id": {
+        "$oid": "67f57bd7591a5fba60ffe62b"
+      }
+    },
+    {
+      "documentCode": "57240e43-f556-4386-ac62-ed622e191669",
+      "ownerName": "ashish",
+      "ownerTeamName": "Eclipse 11",
+      "pointsRemaining": 20,
+      "_id": {
+        "$oid": "67f57bfa591a5fba60ffe800"
+      }
+    },
+    {
+      "documentCode": "49f56fab-0600-4d38-8940-a09fb131bacf",
+      "ownerName": "bipin",
+      "ownerTeamName": "Index Tengen 11",
+      "pointsRemaining": 0,
+      "_id": {
+        "$oid": "67f57c1f591a5fba60ffe9d6"
+      }
+    },
+    {
+      "documentCode": "8152370e-225a-4e9f-91d5-448818502bcd",
+      "ownerName": "rahul",
+      "ownerTeamName": "Teva 11",
+      "pointsRemaining": 20,
+      "_id": {
+        "$oid": "67f57c4c591a5fba60ffebad"
+      }
+    },
+    {
+      "documentCode": "82705e40-a571-4649-88ef-68f6e545ca9b",
+      "ownerName": "vipul",
+      "ownerTeamName": "Pintya 11",
+      "pointsRemaining": 0,
+      "_id": {
+        "$oid": "67f57c6a591a5fba60ffed85"
+      }
+    },
+    {
+      "documentCode": "dee1608c-d4b6-4aa8-b4ae-4e95d4e3f7d4",
+      "ownerName": "dharam",
+      "ownerTeamName": "Tod-Fod Playing 11",
+      "pointsRemaining": 10,
+      "_id": {
+        "$oid": "67f57ca0591a5fba60ffef5e"
+      }
+    }
+  ],
+  "notForeignTeamList": [
+    "INDIA"
+  ],
+  "playerCountryAndLeagueDetails": [],
+  "fantasyPoint": [],
+  "playerPoints": [],
+  "__v": 220,
+  "createdAt": {
+    "$date": "2025-04-08T19:10:49.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T18:48:56.266Z"
+  },
+  "gameName": "IPL Fantasy League - Thakur Village Group",
+  "gameRules": {
+    "maxAllRounderCountInPlayingXI": 0,
+    "maxBatsmanCountInPlayingXI": 0,
+    "maxBowlerCountInPlayingXI": 0,
+    "maxCaptainSwapCount": 0,
+    "maxForeignPlayerCountInPlayingXI": 0,
+    "maxIndianPlayerCountInPlayingXI": 0,
+    "maxPlayerSwapCount": 0,
+    "maxViceCaptainSwapCount": 0,
+    "maxWicketKeeperCountInPlayingXI": 0,
+    "minAllRounderCountInPlayingXI": 0,
+    "minBatsmanCountInPlayingXI": 0,
+    "minBowlerCountInPlayingXI": 0,
+    "minIndianPlayerCountInPlayingXI": 0,
+    "minWicketKeeperCountInPlayingXI": 0
+  }
+}]

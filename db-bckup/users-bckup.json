@@ -1,0 +1,312 @@
+[{
+  "_id": {
+    "$oid": "67b7761cd94c84d14c404c77"
+  },
+  "documentCode": "b3649f03-8454-47e1-9f05-1234ceeb4040",
+  "name": "Nitesh Singh",
+  "userName": "bacchi",
+  "emailId": "nite123sh@gmail.com",
+  "phone": "9867651331",
+  "activities": [
+    "10000"
+  ],
+  "isDeleted": false,
+  "isDeactivated": false,
+  "isAdmin": true,
+  "userRole": "Admin",
+  "password": "$2b$10$qRwUYY139CSuP8a/lSkXyuvMS7JpciuikdtabTTCLUWnQE43nLQ0W",
+  "currentPassword": "$2b$10$qRwUYY139CSuP8a/lSkXyuvMS7JpciuikdtabTTCLUWnQE43nLQ0W",
+  "createdAt": {
+    "$date": "2025-02-20T18:36:12.857Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T18:36:12.857Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b82d2477d627feb658c618"
+  },
+  "documentCode": "324fadb9-25cb-4549-b54e-c65ee828d9cf",
+  "name": "Praveen Pradhan",
+  "userName": "praveen",
+  "emailId": "praveenpradhan70@gmail.com",
+  "phone": "8369075382",
+  "activities": [
+    "10000"
+  ],
+  "isDeleted": false,
+  "isDeactivated": false,
+  "isAdmin": true,
+  "userRole": "Admin",
+  "password": "$2b$10$seNUaO/qbZkN4pez3gJnZOHNMmuL54FRL8myLz/8T3FPYCE0sxXEy",
+  "currentPassword": "$2b$10$seNUaO/qbZkN4pez3gJnZOHNMmuL54FRL8myLz/8T3FPYCE0sxXEy",
+  "createdAt": {
+    "$date": "2025-02-21T07:37:08.083Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T08:23:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b82d9277d627feb658c61c"
+  },
+  "documentCode": "324fadb9-25cb-4549-b54e-c65ee828d9cf",
+  "name": "Nitesh Singh",
+  "userName": "nitesh",
+  "emailId": "niteshsingh0233@gmail.com",
+  "phone": "9004690994",
+  "activities": [
+    "10000"
+  ],
+  "isDeleted": false,
+  "isDeactivated": false,
+  "isAdmin": false,
+  "userRole": "User",
+  "password": "$2b$10$lBkUDyLLznLoaddY8LdJuudOt/G.SQH7vRzKum2SZ7gP3J82LCrDq",
+  "currentPassword": "$2b$10$lBkUDyLLznLoaddY8LdJuudOt/G.SQH7vRzKum2SZ7gP3J82LCrDq",
+  "createdAt": {
+    "$date": "2025-02-21T07:38:58.906Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T07:38:58.906Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b82e2977d627feb658c622"
+  },
+  "documentCode": "324fadb9-25cb-4549-b54e-c65ee828d9cf",
+  "name": "Praveen Pradhan",
+  "userName": "pradhan.p",
+  "emailId": "advpraveenpradhan1@gmail.com",
+  "phone": "8108664169",
+  "activities": [
+    "10000"
+  ],
+  "isDeleted": false,
+  "isDeactivated": false,
+  "isAdmin": false,
+  "userRole": "User",
+  "password": "$2b$10$ePskxZCNJSaE501OQmduyOFjcDZsx/yvThrPm4J263d4A7.V3OGOO",
+  "currentPassword": "$2b$10$ePskxZCNJSaE501OQmduyOFjcDZsx/yvThrPm4J263d4A7.V3OGOO",
+  "createdAt": {
+    "$date": "2025-02-21T07:41:29.958Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T07:41:29.958Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ba1074f382fb1de4798a30"
+  },
+  "documentCode": "464b23d9-29de-4152-a85c-b5fbf93750c8",
+  "name": "pravin singh",
+  "userName": "baba",
+  "emailId": "baba@1232",
+  "phone": "768908408",
+  "activities": [
+    "10000"
+  ],
+  "isDeleted": false,
+  "isDeactivated": false,
+  "isAdmin": false,
+  "userRole": "User",
+  "password": "$2b$10$SQW1rfEo9LAWntGqniaYZuo.NYq3yqNp1Lr8Lw8ieXlbWvhmMUVBS",
+  "currentPassword": "$2b$10$SQW1rfEo9LAWntGqniaYZuo.NYq3yqNp1Lr8Lw8ieXlbWvhmMUVBS",
+  "createdAt": {
+    "$date": "2025-02-22T17:59:16.109Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-22T17:59:16.109Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ba116093170272445081d1"
+  },
+  "documentCode": "fbf1c9c3-3df8-4dc2-a493-534ca0a920ca",
+  "name": "ayush",
+  "userName": "ayush",
+  "emailId": "khdfkdhldsfj@gmail.com",
+  "phone": "7388589359",
+  "activities": [
+    "10000"
+  ],
+  "isDeleted": false,
+  "isDeactivated": false,
+  "isAdmin": false,
+  "userRole": "User",
+  "password": "$2b$10$s0QSI2g8sY.hR.q5o5AXdOsJps1QfxOHqLaAx3OTU8D8eS.xIQ0IG",
+  "currentPassword": "$2b$10$s0QSI2g8sY.hR.q5o5AXdOsJps1QfxOHqLaAx3OTU8D8eS.xIQ0IG",
+  "createdAt": {
+    "$date": "2025-02-22T18:03:12.166Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-22T18:03:12.166Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ba11e993170272445081d5"
+  },
+  "documentCode": "fbf1c9c3-3df8-4dc2-a493-534ca0a920ca",
+  "name": "vipul",
+  "userName": "vipul",
+  "emailId": "vipul6969@gmail.com",
+  "phone": "939875972",
+  "activities": [
+    "10000"
+  ],
+  "isDeleted": false,
+  "isDeactivated": false,
+  "isAdmin": false,
+  "userRole": "User",
+  "password": "$2b$10$BfviQfKRWwbHnS0eQvjgkOddq7qNW2kiBPN18jXqRrOqofJSmY6Wm",
+  "currentPassword": "$2b$10$BfviQfKRWwbHnS0eQvjgkOddq7qNW2kiBPN18jXqRrOqofJSmY6Wm",
+  "createdAt": {
+    "$date": "2025-02-22T18:05:29.207Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-22T18:05:29.207Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ba125593170272445081d9"
+  },
+  "documentCode": "fbf1c9c3-3df8-4dc2-a493-534ca0a920ca",
+  "name": "ashish",
+  "userName": "ashish",
+  "emailId": "jshsv@gmail.com",
+  "phone": "9838993458",
+  "activities": [
+    "10000"
+  ],
+  "isDeleted": false,
+  "isDeactivated": false,
+  "isAdmin": false,
+  "userRole": "User",
+  "password": "$2b$10$9RQbDnZL1MC9TA4eEpmIweu9FPtufymgJIeP7byX9/BY7doMF.g2C",
+  "currentPassword": "$2b$10$9RQbDnZL1MC9TA4eEpmIweu9FPtufymgJIeP7byX9/BY7doMF.g2C",
+  "createdAt": {
+    "$date": "2025-02-22T18:07:17.849Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-22T18:07:17.849Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ba12bd93170272445081dd"
+  },
+  "documentCode": "fbf1c9c3-3df8-4dc2-a493-534ca0a920ca",
+  "name": "rahul",
+  "userName": "rahul",
+  "emailId": "jhdshjj@834",
+  "phone": "8732838773",
+  "activities": [
+    "10000"
+  ],
+  "isDeleted": false,
+  "isDeactivated": false,
+  "isAdmin": false,
+  "userRole": "User",
+  "password": "$2b$10$7rP/kmSQA4na1XKI7IFGgeMzmKYoS/2sQ.jfE8QZ83RhIn3zixLU2",
+  "currentPassword": "$2b$10$7rP/kmSQA4na1XKI7IFGgeMzmKYoS/2sQ.jfE8QZ83RhIn3zixLU2",
+  "createdAt": {
+    "$date": "2025-02-22T18:09:01.150Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-22T18:09:01.150Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ba134b93170272445081e1"
+  },
+  "documentCode": "fbf1c9c3-3df8-4dc2-a493-534ca0a920ca",
+  "name": "bipin",
+  "userName": "bipin",
+  "emailId": "jdjhdj@gmail.com",
+  "phone": "8745794385",
+  "activities": [
+    "10000"
+  ],
+  "isDeleted": false,
+  "isDeactivated": false,
+  "isAdmin": false,
+  "userRole": "User",
+  "password": "$2b$10$iAU6M0hNknP04YvCdwjR1e6nWmbKXrIgPQXT9G/eauXtaAmTgHG1q",
+  "currentPassword": "$2b$10$iAU6M0hNknP04YvCdwjR1e6nWmbKXrIgPQXT9G/eauXtaAmTgHG1q",
+  "createdAt": {
+    "$date": "2025-02-22T18:11:23.192Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-22T18:11:23.192Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ba13c993170272445081e5"
+  },
+  "documentCode": "fbf1c9c3-3df8-4dc2-a493-534ca0a920ca",
+  "name": "deepak",
+  "userName": "deepak",
+  "emailId": "hvdvkjwjl@gmail.com",
+  "phone": "9345823",
+  "activities": [
+    "10000"
+  ],
+  "isDeleted": false,
+  "isDeactivated": false,
+  "isAdmin": false,
+  "userRole": "User",
+  "password": "$2b$10$w8ENXjkc6hXBc5DABe7tPeWF96zpgehKPuSa/mwqMKOy2GxH.PqDG",
+  "currentPassword": "$2b$10$w8ENXjkc6hXBc5DABe7tPeWF96zpgehKPuSa/mwqMKOy2GxH.PqDG",
+  "createdAt": {
+    "$date": "2025-02-22T18:13:29.285Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-22T18:13:29.285Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ba145393170272445081e9"
+  },
+  "documentCode": "fbf1c9c3-3df8-4dc2-a493-534ca0a920ca",
+  "name": "dharam",
+  "userName": "dharam",
+  "emailId": "dharam@123",
+  "phone": "837473435",
+  "activities": [
+    "10000"
+  ],
+  "isDeleted": false,
+  "isDeactivated": false,
+  "isAdmin": false,
+  "userRole": "User",
+  "password": "$2b$10$AcPPhqLdme9Y7gjkqFLqFO1iMneUUudUmiAOf0SqdLpSRPWvQNN8.",
+  "currentPassword": "$2b$10$AcPPhqLdme9Y7gjkqFLqFO1iMneUUudUmiAOf0SqdLpSRPWvQNN8.",
+  "createdAt": {
+    "$date": "2025-02-22T18:15:47.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-22T18:15:47.030Z"
+  },
+  "__v": 0
+}]

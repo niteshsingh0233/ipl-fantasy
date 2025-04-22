@@ -68,7 +68,19 @@ const ownerSchema = new mongoose.Schema(
         boughtFor : {
           type : Number,
           default : false
-        }
+        },
+        playingType : {
+          type: String,
+          enum: ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"],
+        },
+        isCaptain : {
+          type: Boolean,
+          default: false,
+        },
+        isViceCaptain : {
+          type: Boolean,
+          default: false,
+        },
       },
     ],
     totalPlayerCount: {
@@ -106,13 +118,14 @@ const ownerSchema = new mongoose.Schema(
       require: true,
       default: 0,
     },
-    playingXIPlayerId: [{ type: "ObjectId", ref: "players" }],
+    playingXIPlayerId: [{type: String}], //[{ type: "ObjectId", ref: "players" }],
     playingXIList: [
       {
         playerId: {
-          type: "ObjectId",
-          ref: "players",
-          require: true,
+          type: String
+          // type: "ObjectId",
+          // ref: "players",
+          // require: true,
         },
         playerName: {
           type: String,
@@ -130,6 +143,18 @@ const ownerSchema = new mongoose.Schema(
         isForeigner: {
           type: Boolean,
           value: false,
+        },
+        playingType : {
+          type: String,
+          enum: ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"],
+        },
+        isCaptain : {
+          type: Boolean,
+          default: false,
+        },
+        isViceCaptain : {
+          type: Boolean,
+          default: false,
         },
       },
     ],
@@ -211,12 +236,14 @@ const ownerSchema = new mongoose.Schema(
           require: true,
         },
         captainIn: {
-          type: "ObjectId",
-          ref: "players",
+          type : String
+          // type: "ObjectId",
+          // ref: "players",
         },
         captainOut: {
-          type: "ObjectId",
-          ref: "players",
+          type : String
+          // type: "ObjectId",
+          // ref: "players",
         },
       },
     ],
@@ -241,12 +268,14 @@ const ownerSchema = new mongoose.Schema(
           require: true,
         },
         viceCaptainIn: {
-          type: "ObjectId",
-          ref: "players",
+          type : String
+          // type: "ObjectId",
+          // ref: "players",
         },
         viceCaptainOut: {
-          type: "ObjectId",
-          ref: "players",
+          type : String
+          // type: "ObjectId",
+          // ref: "players",
         },
       },
     ],
@@ -275,12 +304,28 @@ const ownerSchema = new mongoose.Schema(
           require: true,
         },
         playerIn: {
-          type: "ObjectId",
-          ref: "players",
+          type : String
+          // type: "ObjectId",
+          // ref: "players",
         },
         playerOut: {
-          type: "ObjectId",
-          ref: "players",
+          type : String
+          // type: "ObjectId",
+          // ref: "players",
+        },
+        playerInPlayingStyle : {
+          type: String,
+          enum: ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"],
+        },
+        playerOutPlayingStyle : {
+          type: String,
+          enum: ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"],
+        },
+        playerInCountry : {
+          type: String,
+        },
+        playerOutCountry : {
+          type: String,
         },
       },
     ],
@@ -402,6 +447,40 @@ const ownerSchema = new mongoose.Schema(
           type: String,
         }
       }
+    ],
+    draftPlayerInPlayingXI : [
+      {
+        playerId: {
+          type: String,
+          require: true,
+        },
+        playerName : {
+          type: String,
+          require: true,
+        },
+        playerType : {
+          type: String,
+          enum: ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"],
+          require: true,
+        },
+        playingStyle : {
+          type: String,
+          require: true,
+          enum: ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"],
+        },
+        isForeigner: {
+          type: Boolean,
+          value: false,
+        },
+        isCaptain : {
+          type: Boolean,
+          default: false,
+        },
+        isViceCaptain : {
+          type: Boolean,
+          default: false,
+        },
+      },
     ]
   },
   { timestamps: true }
