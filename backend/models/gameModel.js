@@ -339,6 +339,86 @@ const MatchSchema = new mongoose.Schema(
         ],
       },
     ],
+    gameRules : {
+      maxBowlerCountInPlayingXI : {
+        type : Number,
+        default : 0
+      },
+      maxBatsmanCountInPlayingXI : {
+        type : Number,
+        default : 0
+      },
+      maxAllRounderCountInPlayingXI : {
+        type : Number,
+        default : 0
+      },
+      maxWicketKeeperCountInPlayingXI : {
+        type : Number,
+        default : 0
+      },
+      maxPlayerSwapCount : {
+        type : Number,
+        default : 0
+      },
+      maxCaptainSwapCount : {
+        type : Number,
+        default : 0
+      },
+      maxViceCaptainSwapCount : {
+        type : Number,
+        default : 0
+      },
+      maxForeignPlayerCountInPlayingXI : {
+        type : Number,
+        default : 0
+      },
+      maxIndianPlayerCountInPlayingXI : {
+        type : Number,
+        default : 0
+      },
+      minBowlerCountInPlayingXI : {
+        type : Number,
+        default : 0
+      },
+      minBatsmanCountInPlayingXI : {
+        type : Number,
+        default : 0
+      },
+      minAllRounderCountInPlayingXI : {
+        type : Number,
+        default : 0
+      },
+      minWicketKeeperCountInPlayingXI : {
+        type : Number,
+        default : 0
+      },
+      minIndianPlayerCountInPlayingXI : {
+        type : Number,
+        default : 0
+      },
+    },
+    allowedPlayerTypeForSwap : {
+      allowedPlayerTypeForWk : {
+        type : Array,
+        default : [],
+        enum : ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"]
+      },
+      allowedPlayerTypeForBatsman : {
+        type : Array,
+        default : [],
+        enum : ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"]
+      },
+      allowedPlayerTypeForBowler : {
+        type : Array,
+        default : [],
+        enum : ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"]
+      },
+      allowedPlayerTypeForAllRounder : {
+        type : Array,
+        default : [],
+        enum : ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"]
+      },
+    }
   },
   { timestamps: true }
 );

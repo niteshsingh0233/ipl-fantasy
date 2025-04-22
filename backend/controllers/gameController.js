@@ -243,3 +243,71 @@ exports.CreateGameUsingFile = async (req,res) => {
     });
   }
 }
+
+exports.UpdateGameForRules = async (req,res) => {
+  try
+  {
+    const gameId = req.params.gameId
+    const {maxBowlerCountInPlayingXI, maxBatsmanCountInPlayingXI, maxAllRounderCountInPlayingXI, maxWicketKeeperCountInPlayingXI,maxPlayerSwapCount, maxCaptainSwapCount, maxViceCaptainSwapCount, maxForeignPlayerCountInPlayingXI, maxIndianPlayerCountInPlayingXI,
+      minBowlerCountInPlayingXI, minBatsmanCountInPlayingXI, minAllRounderCountInPlayingXI, minWicketKeeperCountInPlayingXI, minIndianPlayerCountInPlayingXI
+    } = req.body
+    const game = await GameSchema.findById(gameId)
+
+    game.gameRules.maxBowlerCountInPlayingXI = maxBowlerCountInPlayingXI
+    game.gameRules.maxBatsmanCountInPlayingXI = maxBatsmanCountInPlayingXI
+    game.gameRules.maxAllRounderCountInPlayingXI = maxAllRounderCountInPlayingXI
+    game.gameRules.maxWicketKeeperCountInPlayingXI = maxWicketKeeperCountInPlayingXI
+    game.gameRules.maxPlayerSwapCount = maxPlayerSwapCount
+    game.gameRules.maxCaptainSwapCount = maxCaptainSwapCount
+    game.gameRules.maxViceCaptainSwapCount = maxViceCaptainSwapCount
+    game.gameRules.maxForeignPlayerCountInPlayingXI = maxForeignPlayerCountInPlayingXI
+    game.gameRules.maxIndianPlayerCountInPlayingXI = maxIndianPlayerCountInPlayingXI
+    game.gameRules.minBowlerCountInPlayingXI = minBowlerCountInPlayingXI
+    game.gameRules.minBatsmanCountInPlayingXI = minBatsmanCountInPlayingXI
+    game.gameRules.minAllRounderCountInPlayingXI = minAllRounderCountInPlayingXI
+    game.gameRules.minWicketKeeperCountInPlayingXI = minWicketKeeperCountInPlayingXI
+    game.gameRules.minIndianPlayerCountInPlayingXI = minIndianPlayerCountInPlayingXI
+
+    await game.save()
+    res.status(200).json({
+      message: "UpdateGameForRules successful.",
+      isSuccess: true,
+      game,
+    });
+
+  }catch(error){
+    res.status(500).json({
+      message: "UpdateGameForRules Failed.",
+      error : error.message,
+      success : false
+    });
+  }
+}
+
+exports.UpdateAllowedPlayerType = async (req,res) => {
+  try
+  {
+    const gameId = req.params.gameId
+    const {allowedPlayerTypeForWk, allowedPlayerTypeForBatsman, allowedPlayerTypeForBowler, allowedPlayerTypeForAllRounder} = req.body
+    const game = await GameSchema.findById(gameId)
+
+    game.allowedPlayerTypeForSwap.allowedPlayerTypeForWk = allowedPlayerTypeForWk
+    game.allowedPlayerTypeForSwap.allowedPlayerTypeForBatsman = allowedPlayerTypeForBatsman
+    game.allowedPlayerTypeForSwap.allowedPlayerTypeForBowler = allowedPlayerTypeForBowler
+    game.allowedPlayerTypeForSwap.allowedPlayerTypeForAllRounder = allowedPlayerTypeForAllRounder 
+
+    await game.save()
+    res.status(200).json({
+      message: "UpdateAllowedPlayerType successful.",
+      isSuccess: true,
+      game,
+    });
+
+  }catch(error){
+    res.status(500).json({
+      message: "UpdateAllowedPlayerType Failed.",
+      error : error.message,
+      success : false
+    });
+  }
+}

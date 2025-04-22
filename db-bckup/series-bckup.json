@@ -1,0 +1,2159 @@
+[{
+  "_id": {
+    "$oid": "67b8800c73cf2a95e3a9beab"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9435,
+  "seriesId": "9435",
+  "name": "International Masters League T20, 2025",
+  "date": "FEBRUARY 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:30:52.988Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:30:52.988Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8800c73cf2a95e3a9beac"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9442,
+  "seriesId": "9442",
+  "name": "Asian Legends League 2025",
+  "date": "MARCH 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:30:52.989Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:30:52.989Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8800c73cf2a95e3a9bead"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9237,
+  "seriesId": "9237",
+  "name": "Indian Premier League 2025",
+  "date": "MARCH 2025",
+  "matches": [
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b19"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b1a"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b1b"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b1c"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b1d"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b1e"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b1f"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b20"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b21"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b22"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b23"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b24"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b25"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b26"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b27"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b28"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b29"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b2a"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b2b"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b2c"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b2d"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b2e"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b2f"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b30"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b31"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b32"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b33"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b34"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b35"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b36"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b37"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b38"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b39"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b3a"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b3b"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b3c"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b3d"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b3e"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b3f"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b40"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b41"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b42"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b43"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b44"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b45"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b46"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b47"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b48"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b49"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b4a"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b4b"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b4c"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b4d"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b4e"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b4f"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b50"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b51"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b52"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b53"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b54"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b55"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b56"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b57"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b58"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b59"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b5a"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b5b"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b5c"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b5d"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b5e"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b5f"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b60"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b61"
+    },
+    {
+      "$oid": "67b86cb9d96ffc65e6d28b62"
+    }
+  ],
+  "squadPlayers": [
+    {
+      "squadId": 56913,
+      "players": [
+        {
+          "$oid": "67b8fb5c4924ea952d943d2c"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d2d"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d2e"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d2f"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d30"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d31"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d32"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d33"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d34"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d35"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d36"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d37"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d38"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d39"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d3a"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d3b"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d3c"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d3d"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d3e"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d3f"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d40"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d41"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d42"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d43"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d44"
+        }
+      ],
+      "_id": {
+        "$oid": "67b8fc235a91d6fb0483bdf5"
+      }
+    },
+    {
+      "squadId": 56917,
+      "players": [
+        {
+          "$oid": "67b8fb5c4924ea952d943d45"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d46"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d47"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d48"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d49"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d4a"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d4b"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d4c"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d4d"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d4e"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d4f"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d50"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d51"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d52"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d53"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d54"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d55"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d56"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d57"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d58"
+        }
+      ],
+      "_id": {
+        "$oid": "67b8fc235a91d6fb0483bdf6"
+      }
+    },
+    {
+      "squadId": 56921,
+      "players": [
+        {
+          "$oid": "67b8fb5c4924ea952d943d59"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d5a"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d5b"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d5c"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d5d"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d5e"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d5f"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d60"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d61"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d62"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d63"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d64"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d65"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d66"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d67"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d68"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d69"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d6a"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d6b"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d6c"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d6d"
+        }
+      ],
+      "_id": {
+        "$oid": "67b8fc235a91d6fb0483bdf7"
+      }
+    },
+    {
+      "squadId": 56925,
+      "players": [
+        {
+          "$oid": "67b8fb5c4924ea952d943d6e"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d6f"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d70"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d71"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d72"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d73"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d74"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d75"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d76"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d77"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d78"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d79"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d7a"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d7b"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d7c"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d7d"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d7e"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d7f"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d80"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d81"
+        }
+      ],
+      "_id": {
+        "$oid": "67b8fc235a91d6fb0483bdf8"
+      }
+    },
+    {
+      "squadId": 56929,
+      "players": [
+        {
+          "$oid": "67b8fb5c4924ea952d943d82"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d83"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d84"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d85"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d86"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d87"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d88"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d89"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d8a"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d8b"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d8c"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d8d"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d8e"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d8f"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d90"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d91"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d92"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d93"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d94"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d95"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d96"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d97"
+        }
+      ],
+      "_id": {
+        "$oid": "67b8fc235a91d6fb0483bdf9"
+      }
+    },
+    {
+      "squadId": 56933,
+      "players": [
+        {
+          "$oid": "67b8fb5c4924ea952d943d98"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d99"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d9a"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d9b"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d9c"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d9d"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d9e"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943d9f"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943da0"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943da1"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943da2"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943da3"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943da4"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943da5"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943da6"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943da7"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943da8"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943da9"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943daa"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dab"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dac"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dad"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dae"
+        }
+      ],
+      "_id": {
+        "$oid": "67b8fc235a91d6fb0483bdfa"
+      }
+    },
+    {
+      "squadId": 56941,
+      "players": [
+        {
+          "$oid": "67b8fb5c4924ea952d943daf"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943db0"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943db1"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943db2"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943db3"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943db4"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943db5"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943db6"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943db7"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943db8"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943db9"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dba"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dbb"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dbc"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dbd"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dbe"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dbf"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dc0"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dc1"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dc2"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dc3"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dc4"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dc5"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dc6"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dc7"
+        }
+      ],
+      "_id": {
+        "$oid": "67b8fc235a91d6fb0483bdfb"
+      }
+    },
+    {
+      "squadId": 56949,
+      "players": [
+        {
+          "$oid": "67b8fb5c4924ea952d943dc8"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dc9"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dca"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dcb"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dcc"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dcd"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dce"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dcf"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dd0"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dd1"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dd2"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dd3"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dd4"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dd5"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dd6"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dd7"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dd8"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dd9"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dda"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943ddb"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943ddc"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943ddd"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dde"
+        }
+      ],
+      "_id": {
+        "$oid": "67b8fc235a91d6fb0483bdfc"
+      }
+    },
+    {
+      "squadId": 56957,
+      "players": [
+        {
+          "$oid": "67b8fb5c4924ea952d943ddf"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943de0"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943de1"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943de2"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943de3"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943de4"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943de5"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943de6"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943de7"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943de8"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943de9"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dea"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943deb"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dec"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943ded"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dee"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943def"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943df0"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943df1"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943df2"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943df3"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943df4"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943df5"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943df6"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943df7"
+        }
+      ],
+      "_id": {
+        "$oid": "67b8fc235a91d6fb0483bdfd"
+      }
+    },
+    {
+      "squadId": 56965,
+      "players": [
+        {
+          "$oid": "67b8fb5c4924ea952d943df8"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943df9"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dfa"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dfb"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dfc"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dfd"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dfe"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943dff"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943e00"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943e01"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943e02"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943e03"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943e04"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943e05"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943e06"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943e07"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943e08"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943e09"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943e0a"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943e0b"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943e0c"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943e0d"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943e0e"
+        },
+        {
+          "$oid": "67b8fb5c4924ea952d943e0f"
+        }
+      ],
+      "_id": {
+        "$oid": "67b8fc235a91d6fb0483bdfe"
+      }
+    }
+  ],
+  "__v": 64,
+  "createdAt": {
+    "$date": "2025-02-21T13:30:52.989Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T19:10:50.917Z"
+  },
+  "games": [
+    {
+      "$oid": "67f574b9421edd01df766b5c"
+    },
+    {
+      "$oid": "67f373107808770169194219"
+    },
+    {
+      "$oid": "67f3613140b0ea333986d186"
+    },
+    {
+      "$oid": "67f24a9e02db8e127a085257"
+    },
+    {
+      "$oid": "67f24a9b02db8e127a084045"
+    },
+    {
+      "$oid": "67f15d1e776ab66eebc67d62"
+    },
+    {
+      "$oid": "67bed037140d5b371511be45"
+    },
+    {
+      "$oid": "67bd53b99415b6b2f88a8073"
+    },
+    {
+      "$oid": "67bc4014cb3682d5a4ffd314"
+    },
+    {
+      "$oid": "67bc3ffacb3682d5a4ffc2a6"
+    },
+    {
+      "$oid": "67bc3ff7cb3682d5a4ffbb47"
+    },
+    {
+      "$oid": "67ba2fba46dfde803c43c08f"
+    },
+    {
+      "$oid": "67ba27ea9f4bf0bd60795c66"
+    }
+  ],
+  "venues": [
+    {
+      "$oid": "67b852ab7c6d1c0472178d2c"
+    },
+    {
+      "$oid": "67b852ab7c6d1c0472178d2d"
+    },
+    {
+      "$oid": "67b852ab7c6d1c0472178d2e"
+    },
+    {
+      "$oid": "67b852ab7c6d1c0472178d2f"
+    },
+    {
+      "$oid": "67b852ab7c6d1c0472178d30"
+    },
+    {
+      "$oid": "67b852ab7c6d1c0472178d31"
+    },
+    {
+      "$oid": "67b852ab7c6d1c0472178d32"
+    },
+    {
+      "$oid": "67b852ab7c6d1c0472178d33"
+    },
+    {
+      "$oid": "67b852ab7c6d1c0472178d34"
+    },
+    {
+      "$oid": "67b852ab7c6d1c0472178d35"
+    },
+    {
+      "$oid": "67b852ab7c6d1c0472178d36"
+    },
+    {
+      "$oid": "67b852ab7c6d1c0472178d37"
+    },
+    {
+      "$oid": "67b852ab7c6d1c0472178d38"
+    }
+  ],
+  "teams": [
+    {
+      "$oid": "67b852597c6d1c0472178d28"
+    },
+    {
+      "$oid": "67b852597c6d1c0472178d21"
+    },
+    {
+      "$oid": "67b852597c6d1c0472178d27"
+    },
+    {
+      "$oid": "67b852597c6d1c0472178d22"
+    },
+    {
+      "$oid": "67b852597c6d1c0472178d25"
+    },
+    {
+      "$oid": "67b852597c6d1c0472178d24"
+    },
+    {
+      "$oid": "67b852597c6d1c0472178d26"
+    },
+    {
+      "$oid": "67b852597c6d1c0472178d23"
+    },
+    {
+      "$oid": "67b852597c6d1c0472178d2a"
+    },
+    {
+      "$oid": "67b852597c6d1c0472178d29"
+    }
+  ],
+  "squads": [
+    {
+      "squadId": 56913,
+      "squadType": "Chennai Super Kings",
+      "imageId": 225641,
+      "teamId": 58,
+      "_id": {
+        "$oid": "67b8fc1e5a91d6fb0483bde1"
+      }
+    },
+    {
+      "squadId": 56917,
+      "squadType": "Rajasthan Royals",
+      "imageId": 225647,
+      "teamId": 64,
+      "_id": {
+        "$oid": "67b8fc1e5a91d6fb0483bde2"
+      }
+    },
+    {
+      "squadId": 56921,
+      "squadType": "Kolkata Knight Riders",
+      "imageId": 225646,
+      "teamId": 63,
+      "_id": {
+        "$oid": "67b8fc1e5a91d6fb0483bde3"
+      }
+    },
+    {
+      "squadId": 56925,
+      "squadType": "Sunrisers Hyderabad",
+      "imageId": 225649,
+      "teamId": 255,
+      "_id": {
+        "$oid": "67b8fc1e5a91d6fb0483bde4"
+      }
+    },
+    {
+      "squadId": 56929,
+      "squadType": "Royal Challengers Bengaluru",
+      "imageId": 225643,
+      "teamId": 59,
+      "_id": {
+        "$oid": "67b8fc1e5a91d6fb0483bde5"
+      }
+    },
+    {
+      "squadId": 56933,
+      "squadType": "Delhi Capitals",
+      "imageId": 225644,
+      "teamId": 61,
+      "_id": {
+        "$oid": "67b8fc1e5a91d6fb0483bde6"
+      }
+    },
+    {
+      "squadId": 56941,
+      "squadType": "Punjab Kings",
+      "imageId": 225648,
+      "teamId": 65,
+      "_id": {
+        "$oid": "67b8fc1e5a91d6fb0483bde7"
+      }
+    },
+    {
+      "squadId": 56949,
+      "squadType": "Mumbai Indians",
+      "imageId": 225645,
+      "teamId": 62,
+      "_id": {
+        "$oid": "67b8fc1e5a91d6fb0483bde8"
+      }
+    },
+    {
+      "squadId": 56957,
+      "squadType": "Gujarat Titans",
+      "imageId": 235085,
+      "teamId": 971,
+      "_id": {
+        "$oid": "67b8fc1e5a91d6fb0483bde9"
+      }
+    },
+    {
+      "squadId": 56965,
+      "squadType": "Lucknow Super Giants",
+      "imageId": 389444,
+      "teamId": 966,
+      "_id": {
+        "$oid": "67b8fc1e5a91d6fb0483bdea"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67b8800c73cf2a95e3a9beae"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9257,
+  "seriesId": "9257",
+  "name": "T20 Blast 2025",
+  "date": "MAY 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:30:52.989Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:30:52.989Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8800c73cf2a95e3a9beaf"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9384,
+  "seriesId": "9384",
+  "name": "The Hundred Mens Competition 2025",
+  "date": "AUGUST 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:30:52.989Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:30:52.989Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8800c73cf2a95e3a9beb0"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9241,
+  "seriesId": "9241",
+  "name": "Indian Premier League 2026",
+  "date": "MARCH 2026",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:30:52.989Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:30:52.989Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b8800c73cf2a95e3a9beb1"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9249,
+  "seriesId": "9249",
+  "name": "Indian Premier League 2027",
+  "date": "MARCH 2027",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:30:52.989Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:30:52.989Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880ea73cf2a95e3a9beb3"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 7572,
+  "seriesId": "7572",
+  "name": "ICC Cricket World Cup League Two 2023-27",
+  "date": "FEBRUARY 2024",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:34.564Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:34.564Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880ea73cf2a95e3a9beb4"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9331,
+  "seriesId": "9331",
+  "name": "Ireland tour of Zimbabwe, 2025",
+  "date": "FEBRUARY 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:34.564Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:34.564Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880ea73cf2a95e3a9beb5"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9426,
+  "seriesId": "9426",
+  "name": "Bahrain tour of Indonesia, 2025",
+  "date": "FEBRUARY 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:34.564Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:34.564Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880ea73cf2a95e3a9beb6"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9325,
+  "seriesId": "9325",
+  "name": "ICC Champions Trophy, 2025",
+  "date": "FEBRUARY 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880ea73cf2a95e3a9beb7"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9451,
+  "seriesId": "9451",
+  "name": "USA tour of Oman T20I Series, 2025",
+  "date": "FEBRUARY 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880ea73cf2a95e3a9beb8"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8562,
+  "seriesId": "8562",
+  "name": "Pakistan tour of New Zealand, 2025",
+  "date": "MARCH 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880ea73cf2a95e3a9beb9"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 7065,
+  "seriesId": "7065",
+  "name": "Zimbabwe tour of England, 2025",
+  "date": "MAY 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880ea73cf2a95e3a9beba"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9390,
+  "seriesId": "9390",
+  "name": "West Indies tour of Ireland, 2025",
+  "date": "MAY 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880ea73cf2a95e3a9bebb"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8796,
+  "seriesId": "8796",
+  "name": "West Indies tour of England, 2025",
+  "date": "MAY 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880ea73cf2a95e3a9bebc"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8881,
+  "seriesId": "8881",
+  "name": "ICC World Test Championship Final 2025",
+  "date": "JUNE 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880ea73cf2a95e3a9bebd"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8786,
+  "seriesId": "8786",
+  "name": "India tour of England, 2025",
+  "date": "JUNE 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880ea73cf2a95e3a9bebe"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9408,
+  "seriesId": "9408",
+  "name": "Australia tour of West Indies, 2025",
+  "date": "JUNE 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880ea73cf2a95e3a9bebf"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9399,
+  "seriesId": "9399",
+  "name": "Pakistan tour of West Indies, 2025",
+  "date": "JULY 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880ea73cf2a95e3a9bec0"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8788,
+  "seriesId": "8788",
+  "name": "South Africa tour of England, 2025",
+  "date": "SEPTEMBER 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880ea73cf2a95e3a9bec1"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8802,
+  "seriesId": "8802",
+  "name": "England tour of Ireland, 2025",
+  "date": "SEPTEMBER 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880ea73cf2a95e3a9bec2"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9107,
+  "seriesId": "9107",
+  "name": "The Ashes, 2025-26",
+  "date": "NOVEMBER 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:34.565Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f173cf2a95e3a9bec4"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8616,
+  "seriesId": "8616",
+  "name": "Australia Domestic One-Day Cup 2024-25",
+  "date": "SEPTEMBER 2024",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f173cf2a95e3a9bec5"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8993,
+  "seriesId": "8993",
+  "name": "ICC CWC Challenge League A, 2024-26",
+  "date": "SEPTEMBER 2024",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f173cf2a95e3a9bec6"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8605,
+  "seriesId": "8605",
+  "name": "Sheffield Shield 2024-25",
+  "date": "OCTOBER 2024",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f173cf2a95e3a9bec7"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8339,
+  "seriesId": "8339",
+  "name": "Ranji Trophy Elite 2024-25",
+  "date": "OCTOBER 2024",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f173cf2a95e3a9bec8"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8931,
+  "seriesId": "8931",
+  "name": "The Ford Trophy 2024-25",
+  "date": "OCTOBER 2024",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f173cf2a95e3a9bec9"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8730,
+  "seriesId": "8730",
+  "name": "CSA Four-Day Series Division One 2024-25",
+  "date": "OCTOBER 2024",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f173cf2a95e3a9beca"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8714,
+  "seriesId": "8714",
+  "name": "CSA Four-Day Series Division Two 2024-25",
+  "date": "OCTOBER 2024",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f173cf2a95e3a9becb"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9001,
+  "seriesId": "9001",
+  "name": "ICC CWC Challenge League B, 2024-26",
+  "date": "NOVEMBER 2024",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f173cf2a95e3a9becc"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8939,
+  "seriesId": "8939",
+  "name": "Plunket Shield 2024-25",
+  "date": "NOVEMBER 2024",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f173cf2a95e3a9becd"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8708,
+  "seriesId": "8708",
+  "name": "CSA Provincial One-Day Challenge Division One 2025",
+  "date": "FEBRUARY 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f173cf2a95e3a9bece"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8722,
+  "seriesId": "8722",
+  "name": "CSA Provincial One-Day Challenge Division Two 2025",
+  "date": "FEBRUARY 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f173cf2a95e3a9becf"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9360,
+  "seriesId": "9360",
+  "name": "County Championship Division One 2025",
+  "date": "APRIL 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f173cf2a95e3a9bed0"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9369,
+  "seriesId": "9369",
+  "name": "County Championship Division Two 2025",
+  "date": "APRIL 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f173cf2a95e3a9bed1"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9273,
+  "seriesId": "9273",
+  "name": "England Domestic One-Day Cup 2025",
+  "date": "AUGUST 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:41.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f573cf2a95e3a9bed3"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9351,
+  "seriesId": "9351",
+  "name": "Womens Premier League 2025",
+  "date": "FEBRUARY 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:45.448Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:45.448Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f573cf2a95e3a9bed4"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8564,
+  "seriesId": "8564",
+  "name": "Sri Lanka Women tour of New Zealand, 2025",
+  "date": "MARCH 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:45.448Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:45.448Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f573cf2a95e3a9bed5"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8566,
+  "seriesId": "8566",
+  "name": "Australia Women tour of New Zealand, 2025",
+  "date": "MARCH 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:45.448Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:45.448Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f573cf2a95e3a9bed6"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8810,
+  "seriesId": "8810",
+  "name": "West Indies Women tour of England, 2025",
+  "date": "MAY 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:45.448Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:45.448Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f573cf2a95e3a9bed7"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9417,
+  "seriesId": "9417",
+  "name": "South Africa Women tour of West Indies, 2025",
+  "date": "JUNE 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:45.449Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:45.449Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f573cf2a95e3a9bed8"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 8812,
+  "seriesId": "8812",
+  "name": "India Women tour of England, 2025",
+  "date": "JUNE 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:45.449Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:45.449Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b880f573cf2a95e3a9bed9"
+  },
+  "documentCode": "eb37fd2c-f265-41bc-97f0-1b6b1b30518f",
+  "id": 9386,
+  "seriesId": "9386",
+  "name": "The Hundred Womens Competition 2025",
+  "date": "AUGUST 2025",
+  "teams": [],
+  "venues": [],
+  "matches": [],
+  "squads": [],
+  "squadPlayers": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T13:34:45.449Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T13:34:45.449Z"
+  }
+}]

@@ -1,0 +1,234 @@
+[{
+  "_id": {
+    "$oid": "67b852ab7c6d1c0472178d2c"
+  },
+  "documentCode": "4959b3b7-f879-47ab-bbe6-f154c7457d5f",
+  "id": 31,
+  "venueId": "31",
+  "ground": "Eden Gardens",
+  "city": "Kolkata",
+  "country": "India",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852ab7c6d1c0472178d2d"
+  },
+  "documentCode": "4959b3b7-f879-47ab-bbe6-f154c7457d5f",
+  "id": 80,
+  "venueId": "80",
+  "ground": "Rajiv Gandhi International Stadium",
+  "city": "Hyderabad",
+  "country": "India",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852ab7c6d1c0472178d2e"
+  },
+  "documentCode": "4959b3b7-f879-47ab-bbe6-f154c7457d5f",
+  "id": 11,
+  "venueId": "11",
+  "ground": "MA Chidambaram Stadium",
+  "city": "Chennai",
+  "country": "India",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852ab7c6d1c0472178d2f"
+  },
+  "documentCode": "4959b3b7-f879-47ab-bbe6-f154c7457d5f",
+  "id": 154,
+  "venueId": "154",
+  "ground": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium",
+  "city": "Visakhapatnam",
+  "country": "India",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852ab7c6d1c0472178d30"
+  },
+  "documentCode": "4959b3b7-f879-47ab-bbe6-f154c7457d5f",
+  "id": 50,
+  "venueId": "50",
+  "ground": "Narendra Modi Stadium",
+  "city": "Ahmedabad",
+  "country": "India",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852ab7c6d1c0472178d31"
+  },
+  "documentCode": "4959b3b7-f879-47ab-bbe6-f154c7457d5f",
+  "id": 380,
+  "venueId": "380",
+  "ground": "Barsapara Cricket Stadium",
+  "city": "Guwahati",
+  "country": "India",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852ab7c6d1c0472178d32"
+  },
+  "documentCode": "4959b3b7-f879-47ab-bbe6-f154c7457d5f",
+  "id": 81,
+  "venueId": "81",
+  "ground": "Wankhede Stadium",
+  "city": "Mumbai",
+  "country": "India",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852ab7c6d1c0472178d33"
+  },
+  "documentCode": "4959b3b7-f879-47ab-bbe6-f154c7457d5f",
+  "id": 485,
+  "venueId": "485",
+  "ground": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium",
+  "city": "Lucknow",
+  "country": "India",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852ab7c6d1c0472178d34"
+  },
+  "documentCode": "4959b3b7-f879-47ab-bbe6-f154c7457d5f",
+  "id": 27,
+  "venueId": "27",
+  "ground": "M.Chinnaswamy Stadium",
+  "city": "Bengaluru",
+  "country": "India",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852ab7c6d1c0472178d35"
+  },
+  "documentCode": "4959b3b7-f879-47ab-bbe6-f154c7457d5f",
+  "id": 851,
+  "venueId": "851",
+  "ground": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",
+  "city": "Chandigarh",
+  "country": "India",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852ab7c6d1c0472178d36"
+  },
+  "documentCode": "4959b3b7-f879-47ab-bbe6-f154c7457d5f",
+  "id": 76,
+  "venueId": "76",
+  "ground": "Sawai Mansingh Stadium",
+  "city": "Jaipur",
+  "country": "India",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852ab7c6d1c0472178d37"
+  },
+  "documentCode": "4959b3b7-f879-47ab-bbe6-f154c7457d5f",
+  "id": 51,
+  "venueId": "51",
+  "ground": "Arun Jaitley Stadium",
+  "city": "Delhi",
+  "country": "India",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b852ab7c6d1c0472178d38"
+  },
+  "documentCode": "4959b3b7-f879-47ab-bbe6-f154c7457d5f",
+  "id": 155,
+  "venueId": "155",
+  "ground": "Himachal Pradesh Cricket Association Stadium",
+  "city": "Dharamsala",
+  "country": "India",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-21T10:17:15.479Z"
+  }
+}]
