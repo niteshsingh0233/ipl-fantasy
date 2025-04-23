@@ -140,3 +140,18 @@ swap-vicecaptain
 
 // target for sunday :
 points-calculation-for-match-and-update-fantasy-points
+
+
+
+
+backendHostName  :  http://localhost:6969
+version  :  /api/v1
+frontendHostName  :  http://localhost:5173/
+cricbuzzHostName  :  http://localhost:4000
+
+
+backendHostName  :  https://fantasy-app-chi.vercel.app/
+version  :  api/v1
+frontendHostName  :  https://fantasy-app-ui.vercel.app/
+cricbuzzHostName  :  https://fantasy-app-cricbuzz-api.vercel.app/
+Authorization   :   Bearer ...
