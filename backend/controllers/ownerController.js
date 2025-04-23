@@ -5,6 +5,7 @@ const Players = require("../models/playerModel.js");
 const User = require("../models/userModel.js");
 const teamList = require("../constants/enumConstants.js");
 const httpHelper = require("../helpers/httpHelper.js");
+const { createPlayingXIUsingDraftXIHelper } = require("../helpers/ownerHelper.js");
 
 exports.CreateOwner = async (req, res) => {
   try {
@@ -594,6 +595,71 @@ exports.DraftPlayingXI = async (req, res) => {
       (ele) => ele.playerId == playerId
     )[0];
 
+    if(owner.draftPlayerInPlayingXI.length == 11) {
+      return res.status(400).json({
+        message: "You can't add more than 11 players in playing XI.",
+        success: false,
+      });
+    }
+
+    if(playingType == "BATSMAN" && !game.allowedPlayerTypeForSwap.allowedPlayerTypeForBatsman.includes(playerDetail.playerType)){
+      return res.status(400).json({
+        message: `The playing style ${playingType} is not allowed for ${playerDetail.playerType}.`,
+        success: false,
+      });
+    }
+    if(playingType == "BOWLER" && !game.allowedPlayerTypeForSwap.allowedPlayerTypeForBowler.includes(playerDetail.playerType)){
+      return res.status(400).json({
+        message: `The playing style ${playingType} is not allowed for ${playerDetail.playerType}.`,
+        success: false,
+      });
+    }
+    if(playingType == "ALLROUNDER" && !game.allowedPlayerTypeForSwap.allowedPlayerTypeForAllRounder.includes(playerDetail.playerType)){
+      return res.status(400).json({
+        message: `The playing style ${playingType} is not allowed for ${playerDetail.playerType}.`,
+        success: false,
+      });
+    }
+    if(playingType == "WICKETKEEPER" && !game.allowedPlayerTypeForSwap.allowedPlayerTypeForWk.includes(playerDetail.playerType)){
+      return res.status(400).json({
+        message: `The playing style ${playingType} is not allowed for ${playerDetail.playerType}.`,
+        success: false,
+      });
+    }
+
+    var gameRules = game.gameRules
+
+    if(gameRules.maxBowlerCountInPlayingXI && gameRules.maxBowlerCountInPlayingXI == owner.draftPlayerInPlayingXI.filter(ele => ele.playingStyle == "BOWLER").length && playingType == "BOWLER"){
+      return res.status(400).json({
+        message: "Maximum bowler count in playing XI reached.",
+        success: false,
+      });
+    }
+    if(gameRules.maxBatsmanCountInPlayingXI && gameRules.maxBatsmanCountInPlayingXI == owner.draftPlayerInPlayingXI.filter(ele => ele.playingStyle == "BATSMAN").length && playingType == "BATSMAN"){
+      return res.status(400).json({
+        message: "Maximum batsman count in playing XI reached.",
+        success: false,
+      });
+    }
+    if(gameRules.maxAllRounderCountInPlayingXI && gameRules.maxAllRounderCountInPlayingXI == owner.draftPlayerInPlayingXI.filter(ele => ele.playingStyle == "ALLROUNDER").length && playingType == "ALLROUNDER"){
+      return res.status(400).json({
+        message: "Maximum allrounder count in playing XI reached.",
+        success: false,
+      });
+    }
+    if(gameRules.maxWicketKeeperCountInPlayingXI && gameRules.maxWicketKeeperCountInPlayingXI == owner.draftPlayerInPlayingXI.filter(ele => ele.playingStyle == "WICKETKEEPER").length && playingType == "WICKETKEEPER"){
+      return res.status(400).json({
+        message: "Maximum wicketkeeper count in playing XI reached.",
+        success: false,
+      });
+    }
+    if(gameRules.maxForeignPlayerCountInPlayingXI && gameRules.maxForeignPlayerCountInPlayingXI == owner.draftPlayerInPlayingXI.filter(ele => ele.isForeigner).length && playerDetail.isForeigner){
+      return res.status(400).json({
+        message: "Maximum foreign player count in playing XI reached.",
+        success: false,
+      });
+    }
+
     owner.draftPlayerInPlayingXI.push({
       playerId: playerDetail.playerId,
       playerName: playerDetail.playerName,
@@ -627,13 +693,43 @@ exports.DraftCaptainAndViceCaptainForPlayingXI = async (req, res) => {
     const owner = await OwnerSchema.findById(ownerId).populate("games");
     const game = await Games.findById(owner.games);
 
+    if(isCaptain && isViceCaptain){
+      return res.status(400).json({
+        message: "You can't select a player as both captain and vice-captain.",
+        success: false,
+      });
+    }
+
+    if(!isCaptain && !isViceCaptain){
+      return res.status(400).json({
+        message: "You must select either captain or vice-captain.",
+        success: false,
+      });
+    }
+
+    if(owner.draftPlayerInPlayingXI.filter(ele => ele.isCaptain).length == 1 && isCaptain){
+      return res.status(400).json({
+        message: "You can't select more than one captain.",
+        success: false,
+      });
+    }
+    if(owner.draftPlayerInPlayingXI.filter(ele => ele.isViceCaptain).length == 1 && isViceCaptain){
+      return res.status(400).json({
+        message: "You can't select more than one vice-captain.",
+        success: false,
+      });
+    }
+    
     owner.draftPlayerInPlayingXI.forEach((ele) => {
       if(ele.playerId == playerId){
-        ele.isCaptain = isCaptain
-        ele.isViceCaptain = isViceCaptain
+        if(isCaptain){
+          ele.isCaptain = isCaptain
+        } else if(isViceCaptain){
+          ele.isViceCaptain = isViceCaptain
+        }
       }
     })
-
+    
     await owner.save();
 
     res.status(200).json({
@@ -645,6 +741,120 @@ exports.DraftCaptainAndViceCaptainForPlayingXI = async (req, res) => {
   }catch(error){
     res.status(500).json({
       message: "Error in DraftCaptainAndViceCaptainForPlayingXI.",
+      error : error.message,
+      success: false,
+    })
+  }
+}
+
+exports.RemoveDraftPlayingXIPlayer = async (req, res) => {
+  try{
+    const { playerId, ownerId } = req.body
+    const owner = await OwnerSchema.findById(ownerId).populate("games");
+    const game = await Games.findById(owner.games);
+
+    if(owner.draftPlayerInPlayingXI.length == 0){
+      return res.status(400).json({
+        message: "No players in Draft Playing XI.",
+        success: false,
+      });
+    }
+
+    if(owner.draftPlayerInPlayingXI.filter(ele => ele.playerId == playerId).length == 0){
+      return res.status(400).json({
+        message: "Player not found in Draft Playing XI.",
+        success: false,
+      });
+    }
+
+    owner.draftPlayerInPlayingXI = owner.draftPlayerInPlayingXI.filter(
+      (ele) => ele.playerId != playerId
+    );
+
+    await owner.save()
+
+    res.status(200).json({
+      message: "RemoveDraftPlayingXIPlayer created.",
+      owner,
+      game,
+      success: true,
+    });
+
+  }catch(error){
+    res.status(500).json({
+      message: "Error in RemoveDraftPlayingXIPlayer.",
+      error : error.message,
+      success: false,
+    })
+  }
+} 
+
+exports.RemoveDraftPlayingXICaptainAndViceCaptain = async (req, res) => {
+  try{
+    const { playerId, ownerId } = req.body
+    const owner = await OwnerSchema.findById(ownerId).populate("games");
+    const game = await Games.findById(owner.games);
+
+    if(owner.draftPlayerInPlayingXI.length == 0){
+      return res.status(400).json({
+        message: "No players in Draft Playing XI.",
+        success: false,
+      });
+    }
+
+    if(owner.draftPlayerInPlayingXI.filter(ele => ele.playerId == playerId).length == 0){
+      return res.status(400).json({
+        message: "Player not found in Draft Playing XI.",
+        success: false,
+      });
+    }
+
+    owner.draftPlayerInPlayingXI.forEach((ele) => {
+      if(ele.playerId == playerId){
+        ele.isCaptain = false
+        ele.isViceCaptain = false
+      }
+    })
+
+    await owner.save()
+
+    res.status(200).json({
+      message: "RemoveDraftPlayingXICaptainAndViceCaptain created.",
+      owner,
+      game,
+      success: true,
+    });
+
+  }catch(error){
+    res.status(500).json({
+      message: "Error in RemoveDraftPlayingXICaptainAndViceCaptain.",
+      error : error.message,
+      success: false,
+    })
+  }
+}
+
+exports.CreatePlayingXIUsingDraftXI = async (req, res) => {
+  try{
+    const { ownerId } = req.body
+    const owner = await OwnerSchema.findById(ownerId).populate("games");
+    const game = await Games.findById(owner.games);
+
+    var messages = createPlayingXIUsingDraftXIHelper(owner, game);
+
+    await owner.save()
+
+    res.status(200).json({
+      message: "CreatePlayingXIUsingDraftXI created.",
+      returnMsg : messages,
+      owner,
+      game,
+      success: true,
+    });
+
+  }catch(error){
+    res.status(500).json({
+      message: "Error in CreatePlayingXIUsingDraftXI.",
       error : error.message,
       success: false,
     })
@@ -779,24 +989,46 @@ exports.SwapPlayer = async (req, res) => {
     const owner = await OwnerSchema.findById(ownerId).populate("games");
     const game = await Games.findById(owner.games);
 
-    let playerIndex = owner.playingXIPlayerId.indexOf(playerId)
-    // owner.playingXIPlayerId.remove(playerId)
-    owner.playingXIPlayerId[playerIndex] = swapPlayerId
-    // owner.playingXIPlayerId.push(swapPlayerId)
-
     let player = {}
     let swapPlayer = {}
 
-    owner.playersList.forEach((ele) => {
+    let playerIndex = -1
+    let swapPlayerIndex = -1
+
+    owner.playersList.forEach((ele, index) => {
       if(ele.playerId == playerId){
-        ele.isInPlayingXI = false
-        player = ele
+        player = ele 
+        playerIndex = index;
       }
       else if (ele.playerId == swapPlayerId){
-        ele.isInPlayingXI = true
         swapPlayer = ele
+        swapPlayerIndex = index;
       }
     })
+
+    if(player.isInPlayingXI && swapPlayer.isInPlayingXI){
+      res.status(400).json({
+        message: "Both players are already in playing XI.",
+        success: false,
+      });
+      return;
+    }
+
+    if(swapPlayer.isInPlayingXI && !player.isInPlayingXI){
+      res.status(400).json({
+        message: "Swap player is already in playing XI.",
+        success: false,
+      });
+      return;
+    }
+
+    if(!player.isInPlayingXI){
+      res.status(400).json({
+        message: "Player is not in playing XI.",
+        success: false,
+      });
+      return;
+    }
 
     const allowedPlayerTypeForWk = game.allowedPlayerTypeForSwap.allowedPlayerTypeForWk
     const allowedPlayerTypeForBowler = game.allowedPlayerTypeForSwap.allowedPlayerTypeForBowler
@@ -808,72 +1040,77 @@ exports.SwapPlayer = async (req, res) => {
     // const allowedPlayerTypeForBatsman = ["BATSMAN", "ALLROUNDER", "WICKETKEEPER"]
     // const allowedPlayerTypeForAllRounder = ["ALLROUNDER"]
 
-    if(player.playerType == 'WICKETKEEPER' && !allowedPlayerTypeForWk.includes(swapPlayer.playerType))
+    if(player.playingType == 'WICKETKEEPER' && !allowedPlayerTypeForWk.includes(swapPlayer.playerType))
     {  
-      res.status(200).json({
+      res.status(400).json({
         message: `Invalid swap: Wicketkeeper cannot swap with this player type. ${swapPlayer.playerType}`,
         success: false,
       });
       return;
-    }else if(player.playerType == 'BATSMAN' && !allowedPlayerTypeForBatsman.includes(swapPlayer.playerType)){
-      res.status(200).json({
+    }else if(player.playingType == 'BATSMAN' && !allowedPlayerTypeForBatsman.includes(swapPlayer.playerType)){
+      res.status(400).json({
         message: `Invalid swap: BATSMAN cannot swap with this player type. ${swapPlayer.playerType}`,
         success: false,
       });
       return;
     }
-    else if(player.playerType == 'BOWLER' && !allowedPlayerTypeForBowler.includes(swapPlayer.playerType)){
-      res.status(200).json({
+    else if(player.playingType == 'BOWLER' && !allowedPlayerTypeForBowler.includes(swapPlayer.playerType)){
+      res.status(400).json({
         message: `Invalid swap: BOWLER cannot swap with this player type. ${swapPlayer.playerType}`,
         success: false,
       });
       return;
     }
-    else if(player.playerType == 'ALLROUNDER' && !allowedPlayerTypeForAllRounder.includes(swapPlayer.playerType)){
-      res.status(200).json({
+    else if(player.playingType == 'ALLROUNDER' && !allowedPlayerTypeForAllRounder.includes(swapPlayer.playerType)){
+      res.status(400).json({
         message: `Invalid swap: ALLROUNDER cannot swap with this player type. ${swapPlayer.playerType}`,
         success: false,
       });
       return;
     }
 
-    if(player.playerType){
-      if(allowedPlayerTypeForWk.includes(player.playerType)){
-        if(owner.playingXIWicketKeeperCount == game.maxWicketKeeperCountInPlayingXI){
-          res.status(200).json({
-            message: "You can't add more than 1 wicketkeeper in playing XI.",
-            success: true,
-          });
-          return;
-        }
-      } else if(allowedPlayerTypeForBowler.includes(player.playerType)){
-        if(owner.playingXIBowlerCount == game.maxBowlerCountInPlayingXI){
-          res.status(200).json({
-            message: "You can't add more than 5 bowler in playing XI.",
-            success: true,
-          });
-          return;
-        }
-      } else if(allowedPlayerTypeForBatsman.includes(player.playerType)){
-        if(owner.playingXIBatsmanCount == game.maxBatsmanCountInPlayingXI){
-          res.status(200).json({
-            message: "You can't add more than 5 batsman in playing XI.",
-            success: true,
-          });
-          return;
-        }
-      } else if(allowedPlayerTypeForAllRounder.includes(player.playerType)){
-        if(owner.playingXIAllRounderCount == game.maxAllRounderCountInPlayingXI){
-          res.status(200).json({
-            message: "You can't add more than 2 allrounder in playing XI.",
-            success: true,
-          });
-          return;
-        }
-      }
+    if(owner.playingXIWicketKeeperCount == game.gameRules.maxWicketKeeperCountInPlayingXI && swapPlayer.playerType == "WICKETKEEPER" &&  !allowedPlayerTypeForWk.includes(player.playerType)){
+      res.status(400).json({
+        message: "You can't add more than 1 wicketkeeper in playing XI.",
+        success: false,
+      });
+      return;
     }
-    // need to add one code where player is a allRounder but playing as batter or bowler code in ownerdb
-    // and swapPlayer is a allRounder but playing as batter or bowler code in ownerdb
+    if(owner.playingXIBowlerCount == game.gameRules.maxBowlerCountInPlayingXI && swapPlayer.playerType == "BOWLER" && !allowedPlayerTypeForBowler.includes(player.playerType)){
+      res.status(400).json({
+        message: "You can't add more than 5 bowler in playing XI.",
+        success: false,
+      });
+      return;
+    }
+    if(owner.playingXIBatsmanCount == game.gameRules.maxBatsmanCountInPlayingXI && swapPlayer.playerType == "BATSMAN" && !allowedPlayerTypeForBatsman.includes(player.playerType)){
+      res.status(400).json({
+        message: "You can't add more than 5 batsman in playing XI.",
+        success: false,
+      });
+      return;
+    }
+    if(owner.playingXIAllRounderCount == game.gameRules.maxAllRounderCountInPlayingXI && swapPlayer.playerType == "ALLROUNDER" && !allowedPlayerTypeForAllRounder.includes(player.playerType)){
+      res.status(400).json({
+        message: "You can't add more than 2 allrounder in playing XI.",
+        success: false,
+      });
+      return;
+    }
+    if(owner.playingXIForeignPlayerCount == game.gameRules.maxForeignPlayerCountInPlayingXI && swapPlayer.isForeigner && !player.isForeigner){
+      res.status(400).json({
+        message: "You can't add more than 4 foreign players in playing XI.",
+        success: false,
+      });
+      return;
+    }
+    if(owner.playingXIIndianPlayerCount == game.gameRules.maxIndianPlayerCountInPlayingXI && !swapPlayer.isForeigner && player.isForeigner){
+      res.status(400).json({
+        message: "You can't add more than 7 Indian players in playing XI.",
+        success: false,
+      });
+      return;
+    }
 
     let index = -1
     owner.playingXIList.forEach((ele, idx) => {
@@ -882,24 +1119,97 @@ exports.SwapPlayer = async (req, res) => {
       }
     })
 
+    let playerIdIndex = owner.playingXIPlayerId.indexOf(playerId)
+    owner.playingXIPlayerId[playerIdIndex] = swapPlayerId
 
-    if (index !== -1) {
-      owner.playingXIList[index] = {
-        playerId: swapPlayer.playerId,
-        playerName: swapPlayer.playerName,
-        playerCountry: swapPlayer.playerCountry,
-        playerType: swapPlayer.playerType,
-        isForeigner: swapPlayer.isForeigner,
-      };
+    owner.playersList[swapPlayerIndex].playingType =  owner.playersList[playerIndex].playingType
+    owner.playersList[swapPlayerIndex].isInPlayingXI = true
+    owner.playersList[playerIndex].playingType = "" 
+    owner.playersList[playerIndex].isInPlayingXI = false
+    owner.playersList[playerIndex].isCaptain = false
+    owner.playersList[playerIndex].isViceCaptain = false 
+    
+
+    if(player.playerType == "BATSMAN"){ 
+      owner.playingXIBatsmanCount = --owner.playingXIBatsmanCount;
+    }
+    else if(player.playerType == "BOWLER"){
+      owner.playingXIBowlerCount = --owner.playingXIBowlerCount;
+    }
+    else if(player.playerType == "WICKETKEEPER"){
+      owner.playingXIWicketKeeperCount = --owner.playingXIWicketKeeperCount;
+    }
+    else if(player.playerType == "ALLROUNDER"){
+      owner.playingXIAllRounderCount = --owner.playingXIAllRounderCount;
     }
 
+    if(swapPlayer.playerType == "BATSMAN"){
+      owner.playingXIBatsmanCount = ++owner.playingXIBatsmanCount;
+    }
+    else if(swapPlayer.playerType == "BOWLER"){
+      owner.playingXIBowlerCount = ++owner.playingXIBowlerCount;
+    }
+    else if(swapPlayer.playerType == "WICKETKEEPER"){
+      owner.playingXIWicketKeeperCount = ++owner.playingXIWicketKeeperCount;
+    }
+    else if(swapPlayer.playerType == "ALLROUNDER"){
+      owner.playingXIAllRounderCount = ++owner.playingXIAllRounderCount;
+    }
+
+    if(player.isForeigner){
+      owner.playingXIForeignPlayerCount = --owner.playingXIForeignPlayerCount;
+    }else{
+      owner.playingXIIndianPlayerCount = --owner.playingXIIndianPlayerCount;
+    }
+
+    if(swapPlayer.isForeigner){
+      owner.playingXIForeignPlayerCount = ++owner.playingXIForeignPlayerCount;
+    }else{
+      owner.playingXIIndianPlayerCount = ++owner.playingXIIndianPlayerCount;
+    }
+
+    owner.playerSwapCount = ++owner.playerSwapCount
+
+    // if (index !== -1) {
+    //   owner.playingXIList[index] = {
+    //     playerId: swapPlayer.playerId,
+    //     playerName: swapPlayer.playerName,
+    //     playerCountry: swapPlayer.playerCountry,
+    //     playerType: swapPlayer.playerType,
+    //     isForeigner: swapPlayer.isForeigner,
+    //   };
+    // }
+
+    owner.playingXIList = owner.playingXIList.filter(
+      (ele) => ele.playerId != playerId
+    );
+
+    owner.playingXIList.push({
+      playerId: swapPlayer.playerId,
+      playerName: swapPlayer.playerName,
+      playerCountry: swapPlayer.playerCountry,
+      playerType: swapPlayer.playerType,
+      isForeigner: swapPlayer.isForeigner,
+      playingType : owner.playersList[swapPlayerIndex].playingType,
+      isCaptain: swapPlayer.isCaptain,
+      isViceCaptain: swapPlayer.isViceCaptain,
+        
+    });
+
     owner.playerSwaps.push({
-      swapType : player.playerType + 'SWAP',
+      swapType : owner.playersList[swapPlayerIndex].playingType + 'SWAP',
       swapNumber : owner.playerSwaps.length + 1,
       in : swapPlayer.playerName,
       out : player.playerName,
       playerIn : swapPlayer.playerId,
       playerOut : player.playerId,
+      playerInPlayingStyle : swapPlayer.playerType,
+      playerOutPlayingStyle : player.playerType,
+      isForeignPlayerSwap : swapPlayer.isForeigner,
+      playerInIsForeign : swapPlayer.isForeigner,
+      playerOutIsForeign : player.isForeigner,
+      playerInCountry : swapPlayer.playerCountry,
+      playerOutCountry : player.playerCountry,
     })
 
     await owner.save()
@@ -924,7 +1234,105 @@ exports.SwapPlayer = async (req, res) => {
 exports.SwapCaptain = async (req, res) => {
   try
   {
+    const { playerId, ownerId, swapPlayerId } = req.body;
+    console.log(req.body);
 
+    const owner = await OwnerSchema.findById(ownerId).populate("games");
+    const game = await Games.findById(owner.games);
+
+    let player = {}
+    let swapPlayer = {}
+
+    let playerIndex = -1
+    let swapPlayerIndex = -1
+
+    owner.playersList.forEach((ele, index) => {
+      if(ele.playerId == playerId){
+        player = ele 
+        playerIndex = index;
+      }
+      else if (ele.playerId == swapPlayerId){
+        swapPlayer = ele
+        swapPlayerIndex = index;
+      }
+    })
+
+    if(!player.isInPlayingXI){
+      res.status(400).json({
+        message: "Player is not in playing XI.",
+        success: false,
+      });
+      return;
+    }
+
+    if(!swapPlayer.isInPlayingXI){
+      res.status(400).json({
+        message: "Swap player is not in playing XI.",
+        success: false,
+      });
+      return;
+    }
+
+
+    if(player.isViceCaptain){
+      res.status(400).json({
+        message: "Player is already vicecaptain and cannot become captain.",
+        success: false,
+      });
+      return;
+    }
+
+    if(!player.isCaptain){
+      res.status(400).json({
+        message: "Player is not captain.",
+        success: false,
+      });
+      return;
+    }
+
+    if(swapPlayer.isCaptain){
+      res.status(400).json({
+        message: "Swap player is already captain.",
+        success: false,
+      });
+      return;
+    }
+
+    owner.playersList[playerIndex].isCaptain = false
+    owner.playersList[swapPlayerIndex].isCaptain = true
+    
+    owner.playingXIList.forEach((ele) => {
+      if(ele.playerId == playerId){
+        ele.isCaptain = false
+      }else if(ele.playerId == swapPlayerId){
+        ele.isCaptain = true
+      }
+    })
+
+    owner.captainSwapCount = ++owner.captainSwapCount
+
+    owner.captain = {
+      captainId : swapPlayer.playerId,
+      captainName : swapPlayer.playerName,
+    }
+
+    owner.captainSwaps.push({
+      swapType : 'CAPTAINSWAP',
+      swapNumber : owner.captainSwaps.length + 1,
+      in : swapPlayer.playerName,
+      out : player.playerName,
+      captainIn : swapPlayer.playerId,
+      captainOut : player.playerId,
+    });
+
+    await owner.save();
+
+    res.status(200).json({
+      message: "SwapCaptain created.",
+      owner,
+      game,
+      success: true,
+    });
   }catch(error){
     res.status(500).json({
       message: "Error in SwapCaptain.",
@@ -937,10 +1345,107 @@ exports.SwapCaptain = async (req, res) => {
 exports.SwapViceCaptain = async (req, res) => {
   try
   {
+    const { playerId, ownerId, swapPlayerId } = req.body;
+    console.log(req.body);
 
+    const owner = await OwnerSchema.findById(ownerId).populate("games");
+    const game = await Games.findById(owner.games);
+
+    let player = {}
+    let swapPlayer = {}
+
+    let playerIndex = -1
+    let swapPlayerIndex = -1
+
+    owner.playersList.forEach((ele, index) => {
+      if(ele.playerId == playerId){
+        player = ele 
+        playerIndex = index;
+      }
+      else if (ele.playerId == swapPlayerId){
+        swapPlayer = ele
+        swapPlayerIndex = index;
+      }
+    })
+
+    if(!player.isInPlayingXI){
+      res.status(400).json({
+        message: "Player is not in playing XI.",
+        success: false,
+      });
+      return;
+    }
+
+    if(!swapPlayer.isInPlayingXI){
+      res.status(400).json({
+        message: "Swap player is not in playing XI.",
+        success: false,
+      });
+      return;
+    }
+
+    if(!player.isViceCaptain){
+      res.status(400).json({
+        message: "Player is not vicecaptain.",
+        success: false,
+      });
+      return;
+    }
+
+    if(swapPlayer.isViceCaptain){
+      res.status(400).json({
+        message: "Swap player is already vicecaptain.",
+        success: false,
+      });
+      return;
+    }
+
+    if(player.isCaptain){
+      res.status(400).json({
+        message: "Player is already captain and cannot become vicecaptain.",
+        success: false,
+      });
+      return;
+    }
+
+    owner.playersList[playerIndex].isViceCaptain = false
+    owner.playersList[swapPlayerIndex].isViceCaptain = true
+    
+    owner.playingXIList.forEach((ele) => {
+      if(ele.playerId == playerId){
+        ele.isViceCaptain = false
+      }else if(ele.playerId == swapPlayerId){
+        ele.isViceCaptain = true
+      }
+    })
+
+    owner.viceCaptainSwapCount = ++owner.viceCaptainSwapCount
+
+    owner.viceCaptain = {
+      viceCaptainId : swapPlayer.playerId,
+      viceCaptainName : swapPlayer.playerName,
+    }
+
+    owner.viceCaptainSwaps.push({
+      swapType : 'VICECAPTAINSWAP',
+      swapNumber : owner.viceCaptainSwaps.length + 1,
+      in : swapPlayer.playerName,
+      out : player.playerName,
+      viceCaptainIn : swapPlayer.playerId,
+      viceCaptainOut : player.playerId,
+    });
+
+    await owner.save();
+
+    res.status(200).json({
+      message: "SwapViceCaptain created.",
+      owner,
+      game,
+      success: true,
+    });
   }catch(error){
     res.status(500).json({
-      message: "Error in SwapCaptain.",
+      message: "Error in SwapViceCaptain.",
       error : error.message,
       success: false,
     });

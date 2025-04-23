@@ -1,0 +1,5179 @@
+[{
+  "_id": {
+    "$oid": "67f571e8421edd01df765478"
+  },
+  "documentCode": "59870199-7b15-4b34-99c5-8f642fc27433",
+  "ownerId": {
+    "$oid": "67b82e2977d627feb658c622"
+  },
+  "ownerTeamName": "Meta 11",
+  "totalPlayerCount": 26,
+  "totalBatsmanCount": 4,
+  "totalBowlerCount": 9,
+  "totalAllRounderCount": 12,
+  "totalWicketKeeperCount": 1,
+  "totalIndianPlayerCount": 15,
+  "totalForeignPlayerCount": 11,
+  "playingXIPlayerId": [],
+  "playingXICount": 0,
+  "playingXIBatsmanCount": 0,
+  "playingXIBowlerCount": 0,
+  "playingXIAllRounderCount": 0,
+  "playingXIWicketKeeperCount": 0,
+  "playingXIIndianPlayerCount": 0,
+  "playingXIForeignPlayerCount": 0,
+  "captainSwapCount": 0,
+  "viceCaptainSwapCount": 0,
+  "playerSwapCount": 0,
+  "entryFeePaid": true,
+  "totalEntryAmountPaid": 2000,
+  "pointsLeft": 0,
+  "totalFantasyPoint": 0,
+  "playersList": [
+    {
+      "playerId": "10479",
+      "playerName": "Philip Salt",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 140,
+      "_id": {
+        "$oid": "67f6c2c929e4eaefca01c03e"
+      }
+    },
+    {
+      "playerId": "9012",
+      "playerName": "Rahul Tripathi",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 150,
+      "_id": {
+        "$oid": "67f6ca764c0ba6b5ada379c8"
+      }
+    },
+    {
+      "playerId": "13169",
+      "playerName": "Tim David",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f6caf54c0ba6b5ada3a959"
+      }
+    },
+    {
+      "playerId": "8497",
+      "playerName": "Travis Head",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 880,
+      "_id": {
+        "$oid": "67f6cafa4c0ba6b5ada3ab3c"
+      }
+    },
+    {
+      "playerId": "6349",
+      "playerName": "David Miller",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 70,
+      "_id": {
+        "$oid": "67f6cb0e4c0ba6b5ada3b2dc"
+      }
+    },
+    {
+      "playerId": "19807",
+      "playerName": "Gurjapneet Singh",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f8129ca046fdb002ba5e89"
+      }
+    },
+    {
+      "playerId": "7910",
+      "playerName": "Yuzvendra Chahal",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 250,
+      "_id": {
+        "$oid": "67f812c9a046fdb002ba73ca"
+      }
+    },
+    {
+      "playerId": "15861",
+      "playerName": "Vaibhav Arora",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f812e5a046fdb002ba8155"
+      }
+    },
+    {
+      "playerId": "14274",
+      "playerName": "Rasikh Dar Salam",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 30,
+      "_id": {
+        "$oid": "67f81348a046fdb002bab031"
+      }
+    },
+    {
+      "playerId": "36487",
+      "playerName": "Suyash Sharma",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 30,
+      "_id": {
+        "$oid": "67f8134ca046fdb002bab220"
+      }
+    },
+    {
+      "playerId": "8642",
+      "playerName": "Adam Zampa",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 50,
+      "_id": {
+        "$oid": "67f81360a046fdb002babbe1"
+      }
+    },
+    {
+      "playerId": "14726",
+      "playerName": "Akash Deep",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 50,
+      "_id": {
+        "$oid": "67f8137da046fdb002bac9b8"
+      }
+    },
+    {
+      "playerId": "13534",
+      "playerName": "Mohsin Khan",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 70,
+      "_id": {
+        "$oid": "67f81385a046fdb002bacda6"
+      }
+    },
+    {
+      "playerId": "13320",
+      "playerName": "Gerald Coetzee",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f81389a046fdb002bacf9d"
+      }
+    },
+    {
+      "playerId": "32835",
+      "playerName": "Ramakrishna Ghosh",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f963a31d9601b2a74f7ac0"
+      }
+    },
+    {
+      "playerId": "14598",
+      "playerName": "Anshul Kamboj",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f963a71d9601b2a74f7ec0"
+      }
+    },
+    {
+      "playerId": "10420",
+      "playerName": "Sam Curran",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 280,
+      "_id": {
+        "$oid": "67f963ac1d9601b2a74f82b8"
+      }
+    },
+    {
+      "playerId": "27424",
+      "playerName": "Musheer Khan",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 30,
+      "_id": {
+        "$oid": "67f963b51d9601b2a74f8aaa"
+      }
+    },
+    {
+      "playerId": "13170",
+      "playerName": "Aaron Hardie",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f963bc1d9601b2a74f9093"
+      }
+    },
+    {
+      "playerId": "10919",
+      "playerName": "Shashank Singh",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 140,
+      "_id": {
+        "$oid": "67f963c01d9601b2a74f949b"
+      }
+    },
+    {
+      "playerId": "7736",
+      "playerName": "Andre Russell",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 290,
+      "_id": {
+        "$oid": "67f963d01d9601b2a74fa491"
+      }
+    },
+    {
+      "playerId": "10940",
+      "playerName": "Kamindu Mendis",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f963f41d9601b2a74fcab8"
+      }
+    },
+    {
+      "playerId": "51378",
+      "playerName": "Arshin Kulkarni",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f963fe1d9601b2a74fd4d9"
+      }
+    },
+    {
+      "playerId": "10226",
+      "playerName": "Shahrukh Khan",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 100,
+      "_id": {
+        "$oid": "67f964081d9601b2a74fdee8"
+      }
+    },
+    {
+      "playerId": "11595",
+      "playerName": "Ravisrinivasan Sai Kishore",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 50,
+      "_id": {
+        "$oid": "67f964101d9601b2a74fe70e"
+      }
+    },
+    {
+      "playerId": "11077",
+      "playerName": "Karim Janat",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 50,
+      "_id": {
+        "$oid": "67f964161d9601b2a74fed1f"
+      }
+    }
+  ],
+  "playingXIList": [],
+  "captainSwaps": [],
+  "viceCaptainSwaps": [],
+  "playerSwaps": [],
+  "retainedPlayer": [
+    {
+      "playerId": "10479",
+      "playerName": "Philip Salt",
+      "playerDocumentCode": "a96cfb70-e065-4aba-9e96-17fef9ae221c",
+      "playingStyle": "WICKETKEEPER",
+      "_id": {
+        "$oid": "67f6c2c929e4eaefca01c03d"
+      }
+    }
+  ],
+  "matchScoreList": [],
+  "createdAt": {
+    "$date": "2025-04-08T18:58:48.453Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T18:48:54.264Z"
+  },
+  "__v": 27,
+  "games": {
+    "$oid": "67f574b9421edd01df766b5c"
+  },
+  "maximumPoints": 3000,
+  "series": {
+    "$oid": "67b8800c73cf2a95e3a9bead"
+  },
+  "seriesId": "9237",
+  "totalEntryAmount": 2000,
+  "fantasyPointDetails": [],
+  "pointsSpent": [
+    {
+      "spentType": "TEAM",
+      "spentAmount": 200,
+      "pointsLeft": 2800,
+      "spentDetail": "DC",
+      "_id": {
+        "$oid": "67f6bc2c88274f95c68b8b41"
+      }
+    },
+    {
+      "spentType": "RETAINEDPLAYER",
+      "spentAmount": 140,
+      "pointsLeft": 2660,
+      "spentDetail": "Philip Salt",
+      "_id": {
+        "$oid": "67f6c2c929e4eaefca01c03f"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 150,
+      "pointsLeft": 2510,
+      "spentDetail": "Rahul Tripathi",
+      "_id": {
+        "$oid": "67f6ca764c0ba6b5ada379c9"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 2490,
+      "spentDetail": "Tim David",
+      "_id": {
+        "$oid": "67f6caf54c0ba6b5ada3a95a"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 880,
+      "pointsLeft": 1610,
+      "spentDetail": "Travis Head",
+      "_id": {
+        "$oid": "67f6cafa4c0ba6b5ada3ab3d"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 70,
+      "pointsLeft": 1540,
+      "spentDetail": "David Miller",
+      "_id": {
+        "$oid": "67f6cb0e4c0ba6b5ada3b2dd"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 1520,
+      "spentDetail": "Gurjapneet Singh",
+      "_id": {
+        "$oid": "67f8129ca046fdb002ba5e8a"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 250,
+      "pointsLeft": 1270,
+      "spentDetail": "Yuzvendra Chahal",
+      "_id": {
+        "$oid": "67f812c9a046fdb002ba73cb"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 1260,
+      "spentDetail": "Vaibhav Arora",
+      "_id": {
+        "$oid": "67f812e5a046fdb002ba8156"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 30,
+      "pointsLeft": 1230,
+      "spentDetail": "Rasikh Dar Salam",
+      "_id": {
+        "$oid": "67f81348a046fdb002bab032"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 30,
+      "pointsLeft": 1200,
+      "spentDetail": "Suyash Sharma",
+      "_id": {
+        "$oid": "67f8134ca046fdb002bab221"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 50,
+      "pointsLeft": 1150,
+      "spentDetail": "Adam Zampa",
+      "_id": {
+        "$oid": "67f81360a046fdb002babbe2"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 50,
+      "pointsLeft": 1100,
+      "spentDetail": "Akash Deep",
+      "_id": {
+        "$oid": "67f8137da046fdb002bac9b9"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 70,
+      "pointsLeft": 1030,
+      "spentDetail": "Mohsin Khan",
+      "_id": {
+        "$oid": "67f81385a046fdb002bacda7"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 1020,
+      "spentDetail": "Gerald Coetzee",
+      "_id": {
+        "$oid": "67f81389a046fdb002bacf9e"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 1000,
+      "spentDetail": "Ramakrishna Ghosh",
+      "_id": {
+        "$oid": "67f963a31d9601b2a74f7ac1"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 980,
+      "spentDetail": "Anshul Kamboj",
+      "_id": {
+        "$oid": "67f963a71d9601b2a74f7ec1"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 280,
+      "pointsLeft": 700,
+      "spentDetail": "Sam Curran",
+      "_id": {
+        "$oid": "67f963ac1d9601b2a74f82b9"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 30,
+      "pointsLeft": 670,
+      "spentDetail": "Musheer Khan",
+      "_id": {
+        "$oid": "67f963b51d9601b2a74f8aab"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 660,
+      "spentDetail": "Aaron Hardie",
+      "_id": {
+        "$oid": "67f963bc1d9601b2a74f9094"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 140,
+      "pointsLeft": 520,
+      "spentDetail": "Shashank Singh",
+      "_id": {
+        "$oid": "67f963c01d9601b2a74f949c"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 290,
+      "pointsLeft": 230,
+      "spentDetail": "Andre Russell",
+      "_id": {
+        "$oid": "67f963d01d9601b2a74fa492"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 220,
+      "spentDetail": "Kamindu Mendis",
+      "_id": {
+        "$oid": "67f963f41d9601b2a74fcab9"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 200,
+      "spentDetail": "Arshin Kulkarni",
+      "_id": {
+        "$oid": "67f963fe1d9601b2a74fd4da"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 100,
+      "pointsLeft": 100,
+      "spentDetail": "Shahrukh Khan",
+      "_id": {
+        "$oid": "67f964081d9601b2a74fdee9"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 50,
+      "pointsLeft": 50,
+      "spentDetail": "Ravisrinivasan Sai Kishore",
+      "_id": {
+        "$oid": "67f964101d9601b2a74fe70f"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 50,
+      "pointsLeft": 0,
+      "spentDetail": "Karim Janat",
+      "_id": {
+        "$oid": "67f964161d9601b2a74fed20"
+      }
+    }
+  ],
+  "teamName": "DC"
+},
+{
+  "_id": {
+    "$oid": "67f572b7421edd01df7654a9"
+  },
+  "documentCode": "62651cbf-3516-4459-b7ea-78a74da703b1",
+  "ownerId": {
+    "$oid": "67ba13c993170272445081e5"
+  },
+  "ownerTeamName": "Pelu 11",
+  "totalPlayerCount": 16,
+  "totalBatsmanCount": 3,
+  "totalBowlerCount": 5,
+  "totalAllRounderCount": 5,
+  "totalWicketKeeperCount": 3,
+  "totalIndianPlayerCount": 12,
+  "totalForeignPlayerCount": 4,
+  "playingXIPlayerId": [],
+  "playingXICount": 0,
+  "playingXIBatsmanCount": 0,
+  "playingXIBowlerCount": 0,
+  "playingXIAllRounderCount": 0,
+  "playingXIWicketKeeperCount": 0,
+  "playingXIIndianPlayerCount": 0,
+  "playingXIForeignPlayerCount": 0,
+  "captainSwapCount": 0,
+  "viceCaptainSwapCount": 0,
+  "playerSwapCount": 0,
+  "entryFeePaid": true,
+  "totalEntryAmountPaid": 2000,
+  "pointsLeft": 0,
+  "totalFantasyPoint": 0,
+  "playersList": [
+    {
+      "playerId": "9838",
+      "playerName": "Devon Conway",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 130,
+      "_id": {
+        "$oid": "67f6c2cc29e4eaefca01c21b"
+      }
+    },
+    {
+      "playerId": "19243",
+      "playerName": "Tristan Stubbs",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 130,
+      "_id": {
+        "$oid": "67f6c70cda018590a40dfc37"
+      }
+    },
+    {
+      "playerId": "14691",
+      "playerName": "Dhruv Jurel",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 90,
+      "_id": {
+        "$oid": "67f6c749da018590a40e12bf"
+      }
+    },
+    {
+      "playerId": "11813",
+      "playerName": "Ruturaj Gaikwad",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 670,
+      "_id": {
+        "$oid": "67f6ca6b4c0ba6b5ada37604"
+      }
+    },
+    {
+      "playerId": "22571",
+      "playerName": "Shaik Rasheed",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 40,
+      "_id": {
+        "$oid": "67f6ca704c0ba6b5ada377e9"
+      }
+    },
+    {
+      "playerId": "10499",
+      "playerName": "Abhinav Manohar",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 30,
+      "_id": {
+        "$oid": "67f6caff4c0ba6b5ada3ad23"
+      }
+    },
+    {
+      "playerId": "16458",
+      "playerName": "Matheesha Pathirana",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 170,
+      "_id": {
+        "$oid": "67f8128ba046fdb002ba56db"
+      }
+    },
+    {
+      "playerId": "9311",
+      "playerName": "Jasprit Bumrah",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 320,
+      "_id": {
+        "$oid": "67f812faa046fdb002ba8b06"
+      }
+    },
+    {
+      "playerId": "7909",
+      "playerName": "Mohammed Shami",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 300,
+      "_id": {
+        "$oid": "67f81354a046fdb002bab600"
+      }
+    },
+    {
+      "playerId": "14163",
+      "playerName": "Simarjeet Singh",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f81364a046fdb002babdd0"
+      }
+    },
+    {
+      "playerId": "10808",
+      "playerName": "Mohammed Siraj",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 100,
+      "_id": {
+        "$oid": "67f813a5a046fdb002badd86"
+      }
+    },
+    {
+      "playerId": "12337",
+      "playerName": "Ramandeep Singh ",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 40,
+      "_id": {
+        "$oid": "67f963c71d9601b2a74f9c8b"
+      }
+    },
+    {
+      "playerId": "10917",
+      "playerName": "Venkatesh Iyer",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 690,
+      "_id": {
+        "$oid": "67f963cc1d9601b2a74fa083"
+      }
+    },
+    {
+      "playerId": "13962",
+      "playerName": "Manoj Bhandage",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f963e51d9601b2a74fbac0"
+      }
+    },
+    {
+      "playerId": "10238",
+      "playerName": "Swapnil Singh",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 50,
+      "_id": {
+        "$oid": "67f963ef1d9601b2a74fc4ad"
+      }
+    },
+    {
+      "playerId": "10693",
+      "playerName": "Glenn Phillips",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 100,
+      "_id": {
+        "$oid": "67f964041d9601b2a74fdad6"
+      }
+    }
+  ],
+  "playingXIList": [],
+  "captainSwaps": [],
+  "viceCaptainSwaps": [],
+  "playerSwaps": [],
+  "retainedPlayer": [
+    {
+      "playerId": "9838",
+      "playerName": "Devon Conway",
+      "playerDocumentCode": "5979277f-96ed-4bac-98c9-e635164cd259",
+      "playingStyle": "WICKETKEEPER",
+      "_id": {
+        "$oid": "67f6c2cc29e4eaefca01c21a"
+      }
+    }
+  ],
+  "matchScoreList": [],
+  "createdAt": {
+    "$date": "2025-04-08T19:02:15.487Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T18:48:36.559Z"
+  },
+  "__v": 17,
+  "games": {
+    "$oid": "67f574b9421edd01df766b5c"
+  },
+  "maximumPoints": 3000,
+  "series": {
+    "$oid": "67b8800c73cf2a95e3a9bead"
+  },
+  "seriesId": "9237",
+  "totalEntryAmount": 2000,
+  "fantasyPointDetails": [],
+  "pointsSpent": [
+    {
+      "spentType": "TEAM",
+      "spentAmount": 100,
+      "pointsLeft": 2900,
+      "spentDetail": "CSK",
+      "_id": {
+        "$oid": "67f6bc2d88274f95c68b8d1c"
+      }
+    },
+    {
+      "spentType": "RETAINEDPLAYER",
+      "spentAmount": 130,
+      "pointsLeft": 2770,
+      "spentDetail": "Devon Conway",
+      "_id": {
+        "$oid": "67f6c2cc29e4eaefca01c21c"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 130,
+      "pointsLeft": 2640,
+      "spentDetail": "Tristan Stubbs",
+      "_id": {
+        "$oid": "67f6c70cda018590a40dfc38"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 90,
+      "pointsLeft": 2550,
+      "spentDetail": "Dhruv Jurel",
+      "_id": {
+        "$oid": "67f6c749da018590a40e12c0"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 670,
+      "pointsLeft": 1880,
+      "spentDetail": "Ruturaj Gaikwad",
+      "_id": {
+        "$oid": "67f6ca6b4c0ba6b5ada37605"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 40,
+      "pointsLeft": 1840,
+      "spentDetail": "Shaik Rasheed",
+      "_id": {
+        "$oid": "67f6ca704c0ba6b5ada377ea"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 30,
+      "pointsLeft": 1810,
+      "spentDetail": "Abhinav Manohar",
+      "_id": {
+        "$oid": "67f6caff4c0ba6b5ada3ad24"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 170,
+      "pointsLeft": 1640,
+      "spentDetail": "Matheesha Pathirana",
+      "_id": {
+        "$oid": "67f8128ba046fdb002ba56dc"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 320,
+      "pointsLeft": 1320,
+      "spentDetail": "Jasprit Bumrah",
+      "_id": {
+        "$oid": "67f812faa046fdb002ba8b07"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 300,
+      "pointsLeft": 1020,
+      "spentDetail": "Mohammed Shami",
+      "_id": {
+        "$oid": "67f81354a046fdb002bab601"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 1000,
+      "spentDetail": "Simarjeet Singh",
+      "_id": {
+        "$oid": "67f81364a046fdb002babdd1"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 100,
+      "pointsLeft": 900,
+      "spentDetail": "Mohammed Siraj",
+      "_id": {
+        "$oid": "67f813a5a046fdb002badd87"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 40,
+      "pointsLeft": 860,
+      "spentDetail": "Ramandeep Singh ",
+      "_id": {
+        "$oid": "67f963c71d9601b2a74f9c8c"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 690,
+      "pointsLeft": 170,
+      "spentDetail": "Venkatesh Iyer",
+      "_id": {
+        "$oid": "67f963cc1d9601b2a74fa084"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 150,
+      "spentDetail": "Manoj Bhandage",
+      "_id": {
+        "$oid": "67f963e51d9601b2a74fbac1"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 50,
+      "pointsLeft": 100,
+      "spentDetail": "Swapnil Singh",
+      "_id": {
+        "$oid": "67f963ef1d9601b2a74fc4ae"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 100,
+      "pointsLeft": 0,
+      "spentDetail": "Glenn Phillips",
+      "_id": {
+        "$oid": "67f964041d9601b2a74fdad7"
+      }
+    }
+  ],
+  "teamName": "CSK"
+},
+{
+  "_id": {
+    "$oid": "67f572de421edd01df7654da"
+  },
+  "documentCode": "aa932a12-91e8-4519-ada9-69d3a7d6438d",
+  "ownerId": {
+    "$oid": "67ba1074f382fb1de4798a30"
+  },
+  "ownerTeamName": "Neem Karoli Baba",
+  "totalPlayerCount": 22,
+  "totalBatsmanCount": 4,
+  "totalBowlerCount": 8,
+  "totalAllRounderCount": 7,
+  "totalWicketKeeperCount": 3,
+  "totalIndianPlayerCount": 15,
+  "totalForeignPlayerCount": 7,
+  "playingXIPlayerId": [],
+  "playingXICount": 0,
+  "playingXIBatsmanCount": 0,
+  "playingXIBowlerCount": 0,
+  "playingXIAllRounderCount": 0,
+  "playingXIWicketKeeperCount": 0,
+  "playingXIIndianPlayerCount": 0,
+  "playingXIForeignPlayerCount": 0,
+  "captainSwapCount": 0,
+  "viceCaptainSwapCount": 0,
+  "playerSwapCount": 0,
+  "entryFeePaid": true,
+  "totalEntryAmountPaid": 2000,
+  "pointsLeft": 10,
+  "totalFantasyPoint": 0,
+  "playersList": [
+    {
+      "playerId": "12086",
+      "playerName": "Abhishek Sharma",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 130,
+      "_id": {
+        "$oid": "67f6c2d029e4eaefca01c3f8"
+      }
+    },
+    {
+      "playerId": "1429626",
+      "playerName": "Vansh Bedi",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f6c706da018590a40dfa58"
+      }
+    },
+    {
+      "playerId": "8520",
+      "playerName": "Quinton de Kock",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 400,
+      "_id": {
+        "$oid": "67f6c735da018590a40e0b37"
+      }
+    },
+    {
+      "playerId": "13213",
+      "playerName": "Rahmanullah Gurbaz",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 100,
+      "_id": {
+        "$oid": "67f6c73ada018590a40e0d1a"
+      }
+    },
+    {
+      "playerId": "22566",
+      "playerName": "Angkrish Raghuvanshi",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 70,
+      "_id": {
+        "$oid": "67f6caa94c0ba6b5ada38cca"
+      }
+    },
+    {
+      "playerId": "13940",
+      "playerName": "Yashasvi Jaiswal",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 870,
+      "_id": {
+        "$oid": "67f6cacc4c0ba6b5ada39a1b"
+      }
+    },
+    {
+      "playerId": "52418",
+      "playerName": "Swastik Chikara",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f6caeb4c0ba6b5ada3a58d"
+      }
+    },
+    {
+      "playerId": "13088",
+      "playerName": "Devdutt Padikkal",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f6caf04c0ba6b5ada3a778"
+      }
+    },
+    {
+      "playerId": "8181",
+      "playerName": "Mohit Sharma",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 110,
+      "_id": {
+        "$oid": "67f812b4a046fdb002ba6a1d"
+      }
+    },
+    {
+      "playerId": "14336",
+      "playerName": "Kuldeep Sen",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f812d5a046fdb002ba7999"
+      }
+    },
+    {
+      "playerId": "8356",
+      "playerName": "Sandeep Sharma",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 80,
+      "_id": {
+        "$oid": "67f81313a046fdb002ba96b6"
+      }
+    },
+    {
+      "playerId": "23346",
+      "playerName": "Kwena Maphaka",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f81323a046fdb002ba9e88"
+      }
+    },
+    {
+      "playerId": "8175",
+      "playerName": "Harshal Patel",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 170,
+      "_id": {
+        "$oid": "67f81358a046fdb002bab7f5"
+      }
+    },
+    {
+      "playerId": "11436",
+      "playerName": "Brydon Carse",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f8136ca046fdb002bac1c6"
+      }
+    },
+    {
+      "playerId": "50458",
+      "playerName": "Shamar Joseph",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f81381a046fdb002bacbb1"
+      }
+    },
+    {
+      "playerId": "9585",
+      "playerName": "Kagiso Rabada",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 200,
+      "_id": {
+        "$oid": "67f81399a046fdb002bad795"
+      }
+    },
+    {
+      "playerId": "9427",
+      "playerName": "Deepak Hooda",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 100,
+      "_id": {
+        "$oid": "67f9639e1d9601b2a74f76c8"
+      }
+    },
+    {
+      "playerId": "11177",
+      "playerName": "Rachin Ravindra",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 280,
+      "_id": {
+        "$oid": "67f963a01d9601b2a74f78c7"
+      }
+    },
+    {
+      "playerId": "13497",
+      "playerName": "Ashutosh Sharma",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 70,
+      "_id": {
+        "$oid": "67f963ae1d9601b2a74f84b9"
+      }
+    },
+    {
+      "playerId": "12344",
+      "playerName": "Anukul Roy",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f963c91d9601b2a74f9e8e"
+      }
+    },
+    {
+      "playerId": "1431171",
+      "playerName": "Satyanarayana Raju",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f963d91d9601b2a74faeb4"
+      }
+    },
+    {
+      "playerId": "9693",
+      "playerName": "Rahul Tewatia",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 130,
+      "_id": {
+        "$oid": "67f964061d9601b2a74fdcdd"
+      }
+    }
+  ],
+  "playingXIList": [],
+  "captainSwaps": [],
+  "viceCaptainSwaps": [],
+  "playerSwaps": [],
+  "retainedPlayer": [
+    {
+      "playerId": "12086",
+      "playerName": "Abhishek Sharma",
+      "playerDocumentCode": "4a00e79a-f929-4734-82ca-e4ec31e4e196",
+      "playingStyle": "ALLROUNDER",
+      "_id": {
+        "$oid": "67f6c2cf29e4eaefca01c3f7"
+      }
+    }
+  ],
+  "matchScoreList": [],
+  "createdAt": {
+    "$date": "2025-04-08T19:02:54.550Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T18:48:38.491Z"
+  },
+  "__v": 23,
+  "games": {
+    "$oid": "67f574b9421edd01df766b5c"
+  },
+  "maximumPoints": 3000,
+  "series": {
+    "$oid": "67b8800c73cf2a95e3a9bead"
+  },
+  "seriesId": "9237",
+  "totalEntryAmount": 2000,
+  "fantasyPointDetails": [],
+  "pointsSpent": [
+    {
+      "spentType": "TEAM",
+      "spentAmount": 160,
+      "pointsLeft": 2840,
+      "spentDetail": "PBKS",
+      "_id": {
+        "$oid": "67f6bc2f88274f95c68b8ef8"
+      }
+    },
+    {
+      "spentType": "RETAINEDPLAYER",
+      "spentAmount": 130,
+      "pointsLeft": 2710,
+      "spentDetail": "Abhishek Sharma",
+      "_id": {
+        "$oid": "67f6c2d029e4eaefca01c3f9"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 2700,
+      "spentDetail": "Vansh Bedi",
+      "_id": {
+        "$oid": "67f6c706da018590a40dfa59"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 400,
+      "pointsLeft": 2300,
+      "spentDetail": "Quinton de Kock",
+      "_id": {
+        "$oid": "67f6c735da018590a40e0b38"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 100,
+      "pointsLeft": 2200,
+      "spentDetail": "Rahmanullah Gurbaz",
+      "_id": {
+        "$oid": "67f6c73ada018590a40e0d1b"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 70,
+      "pointsLeft": 2130,
+      "spentDetail": "Angkrish Raghuvanshi",
+      "_id": {
+        "$oid": "67f6caa94c0ba6b5ada38ccb"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 870,
+      "pointsLeft": 1260,
+      "spentDetail": "Yashasvi Jaiswal",
+      "_id": {
+        "$oid": "67f6cacc4c0ba6b5ada39a1c"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 1250,
+      "spentDetail": "Swastik Chikara",
+      "_id": {
+        "$oid": "67f6caeb4c0ba6b5ada3a58e"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 1240,
+      "spentDetail": "Devdutt Padikkal",
+      "_id": {
+        "$oid": "67f6caf04c0ba6b5ada3a779"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 110,
+      "pointsLeft": 1130,
+      "spentDetail": "Mohit Sharma",
+      "_id": {
+        "$oid": "67f812b4a046fdb002ba6a1e"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 1120,
+      "spentDetail": "Kuldeep Sen",
+      "_id": {
+        "$oid": "67f812d5a046fdb002ba799a"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 80,
+      "pointsLeft": 1040,
+      "spentDetail": "Sandeep Sharma",
+      "_id": {
+        "$oid": "67f81313a046fdb002ba96b7"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 1030,
+      "spentDetail": "Kwena Maphaka",
+      "_id": {
+        "$oid": "67f81323a046fdb002ba9e89"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 170,
+      "pointsLeft": 860,
+      "spentDetail": "Harshal Patel",
+      "_id": {
+        "$oid": "67f81358a046fdb002bab7f6"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 840,
+      "spentDetail": "Brydon Carse",
+      "_id": {
+        "$oid": "67f8136ca046fdb002bac1c7"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 830,
+      "spentDetail": "Shamar Joseph",
+      "_id": {
+        "$oid": "67f81381a046fdb002bacbb2"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 200,
+      "pointsLeft": 630,
+      "spentDetail": "Kagiso Rabada",
+      "_id": {
+        "$oid": "67f81399a046fdb002bad796"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 100,
+      "pointsLeft": 530,
+      "spentDetail": "Deepak Hooda",
+      "_id": {
+        "$oid": "67f9639e1d9601b2a74f76c9"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 280,
+      "pointsLeft": 250,
+      "spentDetail": "Rachin Ravindra",
+      "_id": {
+        "$oid": "67f963a01d9601b2a74f78c8"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 70,
+      "pointsLeft": 180,
+      "spentDetail": "Ashutosh Sharma",
+      "_id": {
+        "$oid": "67f963ae1d9601b2a74f84ba"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 160,
+      "spentDetail": "Anukul Roy",
+      "_id": {
+        "$oid": "67f963c91d9601b2a74f9e8f"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 140,
+      "spentDetail": "Satyanarayana Raju",
+      "_id": {
+        "$oid": "67f963d91d9601b2a74faeb5"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 130,
+      "pointsLeft": 10,
+      "spentDetail": "Rahul Tewatia",
+      "_id": {
+        "$oid": "67f964061d9601b2a74fdcde"
+      }
+    }
+  ],
+  "teamName": "PBKS"
+},
+{
+  "_id": {
+    "$oid": "67f57320421edd01df76550b"
+  },
+  "documentCode": "57240e43-f556-4386-ac62-ed622e191669",
+  "ownerId": {
+    "$oid": "67ba125593170272445081d9"
+  },
+  "ownerTeamName": "Eclipse 11",
+  "totalPlayerCount": 28,
+  "totalBatsmanCount": 5,
+  "totalBowlerCount": 10,
+  "totalAllRounderCount": 8,
+  "totalWicketKeeperCount": 5,
+  "totalIndianPlayerCount": 18,
+  "totalForeignPlayerCount": 10,
+  "playingXIPlayerId": [],
+  "playingXICount": 0,
+  "playingXIBatsmanCount": 0,
+  "playingXIBowlerCount": 0,
+  "playingXIAllRounderCount": 0,
+  "playingXIWicketKeeperCount": 0,
+  "playingXIIndianPlayerCount": 0,
+  "playingXIForeignPlayerCount": 0,
+  "captainSwapCount": 0,
+  "viceCaptainSwapCount": 0,
+  "playerSwapCount": 0,
+  "entryFeePaid": true,
+  "totalEntryAmountPaid": 2000,
+  "pointsLeft": 20,
+  "totalFantasyPoint": 0,
+  "playersList": [
+    {
+      "playerId": "14501",
+      "playerName": "Jake Fraser-McGurk",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 50,
+      "_id": {
+        "$oid": "67f6c2d329e4eaefca01c5d5"
+      }
+    },
+    {
+      "playerId": "8733",
+      "playerName": "KL Rahul",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 710,
+      "_id": {
+        "$oid": "67f6c71bda018590a40e01d4"
+      }
+    },
+    {
+      "playerId": "13070",
+      "playerName": "Ryan Rickelton",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 110,
+      "_id": {
+        "$oid": "67f6c73fda018590a40e0efb"
+      }
+    },
+    {
+      "playerId": "36454",
+      "playerName": "Robin Minz",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 60,
+      "_id": {
+        "$oid": "67f6c744da018590a40e10de"
+      }
+    },
+    {
+      "playerId": "32854",
+      "playerName": "Kunal Singh Rathore",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 30,
+      "_id": {
+        "$oid": "67f6c74eda018590a40e14a4"
+      }
+    },
+    {
+      "playerId": "10214",
+      "playerName": "Jitesh Sharma",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 70,
+      "_id": {
+        "$oid": "67f6c753da018590a40e168b"
+      }
+    },
+    {
+      "playerId": "13915",
+      "playerName": "Nehal Wadhera",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 50,
+      "_id": {
+        "$oid": "67f6ca8f4c0ba6b5ada3834d"
+      }
+    },
+    {
+      "playerId": "9204",
+      "playerName": "Nitish Rana",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 140,
+      "_id": {
+        "$oid": "67f6cae14c0ba6b5ada3a1bf"
+      }
+    },
+    {
+      "playerId": "10223",
+      "playerName": "Himmat Singh",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 30,
+      "_id": {
+        "$oid": "67f6cb194c0ba6b5ada3b6b4"
+      }
+    },
+    {
+      "playerId": "13866",
+      "playerName": "Sai Sudharsan",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 500,
+      "_id": {
+        "$oid": "67f6cb234c0ba6b5ada3ba8c"
+      }
+    },
+    {
+      "playerId": "8512",
+      "playerName": "Jamie Overton",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f81283a046fdb002ba5307"
+      }
+    },
+    {
+      "playerId": "9746",
+      "playerName": "Shreyas Gopal",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f81290a046fdb002ba58ce"
+      }
+    },
+    {
+      "playerId": "10754",
+      "playerName": "Mukesh Kumar",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 70,
+      "_id": {
+        "$oid": "67f812bda046fdb002ba6e01"
+      }
+    },
+    {
+      "playerId": "12096",
+      "playerName": "Yash Thakur",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 30,
+      "_id": {
+        "$oid": "67f812dda046fdb002ba7d7f"
+      }
+    },
+    {
+      "playerId": "13143",
+      "playerName": "Spencer Johnson",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f812f6a046fdb002ba891b"
+      }
+    },
+    {
+      "playerId": "8531",
+      "playerName": "Lizaad Williams",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f8130ba046fdb002ba92d2"
+      }
+    },
+    {
+      "playerId": "14282",
+      "playerName": "Fazalhaq Farooqi",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 80,
+      "_id": {
+        "$oid": "67f8132ca046fdb002baa27a"
+      }
+    },
+    {
+      "playerId": "6327",
+      "playerName": "Jaydev Unadkat",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f81368a046fdb002babfcf"
+      }
+    },
+    {
+      "playerId": "14659",
+      "playerName": "Ravi Bishnoi",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 220,
+      "_id": {
+        "$oid": "67f81370a046fdb002bac3c7"
+      }
+    },
+    {
+      "playerId": "9781",
+      "playerName": "Avesh Khan",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 110,
+      "_id": {
+        "$oid": "67f81379a046fdb002bac7c5"
+      }
+    },
+    {
+      "playerId": "14922",
+      "playerName": "Suryansh Shedge",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f963be1d9601b2a74f9298"
+      }
+    },
+    {
+      "playerId": "14565",
+      "playerName": "Marco Jansen",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 220,
+      "_id": {
+        "$oid": "67f963c51d9601b2a74f9a98"
+      }
+    },
+    {
+      "playerId": "6692",
+      "playerName": "Moeen Ali",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f963cd1d9601b2a74fa28c"
+      }
+    },
+    {
+      "playerId": "52428",
+      "playerName": "Bevon Jacobs",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 50,
+      "_id": {
+        "$oid": "67f963d11d9601b2a74fa69c"
+      }
+    },
+    {
+      "playerId": "22601",
+      "playerName": "Raj Bawa",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 30,
+      "_id": {
+        "$oid": "67f963d51d9601b2a74faaa8"
+      }
+    },
+    {
+      "playerId": "10100",
+      "playerName": "Mitchell Santner",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 130,
+      "_id": {
+        "$oid": "67f963db1d9601b2a74fb0c3"
+      }
+    },
+    {
+      "playerId": "14628",
+      "playerName": "Abdul Samad",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 30,
+      "_id": {
+        "$oid": "67f963fa1d9601b2a74fd0cd"
+      }
+    },
+    {
+      "playerId": "10954",
+      "playerName": "Mahipal Lomror",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f9640e1d9601b2a74fe501"
+      }
+    }
+  ],
+  "playingXIList": [],
+  "captainSwaps": [],
+  "viceCaptainSwaps": [],
+  "playerSwaps": [],
+  "retainedPlayer": [
+    {
+      "playerId": "14501",
+      "playerName": "Jake Fraser-McGurk",
+      "playerDocumentCode": "29860092-eb0c-4136-bb8c-ca54f5c35e5d",
+      "playingStyle": "BATSMAN",
+      "_id": {
+        "$oid": "67f6c2d229e4eaefca01c5d4"
+      }
+    }
+  ],
+  "matchScoreList": [],
+  "createdAt": {
+    "$date": "2025-04-08T19:04:00.723Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T18:48:46.191Z"
+  },
+  "__v": 29,
+  "games": {
+    "$oid": "67f574b9421edd01df766b5c"
+  },
+  "maximumPoints": 3000,
+  "series": {
+    "$oid": "67b8800c73cf2a95e3a9bead"
+  },
+  "seriesId": "9237",
+  "totalEntryAmount": 2000,
+  "fantasyPointDetails": [],
+  "pointsSpent": [
+    {
+      "spentType": "TEAM",
+      "spentAmount": 160,
+      "pointsLeft": 2840,
+      "spentDetail": "GT",
+      "_id": {
+        "$oid": "67f6bc3188274f95c68b90d5"
+      }
+    },
+    {
+      "spentType": "RETAINEDPLAYER",
+      "spentAmount": 50,
+      "pointsLeft": 2790,
+      "spentDetail": "Jake Fraser-McGurk",
+      "_id": {
+        "$oid": "67f6c2d329e4eaefca01c5d6"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 710,
+      "pointsLeft": 2080,
+      "spentDetail": "KL Rahul",
+      "_id": {
+        "$oid": "67f6c71bda018590a40e01d5"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 110,
+      "pointsLeft": 1970,
+      "spentDetail": "Ryan Rickelton",
+      "_id": {
+        "$oid": "67f6c73fda018590a40e0efc"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 60,
+      "pointsLeft": 1910,
+      "spentDetail": "Robin Minz",
+      "_id": {
+        "$oid": "67f6c744da018590a40e10df"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 30,
+      "pointsLeft": 1880,
+      "spentDetail": "Kunal Singh Rathore",
+      "_id": {
+        "$oid": "67f6c74eda018590a40e14a5"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 70,
+      "pointsLeft": 1810,
+      "spentDetail": "Jitesh Sharma",
+      "_id": {
+        "$oid": "67f6c753da018590a40e168c"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 50,
+      "pointsLeft": 1760,
+      "spentDetail": "Nehal Wadhera",
+      "_id": {
+        "$oid": "67f6ca8f4c0ba6b5ada3834e"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 140,
+      "pointsLeft": 1620,
+      "spentDetail": "Nitish Rana",
+      "_id": {
+        "$oid": "67f6cae14c0ba6b5ada3a1c0"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 30,
+      "pointsLeft": 1590,
+      "spentDetail": "Himmat Singh",
+      "_id": {
+        "$oid": "67f6cb194c0ba6b5ada3b6b5"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 500,
+      "pointsLeft": 1090,
+      "spentDetail": "Sai Sudharsan",
+      "_id": {
+        "$oid": "67f6cb234c0ba6b5ada3ba8d"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 1080,
+      "spentDetail": "Jamie Overton",
+      "_id": {
+        "$oid": "67f81283a046fdb002ba5308"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 1070,
+      "spentDetail": "Shreyas Gopal",
+      "_id": {
+        "$oid": "67f81290a046fdb002ba58cf"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 70,
+      "pointsLeft": 1000,
+      "spentDetail": "Mukesh Kumar",
+      "_id": {
+        "$oid": "67f812bda046fdb002ba6e02"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 30,
+      "pointsLeft": 970,
+      "spentDetail": "Yash Thakur",
+      "_id": {
+        "$oid": "67f812dda046fdb002ba7d80"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 950,
+      "spentDetail": "Spencer Johnson",
+      "_id": {
+        "$oid": "67f812f6a046fdb002ba891c"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 940,
+      "spentDetail": "Lizaad Williams",
+      "_id": {
+        "$oid": "67f8130ba046fdb002ba92d3"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 80,
+      "pointsLeft": 860,
+      "spentDetail": "Fazalhaq Farooqi",
+      "_id": {
+        "$oid": "67f8132ca046fdb002baa27b"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 850,
+      "spentDetail": "Jaydev Unadkat",
+      "_id": {
+        "$oid": "67f81368a046fdb002babfd0"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 220,
+      "pointsLeft": 630,
+      "spentDetail": "Ravi Bishnoi",
+      "_id": {
+        "$oid": "67f81370a046fdb002bac3c8"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 110,
+      "pointsLeft": 520,
+      "spentDetail": "Avesh Khan",
+      "_id": {
+        "$oid": "67f81379a046fdb002bac7c6"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 500,
+      "spentDetail": "Suryansh Shedge",
+      "_id": {
+        "$oid": "67f963be1d9601b2a74f9299"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 220,
+      "pointsLeft": 280,
+      "spentDetail": "Marco Jansen",
+      "_id": {
+        "$oid": "67f963c51d9601b2a74f9a99"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 270,
+      "spentDetail": "Moeen Ali",
+      "_id": {
+        "$oid": "67f963cd1d9601b2a74fa28d"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 50,
+      "pointsLeft": 220,
+      "spentDetail": "Bevon Jacobs",
+      "_id": {
+        "$oid": "67f963d11d9601b2a74fa69d"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 30,
+      "pointsLeft": 190,
+      "spentDetail": "Raj Bawa",
+      "_id": {
+        "$oid": "67f963d51d9601b2a74faaa9"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 130,
+      "pointsLeft": 60,
+      "spentDetail": "Mitchell Santner",
+      "_id": {
+        "$oid": "67f963db1d9601b2a74fb0c4"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 30,
+      "pointsLeft": 30,
+      "spentDetail": "Abdul Samad",
+      "_id": {
+        "$oid": "67f963fa1d9601b2a74fd0ce"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 20,
+      "spentDetail": "Mahipal Lomror",
+      "_id": {
+        "$oid": "67f9640e1d9601b2a74fe502"
+      }
+    }
+  ],
+  "teamName": "GT"
+},
+{
+  "_id": {
+    "$oid": "67f57341421edd01df76553c"
+  },
+  "documentCode": "49f56fab-0600-4d38-8940-a09fb131bacf",
+  "ownerId": {
+    "$oid": "67ba134b93170272445081e1"
+  },
+  "ownerTeamName": "Index Tengen 11",
+  "totalPlayerCount": 17,
+  "totalBatsmanCount": 5,
+  "totalBowlerCount": 5,
+  "totalAllRounderCount": 5,
+  "totalWicketKeeperCount": 2,
+  "totalIndianPlayerCount": 12,
+  "totalForeignPlayerCount": 5,
+  "playingXIPlayerId": [],
+  "playingXICount": 0,
+  "playingXIBatsmanCount": 0,
+  "playingXIBowlerCount": 0,
+  "playingXIAllRounderCount": 0,
+  "playingXIWicketKeeperCount": 0,
+  "playingXIIndianPlayerCount": 0,
+  "playingXIForeignPlayerCount": 0,
+  "captainSwapCount": 0,
+  "viceCaptainSwapCount": 0,
+  "playerSwapCount": 0,
+  "entryFeePaid": true,
+  "totalEntryAmountPaid": 2000,
+  "pointsLeft": 0,
+  "totalFantasyPoint": 0,
+  "playersList": [
+    {
+      "playerId": "8271",
+      "playerName": "Sanju Samson",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 430,
+      "_id": {
+        "$oid": "67f6c2d629e4eaefca01c7b2"
+      }
+    },
+    {
+      "playerId": "10209",
+      "playerName": "Heinrich Klaasen",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 300,
+      "_id": {
+        "$oid": "67f6c758da018590a40e186a"
+      }
+    },
+    {
+      "playerId": "1447",
+      "playerName": "Ajinkya Rahane",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 290,
+      "_id": {
+        "$oid": "67f6ca9e4c0ba6b5ada38902"
+      }
+    },
+    {
+      "playerId": "1836",
+      "playerName": "Manish Pandey",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 50,
+      "_id": {
+        "$oid": "67f6caa44c0ba6b5ada38ae5"
+      }
+    },
+    {
+      "playerId": "36139",
+      "playerName": "Naman Dhir",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 50,
+      "_id": {
+        "$oid": "67f6cac74c0ba6b5ada39834"
+      }
+    },
+    {
+      "playerId": "51791",
+      "playerName": "Vaibhav Suryavanshi",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 90,
+      "_id": {
+        "$oid": "67f6cadc4c0ba6b5ada39fd4"
+      }
+    },
+    {
+      "playerId": "8709",
+      "playerName": "Sachin Baby",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f6cb094c0ba6b5ada3b0f7"
+      }
+    },
+    {
+      "playerId": "12092",
+      "playerName": "Kamlesh Nagarkoti",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f81287a046fdb002ba54f2"
+      }
+    },
+    {
+      "playerId": "15480",
+      "playerName": "Nathan Ellis",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f81298a046fdb002ba5ca2"
+      }
+    },
+    {
+      "playerId": "10486",
+      "playerName": "Vijaykumar Vyshak",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 40,
+      "_id": {
+        "$oid": "67f812d9a046fdb002ba7b88"
+      }
+    },
+    {
+      "playerId": "7836",
+      "playerName": "Deepak Chahar",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 100,
+      "_id": {
+        "$oid": "67f81303a046fdb002ba8ee4"
+      }
+    },
+    {
+      "playerId": "8349",
+      "playerName": "Reece Topley",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 30,
+      "_id": {
+        "$oid": "67f8130fa046fdb002ba94c5"
+      }
+    },
+    {
+      "playerId": "11195",
+      "playerName": "Shivam Dube",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 510,
+      "_id": {
+        "$oid": "67f963991d9601b2a74f72dc"
+      }
+    },
+    {
+      "playerId": "8989",
+      "playerName": "Marcus Stoinis",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 310,
+      "_id": {
+        "$oid": "67f963b71d9601b2a74f8ca1"
+      }
+    },
+    {
+      "playerId": "15749",
+      "playerName": "Yudhvir Singh Charak",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 90,
+      "_id": {
+        "$oid": "67f963e11d9601b2a74fb6c6"
+      }
+    },
+    {
+      "playerId": "10045",
+      "playerName": "Liam Livingstone",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 200,
+      "_id": {
+        "$oid": "67f963e91d9601b2a74fbebc"
+      }
+    },
+    {
+      "playerId": "14701",
+      "playerName": "Nitish Kumar Reddy",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 320,
+      "_id": {
+        "$oid": "67f963f21d9601b2a74fc8b1"
+      }
+    }
+  ],
+  "playingXIList": [],
+  "captainSwaps": [],
+  "viceCaptainSwaps": [],
+  "playerSwaps": [],
+  "retainedPlayer": [
+    {
+      "playerId": "8271",
+      "playerName": "Sanju Samson",
+      "playerDocumentCode": "d7eb7c90-d02d-4e9d-8218-b803d74c1114",
+      "playingStyle": "WICKETKEEPER",
+      "_id": {
+        "$oid": "67f6c2d629e4eaefca01c7b1"
+      }
+    }
+  ],
+  "matchScoreList": [],
+  "createdAt": {
+    "$date": "2025-04-08T19:04:33.784Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T18:48:18.931Z"
+  },
+  "__v": 18,
+  "games": {
+    "$oid": "67f574b9421edd01df766b5c"
+  },
+  "maximumPoints": 3000,
+  "series": {
+    "$oid": "67b8800c73cf2a95e3a9bead"
+  },
+  "seriesId": "9237",
+  "totalEntryAmount": 2000,
+  "fantasyPointDetails": [],
+  "pointsSpent": [
+    {
+      "spentType": "TEAM",
+      "spentAmount": 140,
+      "pointsLeft": 2860,
+      "spentDetail": "RR",
+      "_id": {
+        "$oid": "67f6bc3388274f95c68b92b3"
+      }
+    },
+    {
+      "spentType": "RETAINEDPLAYER",
+      "spentAmount": 430,
+      "pointsLeft": 2430,
+      "spentDetail": "Sanju Samson",
+      "_id": {
+        "$oid": "67f6c2d629e4eaefca01c7b3"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 300,
+      "pointsLeft": 2130,
+      "spentDetail": "Heinrich Klaasen",
+      "_id": {
+        "$oid": "67f6c758da018590a40e186b"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 290,
+      "pointsLeft": 1840,
+      "spentDetail": "Ajinkya Rahane",
+      "_id": {
+        "$oid": "67f6ca9e4c0ba6b5ada38903"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 50,
+      "pointsLeft": 1790,
+      "spentDetail": "Manish Pandey",
+      "_id": {
+        "$oid": "67f6caa44c0ba6b5ada38ae6"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 50,
+      "pointsLeft": 1740,
+      "spentDetail": "Naman Dhir",
+      "_id": {
+        "$oid": "67f6cac74c0ba6b5ada39835"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 90,
+      "pointsLeft": 1650,
+      "spentDetail": "Vaibhav Suryavanshi",
+      "_id": {
+        "$oid": "67f6cadc4c0ba6b5ada39fd5"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 1630,
+      "spentDetail": "Sachin Baby",
+      "_id": {
+        "$oid": "67f6cb094c0ba6b5ada3b0f8"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 1620,
+      "spentDetail": "Kamlesh Nagarkoti",
+      "_id": {
+        "$oid": "67f81287a046fdb002ba54f3"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 1600,
+      "spentDetail": "Nathan Ellis",
+      "_id": {
+        "$oid": "67f81298a046fdb002ba5ca3"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 40,
+      "pointsLeft": 1560,
+      "spentDetail": "Vijaykumar Vyshak",
+      "_id": {
+        "$oid": "67f812d9a046fdb002ba7b89"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 100,
+      "pointsLeft": 1460,
+      "spentDetail": "Deepak Chahar",
+      "_id": {
+        "$oid": "67f81303a046fdb002ba8ee5"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 30,
+      "pointsLeft": 1430,
+      "spentDetail": "Reece Topley",
+      "_id": {
+        "$oid": "67f8130fa046fdb002ba94c6"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 510,
+      "pointsLeft": 920,
+      "spentDetail": "Shivam Dube",
+      "_id": {
+        "$oid": "67f963991d9601b2a74f72dd"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 310,
+      "pointsLeft": 610,
+      "spentDetail": "Marcus Stoinis",
+      "_id": {
+        "$oid": "67f963b71d9601b2a74f8ca2"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 90,
+      "pointsLeft": 520,
+      "spentDetail": "Yudhvir Singh Charak",
+      "_id": {
+        "$oid": "67f963e11d9601b2a74fb6c7"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 200,
+      "pointsLeft": 320,
+      "spentDetail": "Liam Livingstone",
+      "_id": {
+        "$oid": "67f963e91d9601b2a74fbebd"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 320,
+      "pointsLeft": 0,
+      "spentDetail": "Nitish Kumar Reddy",
+      "_id": {
+        "$oid": "67f963f21d9601b2a74fc8b2"
+      }
+    }
+  ],
+  "teamName": "RR"
+},
+{
+  "_id": {
+    "$oid": "67f57365421edd01df76556d"
+  },
+  "documentCode": "8152370e-225a-4e9f-91d5-448818502bcd",
+  "ownerId": {
+    "$oid": "67ba12bd93170272445081dd"
+  },
+  "ownerTeamName": "Teva 11",
+  "totalPlayerCount": 26,
+  "totalBatsmanCount": 6,
+  "totalBowlerCount": 12,
+  "totalAllRounderCount": 6,
+  "totalWicketKeeperCount": 2,
+  "totalIndianPlayerCount": 19,
+  "totalForeignPlayerCount": 7,
+  "playingXIPlayerId": [],
+  "playingXICount": 0,
+  "playingXIBatsmanCount": 0,
+  "playingXIBowlerCount": 0,
+  "playingXIAllRounderCount": 0,
+  "playingXIWicketKeeperCount": 0,
+  "playingXIIndianPlayerCount": 0,
+  "playingXIForeignPlayerCount": 0,
+  "captainSwapCount": 0,
+  "viceCaptainSwapCount": 0,
+  "playerSwapCount": 0,
+  "entryFeePaid": true,
+  "totalEntryAmountPaid": 2000,
+  "pointsLeft": 20,
+  "totalFantasyPoint": 0,
+  "playersList": [
+    {
+      "playerId": "10636",
+      "playerName": "Rajat Patidar",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 220,
+      "_id": {
+        "$oid": "67f6c2d929e4eaefca01c98f"
+      }
+    },
+    {
+      "playerId": "13972",
+      "playerName": "Luvnith Sisodia",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f6c730da018590a40e0956"
+      }
+    },
+    {
+      "playerId": "10276",
+      "playerName": "Ishan Kishan",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 250,
+      "_id": {
+        "$oid": "67f6c75dda018590a40e1a4b"
+      }
+    },
+    {
+      "playerId": "11445",
+      "playerName": "Rovman Powell",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f6cab34c0ba6b5ada39094"
+      }
+    },
+    {
+      "playerId": "7915",
+      "playerName": "Suryakumar Yadav",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 610,
+      "_id": {
+        "$oid": "67f6cab84c0ba6b5ada39279"
+      }
+    },
+    {
+      "playerId": "576",
+      "playerName": "Rohit Sharma",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 540,
+      "_id": {
+        "$oid": "67f6cabd4c0ba6b5ada39460"
+      }
+    },
+    {
+      "playerId": "9789",
+      "playerName": "Shimron Hetmyer",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 80,
+      "_id": {
+        "$oid": "67f6cad14c0ba6b5ada39c04"
+      }
+    },
+    {
+      "playerId": "13914",
+      "playerName": "Atharva Taide",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f6cb044c0ba6b5ada3af0e"
+      }
+    },
+    {
+      "playerId": "8393",
+      "playerName": "Dushmantha Chameera",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f812aca046fdb002ba663d"
+      }
+    },
+    {
+      "playerId": "10225",
+      "playerName": "T Natarajan",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 70,
+      "_id": {
+        "$oid": "67f812b8a046fdb002ba6c0c"
+      }
+    },
+    {
+      "playerId": "10692",
+      "playerName": "Lockie Ferguson",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f812c5a046fdb002ba71e1"
+      }
+    },
+    {
+      "playerId": "11307",
+      "playerName": "Tushar Deshpande",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 100,
+      "_id": {
+        "$oid": "67f81317a046fdb002ba98a9"
+      }
+    },
+    {
+      "playerId": "14190",
+      "playerName": "Kumar Kartikeya",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 70,
+      "_id": {
+        "$oid": "67f8131fa046fdb002ba9c95"
+      }
+    },
+    {
+      "playerId": "6258",
+      "playerName": "Josh Hazlewood",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 100,
+      "_id": {
+        "$oid": "67f81338a046fdb002baa859"
+      }
+    },
+    {
+      "playerId": "9603",
+      "playerName": "Lungi Ngidi",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f81340a046fdb002baac4b"
+      }
+    },
+    {
+      "playerId": "12087",
+      "playerName": "Rahul Chahar",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 80,
+      "_id": {
+        "$oid": "67f8135ca046fdb002bab9f0"
+      }
+    },
+    {
+      "playerId": "14596",
+      "playerName": "Manav Suthar",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f8138da046fdb002bad19a"
+      }
+    },
+    {
+      "playerId": "22141",
+      "playerName": "Gurnoor Brar",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f81391a046fdb002bad399"
+      }
+    },
+    {
+      "playerId": "702",
+      "playerName": "Ishant Sharma",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f81394a046fdb002bad59a"
+      }
+    },
+    {
+      "playerId": "10551",
+      "playerName": "Prasidh Krishna",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 30,
+      "_id": {
+        "$oid": "67f8139da046fdb002bad998"
+      }
+    },
+    {
+      "playerId": "587",
+      "playerName": "Ravindra Jadeja",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 300,
+      "_id": {
+        "$oid": "67f963a51d9601b2a74f7cc5"
+      }
+    },
+    {
+      "playerId": "1447337",
+      "playerName": "Vignesh Puthur",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 30,
+      "_id": {
+        "$oid": "67f963d71d9601b2a74facaf"
+      }
+    },
+    {
+      "playerId": "13747",
+      "playerName": "Arjun Tendulkar",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 100,
+      "_id": {
+        "$oid": "67f963dd1d9601b2a74fb2cc"
+      }
+    },
+    {
+      "playerId": "6250",
+      "playerName": "Mitchell Marsh",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 100,
+      "_id": {
+        "$oid": "67f963f81d9601b2a74fcebc"
+      }
+    },
+    {
+      "playerId": "14599",
+      "playerName": "RS Hangargekar",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 70,
+      "_id": {
+        "$oid": "67f964021d9601b2a74fd8db"
+      }
+    },
+    {
+      "playerId": "22576",
+      "playerName": "Nishant Sindhu",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f9640a1d9601b2a74fe0f7"
+      }
+    }
+  ],
+  "playingXIList": [],
+  "captainSwaps": [],
+  "viceCaptainSwaps": [],
+  "playerSwaps": [],
+  "retainedPlayer": [
+    {
+      "playerId": "10636",
+      "playerName": "Rajat Patidar",
+      "playerDocumentCode": "398c5419-afe6-45a9-b7e7-6f52a031d607",
+      "playingStyle": "BATSMAN",
+      "_id": {
+        "$oid": "67f6c2d929e4eaefca01c98e"
+      }
+    }
+  ],
+  "matchScoreList": [],
+  "createdAt": {
+    "$date": "2025-04-08T19:05:09.691Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T18:48:42.379Z"
+  },
+  "__v": 27,
+  "games": {
+    "$oid": "67f574b9421edd01df766b5c"
+  },
+  "maximumPoints": 3000,
+  "series": {
+    "$oid": "67b8800c73cf2a95e3a9bead"
+  },
+  "seriesId": "9237",
+  "totalEntryAmount": 2000,
+  "fantasyPointDetails": [],
+  "pointsSpent": [
+    {
+      "spentType": "TEAM",
+      "spentAmount": 100,
+      "pointsLeft": 2900,
+      "spentDetail": "LSG",
+      "_id": {
+        "$oid": "67f6bc3588274f95c68b9492"
+      }
+    },
+    {
+      "spentType": "RETAINEDPLAYER",
+      "spentAmount": 220,
+      "pointsLeft": 2680,
+      "spentDetail": "Rajat Patidar",
+      "_id": {
+        "$oid": "67f6c2d929e4eaefca01c990"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 2670,
+      "spentDetail": "Luvnith Sisodia",
+      "_id": {
+        "$oid": "67f6c730da018590a40e0957"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 250,
+      "pointsLeft": 2420,
+      "spentDetail": "Ishan Kishan",
+      "_id": {
+        "$oid": "67f6c75dda018590a40e1a4c"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 2410,
+      "spentDetail": "Rovman Powell",
+      "_id": {
+        "$oid": "67f6cab34c0ba6b5ada39095"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 610,
+      "pointsLeft": 1800,
+      "spentDetail": "Suryakumar Yadav",
+      "_id": {
+        "$oid": "67f6cab84c0ba6b5ada3927a"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 540,
+      "pointsLeft": 1260,
+      "spentDetail": "Rohit Sharma",
+      "_id": {
+        "$oid": "67f6cabd4c0ba6b5ada39461"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 80,
+      "pointsLeft": 1180,
+      "spentDetail": "Shimron Hetmyer",
+      "_id": {
+        "$oid": "67f6cad14c0ba6b5ada39c05"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 1170,
+      "spentDetail": "Atharva Taide",
+      "_id": {
+        "$oid": "67f6cb044c0ba6b5ada3af0f"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 1160,
+      "spentDetail": "Dushmantha Chameera",
+      "_id": {
+        "$oid": "67f812aca046fdb002ba663e"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 70,
+      "pointsLeft": 1090,
+      "spentDetail": "T Natarajan",
+      "_id": {
+        "$oid": "67f812b8a046fdb002ba6c0d"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 1080,
+      "spentDetail": "Lockie Ferguson",
+      "_id": {
+        "$oid": "67f812c5a046fdb002ba71e2"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 100,
+      "pointsLeft": 980,
+      "spentDetail": "Tushar Deshpande",
+      "_id": {
+        "$oid": "67f81317a046fdb002ba98aa"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 70,
+      "pointsLeft": 910,
+      "spentDetail": "Kumar Kartikeya",
+      "_id": {
+        "$oid": "67f8131fa046fdb002ba9c96"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 100,
+      "pointsLeft": 810,
+      "spentDetail": "Josh Hazlewood",
+      "_id": {
+        "$oid": "67f81338a046fdb002baa85a"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 800,
+      "spentDetail": "Lungi Ngidi",
+      "_id": {
+        "$oid": "67f81340a046fdb002baac4c"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 80,
+      "pointsLeft": 720,
+      "spentDetail": "Rahul Chahar",
+      "_id": {
+        "$oid": "67f8135ca046fdb002bab9f1"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 700,
+      "spentDetail": "Manav Suthar",
+      "_id": {
+        "$oid": "67f8138da046fdb002bad19b"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 680,
+      "spentDetail": "Gurnoor Brar",
+      "_id": {
+        "$oid": "67f81391a046fdb002bad39a"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 670,
+      "spentDetail": "Ishant Sharma",
+      "_id": {
+        "$oid": "67f81394a046fdb002bad59b"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 30,
+      "pointsLeft": 640,
+      "spentDetail": "Prasidh Krishna",
+      "_id": {
+        "$oid": "67f8139da046fdb002bad999"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 300,
+      "pointsLeft": 340,
+      "spentDetail": "Ravindra Jadeja",
+      "_id": {
+        "$oid": "67f963a51d9601b2a74f7cc6"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 30,
+      "pointsLeft": 310,
+      "spentDetail": "Vignesh Puthur",
+      "_id": {
+        "$oid": "67f963d71d9601b2a74facb0"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 100,
+      "pointsLeft": 210,
+      "spentDetail": "Arjun Tendulkar",
+      "_id": {
+        "$oid": "67f963dd1d9601b2a74fb2cd"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 100,
+      "pointsLeft": 110,
+      "spentDetail": "Mitchell Marsh",
+      "_id": {
+        "$oid": "67f963f81d9601b2a74fcebd"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 70,
+      "pointsLeft": 40,
+      "spentDetail": "RS Hangargekar",
+      "_id": {
+        "$oid": "67f964021d9601b2a74fd8dc"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 20,
+      "spentDetail": "Nishant Sindhu",
+      "_id": {
+        "$oid": "67f9640a1d9601b2a74fe0f8"
+      }
+    }
+  ],
+  "teamName": "LSG"
+},
+{
+  "_id": {
+    "$oid": "67f57386421edd01df76559e"
+  },
+  "documentCode": "82705e40-a571-4649-88ef-68f6e545ca9b",
+  "ownerId": {
+    "$oid": "67ba11e993170272445081d5"
+  },
+  "ownerTeamName": "Pintya 11",
+  "totalPlayerCount": 20,
+  "totalBatsmanCount": 3,
+  "totalBowlerCount": 8,
+  "totalAllRounderCount": 5,
+  "totalWicketKeeperCount": 4,
+  "totalIndianPlayerCount": 13,
+  "totalForeignPlayerCount": 7,
+  "playingXIPlayerId": [],
+  "playingXICount": 0,
+  "playingXIBatsmanCount": 0,
+  "playingXIBowlerCount": 0,
+  "playingXIAllRounderCount": 0,
+  "playingXIWicketKeeperCount": 0,
+  "playingXIIndianPlayerCount": 0,
+  "playingXIForeignPlayerCount": 0,
+  "captainSwapCount": 0,
+  "viceCaptainSwapCount": 0,
+  "playerSwapCount": 0,
+  "entryFeePaid": true,
+  "totalEntryAmountPaid": 2000,
+  "pointsLeft": 0,
+  "totalFantasyPoint": 0,
+  "playersList": [
+    {
+      "playerId": "2276",
+      "playerName": "Sunil Narine",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 40,
+      "_id": {
+        "$oid": "67f6c2dd29e4eaefca01cb6c"
+      }
+    },
+    {
+      "playerId": "14254",
+      "playerName": "Prabhsimran Singh",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 300,
+      "_id": {
+        "$oid": "67f6c721da018590a40e03b3"
+      }
+    },
+    {
+      "playerId": "11893",
+      "playerName": "Vishnu Vinod",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f6c726da018590a40e0594"
+      }
+    },
+    {
+      "playerId": "10637",
+      "playerName": "Josh Inglis",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 150,
+      "_id": {
+        "$oid": "67f6c72bda018590a40e0777"
+      }
+    },
+    {
+      "playerId": "2258",
+      "playerName": "Jos Buttler",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 600,
+      "_id": {
+        "$oid": "67f6c785da018590a40e2965"
+      }
+    },
+    {
+      "playerId": "10896",
+      "playerName": "Rinku Singh",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 200,
+      "_id": {
+        "$oid": "67f6caae4c0ba6b5ada38eb1"
+      }
+    },
+    {
+      "playerId": "19328",
+      "playerName": "Shubham Dubey",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f6cad64c0ba6b5ada39ded"
+      }
+    },
+    {
+      "playerId": "9582",
+      "playerName": "Aiden Markram",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 300,
+      "_id": {
+        "$oid": "67f6cb144c0ba6b5ada3b4c7"
+      }
+    },
+    {
+      "playerId": "10952",
+      "playerName": "Khaleel Ahmed",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 120,
+      "_id": {
+        "$oid": "67f812a4a046fdb002ba6267"
+      }
+    },
+    {
+      "playerId": "14452",
+      "playerName": "Harpreet Brar",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 70,
+      "_id": {
+        "$oid": "67f812c1a046fdb002ba6ff0"
+      }
+    },
+    {
+      "playerId": "11427",
+      "playerName": "Anrich Nortje",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f812f2a046fdb002ba8722"
+      }
+    },
+    {
+      "playerId": "1844",
+      "playerName": "Karn Sharma",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f81307a046fdb002ba90d7"
+      }
+    },
+    {
+      "playerId": "18504",
+      "playerName": "Maheesh Theekshana",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 40,
+      "_id": {
+        "$oid": "67f81327a046fdb002baa07d"
+      }
+    },
+    {
+      "playerId": "11540",
+      "playerName": "Jofra Archer",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 100,
+      "_id": {
+        "$oid": "67f81330a046fdb002baa471"
+      }
+    },
+    {
+      "playerId": "14172",
+      "playerName": "Yash Dayal",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 70,
+      "_id": {
+        "$oid": "67f81344a046fdb002baae44"
+      }
+    },
+    {
+      "playerId": "1593",
+      "playerName": "Ravichandran Ashwin",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 200,
+      "_id": {
+        "$oid": "67f963a91d9601b2a74f80bb"
+      }
+    },
+    {
+      "playerId": "8808",
+      "playerName": "Axar Patel",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 380,
+      "_id": {
+        "$oid": "67f963b01d9601b2a74f86b6"
+      }
+    },
+    {
+      "playerId": "10484",
+      "playerName": "Praveen Dubey",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f963c21d9601b2a74f969a"
+      }
+    },
+    {
+      "playerId": "11311",
+      "playerName": "Krunal Pandya",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 220,
+      "_id": {
+        "$oid": "67f963e71d9601b2a74fbcc1"
+      }
+    },
+    {
+      "playerId": "14693",
+      "playerName": "Yuvraj Chaudhary",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f963fc1d9601b2a74fd2d0"
+      }
+    }
+  ],
+  "playingXIList": [],
+  "captainSwaps": [],
+  "viceCaptainSwaps": [],
+  "playerSwaps": [],
+  "retainedPlayer": [
+    {
+      "playerId": "2276",
+      "playerName": "Sunil Narine",
+      "playerDocumentCode": "f20920c0-3c41-4a8c-80a7-f093337de1b5",
+      "playingStyle": "BOWLER",
+      "_id": {
+        "$oid": "67f6c2dc29e4eaefca01cb6b"
+      }
+    }
+  ],
+  "matchScoreList": [],
+  "createdAt": {
+    "$date": "2025-04-08T19:05:42.592Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T18:48:28.763Z"
+  },
+  "__v": 21,
+  "games": {
+    "$oid": "67f574b9421edd01df766b5c"
+  },
+  "maximumPoints": 3000,
+  "series": {
+    "$oid": "67b8800c73cf2a95e3a9bead"
+  },
+  "seriesId": "9237",
+  "totalEntryAmount": 2000,
+  "fantasyPointDetails": [],
+  "pointsSpent": [
+    {
+      "spentType": "TEAM",
+      "spentAmount": 150,
+      "pointsLeft": 2850,
+      "spentDetail": "KKR",
+      "_id": {
+        "$oid": "67f6bc3788274f95c68b9672"
+      }
+    },
+    {
+      "spentType": "RETAINEDPLAYER",
+      "spentAmount": 40,
+      "pointsLeft": 2810,
+      "spentDetail": "Sunil Narine",
+      "_id": {
+        "$oid": "67f6c2dd29e4eaefca01cb6d"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 300,
+      "pointsLeft": 2510,
+      "spentDetail": "Prabhsimran Singh",
+      "_id": {
+        "$oid": "67f6c721da018590a40e03b4"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 2500,
+      "spentDetail": "Vishnu Vinod",
+      "_id": {
+        "$oid": "67f6c726da018590a40e0595"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 150,
+      "pointsLeft": 2350,
+      "spentDetail": "Josh Inglis",
+      "_id": {
+        "$oid": "67f6c72bda018590a40e0778"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 600,
+      "pointsLeft": 1750,
+      "spentDetail": "Jos Buttler",
+      "_id": {
+        "$oid": "67f6c785da018590a40e2966"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 200,
+      "pointsLeft": 1550,
+      "spentDetail": "Rinku Singh",
+      "_id": {
+        "$oid": "67f6caae4c0ba6b5ada38eb2"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 1540,
+      "spentDetail": "Shubham Dubey",
+      "_id": {
+        "$oid": "67f6cad64c0ba6b5ada39dee"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 300,
+      "pointsLeft": 1240,
+      "spentDetail": "Aiden Markram",
+      "_id": {
+        "$oid": "67f6cb144c0ba6b5ada3b4c8"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 120,
+      "pointsLeft": 1120,
+      "spentDetail": "Khaleel Ahmed",
+      "_id": {
+        "$oid": "67f812a4a046fdb002ba6268"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 70,
+      "pointsLeft": 1050,
+      "spentDetail": "Harpreet Brar",
+      "_id": {
+        "$oid": "67f812c1a046fdb002ba6ff1"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 1040,
+      "spentDetail": "Anrich Nortje",
+      "_id": {
+        "$oid": "67f812f2a046fdb002ba8723"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 1030,
+      "spentDetail": "Karn Sharma",
+      "_id": {
+        "$oid": "67f81307a046fdb002ba90d8"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 40,
+      "pointsLeft": 990,
+      "spentDetail": "Maheesh Theekshana",
+      "_id": {
+        "$oid": "67f81327a046fdb002baa07e"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 100,
+      "pointsLeft": 890,
+      "spentDetail": "Jofra Archer",
+      "_id": {
+        "$oid": "67f81330a046fdb002baa472"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 70,
+      "pointsLeft": 820,
+      "spentDetail": "Yash Dayal",
+      "_id": {
+        "$oid": "67f81344a046fdb002baae45"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 200,
+      "pointsLeft": 620,
+      "spentDetail": "Ravichandran Ashwin",
+      "_id": {
+        "$oid": "67f963a91d9601b2a74f80bc"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 380,
+      "pointsLeft": 240,
+      "spentDetail": "Axar Patel",
+      "_id": {
+        "$oid": "67f963b01d9601b2a74f86b7"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 230,
+      "spentDetail": "Praveen Dubey",
+      "_id": {
+        "$oid": "67f963c21d9601b2a74f969b"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 220,
+      "pointsLeft": 10,
+      "spentDetail": "Krunal Pandya",
+      "_id": {
+        "$oid": "67f963e71d9601b2a74fbcc2"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 0,
+      "spentDetail": "Yuvraj Chaudhary",
+      "_id": {
+        "$oid": "67f963fc1d9601b2a74fd2d1"
+      }
+    }
+  ],
+  "teamName": "KKR"
+},
+{
+  "_id": {
+    "$oid": "67f573b4421edd01df7655cf"
+  },
+  "documentCode": "dee1608c-d4b6-4aa8-b4ae-4e95d4e3f7d4",
+  "ownerId": {
+    "$oid": "67ba145393170272445081e9"
+  },
+  "ownerTeamName": "Tod-Fod Playing 11",
+  "totalPlayerCount": 23,
+  "totalBatsmanCount": 5,
+  "totalBowlerCount": 7,
+  "totalAllRounderCount": 6,
+  "totalWicketKeeperCount": 5,
+  "totalIndianPlayerCount": 15,
+  "totalForeignPlayerCount": 8,
+  "playingXIPlayerId": [],
+  "playingXICount": 0,
+  "playingXIBatsmanCount": 0,
+  "playingXIBowlerCount": 0,
+  "playingXIAllRounderCount": 0,
+  "playingXIWicketKeeperCount": 0,
+  "playingXIIndianPlayerCount": 0,
+  "playingXIForeignPlayerCount": 0,
+  "captainSwapCount": 0,
+  "viceCaptainSwapCount": 0,
+  "playerSwapCount": 0,
+  "entryFeePaid": true,
+  "totalEntryAmountPaid": 2000,
+  "pointsLeft": 10,
+  "totalFantasyPoint": 0,
+  "playersList": [
+    {
+      "playerId": "12258",
+      "playerName": "Will Jacks",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f6c2e029e4eaefca01cd49"
+      }
+    },
+    {
+      "playerId": "265",
+      "playerName": "MS Dhoni",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 60,
+      "_id": {
+        "$oid": "67f6c701da018590a40df879"
+      }
+    },
+    {
+      "playerId": "10744",
+      "playerName": "Rishabh Pant",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 310,
+      "_id": {
+        "$oid": "67f6c767da018590a40e1e0d"
+      }
+    },
+    {
+      "playerId": "13089",
+      "playerName": "Matthew Breetzke",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f6c776da018590a40e23b4"
+      }
+    },
+    {
+      "playerId": "15779",
+      "playerName": "Kumar Kushagra",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f6c77bda018590a40e2599"
+      }
+    },
+    {
+      "playerId": "13135",
+      "playerName": "Anuj Rawat",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 150,
+      "_id": {
+        "$oid": "67f6c780da018590a40e2780"
+      }
+    },
+    {
+      "playerId": "8257",
+      "playerName": "Karun Nair",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f6ca7b4c0ba6b5ada37bb1"
+      }
+    },
+    {
+      "playerId": "14700",
+      "playerName": "Sameer Rizvi ",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 50,
+      "_id": {
+        "$oid": "67f6ca8a4c0ba6b5ada38164"
+      }
+    },
+    {
+      "playerId": "9428",
+      "playerName": "Shreyas Iyer",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 550,
+      "_id": {
+        "$oid": "67f6ca954c0ba6b5ada3853a"
+      }
+    },
+    {
+      "playerId": "14504",
+      "playerName": "Tilak Varma",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 300,
+      "_id": {
+        "$oid": "67f6cac24c0ba6b5ada3964f"
+      }
+    },
+    {
+      "playerId": "15452",
+      "playerName": "Noor Ahmad",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 140,
+      "_id": {
+        "$oid": "67f812a0a046fdb002ba607a"
+      }
+    },
+    {
+      "playerId": "7710",
+      "playerName": "Mitchell Starc",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 210,
+      "_id": {
+        "$oid": "67f812b0a046fdb002ba6830"
+      }
+    },
+    {
+      "playerId": "11689",
+      "playerName": "Xavier Bartlett",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f812d1a046fdb002ba77aa"
+      }
+    },
+    {
+      "playerId": "15727",
+      "playerName": "Akash Madhwal",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f8131ba046fdb002ba9aa0"
+      }
+    },
+    {
+      "playerId": "18509",
+      "playerName": "Nuwan Thushara",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 30,
+      "_id": {
+        "$oid": "67f8133ca046fdb002baaa52"
+      }
+    },
+    {
+      "playerId": "22401",
+      "playerName": "Mayank Yadav",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 60,
+      "_id": {
+        "$oid": "67f81375a046fdb002bac5c2"
+      }
+    },
+    {
+      "playerId": "12643",
+      "playerName": "Kulwant Khejroliya",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 60,
+      "_id": {
+        "$oid": "67f813a1a046fdb002badb95"
+      }
+    },
+    {
+      "playerId": "9647",
+      "playerName": "Hardik Pandya",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 360,
+      "_id": {
+        "$oid": "67f963d31d9601b2a74fa89b"
+      }
+    },
+    {
+      "playerId": "12305",
+      "playerName": "Riyan Parag",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 240,
+      "_id": {
+        "$oid": "67f963df1d9601b2a74fb4cd"
+      }
+    },
+    {
+      "playerId": "10926",
+      "playerName": "Wanindu Hasaranga",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 110,
+      "_id": {
+        "$oid": "67f963e31d9601b2a74fb8c9"
+      }
+    },
+    {
+      "playerId": "13646",
+      "playerName": "Romario Shepherd",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f963ed1d9601b2a74fc2b4"
+      }
+    },
+    {
+      "playerId": "36524",
+      "playerName": "Mohit Rathee",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f963f01d9601b2a74fc6b4"
+      }
+    },
+    {
+      "playerId": "18637",
+      "playerName": "Arshad Khan",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f964141d9601b2a74feb10"
+      }
+    }
+  ],
+  "playingXIList": [],
+  "captainSwaps": [],
+  "viceCaptainSwaps": [],
+  "playerSwaps": [],
+  "retainedPlayer": [
+    {
+      "playerId": "12258",
+      "playerName": "Will Jacks",
+      "playerDocumentCode": "c0ff7127-9750-46ab-aac2-c9603a4f8b39",
+      "playingStyle": "BATSMAN",
+      "_id": {
+        "$oid": "67f6c2e029e4eaefca01cd48"
+      }
+    }
+  ],
+  "matchScoreList": [],
+  "createdAt": {
+    "$date": "2025-04-08T19:06:28.119Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T18:48:52.317Z"
+  },
+  "__v": 24,
+  "games": {
+    "$oid": "67f574b9421edd01df766b5c"
+  },
+  "maximumPoints": 3000,
+  "series": {
+    "$oid": "67b8800c73cf2a95e3a9bead"
+  },
+  "seriesId": "9237",
+  "totalEntryAmount": 2000,
+  "fantasyPointDetails": [],
+  "pointsSpent": [
+    {
+      "spentType": "TEAM",
+      "spentAmount": 240,
+      "pointsLeft": 2760,
+      "spentDetail": "SRH",
+      "_id": {
+        "$oid": "67f6bc3888274f95c68b9853"
+      }
+    },
+    {
+      "spentType": "RETAINEDPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 2740,
+      "spentDetail": "Will Jacks",
+      "_id": {
+        "$oid": "67f6c2e029e4eaefca01cd4a"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 60,
+      "pointsLeft": 2680,
+      "spentDetail": "MS Dhoni",
+      "_id": {
+        "$oid": "67f6c701da018590a40df87a"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 310,
+      "pointsLeft": 2370,
+      "spentDetail": "Rishabh Pant",
+      "_id": {
+        "$oid": "67f6c767da018590a40e1e0e"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 2360,
+      "spentDetail": "Matthew Breetzke",
+      "_id": {
+        "$oid": "67f6c776da018590a40e23b5"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 2350,
+      "spentDetail": "Kumar Kushagra",
+      "_id": {
+        "$oid": "67f6c77bda018590a40e259a"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 150,
+      "pointsLeft": 2200,
+      "spentDetail": "Anuj Rawat",
+      "_id": {
+        "$oid": "67f6c780da018590a40e2781"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 2180,
+      "spentDetail": "Karun Nair",
+      "_id": {
+        "$oid": "67f6ca7b4c0ba6b5ada37bb2"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 50,
+      "pointsLeft": 2130,
+      "spentDetail": "Sameer Rizvi ",
+      "_id": {
+        "$oid": "67f6ca8a4c0ba6b5ada38165"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 550,
+      "pointsLeft": 1580,
+      "spentDetail": "Shreyas Iyer",
+      "_id": {
+        "$oid": "67f6ca954c0ba6b5ada3853b"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 300,
+      "pointsLeft": 1280,
+      "spentDetail": "Tilak Varma",
+      "_id": {
+        "$oid": "67f6cac24c0ba6b5ada39650"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 140,
+      "pointsLeft": 1140,
+      "spentDetail": "Noor Ahmad",
+      "_id": {
+        "$oid": "67f812a0a046fdb002ba607b"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 210,
+      "pointsLeft": 930,
+      "spentDetail": "Mitchell Starc",
+      "_id": {
+        "$oid": "67f812b0a046fdb002ba6831"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 920,
+      "spentDetail": "Xavier Bartlett",
+      "_id": {
+        "$oid": "67f812d1a046fdb002ba77ab"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 900,
+      "spentDetail": "Akash Madhwal",
+      "_id": {
+        "$oid": "67f8131ba046fdb002ba9aa1"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 30,
+      "pointsLeft": 870,
+      "spentDetail": "Nuwan Thushara",
+      "_id": {
+        "$oid": "67f8133ca046fdb002baaa53"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 60,
+      "pointsLeft": 810,
+      "spentDetail": "Mayank Yadav",
+      "_id": {
+        "$oid": "67f81375a046fdb002bac5c3"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 60,
+      "pointsLeft": 750,
+      "spentDetail": "Kulwant Khejroliya",
+      "_id": {
+        "$oid": "67f813a1a046fdb002badb96"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 360,
+      "pointsLeft": 390,
+      "spentDetail": "Hardik Pandya",
+      "_id": {
+        "$oid": "67f963d31d9601b2a74fa89c"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 240,
+      "pointsLeft": 150,
+      "spentDetail": "Riyan Parag",
+      "_id": {
+        "$oid": "67f963df1d9601b2a74fb4ce"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 110,
+      "pointsLeft": 40,
+      "spentDetail": "Wanindu Hasaranga",
+      "_id": {
+        "$oid": "67f963e31d9601b2a74fb8ca"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 30,
+      "spentDetail": "Romario Shepherd",
+      "_id": {
+        "$oid": "67f963ed1d9601b2a74fc2b5"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 20,
+      "spentDetail": "Mohit Rathee",
+      "_id": {
+        "$oid": "67f963f01d9601b2a74fc6b5"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 10,
+      "spentDetail": "Arshad Khan",
+      "_id": {
+        "$oid": "67f964141d9601b2a74feb11"
+      }
+    }
+  ],
+  "teamName": "SRH"
+},
+{
+  "_id": {
+    "$oid": "67f57899e82081c624131e28"
+  },
+  "documentCode": "904beed2-c6bc-4b9f-8f6e-1c83066c40bd",
+  "ownerId": {
+    "$oid": "67ba116093170272445081d1"
+  },
+  "ownerTeamName": "Jai Shree Mahakal",
+  "totalPlayerCount": 15,
+  "totalBatsmanCount": 3,
+  "totalBowlerCount": 3,
+  "totalAllRounderCount": 6,
+  "totalWicketKeeperCount": 3,
+  "totalIndianPlayerCount": 10,
+  "totalForeignPlayerCount": 5,
+  "playingXIPlayerId": [],
+  "playingXICount": 0,
+  "playingXIBatsmanCount": 0,
+  "playingXIBowlerCount": 0,
+  "playingXIAllRounderCount": 0,
+  "playingXIWicketKeeperCount": 0,
+  "playingXIIndianPlayerCount": 0,
+  "playingXIForeignPlayerCount": 0,
+  "captainSwapCount": 0,
+  "viceCaptainSwapCount": 0,
+  "playerSwapCount": 0,
+  "entryFeePaid": true,
+  "totalEntryAmountPaid": 2000,
+  "pointsLeft": 0,
+  "totalFantasyPoint": 0,
+  "playersList": [
+    {
+      "playerId": "12926",
+      "playerName": "Varun Chakravarthy",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 50,
+      "_id": {
+        "$oid": "67f6c2c229e4eaefca01bc84"
+      }
+    },
+    {
+      "playerId": "24326",
+      "playerName": "Abishek Porel",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 160,
+      "_id": {
+        "$oid": "67f6c711da018590a40dfe16"
+      }
+    },
+    {
+      "playerId": "13388",
+      "playerName": "Aryan Juyal",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f6c76cda018590a40e1fee"
+      }
+    },
+    {
+      "playerId": "14327",
+      "playerName": "Akash Singh",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f6c771da018590a40e21d1"
+      }
+    },
+    {
+      "playerId": "12201",
+      "playerName": "Harry Brook",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 80,
+      "_id": {
+        "$oid": "67f6ca804c0ba6b5ada37d96"
+      }
+    },
+    {
+      "playerId": "14689",
+      "playerName": "Priyansh Arya",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 40,
+      "_id": {
+        "$oid": "67f6ca9a4c0ba6b5ada38721"
+      }
+    },
+    {
+      "playerId": "11808",
+      "playerName": "Shubman Gill",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 1110,
+      "_id": {
+        "$oid": "67f6cb1e4c0ba6b5ada3b89d"
+      }
+    },
+    {
+      "playerId": "13217",
+      "playerName": "Arshdeep Singh",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 340,
+      "_id": {
+        "$oid": "67f812cda046fdb002ba75b5"
+      }
+    },
+    {
+      "playerId": "8117",
+      "playerName": "Trent Boult",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 220,
+      "_id": {
+        "$oid": "67f812fea046fdb002ba8cf3"
+      }
+    },
+    {
+      "playerId": "8204",
+      "playerName": "Vijay Shankar",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 170,
+      "_id": {
+        "$oid": "67f9639b1d9601b2a74f74cb"
+      }
+    },
+    {
+      "playerId": "7662",
+      "playerName": "Glenn Maxwell",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 290,
+      "_id": {
+        "$oid": "67f963b91d9601b2a74f8e92"
+      }
+    },
+    {
+      "playerId": "19636",
+      "playerName": "Jacob Bethell",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 30,
+      "_id": {
+        "$oid": "67f963eb1d9601b2a74fc0af"
+      }
+    },
+    {
+      "playerId": "14606",
+      "playerName": "Shahbaz Ahmed",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 200,
+      "_id": {
+        "$oid": "67f964001d9601b2a74fd6ce"
+      }
+    },
+    {
+      "playerId": "13748",
+      "playerName": "Sherfane Rutherford",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 40,
+      "_id": {
+        "$oid": "67f9640c1d9601b2a74fe2ee"
+      }
+    },
+    {
+      "playerId": "8182",
+      "playerName": "Jayant Yadav",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f964121d9601b2a74fe907"
+      }
+    }
+  ],
+  "playingXIList": [],
+  "captainSwaps": [],
+  "viceCaptainSwaps": [],
+  "playerSwaps": [],
+  "retainedPlayer": [
+    {
+      "playerId": "12926",
+      "playerName": "Varun Chakravarthy",
+      "playerDocumentCode": "a6e40224-e4d5-42c8-94cf-c4b8f2dfe9a6",
+      "playingStyle": "BOWLER",
+      "_id": {
+        "$oid": "67f6c2bf29e4eaefca01bc83"
+      }
+    }
+  ],
+  "matchScoreList": [],
+  "createdAt": {
+    "$date": "2025-04-08T19:27:21.975Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T18:48:50.365Z"
+  },
+  "__v": 16,
+  "games": {
+    "$oid": "67f574b9421edd01df766b5c"
+  },
+  "maximumPoints": 3000,
+  "series": {
+    "$oid": "67b8800c73cf2a95e3a9bead"
+  },
+  "seriesId": "9237",
+  "totalEntryAmount": 2000,
+  "fantasyPointDetails": [],
+  "pointsSpent": [
+    {
+      "spentType": "TEAM",
+      "spentAmount": 230,
+      "pointsLeft": 2770,
+      "spentDetail": "MI",
+      "_id": {
+        "$oid": "67f6bc2688274f95c68b878e"
+      }
+    },
+    {
+      "spentType": "RETAINEDPLAYER",
+      "spentAmount": 50,
+      "pointsLeft": 2720,
+      "spentDetail": "Varun Chakravarthy",
+      "_id": {
+        "$oid": "67f6c2c229e4eaefca01bc85"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 160,
+      "pointsLeft": 2560,
+      "spentDetail": "Abishek Porel",
+      "_id": {
+        "$oid": "67f6c711da018590a40dfe17"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 2550,
+      "spentDetail": "Aryan Juyal",
+      "_id": {
+        "$oid": "67f6c76cda018590a40e1fef"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 2530,
+      "spentDetail": "Akash Singh",
+      "_id": {
+        "$oid": "67f6c771da018590a40e21d2"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 80,
+      "pointsLeft": 2450,
+      "spentDetail": "Harry Brook",
+      "_id": {
+        "$oid": "67f6ca804c0ba6b5ada37d97"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 40,
+      "pointsLeft": 2410,
+      "spentDetail": "Priyansh Arya",
+      "_id": {
+        "$oid": "67f6ca9a4c0ba6b5ada38722"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 1110,
+      "pointsLeft": 1300,
+      "spentDetail": "Shubman Gill",
+      "_id": {
+        "$oid": "67f6cb1e4c0ba6b5ada3b89e"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 340,
+      "pointsLeft": 960,
+      "spentDetail": "Arshdeep Singh",
+      "_id": {
+        "$oid": "67f812cda046fdb002ba75b6"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 220,
+      "pointsLeft": 740,
+      "spentDetail": "Trent Boult",
+      "_id": {
+        "$oid": "67f812fea046fdb002ba8cf4"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 170,
+      "pointsLeft": 570,
+      "spentDetail": "Vijay Shankar",
+      "_id": {
+        "$oid": "67f9639b1d9601b2a74f74cc"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 290,
+      "pointsLeft": 280,
+      "spentDetail": "Glenn Maxwell",
+      "_id": {
+        "$oid": "67f963b91d9601b2a74f8e93"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 30,
+      "pointsLeft": 250,
+      "spentDetail": "Jacob Bethell",
+      "_id": {
+        "$oid": "67f963eb1d9601b2a74fc0b0"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 200,
+      "pointsLeft": 50,
+      "spentDetail": "Shahbaz Ahmed",
+      "_id": {
+        "$oid": "67f964001d9601b2a74fd6cf"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 40,
+      "pointsLeft": 10,
+      "spentDetail": "Sherfane Rutherford",
+      "_id": {
+        "$oid": "67f9640c1d9601b2a74fe2ef"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 0,
+      "spentDetail": "Jayant Yadav",
+      "_id": {
+        "$oid": "67f964121d9601b2a74fe908"
+      }
+    }
+  ],
+  "teamName": "MI"
+},
+{
+  "_id": {
+    "$oid": "67f57b0e591a5fba60ffdee3"
+  },
+  "documentCode": "1ed14b14-e4f1-46eb-85ce-6bb4fc77a55f",
+  "ownerId": {
+    "$oid": "67b82d9277d627feb658c61c"
+  },
+  "ownerTeamName": "Har Har Mahadev!",
+  "totalPlayerCount": 16,
+  "totalBatsmanCount": 2,
+  "totalBowlerCount": 8,
+  "totalAllRounderCount": 4,
+  "totalWicketKeeperCount": 2,
+  "totalIndianPlayerCount": 10,
+  "totalForeignPlayerCount": 6,
+  "playingXIPlayerId": [],
+  "playingXICount": 0,
+  "playingXIBatsmanCount": 0,
+  "playingXIBowlerCount": 0,
+  "playingXIAllRounderCount": 0,
+  "playingXIWicketKeeperCount": 0,
+  "playingXIIndianPlayerCount": 0,
+  "playingXIForeignPlayerCount": 0,
+  "captainSwapCount": 0,
+  "viceCaptainSwapCount": 0,
+  "playerSwapCount": 0,
+  "entryFeePaid": true,
+  "totalEntryAmountPaid": 2000,
+  "pointsLeft": 10,
+  "totalFantasyPoint": 0,
+  "playersList": [
+    {
+      "playerId": "10738",
+      "playerName": "Rashid Khan",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 110,
+      "_id": {
+        "$oid": "67f6c2c529e4eaefca01be61"
+      }
+    },
+    {
+      "playerId": "14798",
+      "playerName": "Donovan Ferreira",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 90,
+      "_id": {
+        "$oid": "67f6c716da018590a40dfff5"
+      }
+    },
+    {
+      "playerId": "9406",
+      "playerName": "Nicholas Pooran",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 220,
+      "_id": {
+        "$oid": "67f6c762da018590a40e1c2c"
+      }
+    },
+    {
+      "playerId": "7825",
+      "playerName": "Faf du Plessis",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 90,
+      "_id": {
+        "$oid": "67f6ca854c0ba6b5ada37f79"
+      }
+    },
+    {
+      "playerId": "1413",
+      "playerName": "Virat Kohli",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 950,
+      "_id": {
+        "$oid": "67f6cae64c0ba6b5ada3a3a4"
+      }
+    },
+    {
+      "playerId": "13184",
+      "playerName": "Mukesh Choudhary",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f81294a046fdb002ba5ab5"
+      }
+    },
+    {
+      "playerId": "8292",
+      "playerName": "Kuldeep Yadav",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 240,
+      "_id": {
+        "$oid": "67f812a8a046fdb002ba6450"
+      }
+    },
+    {
+      "playerId": "24729",
+      "playerName": "Harshit Rana",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 170,
+      "_id": {
+        "$oid": "67f812e1a046fdb002ba7f6a"
+      }
+    },
+    {
+      "playerId": "12627",
+      "playerName": "Mayank Markande",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f812e9a046fdb002ba8342"
+      }
+    },
+    {
+      "playerId": "19027",
+      "playerName": "Umran Malik",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 30,
+      "_id": {
+        "$oid": "67f812eea046fdb002ba8531"
+      }
+    },
+    {
+      "playerId": "1726",
+      "playerName": "Bhuvneshwar Kumar",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 170,
+      "_id": {
+        "$oid": "67f81334a046fdb002baa662"
+      }
+    },
+    {
+      "playerId": "8095",
+      "playerName": "Pat Cummins",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 140,
+      "_id": {
+        "$oid": "67f81350a046fdb002bab413"
+      }
+    },
+    {
+      "playerId": "12779",
+      "playerName": "Darshan Nalkande",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 30,
+      "_id": {
+        "$oid": "67f963b21d9601b2a74f88ab"
+      }
+    },
+    {
+      "playerId": "13214",
+      "playerName": "Azmatullah Omarzai",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 90,
+      "_id": {
+        "$oid": "67f963c41d9601b2a74f9891"
+      }
+    },
+    {
+      "playerId": "13907",
+      "playerName": "Ayush Badoni",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 190,
+      "_id": {
+        "$oid": "67f963f61d9601b2a74fccb1"
+      }
+    },
+    {
+      "playerId": "10945",
+      "playerName": "Washington Sundar",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 300,
+      "_id": {
+        "$oid": "67f964181d9601b2a74fef1a"
+      }
+    }
+  ],
+  "playingXIList": [],
+  "captainSwaps": [],
+  "viceCaptainSwaps": [],
+  "playerSwaps": [],
+  "retainedPlayer": [
+    {
+      "playerId": "10738",
+      "playerName": "Rashid Khan",
+      "playerDocumentCode": "ab1d0e52-6417-4b63-80bd-ee88763eb8bd",
+      "playingStyle": "BOWLER",
+      "_id": {
+        "$oid": "67f6c2c529e4eaefca01be60"
+      }
+    }
+  ],
+  "matchScoreList": [],
+  "createdAt": {
+    "$date": "2025-04-08T19:37:50.251Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-11T18:48:56.204Z"
+  },
+  "__v": 17,
+  "games": {
+    "$oid": "67f574b9421edd01df766b5c"
+  },
+  "maximumPoints": 3000,
+  "series": {
+    "$oid": "67b8800c73cf2a95e3a9bead"
+  },
+  "seriesId": "9237",
+  "totalEntryAmount": 2000,
+  "fantasyPointDetails": [],
+  "pointsSpent": [
+    {
+      "spentType": "TEAM",
+      "spentAmount": 140,
+      "pointsLeft": 2860,
+      "spentDetail": "RCB",
+      "_id": {
+        "$oid": "67f6bc2988274f95c68b8967"
+      }
+    },
+    {
+      "spentType": "RETAINEDPLAYER",
+      "spentAmount": 110,
+      "pointsLeft": 2750,
+      "spentDetail": "Rashid Khan",
+      "_id": {
+        "$oid": "67f6c2c529e4eaefca01be62"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 90,
+      "pointsLeft": 2660,
+      "spentDetail": "Donovan Ferreira",
+      "_id": {
+        "$oid": "67f6c716da018590a40dfff6"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 220,
+      "pointsLeft": 2440,
+      "spentDetail": "Nicholas Pooran",
+      "_id": {
+        "$oid": "67f6c762da018590a40e1c2d"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 90,
+      "pointsLeft": 2350,
+      "spentDetail": "Faf du Plessis",
+      "_id": {
+        "$oid": "67f6ca854c0ba6b5ada37f7a"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 950,
+      "pointsLeft": 1400,
+      "spentDetail": "Virat Kohli",
+      "_id": {
+        "$oid": "67f6cae64c0ba6b5ada3a3a5"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 1380,
+      "spentDetail": "Mukesh Choudhary",
+      "_id": {
+        "$oid": "67f81294a046fdb002ba5ab6"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 240,
+      "pointsLeft": 1140,
+      "spentDetail": "Kuldeep Yadav",
+      "_id": {
+        "$oid": "67f812a8a046fdb002ba6451"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 170,
+      "pointsLeft": 970,
+      "spentDetail": "Harshit Rana",
+      "_id": {
+        "$oid": "67f812e1a046fdb002ba7f6b"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 960,
+      "spentDetail": "Mayank Markande",
+      "_id": {
+        "$oid": "67f812e9a046fdb002ba8343"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 30,
+      "pointsLeft": 930,
+      "spentDetail": "Umran Malik",
+      "_id": {
+        "$oid": "67f812eea046fdb002ba8532"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 170,
+      "pointsLeft": 760,
+      "spentDetail": "Bhuvneshwar Kumar",
+      "_id": {
+        "$oid": "67f81334a046fdb002baa663"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 140,
+      "pointsLeft": 620,
+      "spentDetail": "Pat Cummins",
+      "_id": {
+        "$oid": "67f81350a046fdb002bab414"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 30,
+      "pointsLeft": 590,
+      "spentDetail": "Darshan Nalkande",
+      "_id": {
+        "$oid": "67f963b21d9601b2a74f88ac"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 90,
+      "pointsLeft": 500,
+      "spentDetail": "Azmatullah Omarzai",
+      "_id": {
+        "$oid": "67f963c41d9601b2a74f9892"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 190,
+      "pointsLeft": 310,
+      "spentDetail": "Ayush Badoni",
+      "_id": {
+        "$oid": "67f963f61d9601b2a74fccb2"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 300,
+      "pointsLeft": 10,
+      "spentDetail": "Washington Sundar",
+      "_id": {
+        "$oid": "67f964181d9601b2a74fef1b"
+      }
+    }
+  ],
+  "teamName": "RCB"
+}]

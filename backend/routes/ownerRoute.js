@@ -8,6 +8,9 @@ const {
   GetAllOwnersDetails,
   DraftPlayingXI,
   DraftCaptainAndViceCaptainForPlayingXI,
+  RemoveDraftPlayingXIPlayer,
+  RemoveDraftPlayingXICaptainAndViceCaptain,
+  CreatePlayingXIUsingDraftXI,
   CreatePlayingXI,
   SwapPlayer,
   SwapCaptain,
@@ -31,6 +34,9 @@ router
   .get("/admin/getAllOwnerDetails/:gameId", RequireSignIn,  authorizeRoles('Admin'), GetAllOwnersDetails)
   .post("/draft-players-for-playing-11",  RequireSignIn, DraftPlayingXI)
   .post("/draft-candvc-for-playing-11",  RequireSignIn, DraftCaptainAndViceCaptainForPlayingXI)
+  .post("/remove-draft-players-from-playing-11", RequireSignIn, RemoveDraftPlayingXIPlayer)
+  .post("/remove-candvc-from-playing-11", RequireSignIn, RemoveDraftPlayingXICaptainAndViceCaptain)
+  .post("/create-playing-11-using-draft", RequireSignIn, CreatePlayingXIUsingDraftXI)
   .post("/create-playing-11", RequireSignIn, CreatePlayingXI)
   .post("/swap-player", RequireSignIn, SwapPlayer)
   .post("/swap-captain", RequireSignIn, SwapCaptain)

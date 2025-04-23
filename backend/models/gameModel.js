@@ -398,27 +398,73 @@ const MatchSchema = new mongoose.Schema(
       },
     },
     allowedPlayerTypeForSwap : {
-      allowedPlayerTypeForWk : {
-        type : Array,
-        default : [],
-        enum : ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"]
-      },
-      allowedPlayerTypeForBatsman : {
-        type : Array,
-        default : [],
-        enum : ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"]
-      },
-      allowedPlayerTypeForBowler : {
-        type : Array,
-        default : [],
-        enum : ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"]
-      },
-      allowedPlayerTypeForAllRounder : {
-        type : Array,
-        default : [],
-        enum : ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"]
-      },
-    }
+      allowedPlayerTypeForWk : [
+        {
+          type : String,
+          enum : ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"]
+        }
+      ],
+      allowedPlayerTypeForBatsman : [
+        {
+          type : String,
+          enum : ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"]
+        }
+      ],
+      allowedPlayerTypeForBowler : [
+        {
+          type : String,
+          enum : ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"]
+        }
+      ],
+      allowedPlayerTypeForAllRounder : [
+        {
+          type : String,
+          enum : ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"]
+        }
+      ],
+    },
+    replacementPlayerList : [
+      {
+        playerId : {
+          type : String,
+          require : true
+        },
+        playerName : {
+          type : String,
+          require : true
+        },
+        playerStyle : {
+          type : String,
+          require : true,
+          enum : ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"],
+        },
+        replacementPlayerId : {
+          type : String,
+          require : true
+        },
+        replacementPlayerName : {
+          type : String,
+          require : true
+        },
+        replacementPlayerStyle : {
+          type : String,
+          require : true,
+          enum : ["BATSMAN", "BOWLER", "ALLROUNDER", "WICKETKEEPER"],
+        },
+        replacementReason : {
+          type : String,
+          require : true
+        },
+        ownerTeamName : {
+          type : String,
+          require : true
+        },
+        ownerName : {
+          type : String,
+          require : true
+        },
+      }
+    ]
   },
   { timestamps: true }
 );
