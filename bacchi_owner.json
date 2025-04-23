@@ -1,0 +1,727 @@
+[{
+  "_id": {
+    "$oid": "67f57b0e591a5fba60ffdee3"
+  },
+  "documentCode": "1ed14b14-e4f1-46eb-85ce-6bb4fc77a55f",
+  "ownerId": {
+    "$oid": "67b82d9277d627feb658c61c"
+  },
+  "ownerTeamName": "Har Har Mahadev!",
+  "totalPlayerCount": 16,
+  "totalBatsmanCount": 2,
+  "totalBowlerCount": 8,
+  "totalAllRounderCount": 4,
+  "totalWicketKeeperCount": 2,
+  "totalIndianPlayerCount": 10,
+  "totalForeignPlayerCount": 6,
+  "playingXIPlayerId": [
+    "10738",
+    "9406",
+    "7825",
+    "1413",
+    "8292",
+    "24729",
+    "1726",
+    "8095",
+    "13907",
+    "10945",
+    "12779"
+  ],
+  "playingXICount": 11,
+  "playingXIBatsmanCount": 2,
+  "playingXIBowlerCount": 5,
+  "playingXIAllRounderCount": 3,
+  "playingXIWicketKeeperCount": 1,
+  "playingXIIndianPlayerCount": 7,
+  "playingXIForeignPlayerCount": 4,
+  "captainSwapCount": 0,
+  "viceCaptainSwapCount": 0,
+  "playerSwapCount": 0,
+  "entryFeePaid": true,
+  "totalEntryAmountPaid": 2000,
+  "pointsLeft": 10,
+  "totalFantasyPoint": 0,
+  "playersList": [
+    {
+      "playerId": "10738",
+      "playerName": "Rashid Khan",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": true,
+      "isForeigner": true,
+      "boughtFor": 110,
+      "_id": {
+        "$oid": "67f6c2c529e4eaefca01be61"
+      },
+      "playingType": "BOWLER"
+    },
+    {
+      "playerId": "14798",
+      "playerName": "Donovan Ferreira",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 90,
+      "_id": {
+        "$oid": "67f6c716da018590a40dfff5"
+      }
+    },
+    {
+      "playerId": "9406",
+      "playerName": "Nicholas Pooran",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isInPlayingXI": true,
+      "isForeigner": true,
+      "boughtFor": 220,
+      "_id": {
+        "$oid": "67f6c762da018590a40e1c2c"
+      },
+      "playingType": "WICKETKEEPER"
+    },
+    {
+      "playerId": "7825",
+      "playerName": "Faf du Plessis",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": true,
+      "isForeigner": true,
+      "boughtFor": 90,
+      "_id": {
+        "$oid": "67f6ca854c0ba6b5ada37f79"
+      },
+      "isViceCaptain": true,
+      "playingType": "BATSMAN"
+    },
+    {
+      "playerId": "1413",
+      "playerName": "Virat Kohli",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isInPlayingXI": true,
+      "isForeigner": false,
+      "boughtFor": 950,
+      "_id": {
+        "$oid": "67f6cae64c0ba6b5ada3a3a4"
+      },
+      "isCaptain": true,
+      "playingType": "BATSMAN"
+    },
+    {
+      "playerId": "13184",
+      "playerName": "Mukesh Choudhary",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 20,
+      "_id": {
+        "$oid": "67f81294a046fdb002ba5ab5"
+      }
+    },
+    {
+      "playerId": "8292",
+      "playerName": "Kuldeep Yadav",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": true,
+      "isForeigner": false,
+      "boughtFor": 240,
+      "_id": {
+        "$oid": "67f812a8a046fdb002ba6450"
+      },
+      "playingType": "BOWLER"
+    },
+    {
+      "playerId": "24729",
+      "playerName": "Harshit Rana",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": true,
+      "isForeigner": false,
+      "boughtFor": 170,
+      "_id": {
+        "$oid": "67f812e1a046fdb002ba7f6a"
+      },
+      "playingType": "BOWLER"
+    },
+    {
+      "playerId": "12627",
+      "playerName": "Mayank Markande",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 10,
+      "_id": {
+        "$oid": "67f812e9a046fdb002ba8342"
+      }
+    },
+    {
+      "playerId": "19027",
+      "playerName": "Umran Malik",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": false,
+      "isForeigner": false,
+      "boughtFor": 30,
+      "_id": {
+        "$oid": "67f812eea046fdb002ba8531"
+      }
+    },
+    {
+      "playerId": "1726",
+      "playerName": "Bhuvneshwar Kumar",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": true,
+      "isForeigner": false,
+      "boughtFor": 170,
+      "_id": {
+        "$oid": "67f81334a046fdb002baa662"
+      },
+      "playingType": "BOWLER"
+    },
+    {
+      "playerId": "8095",
+      "playerName": "Pat Cummins",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isInPlayingXI": true,
+      "isForeigner": true,
+      "boughtFor": 140,
+      "_id": {
+        "$oid": "67f81350a046fdb002bab413"
+      },
+      "playingType": "BOWLER"
+    },
+    {
+      "playerId": "12779",
+      "playerName": "Darshan Nalkande",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": true,
+      "isForeigner": false,
+      "boughtFor": 30,
+      "_id": {
+        "$oid": "67f963b21d9601b2a74f88ab"
+      },
+      "playingType": "BATSMAN"
+    },
+    {
+      "playerId": "13214",
+      "playerName": "Azmatullah Omarzai",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": false,
+      "isForeigner": true,
+      "boughtFor": 90,
+      "_id": {
+        "$oid": "67f963c41d9601b2a74f9891"
+      }
+    },
+    {
+      "playerId": "13907",
+      "playerName": "Ayush Badoni",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": true,
+      "isForeigner": false,
+      "boughtFor": 190,
+      "_id": {
+        "$oid": "67f963f61d9601b2a74fccb1"
+      },
+      "playingType": "BATSMAN"
+    },
+    {
+      "playerId": "10945",
+      "playerName": "Washington Sundar",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isInPlayingXI": true,
+      "isForeigner": false,
+      "boughtFor": 300,
+      "_id": {
+        "$oid": "67f964181d9601b2a74fef1a"
+      },
+      "playingType": "BATSMAN"
+    }
+  ],
+  "playingXIList": [
+    {
+      "playerId": "10738",
+      "playerName": "Rashid Khan",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isForeigner": true,
+      "playingType": "BOWLER",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68093f3ec438946c9052eebd"
+      }
+    },
+    {
+      "playerId": "9406",
+      "playerName": "Nicholas Pooran",
+      "playerCountry": "",
+      "playerType": "WICKETKEEPER",
+      "isForeigner": true,
+      "playingType": "WICKETKEEPER",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68093f3ec438946c9052eebe"
+      }
+    },
+    {
+      "playerId": "7825",
+      "playerName": "Faf du Plessis",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isForeigner": true,
+      "playingType": "BATSMAN",
+      "isCaptain": false,
+      "isViceCaptain": true,
+      "_id": {
+        "$oid": "68093f3ec438946c9052eebf"
+      }
+    },
+    {
+      "playerId": "1413",
+      "playerName": "Virat Kohli",
+      "playerCountry": "",
+      "playerType": "BATSMAN",
+      "isForeigner": false,
+      "playingType": "BATSMAN",
+      "isCaptain": true,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68093f3ec438946c9052eec0"
+      }
+    },
+    {
+      "playerId": "8292",
+      "playerName": "Kuldeep Yadav",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isForeigner": false,
+      "playingType": "BOWLER",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68093f3ec438946c9052eec1"
+      }
+    },
+    {
+      "playerId": "24729",
+      "playerName": "Harshit Rana",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isForeigner": false,
+      "playingType": "BOWLER",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68093f3ec438946c9052eec2"
+      }
+    },
+    {
+      "playerId": "1726",
+      "playerName": "Bhuvneshwar Kumar",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isForeigner": false,
+      "playingType": "BOWLER",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68093f3ec438946c9052eec3"
+      }
+    },
+    {
+      "playerId": "8095",
+      "playerName": "Pat Cummins",
+      "playerCountry": "",
+      "playerType": "BOWLER",
+      "isForeigner": true,
+      "playingType": "BOWLER",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68093f3ec438946c9052eec4"
+      }
+    },
+    {
+      "playerId": "13907",
+      "playerName": "Ayush Badoni",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isForeigner": false,
+      "playingType": "BATSMAN",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68093f3ec438946c9052eec5"
+      }
+    },
+    {
+      "playerId": "10945",
+      "playerName": "Washington Sundar",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isForeigner": false,
+      "playingType": "BATSMAN",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68093f3ec438946c9052eec6"
+      }
+    },
+    {
+      "playerId": "12779",
+      "playerName": "Darshan Nalkande",
+      "playerCountry": "",
+      "playerType": "ALLROUNDER",
+      "isForeigner": false,
+      "playingType": "BATSMAN",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68093f3ec438946c9052eec7"
+      }
+    }
+  ],
+  "captainSwaps": [],
+  "viceCaptainSwaps": [],
+  "playerSwaps": [],
+  "retainedPlayer": [
+    {
+      "playerId": "10738",
+      "playerName": "Rashid Khan",
+      "playerDocumentCode": "ab1d0e52-6417-4b63-80bd-ee88763eb8bd",
+      "playingStyle": "BOWLER",
+      "_id": {
+        "$oid": "67f6c2c529e4eaefca01be60"
+      }
+    }
+  ],
+  "matchScoreList": [],
+  "createdAt": {
+    "$date": "2025-04-08T19:37:50.251Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-23T19:27:58.612Z"
+  },
+  "__v": 35,
+  "games": {
+    "$oid": "67f574b9421edd01df766b5c"
+  },
+  "maximumPoints": 3000,
+  "series": {
+    "$oid": "67b8800c73cf2a95e3a9bead"
+  },
+  "seriesId": "9237",
+  "totalEntryAmount": 2000,
+  "fantasyPointDetails": [],
+  "pointsSpent": [
+    {
+      "spentType": "TEAM",
+      "spentAmount": 140,
+      "pointsLeft": 2860,
+      "spentDetail": "RCB",
+      "_id": {
+        "$oid": "67f6bc2988274f95c68b8967"
+      }
+    },
+    {
+      "spentType": "RETAINEDPLAYER",
+      "spentAmount": 110,
+      "pointsLeft": 2750,
+      "spentDetail": "Rashid Khan",
+      "_id": {
+        "$oid": "67f6c2c529e4eaefca01be62"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 90,
+      "pointsLeft": 2660,
+      "spentDetail": "Donovan Ferreira",
+      "_id": {
+        "$oid": "67f6c716da018590a40dfff6"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 220,
+      "pointsLeft": 2440,
+      "spentDetail": "Nicholas Pooran",
+      "_id": {
+        "$oid": "67f6c762da018590a40e1c2d"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 90,
+      "pointsLeft": 2350,
+      "spentDetail": "Faf du Plessis",
+      "_id": {
+        "$oid": "67f6ca854c0ba6b5ada37f7a"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 950,
+      "pointsLeft": 1400,
+      "spentDetail": "Virat Kohli",
+      "_id": {
+        "$oid": "67f6cae64c0ba6b5ada3a3a5"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 20,
+      "pointsLeft": 1380,
+      "spentDetail": "Mukesh Choudhary",
+      "_id": {
+        "$oid": "67f81294a046fdb002ba5ab6"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 240,
+      "pointsLeft": 1140,
+      "spentDetail": "Kuldeep Yadav",
+      "_id": {
+        "$oid": "67f812a8a046fdb002ba6451"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 170,
+      "pointsLeft": 970,
+      "spentDetail": "Harshit Rana",
+      "_id": {
+        "$oid": "67f812e1a046fdb002ba7f6b"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 10,
+      "pointsLeft": 960,
+      "spentDetail": "Mayank Markande",
+      "_id": {
+        "$oid": "67f812e9a046fdb002ba8343"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 30,
+      "pointsLeft": 930,
+      "spentDetail": "Umran Malik",
+      "_id": {
+        "$oid": "67f812eea046fdb002ba8532"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 170,
+      "pointsLeft": 760,
+      "spentDetail": "Bhuvneshwar Kumar",
+      "_id": {
+        "$oid": "67f81334a046fdb002baa663"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 140,
+      "pointsLeft": 620,
+      "spentDetail": "Pat Cummins",
+      "_id": {
+        "$oid": "67f81350a046fdb002bab414"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 30,
+      "pointsLeft": 590,
+      "spentDetail": "Darshan Nalkande",
+      "_id": {
+        "$oid": "67f963b21d9601b2a74f88ac"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 90,
+      "pointsLeft": 500,
+      "spentDetail": "Azmatullah Omarzai",
+      "_id": {
+        "$oid": "67f963c41d9601b2a74f9892"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 190,
+      "pointsLeft": 310,
+      "spentDetail": "Ayush Badoni",
+      "_id": {
+        "$oid": "67f963f61d9601b2a74fccb2"
+      }
+    },
+    {
+      "spentType": "AUCTIONPLAYER",
+      "spentAmount": 300,
+      "pointsLeft": 10,
+      "spentDetail": "Washington Sundar",
+      "_id": {
+        "$oid": "67f964181d9601b2a74fef1b"
+      }
+    }
+  ],
+  "teamName": "RCB",
+  "draftPlayerInPlayingXI": [
+    {
+      "playerId": "10738",
+      "playerName": "Rashid Khan",
+      "playerType": "BOWLER",
+      "playingStyle": "BOWLER",
+      "isForeigner": true,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68092b1c2682980adcb0ea41"
+      }
+    },
+    {
+      "playerId": "9406",
+      "playerName": "Nicholas Pooran",
+      "playerType": "WICKETKEEPER",
+      "playingStyle": "WICKETKEEPER",
+      "isForeigner": true,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68092b482682980adcb0f1d7"
+      }
+    },
+    {
+      "playerId": "7825",
+      "playerName": "Faf du Plessis",
+      "playerType": "BATSMAN",
+      "playingStyle": "BATSMAN",
+      "isForeigner": true,
+      "isCaptain": false,
+      "isViceCaptain": true,
+      "_id": {
+        "$oid": "68092c13edc34f3902774f28"
+      }
+    },
+    {
+      "playerId": "1413",
+      "playerName": "Virat Kohli",
+      "playerType": "BATSMAN",
+      "playingStyle": "BATSMAN",
+      "isForeigner": false,
+      "isCaptain": true,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68092c2bedc34f39027752f6"
+      }
+    },
+    {
+      "playerId": "8292",
+      "playerName": "Kuldeep Yadav",
+      "playerType": "BOWLER",
+      "playingStyle": "BOWLER",
+      "isForeigner": false,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68092c43edc34f39027756c5"
+      }
+    },
+    {
+      "playerId": "24729",
+      "playerName": "Harshit Rana",
+      "playerType": "BOWLER",
+      "playingStyle": "BOWLER",
+      "isForeigner": false,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68092c4dedc34f3902775a95"
+      }
+    },
+    {
+      "playerId": "1726",
+      "playerName": "Bhuvneshwar Kumar",
+      "playerType": "BOWLER",
+      "playingStyle": "BOWLER",
+      "isForeigner": false,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68092c60edc34f3902775e66"
+      }
+    },
+    {
+      "playerId": "8095",
+      "playerName": "Pat Cummins",
+      "playerType": "BOWLER",
+      "playingStyle": "BOWLER",
+      "isForeigner": true,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68092c80edc34f3902776238"
+      }
+    },
+    {
+      "playerId": "13907",
+      "playerName": "Ayush Badoni",
+      "playerType": "ALLROUNDER",
+      "playingStyle": "BATSMAN",
+      "isForeigner": false,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68092ca7edc34f39027769dc"
+      }
+    },
+    {
+      "playerId": "10945",
+      "playerName": "Washington Sundar",
+      "playerType": "ALLROUNDER",
+      "playingStyle": "BATSMAN",
+      "isForeigner": false,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68092cb1edc34f3902776db0"
+      }
+    },
+    {
+      "playerId": "12779",
+      "playerName": "Darshan Nalkande",
+      "playerType": "ALLROUNDER",
+      "playingStyle": "BATSMAN",
+      "isForeigner": false,
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "_id": {
+        "$oid": "68093720bd9cf8f6873d3c02"
+      }
+    }
+  ],
+  "replacementPlayerList": [],
+  "captain": {
+    "captainId": "1413",
+    "captainName": "Virat Kohli"
+  },
+  "viceCaptain": {
+    "viceCaptainId": "7825",
+    "viceCaptainName": "Faf du Plessis"
+  }
+}]
