@@ -394,13 +394,15 @@ const ownerSchema = new mongoose.Schema(
     matchScoreList: [
       {
         matchNo: {
-          type: "ObjectId",
-          ref: "matches",
+          // type: "ObjectId",
+          // ref: "matches",
+          type: String,
         },
         playedBetween: [
           {
-            type: "ObjectId",
-            ref: "team",
+            // type: "ObjectId",
+            // ref: "team",
+            type: Number,
           },
         ],
         team1: {
@@ -415,6 +417,10 @@ const ownerSchema = new mongoose.Schema(
         },
         matchScore: {
           type: Number,
+          require: true,
+        },
+        matchId: {
+          type: String,
           require: true,
         },
       },
@@ -459,7 +465,10 @@ const ownerSchema = new mongoose.Schema(
         matchNumber : {
           type: String,
           default : ''
-        }
+        },
+        matchId : {
+          type: String,
+        },
       }
     ],
     pointsSpent : [
@@ -547,6 +556,68 @@ const ownerSchema = new mongoose.Schema(
           type : String,
           require : true
         }
+      }
+    ],
+    previousMatchPoint : {
+      type: Number,
+    },
+    previousTotalPoint : {
+      type: Number,
+    },
+    currentMatchPoint : {
+      type: Number,
+    },
+    ownerFantasyPoint: [
+      {
+        matchId : {
+          type: String,
+        },
+        matchNo: {
+          type: String,
+        },
+        teamOwner: {
+          type: String,
+        },
+        teamName: {
+          type: String,
+        },
+        iplTeamName: {
+          type: String,
+        },
+        previousMatchPoint: {
+          type: Number,
+        },
+        currentMatchPoint: {
+          type: Number,
+        },
+        previousTotalPoint: {
+          type: Number,
+        },
+        overallPoint: {
+          type: Number,
+        },
+        currentPlayingXI: [
+          {
+            playerName: {
+              type: String,
+            },
+            playingType: {
+              type: String,
+            },
+            playerId: {
+              type: Number,
+            },
+            totalPointForTheMatch: {
+              type: Number,
+            },
+          },
+        ],
+        captain: {
+          type: String,
+        },
+        viceCaptain: {
+          type: String,
+        },
       }
     ]
   },

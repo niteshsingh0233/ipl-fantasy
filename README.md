@@ -155,3 +155,6 @@ version  :  api/v1
 frontendHostName  :  https://fantasy-app-ui.vercel.app/
 cricbuzzHostName  :  https://fantasy-app-cricbuzz-api.vercel.app/
 Authorization   :   Bearer ...
+
+
+globalCodes

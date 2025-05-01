@@ -187,57 +187,8 @@ const MatchSchema = new mongoose.Schema(
         matchNo: {
           type: String,
         },
-        teamOwner: {
-          type: String,
-        },
-        teamName: {
-          type: String,
-        },
-        iplTeamName: {
-          type: String,
-        },
-        previousMatchPoint: {
-          type: Number,
-        },
-        currentMatchPoint: {
-          type: Number,
-        },
-        previousTotalPoint: {
-          type: Number,
-        },
-        overallPoint: {
-          type: Number,
-        },
-        currentPlayingXI: [
+        ownerFantasyPoint: [
           {
-            playerName: {
-              type: String,
-            },
-            playerType: {
-              type: String,
-            },
-            playerId: {
-              type: Number,
-            },
-            totalPointForTheMatch: {
-              type: Number,
-            },
-          },
-        ],
-        captain: {
-          type: String,
-        },
-        viceCaptain: {
-          type: String,
-        },
-        fantasyPointHistory: [
-          {
-            matchId: {
-              type: Number,
-            },
-            matchNo: {
-              type: String,
-            },
             teamOwner: {
               type: String,
             },
@@ -264,7 +215,7 @@ const MatchSchema = new mongoose.Schema(
                 playerName: {
                   type: String,
                 },
-                playerType: {
+                playingType: {
                   type: String,
                 },
                 playerId: {
@@ -281,8 +232,61 @@ const MatchSchema = new mongoose.Schema(
             viceCaptain: {
               type: String,
             },
-          },
-        ],
+          }
+        ]
+        // fantasyPointHistory: [
+        //   {
+        //     matchId: {
+        //       type: Number,
+        //     },
+        //     matchNo: {
+        //       type: String,
+        //     },
+        //     teamOwner: {
+        //       type: String,
+        //     },
+        //     teamName: {
+        //       type: String,
+        //     },
+        //     iplTeamName: {
+        //       type: String,
+        //     },
+        //     previousMatchPoint: {
+        //       type: Number,
+        //     },
+        //     currentMatchPoint: {
+        //       type: Number,
+        //     },
+        //     previousTotalPoint: {
+        //       type: Number,
+        //     },
+        //     overallPoint: {
+        //       type: Number,
+        //     },
+        //     currentPlayingXI: [
+        //       {
+        //         playerName: {
+        //           type: String,
+        //         },
+        //         playerType: {
+        //           type: String,
+        //         },
+        //         playerId: {
+        //           type: Number,
+        //         },
+        //         totalPointForTheMatch: {
+        //           type: Number,
+        //         },
+        //       },
+        //     ],
+        //     captain: {
+        //       type: String,
+        //     },
+        //     viceCaptain: {
+        //       type: String,
+        //     },
+        //   },
+        // ],
       },
     ],
     playerPoints: [
@@ -308,35 +312,38 @@ const MatchSchema = new mongoose.Schema(
             totalPointForTheMatch: {
               type: Number,
             },
-          },
-        ],
-        playerPointsHistory: [
-          {
-            matchId: {
-              type: Number,
-            },
-            matchNo: {
+            playingType: {
               type: String,
             },
-            playersList: [
-              {
-                playerName: {
-                  type: String,
-                },
-                playerId: {
-                  type: Number,
-                },
-                teamName: {
-                  type: String,
-                  require: true,
-                },
-                totalPointForTheMatch: {
-                  type: Number,
-                },
-              },
-            ],
           },
         ],
+        // playerPointsHistory: [
+        //   {
+        //     matchId: {
+        //       type: Number,
+        //     },
+        //     matchNo: {
+        //       type: String,
+        //     },
+        //     playersList: [
+        //       {
+        //         playerName: {
+        //           type: String,
+        //         },
+        //         playerId: {
+        //           type: Number,
+        //         },
+        //         teamName: {
+        //           type: String,
+        //           require: true,
+        //         },
+        //         totalPointForTheMatch: {
+        //           type: Number,
+        //         },
+        //       },
+        //     ],
+        //   },
+        // ],
       },
     ],
     gameRules : {

@@ -417,3 +417,286 @@ exports.calculatePlayerPointsV2 = (matchScore) => {
     console.error(error);
   }
 };
+
+exports.GetMatchScoreForCalculateMatchPoints = (matchScore) => {
+
+  matchScore = matchScore.getMatchScoreV2
+  const teams = matchScore.matchHeader.matchTeamInfo.map((matchTeam) => {
+    return matchTeam.battingTeamShortName;
+  });
+  const teamPoint = {
+    teamName: matchScore.matchHeader.result.winningTeam,
+    teamId: matchScore.matchHeader.result.winningteamId,
+  };
+  const manOfMatch = {
+    playerName: matchScore.matchHeader.playersOfTheMatch.map((player) => {
+      return player.fullName;
+    })[0],
+    playerId : matchScore.matchHeader.playersOfTheMatch.map((player) => {
+      return player.id;
+    })[0],
+  };
+  
+  var playersScoreData = []
+  var playersList = []
+
+  var playersScoreDataObject = {}
+
+  matchScore.scoreCard.forEach((scores) => {
+
+    const battingTeamName = scores.batTeamDetails.batTeamName;
+    const batsmanScores = scores.batTeamDetails.batsmenData;
+    for (var batsmanData in batsmanScores) {
+      const batsman = batsmanScores[batsmanData];
+      playersScoreData.push({
+        teamName: battingTeamName,
+        batsmanId : batsman.batId,
+        batsmanName: batsman.batName,
+        runs: batsman.runs,
+        balls: batsman.balls,
+        fours: batsman.fours,
+        sixes: batsman.sixes,
+        strikeRate: batsman.strikeRate,
+        isOut: batsman.wicketCode == "" ? false : true,
+        isKeeper : batsman.isKeeper,
+        wicketCode : batsman.wicketCode,
+        bowlerId : batsman.bowlerId,
+        fielderId1 : batsman.fielderId1
+      });
+
+      if(playersScoreDataObject[batsman.batId] == undefined){
+        playersScoreDataObject[batsman.batId] = {}
+        playersScoreDataObject[batsman.batId]["catchCount"] = 0
+        playersScoreDataObject[batsman.batId]["stumpingCount"] = 0
+        playersList.push(batsman.batId)
+      }
+      playersScoreDataObject[batsman.batId]["batting"] = {
+        teamName: battingTeamName,
+        batsmanId : batsman.batId,
+        batsmanName: batsman.batName,
+        runs: batsman.runs,
+        balls: batsman.balls,
+        fours: batsman.fours,
+        sixes: batsman.sixes,
+        strikeRate: batsman.strikeRate,
+        isOut: batsman.wicketCode == "" ? false : true,
+        isKeeper : batsman.isKeeper,
+        wicketCode : batsman.wicketCode,
+        bowlerId : batsman.bowlerId,
+        fielderId1 : batsman.fielderId1
+      };
+    }
+
+    
+
+    const bowlingTeamName = scores.bowlTeamDetails.bowlTeamName;
+
+    const bowlerWickets = scores.bowlTeamDetails.bowlersData;
+
+    for (var bowlerData in bowlerWickets) {
+      const bowler = bowlerWickets[bowlerData];
+      playersScoreData.push({
+        teamName: bowlingTeamName,
+        bowlerId : bowler.bowlerId,
+        bowlerName: bowler.bowlName,
+        overs: bowler.overs,
+        maidens: bowler.maidens,
+        runsPunished: bowler.runs,
+        wicketsTaken: bowler.wickets,
+        economy: bowler.economy,
+      });
+
+      if(playersScoreDataObject[bowler.bowlerId] == undefined){
+        playersScoreDataObject[bowler.bowlerId] = {}
+        playersScoreDataObject[bowler.bowlerId]["catchCount"] = 0
+        playersScoreDataObject[bowler.bowlerId]["stumpingCount"] = 0
+        playersList.push(bowler.bowlerId)
+      }
+      playersScoreDataObject[bowler.bowlerId]["bowling"] = {
+        teamName: bowlingTeamName,
+        bowlerId : bowler.bowlerId,
+        bowlerName: bowler.bowlName,
+        overs: bowler.overs,
+        maidens: bowler.maidens,
+        runsPunished: bowler.runs,
+        wicketsTaken: bowler.wickets,
+        economy: bowler.economy,
+      }
+    }
+
+    
+
+  })
+
+  playersScoreData.forEach((scoresData) => {
+    if(scoresData.isOut){
+      if(scoresData.wicketCode === "CAUGHT"){
+        console.log(playersScoreDataObject, scoresData.fielderId1)
+        playersScoreDataObject[scoresData.fielderId1]["catchCount"] += 1
+      }
+      else if(scoresData.wicketCode === "STUMPED"){
+        playersScoreDataObject[scoresData.fielderId1]["stumpingCount"] += 1
+      }
+      else if(scoresData.wicketCode === "CAUGHTBOWLED"){
+        playersScoreDataObject[scoresData.bowlerId]["catchCount"] += 1
+      }
+    }
+  })
+
+  return {
+    teams,
+    teamPoint,
+    manOfMatch,
+    playersScoreData,
+    playersScoreDataObject,
+    playersList
+  };
+}
+
+exports.CalculateMatchPointsForOwners = (matchDetails, owners, game) => {
+  
+  let pointsForMatch = []
+  let pointsForMatchObject = {}
+
+  matchDetails.playersList.forEach((playerId) => {
+    console.log(playerId)
+    var owner = owners.filter((owner) => {
+      if(owner.playingXIPlayerId.length > 0 && owner.playingXIPlayerId.includes(playerId)){
+        return owner
+      }
+    })[0]
+
+    console.log(owner)
+
+    if(owner){
+
+      var player = owner.playingXIList.filter((playerData) => {
+        return playerData.playerId == playerId;
+      })
+
+      var playingType = player[0].playingType
+
+      var fantasyPoint = 0
+
+      var playerData = matchDetails.playersScoreDataObject[playerId]
+      if(playerData.batting){
+        var battingData = playerData.batting
+
+        fantasyPoint = fantasyPoint + battingData.runs < 25
+            ? battingData.runs
+            : battingData.runs >= 25 && battingData.runs < 50
+            ? battingData.runs * 1.5
+            : battingData.runs >= 50 && battingData.runs < 75
+            ? battingData.runs * 2
+            : battingData.runs >= 75 && battingData.runs < 100
+            ? battingData.runs * 3 : battingData.runs * 4
+
+        let notOutPoint = !battingData.isOut && battingData.balls > 0 ? 10 : 0;
+
+        fantasyPoint = fantasyPoint + notOutPoint;
+
+        if (battingData.runs == 0 && battingData.isOut && playingType != "BOWLER") {
+          let outOnZero = 50;
+          fantasyPoint = fantasyPoint - outOnZero;
+        }
+      }
+
+      // console.log(player[0].playerName,fantasyPoint)
+
+      if(playerData.bowling){
+        var bowlingData = playerData.bowling
+
+        fantasyPoint = fantasyPoint + bowlingData.wicketsTaken == 1 
+        ? bowlingData.wicketsTaken * 25
+        : bowlingData.wicketsTaken == 2 
+        ? bowlingData.wicketsTaken * 25 * 1.5
+        : bowlingData.wicketsTaken == 3
+        ? bowlingData.wicketsTaken * 25 * 2
+        : bowlingData.wicketsTaken == 4
+        ? bowlingData.wicketsTaken * 25 * 3
+        : bowlingData.wicketsTaken * 25 * 4 ;
+
+        let maidenPoint = bowlingData.maidens > 0 ? bowlingData.maidens * 50 : 0;
+        let runsPunishedPoint = bowlingData.economy >= 12 && bowlingData.overs >=2 ? 50 : 0;
+
+        fantasyPoint = fantasyPoint + maidenPoint - runsPunishedPoint;
+      }
+
+      
+      if(playerData.catchCount && playerData.catchCount > 0){
+        fantasyPoint = fantasyPoint + playerData.catchCount * 10
+      }
+
+      if(playerData.stumpingCount && playerData.stumpingCount > 0 && playerData.batting.isKeeper
+        && playingType == "WICKETKEEPER"){
+        fantasyPoint = fantasyPoint + playerData.stumpingCount * 20
+      }
+
+      if(matchDetails.manOfMatch.playerId == playerId){
+        fantasyPoint = fantasyPoint + 50
+      }
+
+      if(owner.captain.captainId == playerId){
+        fantasyPoint = fantasyPoint * 2
+      }
+
+      if(owner.viceCaptain.viceCaptainId == playerId){
+        fantasyPoint = fantasyPoint * 1.5
+      }
+      // console.log(player[0].playerName,fantasyPoint)
+      var teamPoint = 0
+      if(matchDetails.teams.includes(owner.teamName) && teams[owner.teamName] == matchDetails.teamPoint.teamName){
+        teamPoint = teamPoint + 100
+      }
+
+      pointsForMatch.push({
+        ownerId : owner._id,
+        playerId : playerId,
+        playerName : player[0].playerName,
+        fantasyPoint : fantasyPoint,
+        teamPoint: teamPoint,
+        playingType : playingType,
+      })
+
+      if(pointsForMatchObject[owner._id] == undefined){
+        pointsForMatchObject[owner._id] = {}
+        pointsForMatchObject[owner._id]["players"] = []
+        pointsForMatchObject[owner._id]["totalFantasyPoint"] = 0
+        pointsForMatchObject[owner._id]["totalTeamPoint"] = 0
+        pointsForMatchObject[owner._id]["totalPoint"] = 0
+      }
+
+      pointsForMatchObject[owner._id]["players"].push({
+        ownerId : owner._id,
+        playerId : playerId,
+        playerName : player[0].playerName,
+        fantasyPoint : fantasyPoint,
+      })
+
+      pointsForMatchObject[owner._id]["totalFantasyPoint"] = pointsForMatchObject[owner._id]["totalFantasyPoint"] + fantasyPoint
+
+      pointsForMatchObject[owner._id]["totalTeamPoint"] = pointsForMatchObject[owner._id]["totalTeamPoint"] > 0 ? pointsForMatchObject[owner._id]["totalTeamPoint"] : teamPoint
+
+      pointsForMatchObject[owner._id]["totalPoint"] = pointsForMatchObject[owner._id]["totalFantasyPoint"] + pointsForMatchObject[owner._id]["totalTeamPoint"]
+
+    }
+  })
+
+  return {pointsForMatch, pointsForMatchObject}
+  // return pointsForMatchObject
+}
+
+
+var teams = {
+  "CSK": "Chennai Super Kings",
+  "DC": "Delhi Capitals",
+  "GT": "Gujarat Titans",
+  "KKR": "Kolkata Knight Riders",
+  "PBKS": "Punjab Kings",
+  "MI": "Mumbai Indians",
+  "RCB": "Royal Challengers Bengaluru",
+  "RR": "Rajasthan Royals",
+  "SRH": "Sunrisers Hyderabad",
+  "LSG": "Lucknow Super Giants",
+  "DC": "Delhi Capitals"
+}
