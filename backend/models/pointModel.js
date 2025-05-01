@@ -47,6 +47,10 @@ const pointSchema = new mongoose.Schema(
           type: Number,
           require: true,
         },
+        playingType: {
+          type: String,
+          require: true,
+        },
       },
     ],
     ownersPointForMatch: [
@@ -83,7 +87,7 @@ const pointSchema = new mongoose.Schema(
             playerName: {
               type: String,
             },
-            playerType: {
+            playingType: {
               type: String,
             },
             playerId: {
@@ -102,6 +106,26 @@ const pointSchema = new mongoose.Schema(
         },
       },
     ],
+    isPointCalculated: {
+      type: Boolean,
+      default: false,
+    },
+    isMatchCompleted: {
+      type: Boolean,
+      default: false,
+    },
+    gameId: {
+      type: String,
+      require: true,
+    },
+    seriesId: {
+      type: String,
+      require: true,
+    },
+    seriesDetails : {
+      type: String,
+      require: true,
+    }
   },
 
   { timestamps: true }
