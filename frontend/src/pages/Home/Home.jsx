@@ -10,7 +10,10 @@ function Home(){
             setUI("")
 
         }else{
-            await axios.get(`https://fantasy-app-cricbuzz-api.vercel.app/`)
+            await axios.get(`https://fantasy-app-ui.vercel.app/series`)
+            // https://fantasy-app-ui.vercel.app/
+            // https://fantasy-app-cricbuzz-api.vercel.app/
+            // https://fantasy-app-chi.vercel.app/
             .then(res => {
               const persons = res.data;
               console.log(persons)

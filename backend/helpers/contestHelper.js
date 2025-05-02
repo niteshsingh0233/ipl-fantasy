@@ -41,7 +41,8 @@ exports.GetPlayingXIFromMatchId = async (match) => {
                                 player.role.includes("Allrounder") ? "ALLROUNDER" : player.role.includes("WK") ? "WICKETKEEPER" : "NA",
                                 isInPlayingXI : false,
                                 playerBuyingPoint : 9,
-                                playerFantasyPoint : 0
+                                playerFantasyPoint : 0,
+                                playerTeamId : player.teamId
                             })
                         }
                     })
@@ -53,7 +54,8 @@ exports.GetPlayingXIFromMatchId = async (match) => {
                             player.role.includes("Allrounder") ? "ALLROUNDER" : player.role.includes("WK") ? "WICKETKEEPER" : "NA",
                             isInPlayingXI : true,
                             playerBuyingPoint : 9,
-                            playerFantasyPoint : 0
+                            playerFantasyPoint : 0,
+                            playerTeamId : player.teamId
                         })
                     })
 
