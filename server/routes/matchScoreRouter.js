@@ -19,6 +19,6 @@ router
   .get('/get-match-score/:matchId',GetMatchScoreV2)
 
   .get("/matches/get-team/playingXI/:matchId/:teamId", GetPlayingXIForMatchForTeam)
-  .get("match/get-overs/:matchId/:inningId", GetMatchOversForMatchAndInning)
+  .get("/match/get-overs/:matchId/:inningId", GetMatchOversForMatchAndInning)
 
 module.exports = router;

@@ -67,7 +67,7 @@ const URLConstants = {
   GET_TEAM_PLAYINGXI_FOR_MATCHID:
     "https://cricbuzz-cricket.p.rapidapi.com/mcenter/v1/matchIdReplace/team/teamIdReplace",
   GET_OVER_DETAILS_FOR_MATCH_AND_INNING:
-    "https://cricbuzz-cricket.p.rapidapi.com/mcenter/v1/matchIdReplace/overs?iid=inningIdReplace" 
+    "https://cricbuzz-cricket.p.rapidapi.com/mcenter/v1/matchIdReplace/overs" 
 };
 
 const SERIESLIST = {
