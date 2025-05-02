@@ -110,6 +110,10 @@ const ContestModelSchema = new mongoose.Schema(
           require: true,
           default: 0,
         },
+        playerTeamId: {
+          type: String,
+          require: true,
+        },
       },
     ],
     gameRules : {
