@@ -136,3 +136,57 @@ exports.GetMatchScoreV2 = async (req,res) =>{
     });
   }
 }
+
+exports.GetPlayingXIForMatchForTeam = async (req,res) => {
+  try{
+    const urlConst = `${URLConstants["GET_TEAM_PLAYINGXI_FOR_MATCHID"]}`
+    const URL = urlConst.replace("matchIdReplace", req.params.matchId)
+    URL = URL.replace("teamIdReplace", req.params.teamId)
+    const getPlayingXIForMatchForTeam = await cricbuzzAPIHelper(URL);
+    if (!getPlayingXIForMatchForTeam) {
+      res.status(500).json({
+        message: "GetPlayingXIForMatchForTeam got null.",
+        isSuccess: false,
+      });
+    }
+
+    res.status(200).json({
+      message: "GetPlayingXIForMatchForTeam successful.",
+      getPlayingXIForMatchForTeam,
+      isSuccess: true,
+    });
+
+  }catch(error){
+    res.status(500).json({
+      message: "GetPlayingXIForMatchForTeam Failed.",
+      error,
+    });
+  }
+}
+
+exports.GetMatchOversForMatchAndInning = async (req,res) => {
+  try{
+    const urlConst = `${URLConstants["GET_OVER_DETAILS_FOR_MATCH_AND_INNING"]}`
+    const URL = urlConst.replace("matchIdReplace", req.params.matchId)
+    URL = URL.replace("inningIdReplace", req.params.inningId)
+    const getPlayingXIForMatchForTeam = await cricbuzzAPIHelper(URL);
+    if (!getPlayingXIForMatchForTeam) {
+      res.status(500).json({
+        message: "GetMatchOversForMatchAndInning got null.",
+        isSuccess: false,
+      });
+    }
+
+    res.status(200).json({
+      message: "GetMatchOversForMatchAndInning successful.",
+      getPlayingXIForMatchForTeam,
+      isSuccess: true,
+    });
+
+  }catch(error){
+    res.status(500).json({
+      message: "GetMatchOversForMatchAndInning Failed.",
+      error,
+    });
+  }
+}
