@@ -14,13 +14,31 @@ import GameData from "./pages/GameData";
 import GameOwners from "./pages/GameOwners";
 import AuctionPage from "./pages/AuctionPage";
 import CalculateMatchPoint from "./pages/CalculateMatchPoint";
+import FantasyLandingPage from "./pages/v2/FantasyLandingPage";
+import PrivacyPolicy from "./pages/v2/PrivacyPolicy";
+import TermsAndConditions from './pages/v2/TermsAndConditions'
+import ContactUs from "./pages/v2/ContactUs";
+import SeriesRules from "./pages/v2/SeriesRules";
+import RulesPage from "./pages/v2/RuleEditForAdmin";
+import LoginPage from "./pages/v2/LoginPage";
+import SignupPage from "./pages/v2/SignupPage";
 
 function App() {
   return (
     <>
       <Layout>
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/v1" element={<Home />} />
+          <Route exact path="/" element={<FantasyLandingPage/>} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/terms" element={<TermsAndConditions />} />
+          <Route path="/contact" element={<ContactUs />} />
+          <Route path="/rules" element={<SeriesRules />} />
+          <Route path="/admin/rules" element={<RulesPage/>} />
+          <Route path="/auth/login" element={<LoginPage/>} />
+          <Route path="/auth/signup" element={<SignupPage/>} />
+
+
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/players" element={<Players />} />
