@@ -81,7 +81,7 @@ const ContestOwnerModelSchema = new mongoose.Schema(
               type: String,
               require: true,
             },
-            playerTeamName: {
+            playerTeamId: {
               type: String,
               require: true,
             },

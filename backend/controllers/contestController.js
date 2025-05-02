@@ -3,6 +3,7 @@ const ContestSchema = require("../models/contestModel.js");
 const ContestOwnerSchema = require("../models/contestOwnerModel.js");
 const matchSchema = require("../models/matchModel.js");
 const userSchema = require("../models/userModel.js");
+const { GetPlayingXIFromMatchId } = require("../helpers/contestHelper.js");
 
 exports.CreateContest = async (req, res) => {
   try {
@@ -16,6 +17,9 @@ exports.CreateContest = async (req, res) => {
         isSuccess: false,
       });
     }
+
+    const player = await GetPlayingXIFromMatchId(match)
+    console.log(player)
 
     // Create the contest
     const contest = new ContestSchema({
@@ -41,7 +45,7 @@ exports.CreateContest = async (req, res) => {
         contestEntryFee : 100,
         maximumWinnerCount : 2,
         teamsAllowed : "SINGLE_TEAM",
-        playersList : [],
+        playersList : player.playersList,
         gameRules : {
             maxBowlerCountInPlayingXI : 5,
             maxBatsmanCountInPlayingXI : 5,
