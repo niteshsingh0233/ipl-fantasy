@@ -139,12 +139,12 @@ exports.GetMatchScoreV2 = async (req,res) =>{
 
 exports.GetPlayingXIForMatchForTeam = async (req,res) => {
   try{
-    const urlConst = `${URLConstants["GET_TEAM_PLAYINGXI_FOR_MATCHID"]}`
-    const URL = urlConst.replace("matchIdReplace", req.params.matchId)
+    var urlConst = `${URLConstants["GET_TEAM_PLAYINGXI_FOR_MATCHID"]}`
+    var URL = urlConst.replace("matchIdReplace", req.params.matchId)
     URL = URL.replace("teamIdReplace", req.params.teamId)
     const getPlayingXIForMatchForTeam = await cricbuzzAPIHelper(URL);
     if (!getPlayingXIForMatchForTeam) {
-      res.status(500).json({
+      return res.status(500).json({
         message: "GetPlayingXIForMatchForTeam got null.",
         isSuccess: false,
       });
@@ -159,21 +159,24 @@ exports.GetPlayingXIForMatchForTeam = async (req,res) => {
   }catch(error){
     res.status(500).json({
       message: "GetPlayingXIForMatchForTeam Failed.",
-      error,
+      error : error.message,
     });
   }
 }
 
 exports.GetMatchOversForMatchAndInning = async (req,res) => {
   try{
-    const urlConst = `${URLConstants["GET_OVER_DETAILS_FOR_MATCH_AND_INNING"]}`
-    const URL = urlConst.replace("matchIdReplace", req.params.matchId)
-    URL = URL.replace("inningIdReplace", req.params.inningId)
+    var urlConst = `${URLConstants["GET_OVER_DETAILS_FOR_MATCH_AND_INNING"]}`
+    var URL = urlConst.replace("matchIdReplace", req.params.matchId)
+    if(req.params.inningId != 0)
+      URL = `${URL}?iid=${req.params.inningId}`
     const getPlayingXIForMatchForTeam = await cricbuzzAPIHelper(URL);
     if (!getPlayingXIForMatchForTeam) {
-      res.status(500).json({
+      console.log(getPlayingXIForMatchForTeam)
+      return res.status(200).json({
         message: "GetMatchOversForMatchAndInning got null.",
         isSuccess: false,
+        URL
       });
     }
 
