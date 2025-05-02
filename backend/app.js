@@ -50,4 +50,10 @@ app.use("/api/v1/cds", cdsRouter);
 const logsRoute = require("./routes/logsRoute.js");
 app.use("/api/v1/logs", logsRoute);
 
+const contestRoute = require("./routes/contestRoute.js")
+app.use("/api/v1/contest", contestRoute);
+
+const contestOwnerRoute = require("./routes/contestOwnerRoute.js")
+app.use("/api/v1/contestOwner", contestOwnerRoute);
+
 module.exports = app;
