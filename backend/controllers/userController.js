@@ -35,10 +35,24 @@ exports.RegisterUser = async (req, res) => {
 
     await user.save();
 
+    const token = await jwt.sign(
+      {
+        _id: user._id,
+        userName: user.userName,
+        roles : user.userRole,
+        isAdmin : user.isAdmin
+      },
+      "434343434",
+      { expiresIn: "1h" }
+    );
+
+    res.cookie('token', token, {httpOnly : true});
+
     res.status(201).json({
       message: "User Created",
       user,
       success: true,
+      token
     });
   } catch (error) {
     res.status(500).json({
