@@ -12,6 +12,7 @@ const Navbar = ({ isLoggedIn, handleLogout }) => {
         <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>SeriesX</Link>
       </div>
       <div style={{ display: 'flex', gap: '20px' }}>
+        <Link to="/series" style={{ color: 'white', textDecoration: 'none' }}>Series</Link>
         <Link to="/matches" style={{ color: 'white', textDecoration: 'none' }}>Matches</Link>
         <Link to="/rules" style={{ color: 'white', textDecoration: 'none' }}>Rules</Link>
         {isLoggedIn ? (
