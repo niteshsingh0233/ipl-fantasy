@@ -22,7 +22,7 @@ export default function FantasyLandingPage() {
             <li><a href="#" style={{ color: "#ccc", textDecoration: "none" }}>Home</a></li>
             <li><a href="#gameModes" style={{ color: "#ccc", textDecoration: "none" }}>Game Modes</a></li>
             <li><a href="#howItWorks" style={{ color: "#ccc", textDecoration: "none" }}>How It Works</a></li>
-            <li><a href="#" style={{ color: "#ccc", textDecoration: "none" }}>Login</a></li>
+            <li><a href="/auth/login" style={{ color: "#ccc", textDecoration: "none" }}>Login</a></li>
           </ul>
         </nav>
       </header>

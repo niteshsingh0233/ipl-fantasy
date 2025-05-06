@@ -22,6 +22,9 @@ import SeriesRules from "./pages/v2/SeriesRules";
 import RulesPage from "./pages/v2/RuleEditForAdmin";
 import LoginPage from "./pages/v2/LoginPage";
 import SignupPage from "./pages/v2/SignupPage";
+import MatchListPage from "./pages/v2/MatchesList";
+import LogoutPage from "./pages/v2/LogoutPage";
+import SeriesListPage from "./pages/v2/SeriesListPage";
 
 function App() {
   return (
@@ -37,6 +40,9 @@ function App() {
           <Route path="/admin/rules" element={<RulesPage/>} />
           <Route path="/auth/login" element={<LoginPage/>} />
           <Route path="/auth/signup" element={<SignupPage/>} />
+          <Route path="/matches" element={<MatchListPage/>} />
+          <Route path="/auth/logout" element={<LogoutPage/>} />
+          <Route path="/seriesX/series" element={<SeriesListPage/>} />
 
 
           <Route path="/login" element={<Login />} />

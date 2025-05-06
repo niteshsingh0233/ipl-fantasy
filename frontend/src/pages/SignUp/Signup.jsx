@@ -65,7 +65,6 @@ else if(localStorage.getItem('token')){
           placeholder="name"
           name="name"
           type="text"
-          defaultValue="a"
         />
         <br />
 
@@ -80,7 +79,6 @@ else if(localStorage.getItem('token')){
           placeholder="username"
           name="userName"
           type="text"
-          defaultValue="a"
         />
         <br />
         <label id="emailId">emailId -: </label> <br />
@@ -94,7 +92,6 @@ else if(localStorage.getItem('token')){
           placeholder="emailId"
           name="emailId"
           type="email"
-          defaultValue="a"
         />
         <br />
         <label id="phone">phone -: </label> <br />
@@ -108,7 +105,6 @@ else if(localStorage.getItem('token')){
           placeholder="phone"
           name="phone"
           type="number"
-          defaultValue="a"
         />
         <br />
         <label id="passowrd">Password -: </label> <br />
