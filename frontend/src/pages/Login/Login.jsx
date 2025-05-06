@@ -62,7 +62,6 @@ else if(localStorage.getItem('token')){
           placeholder="username"
           name="userName"
           type="text"
-          defaultValue="a"
         />
         <br />
         <label id="passowrd">Password -: </label> <br />
