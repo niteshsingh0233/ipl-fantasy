@@ -3,7 +3,7 @@ import confetti from "canvas-confetti";
 import { io } from "socket.io-client";
 import { useParams } from "react-router-dom";
 
-const socket = io("http://localhost:6969");
+const socket = io("https://fantasy-app-chi.vercel.app");
 const CricketBiddingPage = () => {
 
   const { room } = useParams();
