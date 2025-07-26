@@ -2,7 +2,7 @@ import { io } from "socket.io-client";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-const socket = io("http://localhost:6969");
+const socket = io("https://fantasy-app-chi.vercel.app");
 const SocketPage = () => {
   const { room } = useParams();
   const [messages, setMessages] = useState([]);
