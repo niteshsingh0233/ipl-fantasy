@@ -25,6 +25,8 @@ import SignupPage from "./pages/v2/SignupPage";
 import MatchListPage from "./pages/v2/MatchesList";
 import LogoutPage from "./pages/v2/LogoutPage";
 import SeriesListPage from "./pages/v2/SeriesListPage";
+import SocketPage from "./pages/v2/socket";
+import CricketBiddingPage from "./pages/v2/CricketBiddingPage";
 
 function App() {
   return (
@@ -43,6 +45,9 @@ function App() {
           <Route path="/matches" element={<MatchListPage/>} />
           <Route path="/auth/logout" element={<LogoutPage/>} />
           <Route path="/seriesX/series" element={<SeriesListPage/>} />
+
+          <Route path="/socket/:room" element={<SocketPage />} />
+          <Route path="/cricket-bidding/:room" element={<CricketBiddingPage />} />
 
 
           <Route path="/login" element={<Login />} />
